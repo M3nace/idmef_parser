@@ -13,25 +13,25 @@
 <g id="node1" class="node">
 <title>Source</title>
 <g id="a_node1_0"><a xlink:href="/html/IDMEFv2/Source.html" xlink:title="The Source class contains information about the possible source(s) of the event(s) that generated an alert. An event may have more than one source (e.g., in a distributed denial&#45;of&#45;service attack). ">
-<polygon fill="#203f7f" stroke="transparent" points="8,-413.5 8,-434.5 192,-434.5 192,-413.5 8,-413.5"/>
+<polygon fill="#65779e" stroke="transparent" points="8,-413.5 8,-434.5 192,-434.5 192,-413.5 8,-413.5"/>
 <polygon fill="none" stroke="#000000" points="8,-413.5 8,-434.5 192,-434.5 192,-413.5 8,-413.5"/>
 <text text-anchor="start" x="78.5" y="-420.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Source</text>
 </a>
 </g>
 <g id="a_node1_1"><a xlink:href="/html/IDMEFv2/Source.html" xlink:title="A unique identifier for this source; see Section 3.2.9.">
-<polygon fill="#284f9f" stroke="transparent" points="8,-392.5 8,-413.5 192,-413.5 192,-392.5 8,-392.5"/>
+<polygon fill="#7e95c5" stroke="transparent" points="8,-392.5 8,-413.5 192,-413.5 192,-392.5 8,-392.5"/>
 <polygon fill="none" stroke="#000000" points="8,-392.5 8,-413.5 192,-413.5 192,-392.5 8,-392.5"/>
 <text text-anchor="start" x="22" y="-399.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ident (Optional)</text>
 </a>
 </g>
 <g id="a_node1_2"><a xlink:href="/html/IDMEFv2/Source.html" xlink:title="An indication of whether the source is, as far as the analyzer can determine, a spoofed address used for hiding the real origin of the attack. &#160;The permitted values for this attribute are shown below. &#160;The default value is &quot;unknown&quot;. &#160;(See also Section 10.)">
-<polygon fill="#284f9f" stroke="transparent" points="8,-371.5 8,-392.5 192,-392.5 192,-371.5 8,-371.5"/>
+<polygon fill="#7e95c5" stroke="transparent" points="8,-371.5 8,-392.5 192,-392.5 192,-371.5 8,-371.5"/>
 <polygon fill="none" stroke="#000000" points="8,-371.5 8,-392.5 192,-392.5 192,-371.5 8,-371.5"/>
 <text text-anchor="start" x="18" y="-378.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] spoofed (Optional)</text>
 </a>
 </g>
 <g id="a_node1_3"><a xlink:href="/html/IDMEFv2/Source.html" xlink:title="May be used by a network&#45;based analyzer with multiple interfaces to indicate which interface this source was seen on.">
-<polygon fill="#284f9f" stroke="transparent" points="8,-350.5 8,-371.5 192,-371.5 192,-350.5 8,-350.5"/>
+<polygon fill="#7e95c5" stroke="transparent" points="8,-350.5 8,-371.5 192,-371.5 192,-350.5 8,-350.5"/>
 <polygon fill="none" stroke="#000000" points="8,-350.5 8,-371.5 192,-371.5 192,-350.5 8,-350.5"/>
 <text text-anchor="start" x="11" y="-357.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] interface (Optional)</text>
 </a>
@@ -41,31 +41,31 @@
 <g id="node2" class="node">
 <title>Node</title>
 <g id="a_node2_4"><a xlink:href="/html/IDMEFv2/Node.html" xlink:title="The Node class is used to identify hosts and other network devices (routers, switches, etc.). ">
-<polygon fill="#00a300" stroke="transparent" points="318.5,-666.5 318.5,-687.5 492.5,-687.5 492.5,-666.5 318.5,-666.5"/>
+<polygon fill="#3daf3d" stroke="transparent" points="318.5,-666.5 318.5,-687.5 492.5,-687.5 492.5,-666.5 318.5,-666.5"/>
 <polygon fill="none" stroke="#000000" points="318.5,-666.5 318.5,-687.5 492.5,-687.5 492.5,-666.5 318.5,-666.5"/>
 <text text-anchor="start" x="389" y="-673.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Node</text>
 </a>
 </g>
 <g id="a_node2_5"><a xlink:href="/html/IDMEFv2/Node.html" xlink:title="The location of the equipment.">
-<polygon fill="#00cc00" stroke="transparent" points="318.5,-645.5 318.5,-666.5 492.5,-666.5 492.5,-645.5 318.5,-645.5"/>
+<polygon fill="#4cdb4c" stroke="transparent" points="318.5,-645.5 318.5,-666.5 492.5,-666.5 492.5,-645.5 318.5,-645.5"/>
 <polygon fill="none" stroke="#000000" points="318.5,-645.5 318.5,-666.5 492.5,-666.5 492.5,-645.5 318.5,-645.5"/>
 <text text-anchor="start" x="333" y="-652.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] location (0..1)</text>
 </a>
 </g>
 <g id="a_node2_6"><a xlink:href="/html/IDMEFv2/Node.html" xlink:title="The name of the equipment. &#160;This information MUST be provided if no Address information is given.">
-<polygon fill="#00cc00" stroke="transparent" points="318.5,-624.5 318.5,-645.5 492.5,-645.5 492.5,-624.5 318.5,-624.5"/>
+<polygon fill="#4cdb4c" stroke="transparent" points="318.5,-624.5 318.5,-645.5 492.5,-645.5 492.5,-624.5 318.5,-624.5"/>
 <polygon fill="none" stroke="#000000" points="318.5,-624.5 318.5,-645.5 492.5,-645.5 492.5,-624.5 318.5,-624.5"/>
 <text text-anchor="start" x="339" y="-631.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] name (0..1)</text>
 </a>
 </g>
 <g id="a_node2_7"><a xlink:href="/html/IDMEFv2/Node.html" xlink:title="A unique identifier for the node; see Section 3.2.9.">
-<polygon fill="#00cc00" stroke="transparent" points="318.5,-603.5 318.5,-624.5 492.5,-624.5 492.5,-603.5 318.5,-603.5"/>
+<polygon fill="#4cdb4c" stroke="transparent" points="318.5,-603.5 318.5,-624.5 492.5,-624.5 492.5,-603.5 318.5,-603.5"/>
 <polygon fill="none" stroke="#000000" points="318.5,-603.5 318.5,-624.5 492.5,-624.5 492.5,-603.5 318.5,-603.5"/>
 <text text-anchor="start" x="327.5" y="-610.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ident (Optional)</text>
 </a>
 </g>
 <g id="a_node2_8"><a xlink:href="/html/IDMEFv2/Node.html" xlink:title="The &quot;domain&quot; from which the name information was obtained, if relevant. &#160;The permitted values for this attribute are shown in the table below. &#160;The default value is &quot;unknown&quot;. (See also Section 10 for extensions to the table.)">
-<polygon fill="#00cc00" stroke="transparent" points="318.5,-582.5 318.5,-603.5 492.5,-603.5 492.5,-582.5 318.5,-582.5"/>
+<polygon fill="#4cdb4c" stroke="transparent" points="318.5,-582.5 318.5,-603.5 492.5,-603.5 492.5,-582.5 318.5,-582.5"/>
 <polygon fill="none" stroke="#000000" points="318.5,-582.5 318.5,-603.5 492.5,-603.5 492.5,-582.5 318.5,-582.5"/>
 <text text-anchor="start" x="321.5" y="-589.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] category (Optional)</text>
 </a>
@@ -229,43 +229,43 @@
 <g id="node3" class="node">
 <title>Address</title>
 <g id="a_node3_28"><a xlink:href="/html/IDMEFv2/Address.html" xlink:title="The Address class is used to represent network, hardware, and application addresses. ">
-<polygon fill="#00a300" stroke="transparent" points="657,-703.5 657,-724.5 856,-724.5 856,-703.5 657,-703.5"/>
+<polygon fill="#3daf3d" stroke="transparent" points="657,-703.5 657,-724.5 856,-724.5 856,-703.5 657,-703.5"/>
 <polygon fill="none" stroke="#000000" points="657,-703.5 657,-724.5 856,-724.5 856,-703.5 657,-703.5"/>
 <text text-anchor="start" x="731.5" y="-710.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Address</text>
 </a>
 </g>
 <g id="a_node3_29"><a xlink:href="/html/IDMEFv2/Address.html" xlink:title="The address information. &#160;The format of this data is governed by the category attribute.">
-<polygon fill="#00cc00" stroke="transparent" points="657,-682.5 657,-703.5 856,-703.5 856,-682.5 657,-682.5"/>
+<polygon fill="#4cdb4c" stroke="transparent" points="657,-682.5 657,-703.5 856,-703.5 856,-682.5 657,-682.5"/>
 <polygon fill="none" stroke="#000000" points="657,-682.5 657,-703.5 856,-703.5 856,-682.5 657,-682.5"/>
 <text text-anchor="start" x="691" y="-689.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] address (1)</text>
 </a>
 </g>
 <g id="a_node3_30"><a xlink:href="/html/IDMEFv2/Address.html" xlink:title="The network mask for the address, if appropriate.">
-<polygon fill="#00cc00" stroke="transparent" points="657,-661.5 657,-682.5 856,-682.5 856,-661.5 657,-661.5"/>
+<polygon fill="#4cdb4c" stroke="transparent" points="657,-661.5 657,-682.5 856,-682.5 856,-661.5 657,-661.5"/>
 <polygon fill="none" stroke="#000000" points="657,-661.5 657,-682.5 856,-682.5 856,-661.5 657,-661.5"/>
 <text text-anchor="start" x="681.5" y="-668.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] netmask (0..1)</text>
 </a>
 </g>
 <g id="a_node3_31"><a xlink:href="/html/IDMEFv2/Address.html" xlink:title="A unique identifier for the address; see Section 3.2.9.">
-<polygon fill="#00cc00" stroke="transparent" points="657,-640.5 657,-661.5 856,-661.5 856,-640.5 657,-640.5"/>
+<polygon fill="#4cdb4c" stroke="transparent" points="657,-640.5 657,-661.5 856,-661.5 856,-640.5 657,-640.5"/>
 <polygon fill="none" stroke="#000000" points="657,-640.5 657,-661.5 856,-661.5 856,-640.5 657,-640.5"/>
 <text text-anchor="start" x="678.5" y="-647.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ident (Optional)</text>
 </a>
 </g>
 <g id="a_node3_32"><a xlink:href="/html/IDMEFv2/Address.html" xlink:title="The type of address represented. &#160;The permitted values for this attribute are shown below. &#160;The default value is &quot;unknown&quot;. &#160;(See also Section 10.)">
-<polygon fill="#00cc00" stroke="transparent" points="657,-619.5 657,-640.5 856,-640.5 856,-619.5 657,-619.5"/>
+<polygon fill="#4cdb4c" stroke="transparent" points="657,-619.5 657,-640.5 856,-640.5 856,-619.5 657,-619.5"/>
 <polygon fill="none" stroke="#000000" points="657,-619.5 657,-640.5 856,-640.5 856,-619.5 657,-619.5"/>
 <text text-anchor="start" x="672.5" y="-626.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] category (Optional)</text>
 </a>
 </g>
 <g id="a_node3_33"><a xlink:href="/html/IDMEFv2/Address.html" xlink:title="The name of the Virtual LAN to which the address belongs.">
-<polygon fill="#00cc00" stroke="transparent" points="657,-598.5 657,-619.5 856,-619.5 856,-598.5 657,-598.5"/>
+<polygon fill="#4cdb4c" stroke="transparent" points="657,-598.5 657,-619.5 856,-619.5 856,-598.5 657,-598.5"/>
 <polygon fill="none" stroke="#000000" points="657,-598.5 657,-619.5 856,-619.5 856,-598.5 657,-598.5"/>
 <text text-anchor="start" x="661.5" y="-605.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] vlan&#45;name (Optional)</text>
 </a>
 </g>
 <g id="a_node3_34"><a xlink:href="/html/IDMEFv2/Address.html" xlink:title="The number of the Virtual LAN to which the address belongs.">
-<polygon fill="#00cc00" stroke="transparent" points="657,-577.5 657,-598.5 856,-598.5 856,-577.5 657,-577.5"/>
+<polygon fill="#4cdb4c" stroke="transparent" points="657,-577.5 657,-598.5 856,-598.5 856,-577.5 657,-577.5"/>
 <polygon fill="none" stroke="#000000" points="657,-577.5 657,-598.5 856,-598.5 856,-577.5 657,-577.5"/>
 <text text-anchor="start" x="660" y="-584.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] vlan&#45;num (Optional)</text>
 </a>

@@ -9,7 +9,7 @@ digraph Nameservers {
 		shape=plaintext,
 		width=2.2361];
 	Address	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/Address.html" TITLE="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. "><FONT FACE="Nimbus Sans L">Address</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#3daf3d" HREF="/html/IODEFv2/Address.html" TITLE="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. "><FONT FACE="Nimbus Sans L">Address</FONT></td> </tr>" %</table>>,
 		pos="256,25",
 		shape=plaintext,
 		width=1];

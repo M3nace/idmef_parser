@@ -28,52 +28,61 @@
 <g id="node2" class="node">
 <title>Contact</title>
 <g id="a_node2_2"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="The Contact class describes contact information for organizations and personnel involved in the incident. This class allows for the naming of the involved party, specifying contact information for them, and identifying their role in the incident. ">
-<polygon fill="#cecece" stroke="transparent" points="317.5,-336.5 317.5,-357.5 534.5,-357.5 534.5,-336.5 317.5,-336.5"/>
+<polygon fill="#52a3cc" stroke="transparent" points="317.5,-336.5 317.5,-357.5 534.5,-357.5 534.5,-336.5 317.5,-336.5"/>
 <polygon fill="none" stroke="#000000" points="317.5,-336.5 317.5,-357.5 534.5,-357.5 534.5,-336.5 317.5,-336.5"/>
 <text text-anchor="start" x="402.5" y="-343.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Contact</text>
 </a>
 </g>
 <g id="a_node2_3"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="The name of the contact. &#160;The contact may either be an organization or a person. &#160;The type attribute disambiguates the semantics.">
+<polygon fill="#66ccff" stroke="transparent" points="317.5,-315.5 317.5,-336.5 534.5,-336.5 534.5,-315.5 317.5,-315.5"/>
 <polygon fill="none" stroke="#000000" points="317.5,-315.5 317.5,-336.5 534.5,-336.5 534.5,-315.5 317.5,-315.5"/>
 <text text-anchor="start" x="323.5" y="-322.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] ContactName (0..*)</text>
 </a>
 </g>
 <g id="a_node2_4"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="The title for the individual named in the ContactName.">
+<polygon fill="#66ccff" stroke="transparent" points="317.5,-294.5 317.5,-315.5 534.5,-315.5 534.5,-294.5 317.5,-294.5"/>
 <polygon fill="none" stroke="#000000" points="317.5,-294.5 317.5,-315.5 534.5,-315.5 534.5,-294.5 317.5,-294.5"/>
 <text text-anchor="start" x="329" y="-301.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] ContactTitle (0..*)</text>
 </a>
 </g>
 <g id="a_node2_5"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="A free&#45;form text description of the contact.">
+<polygon fill="#66ccff" stroke="transparent" points="317.5,-273.5 317.5,-294.5 534.5,-294.5 534.5,-273.5 317.5,-273.5"/>
 <polygon fill="none" stroke="#000000" points="317.5,-273.5 317.5,-294.5 534.5,-294.5 534.5,-273.5 317.5,-273.5"/>
 <text text-anchor="start" x="331" y="-280.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node2_6"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="The timezone in which the contact resides.">
+<polygon fill="#66ccff" stroke="transparent" points="317.5,-252.5 317.5,-273.5 534.5,-273.5 534.5,-252.5 317.5,-252.5"/>
 <polygon fill="none" stroke="#000000" points="317.5,-252.5 317.5,-273.5 534.5,-273.5 534.5,-252.5 317.5,-252.5"/>
 <text text-anchor="start" x="337" y="-259.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[TIMEZONE] Timezone (0..1)</text>
 </a>
 </g>
 <g id="a_node2_7"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="A mechanism by which to extend the data model.">
+<polygon fill="#66ccff" stroke="transparent" points="317.5,-231.5 317.5,-252.5 534.5,-252.5 534.5,-231.5 317.5,-231.5"/>
 <polygon fill="none" stroke="#000000" points="317.5,-231.5 317.5,-252.5 534.5,-252.5 534.5,-231.5 317.5,-231.5"/>
 <text text-anchor="start" x="320.5" y="-238.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
 <g id="a_node2_8"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="A means by which to extend the role attribute. See Section 5.1.1.">
+<polygon fill="#66ccff" stroke="transparent" points="317.5,-210.5 317.5,-231.5 534.5,-231.5 534.5,-210.5 317.5,-210.5"/>
 <polygon fill="none" stroke="#000000" points="317.5,-210.5 317.5,-231.5 534.5,-231.5 534.5,-210.5 317.5,-210.5"/>
 <text text-anchor="start" x="365.5" y="-217.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] role (0..1)</text>
 </a>
 </g>
 <g id="a_node2_9"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<polygon fill="#66ccff" stroke="transparent" points="317.5,-189.5 317.5,-210.5 534.5,-210.5 534.5,-189.5 317.5,-189.5"/>
 <polygon fill="none" stroke="#000000" points="317.5,-189.5 317.5,-210.5 534.5,-210.5 534.5,-189.5 317.5,-189.5"/>
 <text text-anchor="start" x="364" y="-196.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] type (0..1)</text>
 </a>
 </g>
 <g id="a_node2_10"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="See Section 3.3.1.">
+<polygon fill="#66ccff" stroke="transparent" points="317.5,-168.5 317.5,-189.5 534.5,-189.5 534.5,-168.5 317.5,-168.5"/>
 <polygon fill="none" stroke="#000000" points="317.5,-168.5 317.5,-189.5 534.5,-189.5 534.5,-168.5 317.5,-168.5"/>
 <text text-anchor="start" x="353" y="-175.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
 <g id="a_node2_11"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<polygon fill="#66ccff" stroke="transparent" points="317.5,-147.5 317.5,-168.5 534.5,-168.5 534.5,-147.5 317.5,-147.5"/>
 <polygon fill="none" stroke="#000000" points="317.5,-147.5 317.5,-168.5 534.5,-168.5 534.5,-147.5 317.5,-147.5"/>
 <text text-anchor="start" x="337" y="-154.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -97,7 +106,7 @@
 <g id="node3" class="node">
 <title>RegistryHandle</title>
 <g id="a_node3_12"><a xlink:href="/html/IODEFv2/RegistryHandle.html" xlink:title="The RegistryHandle class represents a handle into an Internet registry or community&#45;specific database. ">
-<polygon fill="#cecece" stroke="transparent" points="666,-400.5 666,-421.5 765,-421.5 765,-400.5 666,-400.5"/>
+<polygon fill="#52a3cc" stroke="transparent" points="666,-400.5 666,-421.5 765,-421.5 765,-400.5 666,-400.5"/>
 <polygon fill="none" stroke="#000000" points="666,-400.5 666,-421.5 765,-421.5 765,-400.5 666,-400.5"/>
 <text text-anchor="start" x="669" y="-407.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RegistryHandle</text>
 </a>
@@ -114,27 +123,31 @@
 <g id="node4" class="node">
 <title>PostalAddress</title>
 <g id="a_node4_13"><a xlink:href="/html/IODEFv2/PostalAddress.html" xlink:title="The PostalAddress class specifies a postal address and associated annotation. ">
-<polygon fill="#cecece" stroke="transparent" points="617,-349.5 617,-370.5 813,-370.5 813,-349.5 617,-349.5"/>
+<polygon fill="#52a3cc" stroke="transparent" points="617,-349.5 617,-370.5 813,-370.5 813,-349.5 617,-349.5"/>
 <polygon fill="none" stroke="#000000" points="617,-349.5 617,-370.5 813,-370.5 813,-349.5 617,-349.5"/>
 <text text-anchor="start" x="671" y="-356.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">PostalAddress</text>
 </a>
 </g>
 <g id="a_node4_14"><a xlink:href="/html/IODEFv2/PostalAddress.html" xlink:title="A postal address.">
+<polygon fill="#66ccff" stroke="transparent" points="617,-328.5 617,-349.5 813,-349.5 813,-328.5 617,-328.5"/>
 <polygon fill="none" stroke="#000000" points="617,-328.5 617,-349.5 813,-349.5 813,-328.5 617,-328.5"/>
 <text text-anchor="start" x="637" y="-335.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[POSTAL] PAddress (1..1)</text>
 </a>
 </g>
 <g id="a_node4_15"><a xlink:href="/html/IODEFv2/PostalAddress.html" xlink:title="A free&#45;form text description of the address.">
+<polygon fill="#66ccff" stroke="transparent" points="617,-307.5 617,-328.5 813,-328.5 813,-307.5 617,-307.5"/>
 <polygon fill="none" stroke="#000000" points="617,-307.5 617,-328.5 813,-328.5 813,-307.5 617,-307.5"/>
 <text text-anchor="start" x="620" y="-314.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node4_16"><a xlink:href="/html/IODEFv2/PostalAddress.html" xlink:title="Categorizes the type of address described in the PAddress class. &#160;These values are maintained in the &quot;PostalAddress&#45;type&quot; IANA registry per Section 10.2.">
+<polygon fill="#66ccff" stroke="transparent" points="617,-286.5 617,-307.5 813,-307.5 813,-286.5 617,-286.5"/>
 <polygon fill="none" stroke="#000000" points="617,-286.5 617,-307.5 813,-307.5 813,-286.5 617,-286.5"/>
 <text text-anchor="start" x="658.5" y="-293.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (0..1)</text>
 </a>
 </g>
 <g id="a_node4_17"><a xlink:href="/html/IODEFv2/PostalAddress.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<polygon fill="#66ccff" stroke="transparent" points="617,-265.5 617,-286.5 813,-286.5 813,-265.5 617,-265.5"/>
 <polygon fill="none" stroke="#000000" points="617,-265.5 617,-286.5 813,-286.5 813,-265.5 617,-265.5"/>
 <text text-anchor="start" x="642.5" y="-272.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (0..1)</text>
 </a>
@@ -151,27 +164,31 @@
 <g id="node5" class="node">
 <title>Email</title>
 <g id="a_node5_18"><a xlink:href="/html/IODEFv2/Email.html" xlink:title="The Email class specifies an email address and associated annotation. ">
-<polygon fill="#cecece" stroke="transparent" points="617,-218.5 617,-239.5 813,-239.5 813,-218.5 617,-218.5"/>
+<polygon fill="#52a3cc" stroke="transparent" points="617,-218.5 617,-239.5 813,-239.5 813,-218.5 617,-218.5"/>
 <polygon fill="none" stroke="#000000" points="617,-218.5 617,-239.5 813,-239.5 813,-218.5 617,-218.5"/>
 <text text-anchor="start" x="697.5" y="-225.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Email</text>
 </a>
 </g>
 <g id="a_node5_19"><a xlink:href="/html/IODEFv2/Email.html" xlink:title="An email address.">
+<polygon fill="#66ccff" stroke="transparent" points="617,-197.5 617,-218.5 813,-218.5 813,-197.5 617,-197.5"/>
 <polygon fill="none" stroke="#000000" points="617,-197.5 617,-218.5 813,-218.5 813,-197.5 617,-197.5"/>
 <text text-anchor="start" x="647" y="-204.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EMAIL] EmailTo (1..1)</text>
 </a>
 </g>
 <g id="a_node5_20"><a xlink:href="/html/IODEFv2/Email.html" xlink:title="A free&#45;form text description of the email address.">
+<polygon fill="#66ccff" stroke="transparent" points="617,-176.5 617,-197.5 813,-197.5 813,-176.5 617,-176.5"/>
 <polygon fill="none" stroke="#000000" points="617,-176.5 617,-197.5 813,-197.5 813,-176.5 617,-176.5"/>
 <text text-anchor="start" x="620" y="-183.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node5_21"><a xlink:href="/html/IODEFv2/Email.html" xlink:title="Categorizes the type of email address described in the EmailTo class. &#160;These values are maintained in the &quot;Email&#45; type&quot; IANA registry per Section 10.2.">
+<polygon fill="#66ccff" stroke="transparent" points="617,-155.5 617,-176.5 813,-176.5 813,-155.5 617,-155.5"/>
 <polygon fill="none" stroke="#000000" points="617,-155.5 617,-176.5 813,-176.5 813,-155.5 617,-155.5"/>
 <text text-anchor="start" x="658.5" y="-162.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (0..1)</text>
 </a>
 </g>
 <g id="a_node5_22"><a xlink:href="/html/IODEFv2/Email.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<polygon fill="#66ccff" stroke="transparent" points="617,-134.5 617,-155.5 813,-155.5 813,-134.5 617,-134.5"/>
 <polygon fill="none" stroke="#000000" points="617,-134.5 617,-155.5 813,-155.5 813,-134.5 617,-134.5"/>
 <text text-anchor="start" x="642.5" y="-141.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (0..1)</text>
 </a>

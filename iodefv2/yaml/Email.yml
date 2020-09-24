@@ -1,6 +1,7 @@
 ---
 name: Email
 description: 'The Email class specifies an email address and associated annotation. '
+color: "#66CCFF"
 aggregates:
   EmailTo:
     name: EmailTo

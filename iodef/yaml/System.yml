@@ -9,26 +9,27 @@ description: 'The System class describes a system or network involved in an even
   attribute value of "target" or "intermediary", then the machine or service is the
   one targeted in the activity.  A value of "sensor" dictates that this System was
   part of an instrumentation to monitor the network. '
+color: "#7e95c5"
 aggregates:
   Node:
     name: Node
     multiplicity: 1..1
-    type: 
+    type:
     description: A host or network involved in the incident.
   Service:
     name: Service
     multiplicity: 0..*
-    type: 
+    type:
     description: A network service running on the system.
   OperatingSystem:
     name: OperatingSystem
     multiplicity: 0..1
-    type: 
+    type:
     description: The operating system running on the system.
   Counter:
     name: Counter
     multiplicity: 0..*
-    type: 
+    type:
     description: A counter with which to summarize properties of this host or network.
   Description:
     name: Description
@@ -38,7 +39,7 @@ aggregates:
   AdditionalData:
     name: AdditionalData
     multiplicity: 0..*
-    type: 
+    type:
     description: A mechanism by which to extend the data model.
 attributes:
   restriction:

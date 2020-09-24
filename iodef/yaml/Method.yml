@@ -3,11 +3,12 @@ name: Method
 description: 'The Method class describes the methodology used by the intruder to perpetrate
   the events of the incident.  This class consists of a list of references describing
   the attack method and a free form description of the technique. '
+color: "#b79370"
 aggregates:
   Reference:
     name: Reference
     multiplicity: 0..*
-    type: 
+    type:
     description: A reference to a vulnerability, malware sample, advisory, or analysis
       of an attack technique.
   Description:
@@ -18,7 +19,7 @@ aggregates:
   AdditionalData:
     name: AdditionalData
     multiplicity: 0..*
-    type: 
+    type:
     description: A mechanism by which to extend the data model.
 attributes:
   restriction:

@@ -2,6 +2,7 @@
 name: Assessment
 description: 'The Assessment class describes the repercussions of the incident to
   the victim. '
+color: "#ff8465"
 aggregates:
   IncidentCategory:
     name: IncidentCategory
@@ -11,37 +12,37 @@ aggregates:
   SystemImpact:
     name: SystemImpact
     multiplicity: 0..*
-    type: 
+    type:
     description: A technical characterization of the impact of the incident activity
       on the victim's enterprise.  See Section 3.12.1.
   BusinessImpact:
     name: BusinessImpact
     multiplicity: 0..*
-    type: 
+    type:
     description: Impact of the incident activity on the business functions of the
       victim organization.  See Section 3.12.2.
   TimeImpact:
     name: TimeImpact
     multiplicity: 0..*
-    type: 
+    type:
     description: A characterization of the victim organization due to the incident
       activity as a function of time.  See Section 3.12.3.
   MonetaryImpact:
     name: MonetaryImpact
     multiplicity: 0..*
-    type: 
+    type:
     description: The financial loss due to the incident activity. See Section 3.12.4.
   IntendedImpact:
     name: IntendedImpact
     multiplicity: 0..*
-    type: 
+    type:
     description: The intended outcome to the victim sought by the threat actor.  Defined
       identically to the BusinessImpact defined in Section 3.12.2 but describes intent
       rather than the realized impact.
   Counter:
     name: Counter
     multiplicity: 0..*
-    type: 
+    type:
     description: A counter with which to summarize the magnitude of the activity.  See
       Section 3.18.3.
   MitigatingFactor:
@@ -58,7 +59,7 @@ aggregates:
   Confidence:
     name: Confidence
     multiplicity: 0..1
-    type: 
+    type:
     description: An estimate of confidence in the impact assessment. See Section 3.12.5.
   AdditionalData:
     name: AdditionalData

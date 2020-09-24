@@ -3,11 +3,12 @@ name: RelatedActivity
 description: 'The RelatedActivity class relates the information described in the rest
   of the document to previously observed incidents or activity and allows attribution
   to a specific actor or campaign. '
+color: "#b4d74c"
 aggregates:
   IncidentID:
     name: IncidentID
     multiplicity: 0..*
-    type: 
+    type:
     description: The tracking number of a related incident.  See Section 3.4.
   URL:
     name: URL
@@ -17,24 +18,24 @@ aggregates:
   ThreatActor:
     name: ThreatActor
     multiplicity: 0..*
-    type: 
+    type:
     description: The threat actor to whom the incident activity is attributed.  See
       Section 3.7.
   Campaign:
     name: Campaign
     multiplicity: 0..*
-    type: 
+    type:
     description: The campaign of a given threat actor to whom the described activity
       is attributed.  See Section 3.8.
   IndicatorID:
     name: IndicatorID
     multiplicity: 0..*
-    type: 
+    type:
     description: A reference to a related indicator.  See Section 3.4.
   Confidence:
     name: Confidence
     multiplicity: 0..1
-    type: 
+    type:
     description: An estimate of the confidence in attributing this RelatedActivity
       to the events described in the document.  See Section 3.12.5.
   Description:

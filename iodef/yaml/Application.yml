@@ -2,6 +2,7 @@
 name: Application
 description: 'The Application class describes an application running on a System providing
   a Service. '
+color: "#FFCCCC"
 aggregates:
   URL:
     name: URL

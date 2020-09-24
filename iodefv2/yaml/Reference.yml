@@ -2,10 +2,11 @@
 name: Reference
 description: 'The Reference class is an external reference to relevant information
   such as a vulnerability, IDS alert, malware sample, advisory, or attack technique. '
+color: "#b79370"
 aggregates:
   ! '':
     multiplicity: 0..1
-    type: 
+    type:
     description: Reference identifier per [RFC7495].
   URL:
     name: URL

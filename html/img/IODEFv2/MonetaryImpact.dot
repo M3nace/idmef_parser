@@ -4,7 +4,7 @@ digraph MonetaryImpact {
 	];
 	node [label="\N"];
 	MonetaryImpact	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/MonetaryImpact.html" TITLE="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished productivity of the staff, or a tarnished reputation that will affect future opportunities. "><FONT FACE="Nimbus Sans L">MonetaryImpact</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv2/MonetaryImpact.html" TITLE="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished productivity of the staff, or a tarnished reputation that will affect future opportunities. "><FONT FACE="Nimbus Sans L">MonetaryImpact</FONT></td> </tr>" %</table>>,
 		pos="60.5,18",
 		shape=plaintext,
 		width=1.6806];

@@ -1,6 +1,7 @@
 ---
 name: PostalAddress
 description: 'The PostalAddress class specifies a postal address and associated annotation. '
+color: "#66CCFF"
 aggregates:
   PAddress:
     name: PAddress

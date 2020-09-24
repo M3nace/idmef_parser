@@ -13,7 +13,7 @@
 <g id="node1" class="node">
 <title>RegistryHandle</title>
 <g id="a_node1_0"><a xlink:href="/html/IODEFv2/RegistryHandle.html" xlink:title="The RegistryHandle class represents a handle into an Internet registry or community&#45;specific database. ">
-<polygon fill="#cecece" stroke="transparent" points="8.5,-7 8.5,-28 107.5,-28 107.5,-7 8.5,-7"/>
+<polygon fill="#52a3cc" stroke="transparent" points="8.5,-7 8.5,-28 107.5,-28 107.5,-7 8.5,-7"/>
 <polygon fill="none" stroke="#000000" points="8.5,-7 8.5,-28 107.5,-28 107.5,-7 8.5,-7"/>
 <text text-anchor="start" x="11.5" y="-13.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RegistryHandle</text>
 </a>

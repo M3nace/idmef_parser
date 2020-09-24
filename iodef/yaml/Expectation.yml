@@ -3,6 +3,7 @@ name: Expectation
 description: 'The Expectation class conveys to the recipient of the IODEF document
   the actions the sender is requesting.  The scope of the requested action is limited
   to purview of the EventData class in which this class is aggregated. '
+color: "#BFBFBF"
 aggregates:
   Description:
     name: Description
@@ -12,7 +13,7 @@ aggregates:
   StartTime:
     name: StartTime
     multiplicity: 0..1
-    type: 
+    type:
     description: The time at which the action should be performed.  A timestamp that
       is earlier than the ReportTime specified in the Incident class denotes that
       the expectation should be fulfilled as soon as possible.  The absence of this
@@ -20,13 +21,13 @@ aggregates:
   EndTime:
     name: EndTime
     multiplicity: 0..1
-    type: 
+    type:
     description: The time by which the action should be completed. If the action is
       not carried out by this time, it should no longer be performed.
   Contact:
     name: Contact
     multiplicity: 0..1
-    type: 
+    type:
     description: The expected actor for the action.
 attributes:
   restriction:

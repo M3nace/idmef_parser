@@ -13,17 +13,19 @@
 <g id="node1" class="node">
 <title>Record</title>
 <g id="a_node1_0"><a xlink:href="/html/IODEFv2/Record.html" xlink:title="The Record class is a container class for log and audit data that provides supportive information about the events in an incident. The source of this data will often be the output of monitoring tools. These logs substantiate the activity described in the document. ">
-<polygon fill="#cecece" stroke="transparent" points="8,-242 8,-263 192,-263 192,-242 8,-242"/>
+<polygon fill="#cccc52" stroke="transparent" points="8,-242 8,-263 192,-263 192,-242 8,-242"/>
 <polygon fill="none" stroke="#000000" points="8,-242 8,-263 192,-263 192,-242 8,-242"/>
 <text text-anchor="start" x="78" y="-248.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Record</text>
 </a>
 </g>
 <g id="a_node1_1"><a xlink:href="/html/IODEFv2/Record.html" xlink:title="See Section 3.3.1.">
+<polygon fill="#ffff66" stroke="transparent" points="8,-221 8,-242 192,-242 192,-221 8,-221"/>
 <polygon fill="none" stroke="#000000" points="8,-221 8,-242 192,-242 192,-221 8,-221"/>
 <text text-anchor="start" x="27" y="-227.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
 <g id="a_node1_2"><a xlink:href="/html/IODEFv2/Record.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<polygon fill="#ffff66" stroke="transparent" points="8,-200 8,-221 192,-221 192,-200 8,-200"/>
 <polygon fill="none" stroke="#000000" points="8,-200 8,-221 192,-221 192,-200 8,-200"/>
 <text text-anchor="start" x="11" y="-206.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -33,52 +35,61 @@
 <g id="node2" class="node">
 <title>RecordData</title>
 <g id="a_node2_3"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="The RecordData class describes or references log or audit data from a given type of tool and provides a means to annotate the output. ">
-<polygon fill="#cecece" stroke="transparent" points="267.5,-316 267.5,-337 484.5,-337 484.5,-316 267.5,-316"/>
+<polygon fill="#cccc52" stroke="transparent" points="267.5,-316 267.5,-337 484.5,-337 484.5,-316 267.5,-316"/>
 <polygon fill="none" stroke="#000000" points="267.5,-316 267.5,-337 484.5,-337 484.5,-316 267.5,-316"/>
 <text text-anchor="start" x="339.5" y="-322.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RecordData</text>
 </a>
 </g>
 <g id="a_node2_4"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A timestamp of the data found in the RecordItem or URL classes.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-295 267.5,-316 484.5,-316 484.5,-295 267.5,-295"/>
 <polygon fill="none" stroke="#000000" points="267.5,-295 267.5,-316 484.5,-316 484.5,-295 267.5,-295"/>
 <text text-anchor="start" x="289.5" y="-301.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] DateTime (0..1)</text>
 </a>
 </g>
 <g id="a_node2_5"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A free&#45;form text description of the data provided in the RecordItem or URL classes.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-274 267.5,-295 484.5,-295 484.5,-274 267.5,-274"/>
 <polygon fill="none" stroke="#000000" points="267.5,-274 267.5,-295 484.5,-295 484.5,-274 267.5,-274"/>
 <text text-anchor="start" x="281" y="-280.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node2_6"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="Identifies the tool used to generate the data in the RecordItem or URL classes.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-253 267.5,-274 484.5,-274 484.5,-253 267.5,-253"/>
 <polygon fill="none" stroke="#000000" points="267.5,-253 267.5,-274 484.5,-274 484.5,-253 267.5,-253"/>
 <text text-anchor="start" x="281" y="-259.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
 </a>
 </g>
 <g id="a_node2_7"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="Log, audit, or forensic data to support the conclusions made during the course of analyzing the incident.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-232 267.5,-253 484.5,-253 484.5,-232 267.5,-232"/>
 <polygon fill="none" stroke="#000000" points="267.5,-232 267.5,-253 484.5,-253 484.5,-232 267.5,-232"/>
 <text text-anchor="start" x="279.5" y="-238.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] RecordItem (0..*)</text>
 </a>
 </g>
 <g id="a_node2_8"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A URL reference to a log or audit data.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-211 267.5,-232 484.5,-232 484.5,-211 267.5,-211"/>
 <polygon fill="none" stroke="#000000" points="267.5,-211 267.5,-232 484.5,-232 484.5,-211 267.5,-211"/>
 <text text-anchor="start" x="327.5" y="-217.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
 <g id="a_node2_9"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="An extension mechanism for data not explicitly represented in the data model.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-190 267.5,-211 484.5,-211 484.5,-190 267.5,-190"/>
 <polygon fill="none" stroke="#000000" points="267.5,-190 267.5,-211 484.5,-211 484.5,-190 267.5,-190"/>
 <text text-anchor="start" x="270.5" y="-196.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
 <g id="a_node2_10"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="See Section 3.3.1.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-169 267.5,-190 484.5,-190 484.5,-169 267.5,-169"/>
 <polygon fill="none" stroke="#000000" points="267.5,-169 267.5,-190 484.5,-190 484.5,-169 267.5,-169"/>
 <text text-anchor="start" x="303" y="-175.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
 <g id="a_node2_11"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-148 267.5,-169 484.5,-169 484.5,-148 267.5,-148"/>
 <polygon fill="none" stroke="#000000" points="267.5,-148 267.5,-169 484.5,-169 484.5,-148 267.5,-148"/>
 <text text-anchor="start" x="287" y="-154.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
 <g id="a_node2_12"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="See Section 3.3.2.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-127 267.5,-148 484.5,-148 484.5,-127 267.5,-127"/>
 <polygon fill="none" stroke="#000000" points="267.5,-127 267.5,-148 484.5,-148 484.5,-127 267.5,-127"/>
 <text text-anchor="start" x="305" y="-133.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -95,7 +106,7 @@
 <g id="node3" class="node">
 <title>RecordPattern</title>
 <g id="a_node3_13"><a xlink:href="/html/IODEFv2/RecordPattern.html" xlink:title="The RecordPattern class describes where in the log data provided or referenced in the RecordData class relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. ">
-<polygon fill="#cecece" stroke="transparent" points="609.5,-337 609.5,-358 702.5,-358 702.5,-337 609.5,-337"/>
+<polygon fill="#cccc52" stroke="transparent" points="609.5,-337 609.5,-358 702.5,-358 702.5,-337 609.5,-337"/>
 <polygon fill="none" stroke="#000000" points="609.5,-337 609.5,-358 702.5,-358 702.5,-337 609.5,-337"/>
 <text text-anchor="start" x="612.5" y="-343.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RecordPattern</text>
 </a>

@@ -2,11 +2,12 @@
 name: RecordData
 description: 'The RecordData class groups log or audit data from a given sensor (e.g.,
   IDS, firewall log) and provides a way to annotate the output. '
+color: "#FFFF66"
 aggregates:
   DateTime:
     name: DateTime
     multiplicity: 0..1
-    type: 
+    type:
     description: Timestamp of the RecordItem data.
   Description:
     name: Description
@@ -18,22 +19,22 @@ aggregates:
   Application:
     name: Application
     multiplicity: 0..1
-    type: 
+    type:
     description: Information about the sensor used to generate the RecordItem data.
   RecordPattern:
     name: RecordPattern
     multiplicity: 0..*
-    type: 
+    type:
     description: A search string to precisely find the relevant data in a RecordItem.
   RecordItem:
     name: RecordItem
     multiplicity: 1..*
-    type: 
+    type:
     description: Log, audit, or forensic data.
   AdditionalData:
     name: AdditionalData
     multiplicity: 0..1
-    type: 
+    type:
     description: An extension mechanism for data not explicitly represented in the
       data model.
 attributes:

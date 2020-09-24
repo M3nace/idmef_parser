@@ -2,5 +2,6 @@
 name: RegistryHandle
 description: 'The RegistryHandle class represents a handle into an Internet registry
   or community-specific database. '
+color: "#66CCFF"
 aggregates: {}
 attributes: {}

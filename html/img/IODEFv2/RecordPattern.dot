@@ -4,7 +4,7 @@ digraph RecordPattern {
 	];
 	node [label="\N"];
 	RecordPattern	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/RecordPattern.html" TITLE="The RecordPattern class describes where in the log data provided or referenced in the RecordData class relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. "><FONT FACE="Nimbus Sans L">RecordPattern</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cccc52" HREF="/html/IODEFv2/RecordPattern.html" TITLE="The RecordPattern class describes where in the log data provided or referenced in the RecordData class relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. "><FONT FACE="Nimbus Sans L">RecordPattern</FONT></td> </tr>" %</table>>,
 		pos="54.5,18",
 		shape=plaintext,
 		width=1.5139];

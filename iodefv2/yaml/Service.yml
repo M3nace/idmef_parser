@@ -3,11 +3,12 @@ name: Service
 description: 'The Service class describes a network service.  The service is described
   by a protocol, port, protocol header field, and application providing or using the
   service. '
+color: "#FFCCCC"
 aggregates:
   ServiceName:
     name: ServiceName
     multiplicity: 0..1
-    type: 
+    type:
     description: A protocol name.
   Port:
     name: Port
@@ -40,12 +41,12 @@ aggregates:
   ApplicationHeader:
     name: ApplicationHeader
     multiplicity: 0..1
-    type: 
+    type:
     description: A protocol header.  See Section 3.20.2.
   EmailData:
     name: EmailData
     multiplicity: 0..1
-    type: 
+    type:
     description: Headers associated with an email message.  See Section 3.21.
   Application:
     name: Application

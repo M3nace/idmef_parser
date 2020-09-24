@@ -4,5 +4,6 @@ description: 'The IncidentID class represents a tracking number that is unique i
   the context of the CSIRT.  It serves as an identifier for an incident or a document
   identifier when sharing indicators.  This identifier would serve as an index into
   a CSIRT''s incident handling or knowledge management system. '
+color: "#b4d74c"
 aggregates: {}
 attributes: {}

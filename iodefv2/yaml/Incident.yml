@@ -2,23 +2,24 @@
 name: Incident
 description: 'The Incident class describes commonly exchanged information when reporting
   or sharing derived analysis from security incidents. '
+color: "#b4d74c"
 aggregates:
   IncidentID:
     name: IncidentID
     multiplicity: 1..1
-    type: 
+    type:
     description: An incident tracking number assigned to this incident by the CSIRT
       that generated the IODEF document.  See Section 3.4.
   AlternativeID:
     name: AlternativeID
     multiplicity: 0..1
-    type: 
+    type:
     description: The incident tracking numbers used by other CSIRTs to refer to the
       incident described in the document.  See Section 3.5.
   RelatedActivity:
     name: RelatedActivity
     multiplicity: 0..*
-    type: 
+    type:
     description: Related activity and attribution of this activity. See Section 3.6.
   DetectTime:
     name: DetectTime
@@ -58,39 +59,39 @@ aggregates:
   Discovery:
     name: Discovery
     multiplicity: 0..*
-    type: 
+    type:
     description: The means by which this incident was detected.  See Section 3.10.
   Assessment:
     name: Assessment
     multiplicity: 0..*
-    type: 
+    type:
     description: A characterization of the impact of the incident. See Section 3.12.
   Method:
     name: Method
     multiplicity: 0..*
-    type: 
+    type:
     description: The techniques used by the threat actor in the incident.  See Section
       3.11.
   Contact:
     name: Contact
     multiplicity: 1..*
-    type: 
+    type:
     description: Contact information for the parties involved in the incident.  See
       Section 3.9.
   EventData:
     name: EventData
     multiplicity: 0..*
-    type: 
+    type:
     description: Description of the events comprising the incident. See Section 3.14.
   IndicatorData:
     name: IndicatorData
     multiplicity: 0..1
-    type: 
+    type:
     description: Indicators from the analysis of an incident.  See Section 3.28.
   History:
     name: History
     multiplicity: 0..1
-    type: 
+    type:
     description: A log of significant events or actions that occurred during the course
       of handling the incident.  See Section 3.13.
   AdditionalData:

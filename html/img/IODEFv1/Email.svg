@@ -13,12 +13,13 @@
 <g id="node1" class="node">
 <title>Email</title>
 <g id="a_node1_0"><a xlink:href="/html/IODEFv1/Email.html" xlink:title="The Email class specifies an email address formatted according to EMAIL data type (Section 2.14). ">
-<polygon fill="#cecece" stroke="transparent" points="8.5,-25 8.5,-46 183.5,-46 183.5,-25 8.5,-25"/>
+<polygon fill="#52a3cc" stroke="transparent" points="8.5,-25 8.5,-46 183.5,-46 183.5,-25 8.5,-25"/>
 <polygon fill="none" stroke="#000000" points="8.5,-25 8.5,-46 183.5,-46 183.5,-25 8.5,-25"/>
 <text text-anchor="start" x="78.5" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Email</text>
 </a>
 </g>
 <g id="a_node1_1"><a xlink:href="/html/IODEFv1/Email.html" xlink:title="A free&#45;form description of the element content (e.g., hours of coverage for a given number).">
+<polygon fill="#66ccff" stroke="transparent" points="8.5,-4 8.5,-25 183.5,-25 183.5,-4 8.5,-4"/>
 <polygon fill="none" stroke="#000000" points="8.5,-4 8.5,-25 183.5,-25 183.5,-4 8.5,-4"/>
 <text text-anchor="start" x="11.5" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] meaning (Optional)</text>
 </a>

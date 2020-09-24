@@ -5,11 +5,12 @@ description: 'The AlternativeID class lists the tracking numbers used by CSIRTs,
   in the IODEF document.  A tracking number listed as an AlternativeID references
   the same incident detected by another CSIRT.  The tracking numbers of the CSIRT
   that generated the IODEF document must never be considered an AlternativeID. '
+color: "#b4d74c"
 aggregates:
   IncidentID:
     name: IncidentID
     multiplicity: 1..*
-    type: 
+    type:
     description: The tracking number of another CSIRT.  See Section 3.4.
   restriction:
     name: restriction

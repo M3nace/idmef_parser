@@ -13,32 +13,37 @@
 <g id="node1" class="node">
 <title>RelatedActivity</title>
 <g id="a_node1_0"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="The RelatedActivity class relates the information described in the rest of the document to previously observed incidents or activity and allows attribution to a specific actor or campaign. ">
-<polygon fill="#cecece" stroke="transparent" points="8.5,-228 8.5,-249 225.5,-249 225.5,-228 8.5,-228"/>
+<polygon fill="#90ac3d" stroke="transparent" points="8.5,-228 8.5,-249 225.5,-249 225.5,-228 8.5,-228"/>
 <polygon fill="none" stroke="#000000" points="8.5,-228 8.5,-249 225.5,-249 225.5,-228 8.5,-228"/>
 <text text-anchor="start" x="72" y="-234.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RelatedActivity</text>
 </a>
 </g>
 <g id="a_node1_1"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="A URL to activity related to this incident.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-207 8.5,-228 225.5,-228 225.5,-207 8.5,-207"/>
 <polygon fill="none" stroke="#000000" points="8.5,-207 8.5,-228 225.5,-228 225.5,-207 8.5,-207"/>
 <text text-anchor="start" x="68.5" y="-213.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
 <g id="a_node1_2"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="A description of how these relationships were derived.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-186 8.5,-207 225.5,-207 225.5,-186 8.5,-186"/>
 <polygon fill="none" stroke="#000000" points="8.5,-186 8.5,-207 225.5,-207 225.5,-186 8.5,-186"/>
 <text text-anchor="start" x="22" y="-192.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node1_3"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="A mechanism by which to extend the data model.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-165 8.5,-186 225.5,-186 225.5,-165 8.5,-165"/>
 <polygon fill="none" stroke="#000000" points="8.5,-165 8.5,-186 225.5,-186 225.5,-165 8.5,-165"/>
 <text text-anchor="start" x="11.5" y="-171.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
 <g id="a_node1_4"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="See Section 3.3.1.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-144 8.5,-165 225.5,-165 225.5,-144 8.5,-144"/>
 <polygon fill="none" stroke="#000000" points="8.5,-144 8.5,-165 225.5,-165 225.5,-144 8.5,-144"/>
 <text text-anchor="start" x="44" y="-150.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
 <g id="a_node1_5"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-123 8.5,-144 225.5,-144 225.5,-123 8.5,-123"/>
 <polygon fill="none" stroke="#000000" points="8.5,-123 8.5,-144 225.5,-144 225.5,-123 8.5,-123"/>
 <text text-anchor="start" x="28" y="-129.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -48,7 +53,7 @@
 <g id="node2" class="node">
 <title>IncidentID</title>
 <g id="a_node2_6"><a xlink:href="/html/IODEFv2/IncidentID.html" xlink:title="The IncidentID class represents a tracking number that is unique in the context of the CSIRT. It serves as an identifier for an incident or a document identifier when sharing indicators. This identifier would serve as an index into a CSIRT&#39;s incident handling or knowledge management system. ">
-<polygon fill="#cecece" stroke="transparent" points="375.5,-462 375.5,-483 442.5,-483 442.5,-462 375.5,-462"/>
+<polygon fill="#90ac3d" stroke="transparent" points="375.5,-462 375.5,-483 442.5,-483 442.5,-462 375.5,-462"/>
 <polygon fill="none" stroke="#000000" points="375.5,-462 375.5,-483 442.5,-483 442.5,-462 375.5,-462"/>
 <text text-anchor="start" x="378.5" y="-468.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">IncidentID</text>
 </a>
@@ -176,7 +181,7 @@
 <g id="node6" class="node">
 <title>Confidence</title>
 <g id="a_node6_22"><a xlink:href="/html/IODEFv2/Confidence.html" xlink:title="The Confidence class represents an estimate of the validity and accuracy of data expressed in the document. This estimate can be expressed as a category or a numeric calculation. ">
-<polygon fill="#cecece" stroke="transparent" points="371.5,-7 371.5,-28 446.5,-28 446.5,-7 371.5,-7"/>
+<polygon fill="#cc6a51" stroke="transparent" points="371.5,-7 371.5,-28 446.5,-28 446.5,-7 371.5,-7"/>
 <polygon fill="none" stroke="#000000" points="371.5,-7 371.5,-28 446.5,-28 446.5,-7 371.5,-7"/>
 <text text-anchor="start" x="374.5" y="-13.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Confidence</text>
 </a>

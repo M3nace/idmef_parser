@@ -13,7 +13,7 @@
 <g id="node1" class="node">
 <title>OperatingSystem</title>
 <g id="a_node1_0"><a xlink:href="/html/IODEFv1/OperatingSystem.html" xlink:title="The OperatingSystem class describes the operating system running on a System. The definition is identical to the Application class (Section 3.17.1). ">
-<polygon fill="#cecece" stroke="transparent" points="8,-7 8,-28 120,-28 120,-7 8,-7"/>
+<polygon fill="#65779e" stroke="transparent" points="8,-7 8,-28 120,-28 120,-7 8,-7"/>
 <polygon fill="none" stroke="#000000" points="8,-7 8,-28 120,-28 120,-7 8,-7"/>
 <text text-anchor="start" x="11" y="-13.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">OperatingSystem</text>
 </a>

@@ -2,6 +2,7 @@
 name: RecordData
 description: 'The RecordData class describes or references log or audit data from
   a given type of tool and provides a means to annotate the output. '
+color: "#FFFF66"
 aggregates:
   DateTime:
     name: DateTime
@@ -23,7 +24,7 @@ aggregates:
   RecordPattern:
     name: RecordPattern
     multiplicity: 0..*
-    type: 
+    type:
     description: A search string to precisely find the relevant data in the RecordItem
       or URL classes.  See Section 3.22.2.
   RecordItem:
@@ -40,18 +41,18 @@ aggregates:
   FileData:
     name: FileData
     multiplicity: 0..1
-    type: 
+    type:
     description: The files involved in the incident.  See Section 3.25.
   WindowsRegistryKeysModified:
     name: WindowsRegistryKeysModified
     multiplicity: 0..*
-    type: 
+    type:
     description: The registry keys that were involved in the incident.  See Section
       3.23.
   CertificateData:
     name: CertificateData
     multiplicity: 0..*
-    type: 
+    type:
     description: The certificates that were involved in the incident.  See Section
       3.24.
   AdditionalData:

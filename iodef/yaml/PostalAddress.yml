@@ -2,6 +2,7 @@
 name: PostalAddress
 description: 'The PostalAddress class specifies a postal address formatted according
   to the POSTAL data type (Section 2.11). '
+color: "#66CCFF"
 aggregates: {}
 attributes:
   meaning:

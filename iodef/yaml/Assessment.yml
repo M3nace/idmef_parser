@@ -2,36 +2,37 @@
 name: Assessment
 description: 'The Assessment class describes the technical and non-technical repercussions
   of the incident on the CSIRT''s constituency. '
+color: "#ff8465"
 aggregates:
   Impact:
     name: Impact
     multiplicity: 0..*
-    type: 
+    type:
     description: Technical impact of the incident on a network.
   TimeImpact:
     name: TimeImpact
     multiplicity: 0..*
-    type: 
+    type:
     description: Impact of the activity measured with respect to time.
   MonetaryImpact:
     name: MonetaryImpact
     multiplicity: 0..*
-    type: 
+    type:
     description: Impact of the activity measured with respect to financial loss.
   Counter:
     name: Counter
     multiplicity: 0..*
-    type: 
+    type:
     description: A counter with which to summarize the magnitude of the activity.
   Confidence:
     name: Confidence
     multiplicity: 0..1
-    type: 
+    type:
     description: An estimate of confidence in the assessment.
   AdditionalData:
     name: AdditionalData
     multiplicity: 0..*
-    type: 
+    type:
     description: A mechanism by which to extend the data model.
 attributes:
   occurrence:

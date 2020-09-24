@@ -13,52 +13,61 @@
 <g id="node1" class="node">
 <title>Incident</title>
 <g id="a_node1_0"><a xlink:href="/html/IODEFv1/Incident.html" xlink:title="Every incident is represented by an instance of the Incident class. This class provides a standardized representation for commonly exchanged incident data. ">
-<polygon fill="#cecece" stroke="transparent" points="8.5,-1387.5196 8.5,-1408.5196 211.5,-1408.5196 211.5,-1387.5196 8.5,-1387.5196"/>
+<polygon fill="#90ac3d" stroke="transparent" points="8.5,-1387.5196 8.5,-1408.5196 211.5,-1408.5196 211.5,-1387.5196 8.5,-1387.5196"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1387.5196 8.5,-1408.5196 211.5,-1408.5196 211.5,-1387.5196 8.5,-1387.5196"/>
 <text text-anchor="start" x="86" y="-1394.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Incident</text>
 </a>
 </g>
 <g id="a_node1_1"><a xlink:href="/html/IODEFv1/Incident.html" xlink:title="The time the incident was first detected.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-1366.5196 8.5,-1387.5196 211.5,-1387.5196 211.5,-1366.5196 8.5,-1366.5196"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1366.5196 8.5,-1387.5196 211.5,-1387.5196 211.5,-1366.5196 8.5,-1366.5196"/>
 <text text-anchor="start" x="51.5" y="-1373.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] DetectTime (0..1)</text>
 </a>
 </g>
 <g id="a_node1_2"><a xlink:href="/html/IODEFv1/Incident.html" xlink:title="The time the incident started.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-1345.5196 8.5,-1366.5196 211.5,-1366.5196 211.5,-1345.5196 8.5,-1345.5196"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1345.5196 8.5,-1366.5196 211.5,-1366.5196 211.5,-1345.5196 8.5,-1345.5196"/>
 <text text-anchor="start" x="56.5" y="-1352.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] StartTime (0..1)</text>
 </a>
 </g>
 <g id="a_node1_3"><a xlink:href="/html/IODEFv1/Incident.html" xlink:title="The time the incident ended.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-1324.5196 8.5,-1345.5196 211.5,-1345.5196 211.5,-1324.5196 8.5,-1324.5196"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1324.5196 8.5,-1345.5196 211.5,-1345.5196 211.5,-1324.5196 8.5,-1324.5196"/>
 <text text-anchor="start" x="59" y="-1331.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] EndTime (0..1)</text>
 </a>
 </g>
 <g id="a_node1_4"><a xlink:href="/html/IODEFv1/Incident.html" xlink:title="The time the incident was reported.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-1303.5196 8.5,-1324.5196 211.5,-1324.5196 211.5,-1303.5196 8.5,-1303.5196"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1303.5196 8.5,-1324.5196 211.5,-1324.5196 211.5,-1303.5196 8.5,-1303.5196"/>
 <text text-anchor="start" x="50.5" y="-1310.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] ReportTime (1..1)</text>
 </a>
 </g>
 <g id="a_node1_5"><a xlink:href="/html/IODEFv1/Incident.html" xlink:title="A free&#45;form textual description of the incident.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-1282.5196 8.5,-1303.5196 211.5,-1303.5196 211.5,-1282.5196 8.5,-1282.5196"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1282.5196 8.5,-1303.5196 211.5,-1303.5196 211.5,-1282.5196 8.5,-1282.5196"/>
 <text text-anchor="start" x="15" y="-1289.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node1_6"><a xlink:href="/html/IODEFv1/Incident.html" xlink:title="The purpose attribute represents the reason why the IODEF document was created. &#160;It is closely related to the Expectation class (Section 3.13). &#160;This attribute is defined as an enumerated list:">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-1261.5196 8.5,-1282.5196 211.5,-1282.5196 211.5,-1261.5196 8.5,-1261.5196"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1261.5196 8.5,-1282.5196 211.5,-1282.5196 211.5,-1261.5196 8.5,-1261.5196"/>
 <text text-anchor="start" x="25.5" y="-1268.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] purpose (Required)</text>
 </a>
 </g>
 <g id="a_node1_7"><a xlink:href="/html/IODEFv1/Incident.html" xlink:title="A means by which to extend the purpose attribute. &#160;See Section 5.1.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-1240.5196 8.5,-1261.5196 211.5,-1261.5196 211.5,-1240.5196 8.5,-1240.5196"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1240.5196 8.5,-1261.5196 211.5,-1261.5196 211.5,-1240.5196 8.5,-1240.5196"/>
 <text text-anchor="start" x="11.5" y="-1247.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;purpose (Optional)</text>
 </a>
 </g>
 <g id="a_node1_8"><a xlink:href="/html/IODEFv1/Incident.html" xlink:title="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;. &#160;The interpretation of this code is described in Section 6.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-1219.5196 8.5,-1240.5196 211.5,-1240.5196 211.5,-1219.5196 8.5,-1219.5196"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1219.5196 8.5,-1240.5196 211.5,-1240.5196 211.5,-1219.5196 8.5,-1219.5196"/>
 <text text-anchor="start" x="39" y="-1226.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] lang (Optional)</text>
 </a>
 </g>
 <g id="a_node1_9"><a xlink:href="/html/IODEFv1/Incident.html" xlink:title="This attribute indicates the disclosure guidelines to which the sender expects the recipient to adhere for the information represented in this class and its children. &#160;This guideline provides no security since there are no specified technical means to ensure that the recipient of the document handles the information as the sender requested.">
+<polygon fill="#b4d74c" stroke="transparent" points="8.5,-1198.5196 8.5,-1219.5196 211.5,-1219.5196 211.5,-1198.5196 8.5,-1198.5196"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1198.5196 8.5,-1219.5196 211.5,-1219.5196 211.5,-1198.5196 8.5,-1198.5196"/>
 <text text-anchor="start" x="22.5" y="-1205.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -68,22 +77,25 @@
 <g id="node2" class="node">
 <title>IncidentID</title>
 <g id="a_node2_10"><a xlink:href="/html/IODEFv1/IncidentID.html" xlink:title="The IncidentID class represents an incident tracking number that is unique in the context of the CSIRT and identifies the activity characterized in an IODEF Document. This identifier would serve as an index into the CSIRT incident handling system. The combination of the name attribute and the string in the element content MUST be a globally unique identifier describing the activity. Documents generated by a given CSIRT MUST NOT reuse the same value unless they are referencing the same incident. ">
-<polygon fill="#cecece" stroke="transparent" points="1026,-1565.5196 1026,-1586.5196 1209,-1586.5196 1209,-1565.5196 1026,-1565.5196"/>
+<polygon fill="#90ac3d" stroke="transparent" points="1026,-1565.5196 1026,-1586.5196 1209,-1586.5196 1209,-1565.5196 1026,-1565.5196"/>
 <polygon fill="none" stroke="#000000" points="1026,-1565.5196 1026,-1586.5196 1209,-1586.5196 1209,-1565.5196 1026,-1565.5196"/>
 <text text-anchor="start" x="1087" y="-1572.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">IncidentID</text>
 </a>
 </g>
 <g id="a_node2_11"><a xlink:href="/html/IODEFv1/IncidentID.html" xlink:title="An identifier describing the CSIRT that created the document. &#160;In order to have a globally unique CSIRT name, the fully qualified domain name associated with the CSIRT MUST be used.">
+<polygon fill="#b4d74c" stroke="transparent" points="1026,-1544.5196 1026,-1565.5196 1209,-1565.5196 1209,-1544.5196 1026,-1544.5196"/>
 <polygon fill="none" stroke="#000000" points="1026,-1544.5196 1026,-1565.5196 1209,-1565.5196 1209,-1544.5196 1026,-1544.5196"/>
 <text text-anchor="start" x="1035" y="-1551.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] name (Required)</text>
 </a>
 </g>
 <g id="a_node2_12"><a xlink:href="/html/IODEFv1/IncidentID.html" xlink:title="An identifier referencing a subset of the named incident.">
+<polygon fill="#b4d74c" stroke="transparent" points="1026,-1523.5196 1026,-1544.5196 1209,-1544.5196 1209,-1523.5196 1026,-1523.5196"/>
 <polygon fill="none" stroke="#000000" points="1026,-1523.5196 1026,-1544.5196 1209,-1544.5196 1209,-1523.5196 1026,-1523.5196"/>
 <text text-anchor="start" x="1029" y="-1530.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] instance (Optional)</text>
 </a>
 </g>
 <g id="a_node2_13"><a xlink:href="/html/IODEFv1/IncidentID.html" xlink:title="This attribute has been defined in Section 3.2.">
+<polygon fill="#b4d74c" stroke="transparent" points="1026,-1502.5196 1026,-1523.5196 1209,-1523.5196 1209,-1502.5196 1026,-1502.5196"/>
 <polygon fill="none" stroke="#000000" points="1026,-1502.5196 1026,-1523.5196 1209,-1523.5196 1209,-1502.5196 1026,-1502.5196"/>
 <text text-anchor="start" x="1030" y="-1509.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -100,12 +112,13 @@
 <g id="node3" class="node">
 <title>AlternativeID</title>
 <g id="a_node3_14"><a xlink:href="/html/IODEFv1/AlternativeID.html" xlink:title="The AlternativeID class lists the incident tracking numbers used by CSIRTs, other than the one generating the document, to refer to the identical activity described the IODEF document. A tracking number listed as an AlternativeID references the same incident detected by ">
-<polygon fill="#cecece" stroke="transparent" points="516.5,-1540.5196 516.5,-1561.5196 697.5,-1561.5196 697.5,-1540.5196 516.5,-1540.5196"/>
+<polygon fill="#90ac3d" stroke="transparent" points="516.5,-1540.5196 516.5,-1561.5196 697.5,-1561.5196 697.5,-1540.5196 516.5,-1540.5196"/>
 <polygon fill="none" stroke="#000000" points="516.5,-1540.5196 516.5,-1561.5196 697.5,-1561.5196 697.5,-1540.5196 516.5,-1540.5196"/>
 <text text-anchor="start" x="568" y="-1547.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">AlternativeID</text>
 </a>
 </g>
 <g id="a_node3_15"><a xlink:href="/html/IODEFv1/AlternativeID.html" xlink:title="This attribute has been defined in Section 3.2.">
+<polygon fill="#b4d74c" stroke="transparent" points="516.5,-1519.5196 516.5,-1540.5196 697.5,-1540.5196 697.5,-1519.5196 516.5,-1519.5196"/>
 <polygon fill="none" stroke="#000000" points="516.5,-1519.5196 516.5,-1540.5196 697.5,-1540.5196 697.5,-1519.5196 516.5,-1519.5196"/>
 <text text-anchor="start" x="519.5" y="-1526.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -122,17 +135,19 @@
 <g id="node4" class="node">
 <title>RelatedActivity</title>
 <g id="a_node4_16"><a xlink:href="/html/IODEFv1/RelatedActivity.html" xlink:title="The RelatedActivity class lists either incident tracking numbers of incidents or URLs (not both) that refer to activity related to the one described in the IODEF document. These references may be to local incident tracking numbers or to those of other CSIRTs. ">
-<polygon fill="#cecece" stroke="transparent" points="516.5,-1471.5196 516.5,-1492.5196 697.5,-1492.5196 697.5,-1471.5196 516.5,-1471.5196"/>
+<polygon fill="#90ac3d" stroke="transparent" points="516.5,-1471.5196 516.5,-1492.5196 697.5,-1492.5196 697.5,-1471.5196 516.5,-1471.5196"/>
 <polygon fill="none" stroke="#000000" points="516.5,-1471.5196 516.5,-1492.5196 697.5,-1492.5196 697.5,-1471.5196 516.5,-1471.5196"/>
 <text text-anchor="start" x="562" y="-1478.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RelatedActivity</text>
 </a>
 </g>
 <g id="a_node4_17"><a xlink:href="/html/IODEFv1/RelatedActivity.html" xlink:title="A URL to activity related to this incident.">
+<polygon fill="#b4d74c" stroke="transparent" points="516.5,-1450.5196 516.5,-1471.5196 697.5,-1471.5196 697.5,-1450.5196 516.5,-1450.5196"/>
 <polygon fill="none" stroke="#000000" points="516.5,-1450.5196 516.5,-1471.5196 697.5,-1471.5196 697.5,-1450.5196 516.5,-1450.5196"/>
 <text text-anchor="start" x="558.5" y="-1457.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (1..*)</text>
 </a>
 </g>
 <g id="a_node4_18"><a xlink:href="/html/IODEFv1/RelatedActivity.html" xlink:title="This attribute has been defined in Section 3.2.">
+<polygon fill="#b4d74c" stroke="transparent" points="516.5,-1429.5196 516.5,-1450.5196 697.5,-1450.5196 697.5,-1429.5196 516.5,-1429.5196"/>
 <polygon fill="none" stroke="#000000" points="516.5,-1429.5196 516.5,-1450.5196 697.5,-1450.5196 697.5,-1429.5196 516.5,-1429.5196"/>
 <text text-anchor="start" x="519.5" y="-1436.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -149,17 +164,19 @@
 <g id="node5" class="node">
 <title>Assessment</title>
 <g id="a_node5_19"><a xlink:href="/html/IODEFv1/Assessment.html" xlink:title="The Assessment class describes the technical and non&#45;technical repercussions of the incident on the CSIRT&#39;s constituency. ">
-<polygon fill="#cecece" stroke="transparent" points="735,-626.5196 735,-647.5196 924,-647.5196 924,-626.5196 735,-626.5196"/>
+<polygon fill="#cc6a51" stroke="transparent" points="735,-626.5196 735,-647.5196 924,-647.5196 924,-626.5196 735,-626.5196"/>
 <polygon fill="none" stroke="#000000" points="735,-626.5196 735,-647.5196 924,-647.5196 924,-626.5196 735,-626.5196"/>
 <text text-anchor="start" x="792" y="-633.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Assessment</text>
 </a>
 </g>
 <g id="a_node5_20"><a xlink:href="/html/IODEFv1/Assessment.html" xlink:title="Specifies whether the assessment is describing actual or potential outcomes. &#160;The default is &quot;actual&quot; and is assumed if not specified.">
+<polygon fill="#ff8465" stroke="transparent" points="735,-605.5196 735,-626.5196 924,-626.5196 924,-605.5196 735,-605.5196"/>
 <polygon fill="none" stroke="#000000" points="735,-605.5196 735,-626.5196 924,-626.5196 924,-605.5196 735,-605.5196"/>
 <text text-anchor="start" x="738" y="-612.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] occurrence (Optional)</text>
 </a>
 </g>
 <g id="a_node5_21"><a xlink:href="/html/IODEFv1/Assessment.html" xlink:title="This attribute is defined in Section 3.2.">
+<polygon fill="#ff8465" stroke="transparent" points="735,-584.5196 735,-605.5196 924,-605.5196 924,-584.5196 735,-584.5196"/>
 <polygon fill="none" stroke="#000000" points="735,-584.5196 735,-605.5196 924,-605.5196 924,-584.5196 735,-584.5196"/>
 <text text-anchor="start" x="742" y="-591.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -176,32 +193,37 @@
 <g id="node11" class="node">
 <title>AdditionalData</title>
 <g id="a_node11_22"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="The AdditionalData class serves as an extension mechanism for information not otherwise represented in the data model. For relatively simple information, atomic data types (e.g., integers, strings) are provided with a mechanism to annotate their meaning. The class can also be used to extend the data model (and the associated Schema) to support proprietary extensions by encapsulating entire XML documents conforming to another Schema (e.g., IDMEF). A detailed discussion for extending the data model and the schema can be found in Section 5. ">
-<polygon fill="#cecece" stroke="transparent" points="1320,-999.5196 1320,-1020.5196 1507,-1020.5196 1507,-999.5196 1320,-999.5196"/>
+<polygon fill="#87689e" stroke="transparent" points="1320,-999.5196 1320,-1020.5196 1507,-1020.5196 1507,-999.5196 1320,-999.5196"/>
 <polygon fill="none" stroke="#000000" points="1320,-999.5196 1320,-1020.5196 1507,-1020.5196 1507,-999.5196 1320,-999.5196"/>
 <text text-anchor="start" x="1369.5" y="-1006.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">AdditionalData</text>
 </a>
 </g>
 <g id="a_node11_23"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="The data type of the element content. &#160;The permitted values for this attribute are shown below. &#160;The default value is &quot;string&quot;.">
+<polygon fill="#a982c6" stroke="transparent" points="1320,-978.5196 1320,-999.5196 1507,-999.5196 1507,-978.5196 1320,-978.5196"/>
 <polygon fill="none" stroke="#000000" points="1320,-978.5196 1320,-999.5196 1507,-999.5196 1507,-978.5196 1320,-978.5196"/>
 <text text-anchor="start" x="1337" y="-985.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] dtype (Required)</text>
 </a>
 </g>
 <g id="a_node11_24"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="A means by which to extend the dtype attribute. &#160;See Section 5.1.">
+<polygon fill="#a982c6" stroke="transparent" points="1320,-957.5196 1320,-978.5196 1507,-978.5196 1507,-957.5196 1320,-957.5196"/>
 <polygon fill="none" stroke="#000000" points="1320,-957.5196 1320,-978.5196 1507,-978.5196 1507,-957.5196 1320,-957.5196"/>
 <text text-anchor="start" x="1323" y="-964.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;dtype (Optional)</text>
 </a>
 </g>
 <g id="a_node11_25"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="A free&#45;form description of the element content.">
+<polygon fill="#a982c6" stroke="transparent" points="1320,-936.5196 1320,-957.5196 1507,-957.5196 1507,-936.5196 1320,-936.5196"/>
 <polygon fill="none" stroke="#000000" points="1320,-936.5196 1320,-957.5196 1507,-957.5196 1507,-936.5196 1320,-936.5196"/>
 <text text-anchor="start" x="1324" y="-943.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] meaning (Optional)</text>
 </a>
 </g>
 <g id="a_node11_26"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="An identifier referencing the format and semantics of the element content.">
+<polygon fill="#a982c6" stroke="transparent" points="1320,-915.5196 1320,-936.5196 1507,-936.5196 1507,-915.5196 1320,-915.5196"/>
 <polygon fill="none" stroke="#000000" points="1320,-915.5196 1320,-936.5196 1507,-936.5196 1507,-915.5196 1320,-915.5196"/>
 <text text-anchor="start" x="1325.5" y="-922.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] formatid (Optional)</text>
 </a>
 </g>
 <g id="a_node11_27"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="This attribute has been defined in Section 3.2.">
+<polygon fill="#a982c6" stroke="transparent" points="1320,-894.5196 1320,-915.5196 1507,-915.5196 1507,-894.5196 1320,-894.5196"/>
 <polygon fill="none" stroke="#000000" points="1320,-894.5196 1320,-915.5196 1507,-915.5196 1507,-894.5196 1320,-894.5196"/>
 <text text-anchor="start" x="1326" y="-901.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -218,17 +240,19 @@
 <g id="node12" class="node">
 <title>Method</title>
 <g id="a_node12_28"><a xlink:href="/html/IODEFv1/Method.html" xlink:title="The Method class describes the methodology used by the intruder to perpetrate the events of the incident. This class consists of a list of references describing the attack method and a free form description of the technique. ">
-<polygon fill="#cecece" stroke="transparent" points="731,-880.5196 731,-901.5196 927,-901.5196 927,-880.5196 731,-880.5196"/>
+<polygon fill="#92765a" stroke="transparent" points="731,-880.5196 731,-901.5196 927,-901.5196 927,-880.5196 731,-880.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-880.5196 731,-901.5196 927,-901.5196 927,-880.5196 731,-880.5196"/>
 <text text-anchor="start" x="806" y="-887.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Method</text>
 </a>
 </g>
 <g id="a_node12_29"><a xlink:href="/html/IODEFv1/Method.html" xlink:title="A free&#45;form text description of the methodology used by the intruder.">
+<polygon fill="#b79370" stroke="transparent" points="731,-859.5196 731,-880.5196 927,-880.5196 927,-859.5196 731,-859.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-859.5196 731,-880.5196 927,-880.5196 927,-859.5196 731,-859.5196"/>
 <text text-anchor="start" x="734" y="-866.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node12_30"><a xlink:href="/html/IODEFv1/Method.html" xlink:title="This attribute is defined in Section 3.2.">
+<polygon fill="#b79370" stroke="transparent" points="731,-838.5196 731,-859.5196 927,-859.5196 927,-838.5196 731,-838.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-838.5196 731,-859.5196 927,-859.5196 927,-838.5196 731,-838.5196"/>
 <text text-anchor="start" x="741.5" y="-845.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -245,57 +269,67 @@
 <g id="node14" class="node">
 <title>Contact</title>
 <g id="a_node14_31"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="The Contact class describes contact information for organizations and personnel involved in the incident. This class allows for the naming of the involved party, specifying contact information for them, and identifying their role in the incident. ">
-<polygon fill="#cecece" stroke="transparent" points="1010,-1406.5196 1010,-1427.5196 1224,-1427.5196 1224,-1406.5196 1010,-1406.5196"/>
+<polygon fill="#52a3cc" stroke="transparent" points="1010,-1406.5196 1010,-1427.5196 1224,-1427.5196 1224,-1406.5196 1010,-1406.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1406.5196 1010,-1427.5196 1224,-1427.5196 1224,-1406.5196 1010,-1406.5196"/>
 <text text-anchor="start" x="1093.5" y="-1413.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Contact</text>
 </a>
 </g>
 <g id="a_node14_32"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="The name of the contact. &#160;The contact may either be an organization or a person. &#160;The type attribute disambiguates the semantics.">
+<polygon fill="#66ccff" stroke="transparent" points="1010,-1385.5196 1010,-1406.5196 1224,-1406.5196 1224,-1385.5196 1010,-1385.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1385.5196 1010,-1406.5196 1224,-1406.5196 1224,-1385.5196 1010,-1385.5196"/>
 <text text-anchor="start" x="1013" y="-1392.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] ContactName (0..1)</text>
 </a>
 </g>
 <g id="a_node14_33"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="A free&#45;form description of this contact. &#160;In the case of a person, this is often the organizational title of the individual.">
+<polygon fill="#66ccff" stroke="transparent" points="1010,-1364.5196 1010,-1385.5196 1224,-1385.5196 1224,-1364.5196 1010,-1364.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1364.5196 1010,-1385.5196 1224,-1385.5196 1224,-1364.5196 1010,-1364.5196"/>
 <text text-anchor="start" x="1022" y="-1371.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node14_34"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="The telephone number of the contact.">
+<polygon fill="#66ccff" stroke="transparent" points="1010,-1343.5196 1010,-1364.5196 1224,-1364.5196 1224,-1343.5196 1010,-1343.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1343.5196 1010,-1364.5196 1224,-1364.5196 1224,-1343.5196 1010,-1343.5196"/>
 <text text-anchor="start" x="1064" y="-1350.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] Telephone (0..*)</text>
 </a>
 </g>
 <g id="a_node14_35"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="The facsimile telephone number of the contact.">
+<polygon fill="#66ccff" stroke="transparent" points="1010,-1322.5196 1010,-1343.5196 1224,-1343.5196 1224,-1322.5196 1010,-1322.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1322.5196 1010,-1343.5196 1224,-1343.5196 1224,-1322.5196 1010,-1322.5196"/>
 <text text-anchor="start" x="1082.5" y="-1329.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] Fax (0..1)</text>
 </a>
 </g>
 <g id="a_node14_36"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="The timezone in which the contact resides formatted according to Section 2.9.">
+<polygon fill="#66ccff" stroke="transparent" points="1010,-1301.5196 1010,-1322.5196 1224,-1322.5196 1224,-1301.5196 1010,-1301.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1301.5196 1010,-1322.5196 1224,-1322.5196 1224,-1301.5196 1010,-1301.5196"/>
 <text text-anchor="start" x="1028" y="-1308.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[TIMEZONE] Timezone (0..1)</text>
 </a>
 </g>
 <g id="a_node14_37"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="Indicates the role the contact fulfills. &#160;This attribute is defined as an enumerated list:">
+<polygon fill="#66ccff" stroke="transparent" points="1010,-1280.5196 1010,-1301.5196 1224,-1301.5196 1224,-1280.5196 1010,-1280.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1280.5196 1010,-1301.5196 1224,-1301.5196 1224,-1280.5196 1010,-1280.5196"/>
 <text text-anchor="start" x="1046" y="-1287.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] role (Required)</text>
 </a>
 </g>
 <g id="a_node14_38"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="A means by which to extend the role attribute. See Section 5.1.">
+<polygon fill="#66ccff" stroke="transparent" points="1010,-1259.5196 1010,-1280.5196 1224,-1280.5196 1224,-1259.5196 1010,-1259.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1259.5196 1010,-1280.5196 1224,-1280.5196 1224,-1259.5196 1010,-1259.5196"/>
 <text text-anchor="start" x="1031.5" y="-1266.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;role (Optional)</text>
 </a>
 </g>
 <g id="a_node14_39"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="Indicates the type of contact being described. This attribute is defined as an enumerated list:">
+<polygon fill="#66ccff" stroke="transparent" points="1010,-1238.5196 1010,-1259.5196 1224,-1259.5196 1224,-1238.5196 1010,-1238.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1238.5196 1010,-1259.5196 1224,-1259.5196 1224,-1238.5196 1010,-1238.5196"/>
 <text text-anchor="start" x="1044.5" y="-1245.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (Required)</text>
 </a>
 </g>
 <g id="a_node14_40"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.">
+<polygon fill="#66ccff" stroke="transparent" points="1010,-1217.5196 1010,-1238.5196 1224,-1238.5196 1224,-1217.5196 1010,-1217.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1217.5196 1010,-1238.5196 1224,-1238.5196 1224,-1217.5196 1010,-1217.5196"/>
 <text text-anchor="start" x="1030" y="-1224.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (Optional)</text>
 </a>
 </g>
 <g id="a_node14_41"><a xlink:href="/html/IODEFv1/Contact.html" xlink:title="This attribute is defined in Section 3.2.">
+<polygon fill="#66ccff" stroke="transparent" points="1010,-1196.5196 1010,-1217.5196 1224,-1217.5196 1224,-1196.5196 1010,-1196.5196"/>
 <polygon fill="none" stroke="#000000" points="1010,-1196.5196 1010,-1217.5196 1224,-1217.5196 1224,-1196.5196 1010,-1196.5196"/>
 <text text-anchor="start" x="1029.5" y="-1203.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -312,32 +346,37 @@
 <g id="node18" class="node">
 <title>EventData</title>
 <g id="a_node18_42"><a xlink:href="/html/IODEFv1/EventData.html" xlink:title="The EventData class describes a particular event of the incident for a given set of hosts or networks. This description includes the systems from which the activity originated and those targeted, an assessment of the techniques used by the intruder, the impact of the activity on the organization, and any forensic evidence discovered. ">
-<polygon fill="#cecece" stroke="transparent" points="286,-1016.5196 286,-1037.5196 482,-1037.5196 482,-1016.5196 286,-1016.5196"/>
+<polygon fill="#999999" stroke="transparent" points="286,-1016.5196 286,-1037.5196 482,-1037.5196 482,-1016.5196 286,-1016.5196"/>
 <polygon fill="none" stroke="#000000" points="286,-1016.5196 286,-1037.5196 482,-1037.5196 482,-1016.5196 286,-1016.5196"/>
 <text text-anchor="start" x="352.5" y="-1023.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">EventData</text>
 </a>
 </g>
 <g id="a_node18_43"><a xlink:href="/html/IODEFv1/EventData.html" xlink:title="A free&#45;form textual description of the event.">
+<polygon fill="#bfbfbf" stroke="transparent" points="286,-995.5196 286,-1016.5196 482,-1016.5196 482,-995.5196 286,-995.5196"/>
 <polygon fill="none" stroke="#000000" points="286,-995.5196 286,-1016.5196 482,-1016.5196 482,-995.5196 286,-995.5196"/>
 <text text-anchor="start" x="289" y="-1002.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node18_44"><a xlink:href="/html/IODEFv1/EventData.html" xlink:title="The time the event was detected.">
+<polygon fill="#bfbfbf" stroke="transparent" points="286,-974.5196 286,-995.5196 482,-995.5196 482,-974.5196 286,-974.5196"/>
 <polygon fill="none" stroke="#000000" points="286,-974.5196 286,-995.5196 482,-995.5196 482,-974.5196 286,-974.5196"/>
 <text text-anchor="start" x="325.5" y="-981.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] DetectTime (0..1)</text>
 </a>
 </g>
 <g id="a_node18_45"><a xlink:href="/html/IODEFv1/EventData.html" xlink:title="The time the event started.">
+<polygon fill="#bfbfbf" stroke="transparent" points="286,-953.5196 286,-974.5196 482,-974.5196 482,-953.5196 286,-953.5196"/>
 <polygon fill="none" stroke="#000000" points="286,-953.5196 286,-974.5196 482,-974.5196 482,-953.5196 286,-953.5196"/>
 <text text-anchor="start" x="330.5" y="-960.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] StartTime (0..1)</text>
 </a>
 </g>
 <g id="a_node18_46"><a xlink:href="/html/IODEFv1/EventData.html" xlink:title="The time the event ended.">
+<polygon fill="#bfbfbf" stroke="transparent" points="286,-932.5196 286,-953.5196 482,-953.5196 482,-932.5196 286,-932.5196"/>
 <polygon fill="none" stroke="#000000" points="286,-932.5196 286,-953.5196 482,-953.5196 482,-932.5196 286,-932.5196"/>
 <text text-anchor="start" x="333" y="-939.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] EndTime (0..1)</text>
 </a>
 </g>
 <g id="a_node18_47"><a xlink:href="/html/IODEFv1/EventData.html" xlink:title="This attribute is defined in Section 3.2.">
+<polygon fill="#bfbfbf" stroke="transparent" points="286,-911.5196 286,-932.5196 482,-932.5196 482,-911.5196 286,-911.5196"/>
 <polygon fill="none" stroke="#000000" points="286,-911.5196 286,-932.5196 482,-932.5196 482,-911.5196 286,-911.5196"/>
 <text text-anchor="start" x="296.5" y="-918.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -354,12 +393,13 @@
 <g id="node32" class="node">
 <title>History</title>
 <g id="a_node32_48"><a xlink:href="/html/IODEFv1/History.html" xlink:title="The History class is a log of the significant events or actions performed by the involved parties during the course of handling the incident. ">
-<polygon fill="#cecece" stroke="transparent" points="294,-1377.5196 294,-1398.5196 475,-1398.5196 475,-1377.5196 294,-1377.5196"/>
+<polygon fill="#cca352" stroke="transparent" points="294,-1377.5196 294,-1398.5196 475,-1398.5196 475,-1377.5196 294,-1377.5196"/>
 <polygon fill="none" stroke="#000000" points="294,-1377.5196 294,-1398.5196 475,-1398.5196 475,-1377.5196 294,-1377.5196"/>
 <text text-anchor="start" x="363" y="-1384.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">History</text>
 </a>
 </g>
 <g id="a_node32_49"><a xlink:href="/html/IODEFv1/History.html" xlink:title="This attribute is defined in Section 3.2.">
+<polygon fill="#ffcc66" stroke="transparent" points="294,-1356.5196 294,-1377.5196 475,-1377.5196 475,-1356.5196 294,-1356.5196"/>
 <polygon fill="none" stroke="#000000" points="294,-1356.5196 294,-1377.5196 475,-1377.5196 475,-1356.5196 294,-1356.5196"/>
 <text text-anchor="start" x="297" y="-1363.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -390,32 +430,37 @@
 <g id="node6" class="node">
 <title>Impact</title>
 <g id="a_node6_50"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="The Impact class allows for categorizing and describing the technical impact of the incident on the network of an organization. ">
-<polygon fill="#cecece" stroke="transparent" points="1023,-411.5196 1023,-432.5196 1211,-432.5196 1211,-411.5196 1023,-411.5196"/>
+<polygon fill="#cc6a51" stroke="transparent" points="1023,-411.5196 1023,-432.5196 1211,-432.5196 1211,-411.5196 1023,-411.5196"/>
 <polygon fill="none" stroke="#000000" points="1023,-411.5196 1023,-432.5196 1211,-432.5196 1211,-411.5196 1023,-411.5196"/>
 <text text-anchor="start" x="1096" y="-418.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Impact</text>
 </a>
 </g>
 <g id="a_node6_51"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;. &#160;The interpretation of this code is described in Section 6.">
+<polygon fill="#ff8465" stroke="transparent" points="1023,-390.5196 1023,-411.5196 1211,-411.5196 1211,-390.5196 1023,-390.5196"/>
 <polygon fill="none" stroke="#000000" points="1023,-390.5196 1023,-411.5196 1211,-411.5196 1211,-390.5196 1023,-390.5196"/>
 <text text-anchor="start" x="1044.5" y="-397.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] lang (Required)</text>
 </a>
 </g>
 <g id="a_node6_52"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
+<polygon fill="#ff8465" stroke="transparent" points="1023,-369.5196 1023,-390.5196 1211,-390.5196 1211,-369.5196 1023,-369.5196"/>
 <polygon fill="none" stroke="#000000" points="1023,-369.5196 1023,-390.5196 1211,-390.5196 1211,-369.5196 1023,-369.5196"/>
 <text text-anchor="start" x="1035.5" y="-376.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (Optional)</text>
 </a>
 </g>
 <g id="a_node6_53"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="An indication whether the described activity was successful. &#160;The permitted values are shown below. &#160;There is no default value.">
+<polygon fill="#ff8465" stroke="transparent" points="1023,-348.5196 1023,-369.5196 1211,-369.5196 1211,-348.5196 1023,-348.5196"/>
 <polygon fill="none" stroke="#000000" points="1023,-348.5196 1023,-369.5196 1211,-369.5196 1211,-348.5196 1023,-348.5196"/>
 <text text-anchor="start" x="1026" y="-355.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] completion (Optional)</text>
 </a>
 </g>
 <g id="a_node6_54"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="Classifies the malicious activity into incident categories. &#160;The permitted values are shown below. &#160;The default value is &quot;other&quot;.">
+<polygon fill="#ff8465" stroke="transparent" points="1023,-327.5196 1023,-348.5196 1211,-348.5196 1211,-327.5196 1023,-327.5196"/>
 <polygon fill="none" stroke="#000000" points="1023,-327.5196 1023,-348.5196 1211,-348.5196 1211,-327.5196 1023,-327.5196"/>
 <text text-anchor="start" x="1044.5" y="-334.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (Required)</text>
 </a>
 </g>
 <g id="a_node6_55"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.">
+<polygon fill="#ff8465" stroke="transparent" points="1023,-306.5196 1023,-327.5196 1211,-327.5196 1211,-306.5196 1023,-306.5196"/>
 <polygon fill="none" stroke="#000000" points="1023,-306.5196 1023,-327.5196 1211,-327.5196 1211,-306.5196 1023,-306.5196"/>
 <text text-anchor="start" x="1030" y="-313.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (Optional)</text>
 </a>
@@ -432,32 +477,37 @@
 <g id="node7" class="node">
 <title>TimeImpact</title>
 <g id="a_node7_56"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. ">
-<polygon fill="#cecece" stroke="transparent" points="1016,-721.5196 1016,-742.5196 1219,-742.5196 1219,-721.5196 1016,-721.5196"/>
+<polygon fill="#cc6a51" stroke="transparent" points="1016,-721.5196 1016,-742.5196 1219,-742.5196 1219,-721.5196 1016,-721.5196"/>
 <polygon fill="none" stroke="#000000" points="1016,-721.5196 1016,-742.5196 1219,-742.5196 1219,-721.5196 1016,-721.5196"/>
 <text text-anchor="start" x="1081" y="-728.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">TimeImpact</text>
 </a>
 </g>
 <g id="a_node7_57"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
+<polygon fill="#ff8465" stroke="transparent" points="1016,-700.5196 1016,-721.5196 1219,-721.5196 1219,-700.5196 1016,-700.5196"/>
 <polygon fill="none" stroke="#000000" points="1016,-700.5196 1016,-721.5196 1219,-721.5196 1219,-700.5196 1016,-700.5196"/>
 <text text-anchor="start" x="1036" y="-707.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (Optional)</text>
 </a>
 </g>
 <g id="a_node7_58"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="Defines the metric in which the time is expressed. &#160;The permitted values are shown below. &#160;There is no default value.">
+<polygon fill="#ff8465" stroke="transparent" points="1016,-679.5196 1016,-700.5196 1219,-700.5196 1219,-679.5196 1016,-679.5196"/>
 <polygon fill="none" stroke="#000000" points="1016,-679.5196 1016,-700.5196 1219,-700.5196 1219,-679.5196 1016,-679.5196"/>
 <text text-anchor="start" x="1039" y="-686.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] metric (Required)</text>
 </a>
 </g>
 <g id="a_node7_59"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="A means by which to extend the metric attribute. &#160;See Section 5.1.">
+<polygon fill="#ff8465" stroke="transparent" points="1016,-658.5196 1016,-679.5196 1219,-679.5196 1219,-658.5196 1016,-658.5196"/>
 <polygon fill="none" stroke="#000000" points="1016,-658.5196 1016,-679.5196 1219,-679.5196 1219,-658.5196 1016,-658.5196"/>
 <text text-anchor="start" x="1024.5" y="-665.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;metric (Optional)</text>
 </a>
 </g>
 <g id="a_node7_60"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="Defines a unit of time, that when combined with the metric attribute, fully describes a metric of impact that will be conveyed in the element content. &#160;The permitted values are shown below. &#160;The default value is &quot;hour&quot;.">
+<polygon fill="#ff8465" stroke="transparent" points="1016,-637.5196 1016,-658.5196 1219,-658.5196 1219,-637.5196 1016,-637.5196"/>
 <polygon fill="none" stroke="#000000" points="1016,-637.5196 1016,-658.5196 1219,-658.5196 1219,-637.5196 1016,-637.5196"/>
 <text text-anchor="start" x="1033" y="-644.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] duration (Required)</text>
 </a>
 </g>
 <g id="a_node7_61"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="A means by which to extend the duration attribute. &#160;See Section 5.1.">
+<polygon fill="#ff8465" stroke="transparent" points="1016,-616.5196 1016,-637.5196 1219,-637.5196 1219,-616.5196 1016,-616.5196"/>
 <polygon fill="none" stroke="#000000" points="1016,-616.5196 1016,-637.5196 1219,-637.5196 1219,-616.5196 1016,-616.5196"/>
 <text text-anchor="start" x="1019" y="-623.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;duration (Optional)</text>
 </a>
@@ -474,17 +524,19 @@
 <g id="node8" class="node">
 <title>MonetaryImpact</title>
 <g id="a_node8_62"><a xlink:href="/html/IODEFv1/MonetaryImpact.html" xlink:title="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished ">
-<polygon fill="#cecece" stroke="transparent" points="1023,-568.5196 1023,-589.5196 1211,-589.5196 1211,-568.5196 1023,-568.5196"/>
+<polygon fill="#cc6a51" stroke="transparent" points="1023,-568.5196 1023,-589.5196 1211,-589.5196 1211,-568.5196 1023,-568.5196"/>
 <polygon fill="none" stroke="#000000" points="1023,-568.5196 1023,-589.5196 1211,-589.5196 1211,-568.5196 1023,-568.5196"/>
 <text text-anchor="start" x="1067.5" y="-575.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">MonetaryImpact</text>
 </a>
 </g>
 <g id="a_node8_63"><a xlink:href="/html/IODEFv1/MonetaryImpact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
+<polygon fill="#ff8465" stroke="transparent" points="1023,-547.5196 1023,-568.5196 1211,-568.5196 1211,-547.5196 1023,-547.5196"/>
 <polygon fill="none" stroke="#000000" points="1023,-547.5196 1023,-568.5196 1211,-568.5196 1211,-547.5196 1023,-547.5196"/>
 <text text-anchor="start" x="1035.5" y="-554.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (Optional)</text>
 </a>
 </g>
 <g id="a_node8_64"><a xlink:href="/html/IODEFv1/MonetaryImpact.html" xlink:title="Defines the currency in which the monetary impact is expressed. &#160;The permitted values are defined in ISO 4217:2001, Codes for the representation of currencies and funds [14]. &#160;There is no default value.">
+<polygon fill="#ff8465" stroke="transparent" points="1023,-526.5196 1023,-547.5196 1211,-547.5196 1211,-526.5196 1023,-526.5196"/>
 <polygon fill="none" stroke="#000000" points="1023,-526.5196 1023,-547.5196 1211,-547.5196 1211,-526.5196 1023,-526.5196"/>
 <text text-anchor="start" x="1026" y="-533.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] currency (Required)</text>
 </a>
@@ -501,27 +553,31 @@
 <g id="node9" class="node">
 <title>Counter</title>
 <g id="a_node9_65"><a xlink:href="/html/IODEFv1/Counter.html" xlink:title="The Counter class summarize multiple occurrences of some event, or conveys counts or rates on various features (e.g., packets, sessions, events). ">
-<polygon fill="#cecece" stroke="transparent" points="1596,-110.5196 1596,-131.5196 1799,-131.5196 1799,-110.5196 1596,-110.5196"/>
+<polygon fill="#cc6a51" stroke="transparent" points="1596,-110.5196 1596,-131.5196 1799,-131.5196 1799,-110.5196 1596,-110.5196"/>
 <polygon fill="none" stroke="#000000" points="1596,-110.5196 1596,-131.5196 1799,-131.5196 1799,-110.5196 1596,-110.5196"/>
 <text text-anchor="start" x="1673" y="-117.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Counter</text>
 </a>
 </g>
 <g id="a_node9_66"><a xlink:href="/html/IODEFv1/Counter.html" xlink:title="Specifies the units of the element content.">
+<polygon fill="#ff8465" stroke="transparent" points="1596,-89.5196 1596,-110.5196 1799,-110.5196 1799,-89.5196 1596,-89.5196"/>
 <polygon fill="none" stroke="#000000" points="1596,-89.5196 1596,-110.5196 1799,-110.5196 1799,-89.5196 1596,-89.5196"/>
 <text text-anchor="start" x="1625" y="-96.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (Required)</text>
 </a>
 </g>
 <g id="a_node9_67"><a xlink:href="/html/IODEFv1/Counter.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.">
+<polygon fill="#ff8465" stroke="transparent" points="1596,-68.5196 1596,-89.5196 1799,-89.5196 1799,-68.5196 1596,-68.5196"/>
 <polygon fill="none" stroke="#000000" points="1596,-68.5196 1596,-89.5196 1799,-89.5196 1799,-68.5196 1596,-68.5196"/>
 <text text-anchor="start" x="1610.5" y="-75.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (Optional)</text>
 </a>
 </g>
 <g id="a_node9_68"><a xlink:href="/html/IODEFv1/Counter.html" xlink:title="If present, the Counter class represents a rate rather than a count over the entire event. &#160;In that case, this attribute specifies the denominator of the rate (where the type attribute specified the nominator). &#160;The possible values of this attribute are defined in Section 3.10.2">
+<polygon fill="#ff8465" stroke="transparent" points="1596,-47.5196 1596,-68.5196 1799,-68.5196 1799,-47.5196 1596,-47.5196"/>
 <polygon fill="none" stroke="#000000" points="1596,-47.5196 1596,-68.5196 1799,-68.5196 1799,-47.5196 1596,-47.5196"/>
 <text text-anchor="start" x="1615" y="-54.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] duration (Optional)</text>
 </a>
 </g>
 <g id="a_node9_69"><a xlink:href="/html/IODEFv1/Counter.html" xlink:title="A means by which to extend the duration attribute. &#160;See Section 5.1.">
+<polygon fill="#ff8465" stroke="transparent" points="1596,-26.5196 1596,-47.5196 1799,-47.5196 1799,-26.5196 1596,-26.5196"/>
 <polygon fill="none" stroke="#000000" points="1596,-26.5196 1596,-47.5196 1799,-47.5196 1799,-26.5196 1596,-26.5196"/>
 <text text-anchor="start" x="1599" y="-33.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;duration (Optional)</text>
 </a>
@@ -538,12 +594,13 @@
 <g id="node10" class="node">
 <title>Confidence</title>
 <g id="a_node10_70"><a xlink:href="/html/IODEFv1/Confidence.html" xlink:title="The Confidence class represents a best estimate of the validity and accuracy of the described impact (see Section 3.10) of the incident activity. This estimate can be expressed as a category or a numeric calculation. ">
-<polygon fill="#cecece" stroke="transparent" points="1037,-479.5196 1037,-500.5196 1197,-500.5196 1197,-479.5196 1037,-479.5196"/>
+<polygon fill="#cc6a51" stroke="transparent" points="1037,-479.5196 1037,-500.5196 1197,-500.5196 1197,-479.5196 1037,-479.5196"/>
 <polygon fill="none" stroke="#000000" points="1037,-479.5196 1037,-500.5196 1197,-500.5196 1197,-479.5196 1037,-479.5196"/>
 <text text-anchor="start" x="1082.5" y="-486.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Confidence</text>
 </a>
 </g>
 <g id="a_node10_71"><a xlink:href="/html/IODEFv1/Confidence.html" xlink:title="A rating of the analytical validity of the specified Assessment. &#160;The permitted values are shown below. There is no default value.">
+<polygon fill="#ff8465" stroke="transparent" points="1037,-458.5196 1037,-479.5196 1197,-479.5196 1197,-458.5196 1037,-458.5196"/>
 <polygon fill="none" stroke="#000000" points="1037,-458.5196 1037,-479.5196 1197,-479.5196 1197,-458.5196 1037,-458.5196"/>
 <text text-anchor="start" x="1040" y="-465.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] rating (Required)</text>
 </a>
@@ -574,22 +631,25 @@
 <g id="node13" class="node">
 <title>Reference</title>
 <g id="a_node13_72"><a xlink:href="/html/IODEFv1/Reference.html" xlink:title="The Reference class is a reference to a vulnerability, IDS alert, malware sample, advisory, or attack technique. A reference consists of a name, a URL to this reference, and an optional description. ">
-<polygon fill="#cecece" stroke="transparent" points="1002,-882.5196 1002,-903.5196 1232,-903.5196 1232,-882.5196 1002,-882.5196"/>
+<polygon fill="#92765a" stroke="transparent" points="1002,-882.5196 1002,-903.5196 1232,-903.5196 1232,-882.5196 1002,-882.5196"/>
 <polygon fill="none" stroke="#000000" points="1002,-882.5196 1002,-903.5196 1232,-903.5196 1232,-882.5196 1002,-882.5196"/>
 <text text-anchor="start" x="1085.5" y="-889.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Reference</text>
 </a>
 </g>
 <g id="a_node13_73"><a xlink:href="/html/IODEFv1/Reference.html" xlink:title="Name of the reference.">
+<polygon fill="#b79370" stroke="transparent" points="1002,-861.5196 1002,-882.5196 1232,-882.5196 1232,-861.5196 1002,-861.5196"/>
 <polygon fill="none" stroke="#000000" points="1002,-861.5196 1002,-882.5196 1232,-882.5196 1232,-861.5196 1002,-861.5196"/>
 <text text-anchor="start" x="1005" y="-868.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] ReferenceName (1..1)</text>
 </a>
 </g>
 <g id="a_node13_74"><a xlink:href="/html/IODEFv1/Reference.html" xlink:title="A URL associated with the reference.">
+<polygon fill="#b79370" stroke="transparent" points="1002,-840.5196 1002,-861.5196 1232,-861.5196 1232,-840.5196 1002,-840.5196"/>
 <polygon fill="none" stroke="#000000" points="1002,-840.5196 1002,-861.5196 1232,-861.5196 1232,-840.5196 1002,-840.5196"/>
 <text text-anchor="start" x="1068.5" y="-847.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
 <g id="a_node13_75"><a xlink:href="/html/IODEFv1/Reference.html" xlink:title="A free&#45;form text description of this reference.">
+<polygon fill="#b79370" stroke="transparent" points="1002,-819.5196 1002,-840.5196 1232,-840.5196 1232,-819.5196 1002,-819.5196"/>
 <polygon fill="none" stroke="#000000" points="1002,-819.5196 1002,-840.5196 1232,-840.5196 1232,-819.5196 1002,-819.5196"/>
 <text text-anchor="start" x="1022" y="-826.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
@@ -620,17 +680,19 @@
 <g id="node15" class="node">
 <title>RegistryHandle</title>
 <g id="a_node15_76"><a xlink:href="/html/IODEFv1/RegistryHandle.html" xlink:title="The RegistryHandle class represents a handle into an Internet registry or community&#45;specific database. The handle is specified in the element content and the type attribute specifies the database. ">
-<polygon fill="#cecece" stroke="transparent" points="1314,-1469.5196 1314,-1490.5196 1513,-1490.5196 1513,-1469.5196 1314,-1469.5196"/>
+<polygon fill="#52a3cc" stroke="transparent" points="1314,-1469.5196 1314,-1490.5196 1513,-1490.5196 1513,-1469.5196 1314,-1469.5196"/>
 <polygon fill="none" stroke="#000000" points="1314,-1469.5196 1314,-1490.5196 1513,-1490.5196 1513,-1469.5196 1314,-1469.5196"/>
 <text text-anchor="start" x="1367" y="-1476.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RegistryHandle</text>
 </a>
 </g>
 <g id="a_node15_77"><a xlink:href="/html/IODEFv1/RegistryHandle.html" xlink:title="The database to which the handle belongs. &#160;The default value is &#39;local&#39;. &#160;The possible values are:">
+<polygon fill="#66ccff" stroke="transparent" points="1314,-1448.5196 1314,-1469.5196 1513,-1469.5196 1513,-1448.5196 1314,-1448.5196"/>
 <polygon fill="none" stroke="#000000" points="1314,-1448.5196 1314,-1469.5196 1513,-1469.5196 1513,-1448.5196 1314,-1448.5196"/>
 <text text-anchor="start" x="1331.5" y="-1455.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] registry (Required)</text>
 </a>
 </g>
 <g id="a_node15_78"><a xlink:href="/html/IODEFv1/RegistryHandle.html" xlink:title="A means by which to extend the registry attribute. &#160;See Section 5.1.">
+<polygon fill="#66ccff" stroke="transparent" points="1314,-1427.5196 1314,-1448.5196 1513,-1448.5196 1513,-1427.5196 1314,-1427.5196"/>
 <polygon fill="none" stroke="#000000" points="1314,-1427.5196 1314,-1448.5196 1513,-1448.5196 1513,-1427.5196 1314,-1427.5196"/>
 <text text-anchor="start" x="1317" y="-1434.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;registry (Optional)</text>
 </a>
@@ -647,17 +709,19 @@
 <g id="node16" class="node">
 <title>PostalAddress</title>
 <g id="a_node16_79"><a xlink:href="/html/IODEFv1/PostalAddress.html" xlink:title="The PostalAddress class specifies a postal address formatted according to the POSTAL data type (Section 2.11). ">
-<polygon fill="#cecece" stroke="transparent" points="1326,-1380.5196 1326,-1401.5196 1501,-1401.5196 1501,-1380.5196 1326,-1380.5196"/>
+<polygon fill="#52a3cc" stroke="transparent" points="1326,-1380.5196 1326,-1401.5196 1501,-1401.5196 1501,-1380.5196 1326,-1380.5196"/>
 <polygon fill="none" stroke="#000000" points="1326,-1380.5196 1326,-1401.5196 1501,-1401.5196 1501,-1380.5196 1326,-1380.5196"/>
 <text text-anchor="start" x="1369.5" y="-1387.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">PostalAddress</text>
 </a>
 </g>
 <g id="a_node16_80"><a xlink:href="/html/IODEFv1/PostalAddress.html" xlink:title="A free&#45;form description of the element content.">
+<polygon fill="#66ccff" stroke="transparent" points="1326,-1359.5196 1326,-1380.5196 1501,-1380.5196 1501,-1359.5196 1326,-1359.5196"/>
 <polygon fill="none" stroke="#000000" points="1326,-1359.5196 1326,-1380.5196 1501,-1380.5196 1501,-1359.5196 1326,-1359.5196"/>
 <text text-anchor="start" x="1329" y="-1366.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] meaning (Optional)</text>
 </a>
 </g>
 <g id="a_node16_81"><a xlink:href="/html/IODEFv1/PostalAddress.html" xlink:title="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;. &#160;The interpretation of this code is described in Section 6.">
+<polygon fill="#66ccff" stroke="transparent" points="1326,-1338.5196 1326,-1359.5196 1501,-1359.5196 1501,-1338.5196 1326,-1338.5196"/>
 <polygon fill="none" stroke="#000000" points="1326,-1338.5196 1326,-1359.5196 1501,-1359.5196 1501,-1338.5196 1326,-1338.5196"/>
 <text text-anchor="start" x="1341" y="-1345.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] lang (Required)</text>
 </a>
@@ -674,12 +738,13 @@
 <g id="node17" class="node">
 <title>Email</title>
 <g id="a_node17_82"><a xlink:href="/html/IODEFv1/Email.html" xlink:title="The Email class specifies an email address formatted according to EMAIL data type (Section 2.14). ">
-<polygon fill="#cecece" stroke="transparent" points="1326,-1538.5196 1326,-1559.5196 1501,-1559.5196 1501,-1538.5196 1326,-1538.5196"/>
+<polygon fill="#52a3cc" stroke="transparent" points="1326,-1538.5196 1326,-1559.5196 1501,-1559.5196 1501,-1538.5196 1326,-1538.5196"/>
 <polygon fill="none" stroke="#000000" points="1326,-1538.5196 1326,-1559.5196 1501,-1559.5196 1501,-1538.5196 1326,-1538.5196"/>
 <text text-anchor="start" x="1396" y="-1545.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Email</text>
 </a>
 </g>
 <g id="a_node17_83"><a xlink:href="/html/IODEFv1/Email.html" xlink:title="A free&#45;form description of the element content (e.g., hours of coverage for a given number).">
+<polygon fill="#66ccff" stroke="transparent" points="1326,-1517.5196 1326,-1538.5196 1501,-1538.5196 1501,-1517.5196 1326,-1517.5196"/>
 <polygon fill="none" stroke="#000000" points="1326,-1517.5196 1326,-1538.5196 1501,-1538.5196 1501,-1517.5196 1326,-1517.5196"/>
 <text text-anchor="start" x="1329" y="-1524.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] meaning (Optional)</text>
 </a>
@@ -731,7 +796,7 @@
 <g id="node19" class="node">
 <title>Flow</title>
 <g id="a_node19_84"><a xlink:href="/html/IODEFv1/Flow.html" xlink:title="The Flow class groups related the source and target hosts. ">
-<polygon fill="#cecece" stroke="transparent" points="812,-196.5196 812,-217.5196 847,-217.5196 847,-196.5196 812,-196.5196"/>
+<polygon fill="#65779e" stroke="transparent" points="812,-196.5196 812,-217.5196 847,-217.5196 847,-196.5196 812,-196.5196"/>
 <polygon fill="none" stroke="#000000" points="812,-196.5196 812,-217.5196 847,-217.5196 847,-196.5196 812,-196.5196"/>
 <text text-anchor="start" x="815" y="-203.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Flow</text>
 </a>
@@ -748,42 +813,49 @@
 <g id="node27" class="node">
 <title>Expectation</title>
 <g id="a_node27_85"><a xlink:href="/html/IODEFv1/Expectation.html" xlink:title="The Expectation class conveys to the recipient of the IODEF document the actions the sender is requesting. The scope of the requested action is limited to purview of the EventData class in which this class is aggregated. ">
-<polygon fill="#cecece" stroke="transparent" points="731,-1199.5196 731,-1220.5196 927,-1220.5196 927,-1199.5196 731,-1199.5196"/>
+<polygon fill="#999999" stroke="transparent" points="731,-1199.5196 731,-1220.5196 927,-1220.5196 927,-1199.5196 731,-1199.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1199.5196 731,-1220.5196 927,-1220.5196 927,-1199.5196 731,-1199.5196"/>
 <text text-anchor="start" x="793.5" y="-1206.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Expectation</text>
 </a>
 </g>
 <g id="a_node27_86"><a xlink:href="/html/IODEFv1/Expectation.html" xlink:title="A free&#45;form description of the desired action(s).">
+<polygon fill="#bfbfbf" stroke="transparent" points="731,-1178.5196 731,-1199.5196 927,-1199.5196 927,-1178.5196 731,-1178.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1178.5196 731,-1199.5196 927,-1199.5196 927,-1178.5196 731,-1178.5196"/>
 <text text-anchor="start" x="734" y="-1185.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node27_87"><a xlink:href="/html/IODEFv1/Expectation.html" xlink:title="The time at which the action should be performed. &#160;A timestamp that is earlier than the ReportTime specified in the Incident class denotes that the expectation should be fulfilled as soon as possible. &#160;The absence of this element leaves the execution of the expectation to the discretion of the recipient.">
+<polygon fill="#bfbfbf" stroke="transparent" points="731,-1157.5196 731,-1178.5196 927,-1178.5196 927,-1157.5196 731,-1157.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1157.5196 731,-1178.5196 927,-1178.5196 927,-1157.5196 731,-1157.5196"/>
 <text text-anchor="start" x="775.5" y="-1164.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] StartTime (0..1)</text>
 </a>
 </g>
 <g id="a_node27_88"><a xlink:href="/html/IODEFv1/Expectation.html" xlink:title="The time by which the action should be completed. If the action is not carried out by this time, it should no longer be performed.">
+<polygon fill="#bfbfbf" stroke="transparent" points="731,-1136.5196 731,-1157.5196 927,-1157.5196 927,-1136.5196 731,-1136.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1136.5196 731,-1157.5196 927,-1157.5196 927,-1136.5196 731,-1136.5196"/>
 <text text-anchor="start" x="778" y="-1143.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] EndTime (0..1)</text>
 </a>
 </g>
 <g id="a_node27_89"><a xlink:href="/html/IODEFv1/Expectation.html" xlink:title="This attribute is defined in Section 3.2.">
+<polygon fill="#bfbfbf" stroke="transparent" points="731,-1115.5196 731,-1136.5196 927,-1136.5196 927,-1115.5196 731,-1115.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1115.5196 731,-1136.5196 927,-1136.5196 927,-1115.5196 731,-1115.5196"/>
 <text text-anchor="start" x="741.5" y="-1122.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
 </g>
 <g id="a_node27_90"><a xlink:href="/html/IODEFv1/Expectation.html" xlink:title="Indicates the desired priority of the action. This attribute is an enumerated list with no default value, and the semantics of these relative measures are context dependent.">
+<polygon fill="#bfbfbf" stroke="transparent" points="731,-1094.5196 731,-1115.5196 927,-1115.5196 927,-1094.5196 731,-1094.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1094.5196 731,-1115.5196 927,-1115.5196 927,-1094.5196 731,-1094.5196"/>
 <text text-anchor="start" x="747.5" y="-1101.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (Optional)</text>
 </a>
 </g>
 <g id="a_node27_91"><a xlink:href="/html/IODEFv1/Expectation.html" xlink:title="Classifies the type of action requested. &#160;This attribute is an enumerated list with no default value.">
+<polygon fill="#bfbfbf" stroke="transparent" points="731,-1073.5196 731,-1094.5196 927,-1094.5196 927,-1073.5196 731,-1073.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1073.5196 731,-1094.5196 927,-1094.5196 927,-1073.5196 731,-1073.5196"/>
 <text text-anchor="start" x="753" y="-1080.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] action (Optional)</text>
 </a>
 </g>
 <g id="a_node27_92"><a xlink:href="/html/IODEFv1/Expectation.html" xlink:title="A means by which to extend the action attribute. &#160;See Section 5.1.">
+<polygon fill="#bfbfbf" stroke="transparent" points="731,-1052.5196 731,-1073.5196 927,-1073.5196 927,-1052.5196 731,-1052.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1052.5196 731,-1073.5196 927,-1073.5196 927,-1052.5196 731,-1052.5196"/>
 <text text-anchor="start" x="737" y="-1059.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;action (Optional)</text>
 </a>
@@ -800,12 +872,13 @@
 <g id="node28" class="node">
 <title>Record</title>
 <g id="a_node28_93"><a xlink:href="/html/IODEFv1/Record.html" xlink:title="The Record class is a container class for log and audit data that provides supportive information about the incident. The source of this data will often be the output of monitoring tools. These logs should substantiate the activity described in the document. ">
-<polygon fill="#cecece" stroke="transparent" points="739,-1005.5196 739,-1026.5196 920,-1026.5196 920,-1005.5196 739,-1005.5196"/>
+<polygon fill="#cccc52" stroke="transparent" points="739,-1005.5196 739,-1026.5196 920,-1026.5196 920,-1005.5196 739,-1005.5196"/>
 <polygon fill="none" stroke="#000000" points="739,-1005.5196 739,-1026.5196 920,-1026.5196 920,-1005.5196 739,-1005.5196"/>
 <text text-anchor="start" x="807.5" y="-1012.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Record</text>
 </a>
 </g>
 <g id="a_node28_94"><a xlink:href="/html/IODEFv1/Record.html" xlink:title="This attribute has been defined in Section 3.2.">
+<polygon fill="#ffff66" stroke="transparent" points="739,-984.5196 739,-1005.5196 920,-1005.5196 920,-984.5196 739,-984.5196"/>
 <polygon fill="none" stroke="#000000" points="739,-984.5196 739,-1005.5196 920,-1005.5196 920,-984.5196 739,-984.5196"/>
 <text text-anchor="start" x="742" y="-991.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -822,37 +895,43 @@
 <g id="node20" class="node">
 <title>System</title>
 <g id="a_node20_95"><a xlink:href="/html/IODEFv1/System.html" xlink:title="The System class describes a system or network involved in an event. The systems or networks represented by this class are categorized according to the role they played in the incident through the category attribute. The value of this category attribute dictates the semantics of the aggregated classes in the System class. If the category attribute has a value of &quot;source&quot;, then the aggregated classes denote the machine and service from which the activity is originating. With a category attribute value of &quot;target&quot; or &quot;intermediary&quot;, then the machine or service is the one targeted in the activity. A value of &quot;sensor&quot; dictates that this System was part of an instrumentation to monitor the network. ">
-<polygon fill="#cecece" stroke="transparent" points="1014,-220.5196 1014,-241.5196 1220,-241.5196 1220,-220.5196 1014,-220.5196"/>
+<polygon fill="#65779e" stroke="transparent" points="1014,-220.5196 1014,-241.5196 1220,-241.5196 1220,-220.5196 1014,-220.5196"/>
 <polygon fill="none" stroke="#000000" points="1014,-220.5196 1014,-241.5196 1220,-241.5196 1220,-220.5196 1014,-220.5196"/>
 <text text-anchor="start" x="1094" y="-227.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">System</text>
 </a>
 </g>
 <g id="a_node20_96"><a xlink:href="/html/IODEFv1/System.html" xlink:title="A free&#45;form text description of the System.">
+<polygon fill="#7e95c5" stroke="transparent" points="1014,-199.5196 1014,-220.5196 1220,-220.5196 1220,-199.5196 1014,-199.5196"/>
 <polygon fill="none" stroke="#000000" points="1014,-199.5196 1014,-220.5196 1220,-220.5196 1220,-199.5196 1014,-199.5196"/>
 <text text-anchor="start" x="1022" y="-206.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node20_97"><a xlink:href="/html/IODEFv1/System.html" xlink:title="This attribute is defined in Section 3.2.">
+<polygon fill="#7e95c5" stroke="transparent" points="1014,-178.5196 1014,-199.5196 1220,-199.5196 1220,-178.5196 1014,-178.5196"/>
 <polygon fill="none" stroke="#000000" points="1014,-178.5196 1014,-199.5196 1220,-199.5196 1220,-178.5196 1014,-178.5196"/>
 <text text-anchor="start" x="1029.5" y="-185.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
 </g>
 <g id="a_node20_98"><a xlink:href="/html/IODEFv1/System.html" xlink:title="Classifies the role the host or network played in the incident. &#160;The possible values are:">
+<polygon fill="#7e95c5" stroke="transparent" points="1014,-157.5196 1014,-178.5196 1220,-178.5196 1220,-157.5196 1014,-157.5196"/>
 <polygon fill="none" stroke="#000000" points="1014,-157.5196 1014,-178.5196 1220,-178.5196 1220,-157.5196 1014,-157.5196"/>
 <text text-anchor="start" x="1031" y="-164.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] category (Required)</text>
 </a>
 </g>
 <g id="a_node20_99"><a xlink:href="/html/IODEFv1/System.html" xlink:title="A means by which to extend the category attribute. &#160;See Section 5.1.">
+<polygon fill="#7e95c5" stroke="transparent" points="1014,-136.5196 1014,-157.5196 1220,-157.5196 1220,-136.5196 1014,-136.5196"/>
 <polygon fill="none" stroke="#000000" points="1014,-136.5196 1014,-157.5196 1220,-157.5196 1220,-136.5196 1014,-136.5196"/>
 <text text-anchor="start" x="1017" y="-143.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;category (Optional)</text>
 </a>
 </g>
 <g id="a_node20_100"><a xlink:href="/html/IODEFv1/System.html" xlink:title="Specifies the interface on which the event(s) on this System originated. &#160;If the Node class specifies a network rather than a host, this attribute has no meaning.">
+<polygon fill="#7e95c5" stroke="transparent" points="1014,-115.5196 1014,-136.5196 1220,-136.5196 1220,-115.5196 1014,-115.5196"/>
 <polygon fill="none" stroke="#000000" points="1014,-115.5196 1014,-136.5196 1220,-136.5196 1220,-115.5196 1014,-115.5196"/>
 <text text-anchor="start" x="1028" y="-122.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] interface (Optional)</text>
 </a>
 </g>
 <g id="a_node20_101"><a xlink:href="/html/IODEFv1/System.html" xlink:title="An indication of confidence in whether this System was the true target or attacking host. &#160;The permitted values for this attribute are shown below. &#160;The default value is &quot;unknown&quot;.">
+<polygon fill="#7e95c5" stroke="transparent" points="1014,-94.5196 1014,-115.5196 1220,-115.5196 1220,-94.5196 1014,-94.5196"/>
 <polygon fill="none" stroke="#000000" points="1014,-94.5196 1014,-115.5196 1220,-115.5196 1220,-94.5196 1014,-94.5196"/>
 <text text-anchor="start" x="1035" y="-101.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] spoofed (Optional)</text>
 </a>
@@ -883,22 +962,25 @@
 <g id="node21" class="node">
 <title>Node</title>
 <g id="a_node21_102"><a xlink:href="/html/IODEFv1/Node.html" xlink:title="The Node class names a system (e.g., PC, router) or network. ">
-<polygon fill="#cecece" stroke="transparent" points="1315,-233.5196 1315,-254.5196 1512,-254.5196 1512,-233.5196 1315,-233.5196"/>
+<polygon fill="#3daf3d" stroke="transparent" points="1315,-233.5196 1315,-254.5196 1512,-254.5196 1512,-233.5196 1315,-233.5196"/>
 <polygon fill="none" stroke="#000000" points="1315,-233.5196 1315,-254.5196 1512,-254.5196 1512,-233.5196 1315,-233.5196"/>
 <text text-anchor="start" x="1397" y="-240.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Node</text>
 </a>
 </g>
 <g id="a_node21_103"><a xlink:href="/html/IODEFv1/Node.html" xlink:title="The name of the Node (e.g., fully qualified domain name). &#160;This information MUST be provided if no Address information is given.">
+<polygon fill="#4cdb4c" stroke="transparent" points="1315,-212.5196 1315,-233.5196 1512,-233.5196 1512,-212.5196 1315,-212.5196"/>
 <polygon fill="none" stroke="#000000" points="1315,-212.5196 1315,-233.5196 1512,-233.5196 1512,-212.5196 1315,-212.5196"/>
 <text text-anchor="start" x="1318" y="-219.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] NodeName (0..*)</text>
 </a>
 </g>
 <g id="a_node21_104"><a xlink:href="/html/IODEFv1/Node.html" xlink:title="A free&#45;from description of the physical location of the equipment.">
+<polygon fill="#4cdb4c" stroke="transparent" points="1315,-191.5196 1315,-212.5196 1512,-212.5196 1512,-191.5196 1315,-191.5196"/>
 <polygon fill="none" stroke="#000000" points="1315,-191.5196 1315,-212.5196 1512,-212.5196 1512,-191.5196 1315,-191.5196"/>
 <text text-anchor="start" x="1325.5" y="-198.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Location (0..1)</text>
 </a>
 </g>
 <g id="a_node21_105"><a xlink:href="/html/IODEFv1/Node.html" xlink:title="A timestamp of when the resolution between the name and address was performed. &#160;This information SHOULD be provided if both an Address and NodeName are specified.">
+<polygon fill="#4cdb4c" stroke="transparent" points="1315,-170.5196 1315,-191.5196 1512,-191.5196 1512,-170.5196 1315,-170.5196"/>
 <polygon fill="none" stroke="#000000" points="1315,-170.5196 1315,-191.5196 1512,-191.5196 1512,-170.5196 1315,-170.5196"/>
 <text text-anchor="start" x="1360.5" y="-177.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] DateTime (0..1)</text>
 </a>
@@ -915,37 +997,43 @@
 <g id="node24" class="node">
 <title>Service</title>
 <g id="a_node24_106"><a xlink:href="/html/IODEFv1/Service.html" xlink:title="The Service class describes a network service of a host or network. The service is identified by specific port or list of ports, along with the application listening on that port. ">
-<polygon fill="#cecece" stroke="transparent" points="1307,-476.5196 1307,-497.5196 1519,-497.5196 1519,-476.5196 1307,-476.5196"/>
+<polygon fill="#cca3a3" stroke="transparent" points="1307,-476.5196 1307,-497.5196 1519,-497.5196 1519,-476.5196 1307,-476.5196"/>
 <polygon fill="none" stroke="#000000" points="1307,-476.5196 1307,-497.5196 1519,-497.5196 1519,-476.5196 1307,-476.5196"/>
 <text text-anchor="start" x="1390" y="-483.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Service</text>
 </a>
 </g>
 <g id="a_node24_107"><a xlink:href="/html/IODEFv1/Service.html" xlink:title="A port number.">
+<polygon fill="#ffcccc" stroke="transparent" points="1307,-455.5196 1307,-476.5196 1519,-476.5196 1519,-455.5196 1307,-455.5196"/>
 <polygon fill="none" stroke="#000000" points="1307,-455.5196 1307,-476.5196 1519,-476.5196 1519,-455.5196 1307,-455.5196"/>
 <text text-anchor="start" x="1346.5" y="-462.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] Port (0..1)</text>
 </a>
 </g>
 <g id="a_node24_108"><a xlink:href="/html/IODEFv1/Service.html" xlink:title="A list of port numbers formatted according to Section 2.10.">
+<polygon fill="#ffcccc" stroke="transparent" points="1307,-434.5196 1307,-455.5196 1519,-455.5196 1519,-434.5196 1307,-434.5196"/>
 <polygon fill="none" stroke="#000000" points="1307,-434.5196 1307,-455.5196 1519,-455.5196 1519,-434.5196 1307,-434.5196"/>
 <text text-anchor="start" x="1335.5" y="-441.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[PORTLIST] Portlist (0..1)</text>
 </a>
 </g>
 <g id="a_node24_109"><a xlink:href="/html/IODEFv1/Service.html" xlink:title="A layer&#45;4 protocol&#45;specific code field (e.g., ICMP code field).">
+<polygon fill="#ffcccc" stroke="transparent" points="1307,-413.5196 1307,-434.5196 1519,-434.5196 1519,-413.5196 1307,-413.5196"/>
 <polygon fill="none" stroke="#000000" points="1307,-413.5196 1307,-434.5196 1519,-434.5196 1519,-413.5196 1307,-413.5196"/>
 <text text-anchor="start" x="1327" y="-420.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] ProtoCode (0..1)</text>
 </a>
 </g>
 <g id="a_node24_110"><a xlink:href="/html/IODEFv1/Service.html" xlink:title="A layer&#45;4 protocol specific type field (e.g., ICMP type field).">
+<polygon fill="#ffcccc" stroke="transparent" points="1307,-392.5196 1307,-413.5196 1519,-413.5196 1519,-392.5196 1307,-392.5196"/>
 <polygon fill="none" stroke="#000000" points="1307,-392.5196 1307,-413.5196 1519,-413.5196 1519,-392.5196 1307,-392.5196"/>
 <text text-anchor="start" x="1329.5" y="-399.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] ProtoType (0..1)</text>
 </a>
 </g>
 <g id="a_node24_111"><a xlink:href="/html/IODEFv1/Service.html" xlink:title="A layer&#45;4 protocol specific flag field (e.g., TCP flag field).">
+<polygon fill="#ffcccc" stroke="transparent" points="1307,-371.5196 1307,-392.5196 1519,-392.5196 1519,-371.5196 1307,-371.5196"/>
 <polygon fill="none" stroke="#000000" points="1307,-371.5196 1307,-392.5196 1519,-392.5196 1519,-371.5196 1307,-371.5196"/>
 <text text-anchor="start" x="1326.5" y="-378.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] ProtoFlags (0..1)</text>
 </a>
 </g>
 <g id="a_node24_112"><a xlink:href="/html/IODEFv1/Service.html" xlink:title="The IANA protocol number.">
+<polygon fill="#ffcccc" stroke="transparent" points="1307,-350.5196 1307,-371.5196 1519,-371.5196 1519,-350.5196 1307,-350.5196"/>
 <polygon fill="none" stroke="#000000" points="1307,-350.5196 1307,-371.5196 1519,-371.5196 1519,-350.5196 1307,-350.5196"/>
 <text text-anchor="start" x="1310" y="-357.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] ip_protocol (Required)</text>
 </a>
@@ -962,7 +1050,7 @@
 <g id="node26" class="node">
 <title>OperatingSystem</title>
 <g id="a_node26_113"><a xlink:href="/html/IODEFv1/OperatingSystem.html" xlink:title="The OperatingSystem class describes the operating system running on a System. The definition is identical to the Application class (Section 3.17.1). ">
-<polygon fill="#cecece" stroke="transparent" points="1357,-119.5196 1357,-140.5196 1469,-140.5196 1469,-119.5196 1357,-119.5196"/>
+<polygon fill="#65779e" stroke="transparent" points="1357,-119.5196 1357,-140.5196 1469,-140.5196 1469,-119.5196 1357,-119.5196"/>
 <polygon fill="none" stroke="#000000" points="1357,-119.5196 1357,-140.5196 1469,-140.5196 1469,-119.5196 1357,-119.5196"/>
 <text text-anchor="start" x="1360" y="-126.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">OperatingSystem</text>
 </a>
@@ -986,27 +1074,31 @@
 <g id="node22" class="node">
 <title>Address</title>
 <g id="a_node22_114"><a xlink:href="/html/IODEFv1/Address.html" xlink:title="The Address class represents a hardware (layer&#45;2), network (layer&#45;3), or application (layer&#45;7) address. ">
-<polygon fill="#cecece" stroke="transparent" points="1594,-358.5196 1594,-379.5196 1800,-379.5196 1800,-358.5196 1594,-358.5196"/>
+<polygon fill="#3daf3d" stroke="transparent" points="1594,-358.5196 1594,-379.5196 1800,-379.5196 1800,-358.5196 1594,-358.5196"/>
 <polygon fill="none" stroke="#000000" points="1594,-358.5196 1594,-379.5196 1800,-379.5196 1800,-358.5196 1594,-358.5196"/>
 <text text-anchor="start" x="1672" y="-365.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Address</text>
 </a>
 </g>
 <g id="a_node22_115"><a xlink:href="/html/IODEFv1/Address.html" xlink:title="The type of address represented. &#160;The permitted values for this attribute are shown below. &#160;The default value is &quot;ipv4&#45;addr&quot;.">
+<polygon fill="#4cdb4c" stroke="transparent" points="1594,-337.5196 1594,-358.5196 1800,-358.5196 1800,-337.5196 1594,-337.5196"/>
 <polygon fill="none" stroke="#000000" points="1594,-337.5196 1594,-358.5196 1800,-358.5196 1800,-337.5196 1594,-337.5196"/>
 <text text-anchor="start" x="1611" y="-344.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] category (Required)</text>
 </a>
 </g>
 <g id="a_node22_116"><a xlink:href="/html/IODEFv1/Address.html" xlink:title="A means by which to extend the category attribute. &#160;See Section 5.1.">
+<polygon fill="#4cdb4c" stroke="transparent" points="1594,-316.5196 1594,-337.5196 1800,-337.5196 1800,-316.5196 1594,-316.5196"/>
 <polygon fill="none" stroke="#000000" points="1594,-316.5196 1594,-337.5196 1800,-337.5196 1800,-316.5196 1594,-316.5196"/>
 <text text-anchor="start" x="1597" y="-323.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;category (Optional)</text>
 </a>
 </g>
 <g id="a_node22_117"><a xlink:href="/html/IODEFv1/Address.html" xlink:title="The name of the Virtual LAN to which the address belongs.">
+<polygon fill="#4cdb4c" stroke="transparent" points="1594,-295.5196 1594,-316.5196 1800,-316.5196 1800,-295.5196 1594,-295.5196"/>
 <polygon fill="none" stroke="#000000" points="1594,-295.5196 1594,-316.5196 1800,-316.5196 1800,-295.5196 1594,-295.5196"/>
 <text text-anchor="start" x="1602" y="-302.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] vlan&#45;name (Optional)</text>
 </a>
 </g>
 <g id="a_node22_118"><a xlink:href="/html/IODEFv1/Address.html" xlink:title="The number of the Virtual LAN to which the address belongs.">
+<polygon fill="#4cdb4c" stroke="transparent" points="1594,-274.5196 1594,-295.5196 1800,-295.5196 1800,-274.5196 1594,-274.5196"/>
 <polygon fill="none" stroke="#000000" points="1594,-274.5196 1594,-295.5196 1800,-295.5196 1800,-274.5196 1594,-274.5196"/>
 <text text-anchor="start" x="1605.5" y="-281.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] vlan&#45;num (Optional)</text>
 </a>
@@ -1023,22 +1115,25 @@
 <g id="node23" class="node">
 <title>NodeRole</title>
 <g id="a_node23_119"><a xlink:href="/html/IODEFv1/NodeRole.html" xlink:title="The NodeRole class describes the intended function performed by a particular host. ">
-<polygon fill="#cecece" stroke="transparent" points="1594,-227.5196 1594,-248.5196 1800,-248.5196 1800,-227.5196 1594,-227.5196"/>
+<polygon fill="#3daf3d" stroke="transparent" points="1594,-227.5196 1594,-248.5196 1800,-248.5196 1800,-227.5196 1594,-227.5196"/>
 <polygon fill="none" stroke="#000000" points="1594,-227.5196 1594,-248.5196 1800,-248.5196 1800,-227.5196 1594,-227.5196"/>
 <text text-anchor="start" x="1666.5" y="-234.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">NodeRole</text>
 </a>
 </g>
 <g id="a_node23_120"><a xlink:href="/html/IODEFv1/NodeRole.html" xlink:title="Functionality provided by a node.">
+<polygon fill="#4cdb4c" stroke="transparent" points="1594,-206.5196 1594,-227.5196 1800,-227.5196 1800,-206.5196 1594,-206.5196"/>
 <polygon fill="none" stroke="#000000" points="1594,-206.5196 1594,-227.5196 1800,-227.5196 1800,-206.5196 1594,-206.5196"/>
 <text text-anchor="start" x="1611" y="-213.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] category (Required)</text>
 </a>
 </g>
 <g id="a_node23_121"><a xlink:href="/html/IODEFv1/NodeRole.html" xlink:title="A means by which to extend the category attribute. &#160;See Section 5.1.">
+<polygon fill="#4cdb4c" stroke="transparent" points="1594,-185.5196 1594,-206.5196 1800,-206.5196 1800,-185.5196 1594,-185.5196"/>
 <polygon fill="none" stroke="#000000" points="1594,-185.5196 1594,-206.5196 1800,-206.5196 1800,-185.5196 1594,-185.5196"/>
 <text text-anchor="start" x="1597" y="-192.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;category (Optional)</text>
 </a>
 </g>
 <g id="a_node23_122"><a xlink:href="/html/IODEFv1/NodeRole.html" xlink:title="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;. &#160;The interpretation of this code is described in Section 6.">
+<polygon fill="#4cdb4c" stroke="transparent" points="1594,-164.5196 1594,-185.5196 1800,-185.5196 1800,-164.5196 1594,-164.5196"/>
 <polygon fill="none" stroke="#000000" points="1594,-164.5196 1594,-185.5196 1800,-185.5196 1800,-164.5196 1594,-164.5196"/>
 <text text-anchor="start" x="1624.5" y="-171.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] lang (Required)</text>
 </a>
@@ -1055,47 +1150,55 @@
 <g id="node25" class="node">
 <title>Application</title>
 <g id="a_node25_123"><a xlink:href="/html/IODEFv1/Application.html" xlink:title="The Application class describes an application running on a System providing a Service. ">
-<polygon fill="#cecece" stroke="transparent" points="1608,-845.5196 1608,-866.5196 1787,-866.5196 1787,-845.5196 1608,-845.5196"/>
+<polygon fill="#cca3a3" stroke="transparent" points="1608,-845.5196 1608,-866.5196 1787,-866.5196 1787,-845.5196 1608,-845.5196"/>
 <polygon fill="none" stroke="#000000" points="1608,-845.5196 1608,-866.5196 1787,-866.5196 1787,-845.5196 1608,-845.5196"/>
 <text text-anchor="start" x="1664" y="-852.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Application</text>
 </a>
 </g>
 <g id="a_node25_124"><a xlink:href="/html/IODEFv1/Application.html" xlink:title="A URL describing the application.">
+<polygon fill="#ffcccc" stroke="transparent" points="1608,-824.5196 1608,-845.5196 1787,-845.5196 1787,-824.5196 1608,-824.5196"/>
 <polygon fill="none" stroke="#000000" points="1608,-824.5196 1608,-845.5196 1787,-845.5196 1787,-824.5196 1608,-824.5196"/>
 <text text-anchor="start" x="1647.5" y="-831.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..1)</text>
 </a>
 </g>
 <g id="a_node25_125"><a xlink:href="/html/IODEFv1/Application.html" xlink:title="An identifier that can be used to reference this software.">
+<polygon fill="#ffcccc" stroke="transparent" points="1608,-803.5196 1608,-824.5196 1787,-824.5196 1787,-803.5196 1608,-803.5196"/>
 <polygon fill="none" stroke="#000000" points="1608,-803.5196 1608,-824.5196 1787,-824.5196 1787,-803.5196 1608,-803.5196"/>
 <text text-anchor="start" x="1620.5" y="-810.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] swid (Optional)</text>
 </a>
 </g>
 <g id="a_node25_126"><a xlink:href="/html/IODEFv1/Application.html" xlink:title="An identifier that can be used to reference a particular configuration of this software.">
+<polygon fill="#ffcccc" stroke="transparent" points="1608,-782.5196 1608,-803.5196 1787,-803.5196 1787,-782.5196 1608,-782.5196"/>
 <polygon fill="none" stroke="#000000" points="1608,-782.5196 1608,-803.5196 1787,-803.5196 1787,-782.5196 1608,-782.5196"/>
 <text text-anchor="start" x="1611" y="-789.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] configid (Optional)</text>
 </a>
 </g>
 <g id="a_node25_127"><a xlink:href="/html/IODEFv1/Application.html" xlink:title="Vendor name of the software.">
+<polygon fill="#ffcccc" stroke="transparent" points="1608,-761.5196 1608,-782.5196 1787,-782.5196 1787,-761.5196 1608,-761.5196"/>
 <polygon fill="none" stroke="#000000" points="1608,-761.5196 1608,-782.5196 1787,-782.5196 1787,-761.5196 1608,-761.5196"/>
 <text text-anchor="start" x="1613.5" y="-768.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] vendor (Optional)</text>
 </a>
 </g>
 <g id="a_node25_128"><a xlink:href="/html/IODEFv1/Application.html" xlink:title="Family of the software.">
+<polygon fill="#ffcccc" stroke="transparent" points="1608,-740.5196 1608,-761.5196 1787,-761.5196 1787,-740.5196 1608,-740.5196"/>
 <polygon fill="none" stroke="#000000" points="1608,-740.5196 1608,-761.5196 1787,-761.5196 1787,-740.5196 1608,-740.5196"/>
 <text text-anchor="start" x="1616" y="-747.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] family (Optional)</text>
 </a>
 </g>
 <g id="a_node25_129"><a xlink:href="/html/IODEFv1/Application.html" xlink:title="Name of the software.">
+<polygon fill="#ffcccc" stroke="transparent" points="1608,-719.5196 1608,-740.5196 1787,-740.5196 1787,-719.5196 1608,-719.5196"/>
 <polygon fill="none" stroke="#000000" points="1608,-719.5196 1608,-740.5196 1787,-740.5196 1787,-719.5196 1608,-719.5196"/>
 <text text-anchor="start" x="1617" y="-726.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] name (Optional)</text>
 </a>
 </g>
 <g id="a_node25_130"><a xlink:href="/html/IODEFv1/Application.html" xlink:title="Version of the software.">
+<polygon fill="#ffcccc" stroke="transparent" points="1608,-698.5196 1608,-719.5196 1787,-719.5196 1787,-698.5196 1608,-698.5196"/>
 <polygon fill="none" stroke="#000000" points="1608,-698.5196 1608,-719.5196 1787,-719.5196 1787,-698.5196 1608,-698.5196"/>
 <text text-anchor="start" x="1612.5" y="-705.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] version (Optional)</text>
 </a>
 </g>
 <g id="a_node25_131"><a xlink:href="/html/IODEFv1/Application.html" xlink:title="Patch or service pack level of the software.">
+<polygon fill="#ffcccc" stroke="transparent" points="1608,-677.5196 1608,-698.5196 1787,-698.5196 1787,-677.5196 1608,-677.5196"/>
 <polygon fill="none" stroke="#000000" points="1608,-677.5196 1608,-698.5196 1787,-698.5196 1787,-677.5196 1608,-677.5196"/>
 <text text-anchor="start" x="1617.5" y="-684.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] patch (Optional)</text>
 </a>
@@ -1119,22 +1222,25 @@
 <g id="node29" class="node">
 <title>RecordData</title>
 <g id="a_node29_132"><a xlink:href="/html/IODEFv1/RecordData.html" xlink:title="The RecordData class groups log or audit data from a given sensor (e.g., IDS, firewall log) and provides a way to annotate the output. ">
-<polygon fill="#cecece" stroke="transparent" points="1019,-1132.5196 1019,-1153.5196 1215,-1153.5196 1215,-1132.5196 1019,-1132.5196"/>
+<polygon fill="#cccc52" stroke="transparent" points="1019,-1132.5196 1019,-1153.5196 1215,-1153.5196 1215,-1132.5196 1019,-1132.5196"/>
 <polygon fill="none" stroke="#000000" points="1019,-1132.5196 1019,-1153.5196 1215,-1153.5196 1215,-1132.5196 1019,-1132.5196"/>
 <text text-anchor="start" x="1080.5" y="-1139.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RecordData</text>
 </a>
 </g>
 <g id="a_node29_133"><a xlink:href="/html/IODEFv1/RecordData.html" xlink:title="Timestamp of the RecordItem data.">
+<polygon fill="#ffff66" stroke="transparent" points="1019,-1111.5196 1019,-1132.5196 1215,-1132.5196 1215,-1111.5196 1019,-1111.5196"/>
 <polygon fill="none" stroke="#000000" points="1019,-1111.5196 1019,-1132.5196 1215,-1132.5196 1215,-1111.5196 1019,-1111.5196"/>
 <text text-anchor="start" x="1064" y="-1118.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] DateTime (0..1)</text>
 </a>
 </g>
 <g id="a_node29_134"><a xlink:href="/html/IODEFv1/RecordData.html" xlink:title="Free&#45;form textual description of the provided RecordItem data. &#160;At minimum, this description should convey the significance of the provided RecordItem data.">
+<polygon fill="#ffff66" stroke="transparent" points="1019,-1090.5196 1019,-1111.5196 1215,-1111.5196 1215,-1090.5196 1019,-1090.5196"/>
 <polygon fill="none" stroke="#000000" points="1019,-1090.5196 1019,-1111.5196 1215,-1111.5196 1215,-1090.5196 1019,-1090.5196"/>
 <text text-anchor="start" x="1022" y="-1097.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node29_135"><a xlink:href="/html/IODEFv1/RecordData.html" xlink:title="This attribute has been defined in Section 3.2.">
+<polygon fill="#ffff66" stroke="transparent" points="1019,-1069.5196 1019,-1090.5196 1215,-1090.5196 1215,-1069.5196 1019,-1069.5196"/>
 <polygon fill="none" stroke="#000000" points="1019,-1069.5196 1019,-1090.5196 1215,-1090.5196 1215,-1069.5196 1019,-1069.5196"/>
 <text text-anchor="start" x="1029.5" y="-1076.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
@@ -1165,37 +1271,43 @@
 <g id="node30" class="node">
 <title>RecordPattern</title>
 <g id="a_node30_136"><a xlink:href="/html/IODEFv1/RecordPattern.html" xlink:title="The RecordPattern class describes where in the content of the RecordItem relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. ">
-<polygon fill="#cecece" stroke="transparent" points="1309,-1291.5196 1309,-1312.5196 1518,-1312.5196 1518,-1291.5196 1309,-1291.5196"/>
+<polygon fill="#cccc52" stroke="transparent" points="1309,-1291.5196 1309,-1312.5196 1518,-1312.5196 1518,-1291.5196 1309,-1291.5196"/>
 <polygon fill="none" stroke="#000000" points="1309,-1291.5196 1309,-1312.5196 1518,-1312.5196 1518,-1291.5196 1309,-1291.5196"/>
 <text text-anchor="start" x="1370" y="-1298.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RecordPattern</text>
 </a>
 </g>
 <g id="a_node30_137"><a xlink:href="/html/IODEFv1/RecordPattern.html" xlink:title="Describes the type of pattern being specified in the element content. &#160;The default is &quot;regex&quot;.">
+<polygon fill="#ffff66" stroke="transparent" points="1309,-1270.5196 1309,-1291.5196 1518,-1291.5196 1518,-1270.5196 1309,-1270.5196"/>
 <polygon fill="none" stroke="#000000" points="1309,-1270.5196 1309,-1291.5196 1518,-1291.5196 1518,-1270.5196 1309,-1270.5196"/>
 <text text-anchor="start" x="1341" y="-1277.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (Required)</text>
 </a>
 </g>
 <g id="a_node30_138"><a xlink:href="/html/IODEFv1/RecordPattern.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.">
+<polygon fill="#ffff66" stroke="transparent" points="1309,-1249.5196 1309,-1270.5196 1518,-1270.5196 1518,-1249.5196 1309,-1249.5196"/>
 <polygon fill="none" stroke="#000000" points="1309,-1249.5196 1309,-1270.5196 1518,-1270.5196 1518,-1249.5196 1309,-1249.5196"/>
 <text text-anchor="start" x="1326.5" y="-1256.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (Optional)</text>
 </a>
 </g>
 <g id="a_node30_139"><a xlink:href="/html/IODEFv1/RecordPattern.html" xlink:title="Amount of units (determined by the offsetunit attribute) to seek into the RecordItem data before matching the pattern.">
+<polygon fill="#ffff66" stroke="transparent" points="1309,-1228.5196 1309,-1249.5196 1518,-1249.5196 1518,-1228.5196 1309,-1228.5196"/>
 <polygon fill="none" stroke="#000000" points="1309,-1228.5196 1309,-1249.5196 1518,-1249.5196 1518,-1228.5196 1309,-1228.5196"/>
 <text text-anchor="start" x="1329" y="-1235.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] offset (Optional)</text>
 </a>
 </g>
 <g id="a_node30_140"><a xlink:href="/html/IODEFv1/RecordPattern.html" xlink:title="Describes the units of the offset attribute. The default is &quot;line&quot;.">
+<polygon fill="#ffff66" stroke="transparent" points="1309,-1207.5196 1309,-1228.5196 1518,-1228.5196 1518,-1207.5196 1309,-1207.5196"/>
 <polygon fill="none" stroke="#000000" points="1309,-1207.5196 1309,-1228.5196 1518,-1228.5196 1518,-1207.5196 1309,-1207.5196"/>
 <text text-anchor="start" x="1328" y="-1214.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] offsetunit (Optional)</text>
 </a>
 </g>
 <g id="a_node30_141"><a xlink:href="/html/IODEFv1/RecordPattern.html" xlink:title="A means by which to extend the offsetunit attribute. &#160;See Section 5.1.">
+<polygon fill="#ffff66" stroke="transparent" points="1309,-1186.5196 1309,-1207.5196 1518,-1207.5196 1518,-1186.5196 1309,-1186.5196"/>
 <polygon fill="none" stroke="#000000" points="1309,-1186.5196 1309,-1207.5196 1518,-1207.5196 1518,-1186.5196 1309,-1186.5196"/>
 <text text-anchor="start" x="1312" y="-1193.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;offsetunit (Optional)</text>
 </a>
 </g>
 <g id="a_node30_142"><a xlink:href="/html/IODEFv1/RecordPattern.html" xlink:title="Number of types to apply the specified pattern.">
+<polygon fill="#ffff66" stroke="transparent" points="1309,-1165.5196 1309,-1186.5196 1518,-1186.5196 1518,-1165.5196 1309,-1165.5196"/>
 <polygon fill="none" stroke="#000000" points="1309,-1165.5196 1309,-1186.5196 1518,-1186.5196 1518,-1165.5196 1309,-1165.5196"/>
 <text text-anchor="start" x="1320" y="-1172.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] instance (Optional)</text>
 </a>
@@ -1211,8 +1323,8 @@
 <!-- RecordItem -->
 <g id="node31" class="node">
 <title>RecordItem</title>
-<g id="a_node31_143"><a xlink:href="/html/IODEFv1/RecordItem.html" xlink:title="The RecordItem class provides a way to incorporate relevant logs, audit trails, or forensic data to support the conclusions made during the course of analyzing the incident. The class supports both the direct encapsulation of the data, as well as, provides primitives to reference data stored elsewhere. ">
-<polygon fill="#cecece" stroke="transparent" points="1375,-1114.5196 1375,-1135.5196 1452,-1135.5196 1452,-1114.5196 1375,-1114.5196"/>
+<g id="a_node31_143"><a xlink:href="/html/IODEFv1/RecordItem.html" xlink:title="The RecordItem class provides a way to incorporate relevant logs, audit trails, or forensic data to support the conclusions made during the course of analyzing the incident. The class supports both the direct encapsulation of the data, as well as, provides primitives to reference data stored elsewhere. This class is identical to AdditionalData class (Section 3.6). ">
+<polygon fill="#cccc52" stroke="transparent" points="1375,-1114.5196 1375,-1135.5196 1452,-1135.5196 1452,-1114.5196 1375,-1114.5196"/>
 <polygon fill="none" stroke="#000000" points="1375,-1114.5196 1375,-1135.5196 1452,-1135.5196 1452,-1114.5196 1375,-1114.5196"/>
 <text text-anchor="start" x="1378" y="-1121.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RecordItem</text>
 </a>
@@ -1229,32 +1341,37 @@
 <g id="node33" class="node">
 <title>HistoryItem</title>
 <g id="a_node33_144"><a xlink:href="/html/IODEFv1/HistoryItem.html" xlink:title="The HistoryItem class is an entry in the History (Section 3.11) log that documents a particular action or event that occurred in the course of handling the incident. The details of the entry are a free&#45;form description, but each can be categorized with the type attribute. ">
-<polygon fill="#cecece" stroke="transparent" points="731,-1440.5196 731,-1461.5196 927,-1461.5196 927,-1440.5196 731,-1440.5196"/>
+<polygon fill="#cca352" stroke="transparent" points="731,-1440.5196 731,-1461.5196 927,-1461.5196 927,-1440.5196 731,-1440.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1440.5196 731,-1461.5196 927,-1461.5196 927,-1440.5196 731,-1440.5196"/>
 <text text-anchor="start" x="794" y="-1447.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">HistoryItem</text>
 </a>
 </g>
 <g id="a_node33_145"><a xlink:href="/html/IODEFv1/HistoryItem.html" xlink:title="Timestamp of this entry in the history log (e.g., when the action described in the Description was taken).">
+<polygon fill="#ffcc66" stroke="transparent" points="731,-1419.5196 731,-1440.5196 927,-1440.5196 927,-1419.5196 731,-1419.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1419.5196 731,-1440.5196 927,-1440.5196 927,-1419.5196 731,-1419.5196"/>
 <text text-anchor="start" x="776" y="-1426.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] DateTime (1..1)</text>
 </a>
 </g>
 <g id="a_node33_146"><a xlink:href="/html/IODEFv1/HistoryItem.html" xlink:title="A free&#45;form textual description of the action or event.">
+<polygon fill="#ffcc66" stroke="transparent" points="731,-1398.5196 731,-1419.5196 927,-1419.5196 927,-1398.5196 731,-1398.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1398.5196 731,-1419.5196 927,-1419.5196 927,-1398.5196 731,-1398.5196"/>
 <text text-anchor="start" x="734" y="-1405.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
 <g id="a_node33_147"><a xlink:href="/html/IODEFv1/HistoryItem.html" xlink:title="This attribute has been defined in Section 3.2.">
+<polygon fill="#ffcc66" stroke="transparent" points="731,-1377.5196 731,-1398.5196 927,-1398.5196 927,-1377.5196 731,-1377.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1377.5196 731,-1398.5196 927,-1398.5196 927,-1377.5196 731,-1377.5196"/>
 <text text-anchor="start" x="741.5" y="-1384.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
 </a>
 </g>
 <g id="a_node33_148"><a xlink:href="/html/IODEFv1/HistoryItem.html" xlink:title="Classifies a performed action or occurrence documented in this history log entry. &#160;As activity will likely have been instigated either through a previously conveyed expectation or internal investigation, this attribute is identical to the category attribute of the Expectation class. &#160;The difference is only one of tense. &#160;When an action is in this class, it has been completed. &#160;See Section 3.13.">
+<polygon fill="#ffcc66" stroke="transparent" points="731,-1356.5196 731,-1377.5196 927,-1377.5196 927,-1356.5196 731,-1356.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1356.5196 731,-1377.5196 927,-1377.5196 927,-1356.5196 731,-1356.5196"/>
 <text text-anchor="start" x="751" y="-1363.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] action (Required)</text>
 </a>
 </g>
 <g id="a_node33_149"><a xlink:href="/html/IODEFv1/HistoryItem.html" xlink:title="A means by which to extend the action attribute. &#160;See Section 5.1.">
+<polygon fill="#ffcc66" stroke="transparent" points="731,-1335.5196 731,-1356.5196 927,-1356.5196 927,-1335.5196 731,-1335.5196"/>
 <polygon fill="none" stroke="#000000" points="731,-1335.5196 731,-1356.5196 927,-1356.5196 927,-1335.5196 731,-1335.5196"/>
 <text text-anchor="start" x="737" y="-1342.3196" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;action (Optional)</text>
 </a>

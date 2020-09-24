@@ -4,7 +4,7 @@ digraph TimeImpact {
 	];
 	node [label="\N"];
 	TimeImpact	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/TimeImpact.html" TITLE="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. "><FONT FACE="Nimbus Sans L">TimeImpact</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv2/TimeImpact.html" TITLE="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. "><FONT FACE="Nimbus Sans L">TimeImpact</FONT></td> </tr>" %</table>>,
 		pos="47.5,18",
 		shape=plaintext,
 		width=1.3194];

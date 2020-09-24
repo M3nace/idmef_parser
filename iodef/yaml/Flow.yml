@@ -1,10 +1,11 @@
 ---
 name: Flow
 description: 'The Flow class groups related the source and target hosts. '
+color: "#7e95c5"
 aggregates:
   System:
     name: System
     multiplicity: 1..*
-    type: 
+    type:
     description: A host or network involved in an event.
 attributes: {}

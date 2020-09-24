@@ -2,6 +2,7 @@
 name: NodeRole
 description: 'The NodeRole class describes the function performed by or role of a
   particular system, asset, or network. '
+color: "#4cdb4c"
 aggregates:
   Description:
     name: Description

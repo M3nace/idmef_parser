@@ -4,6 +4,7 @@ description: 'The Contact class describes contact information for organizations 
   personnel involved in the incident.  This class allows for the naming of the involved
   party, specifying contact information for them, and identifying their role in the
   incident. '
+color: "#66CCFF"
 aggregates:
   ContactName:
     name: ContactName
@@ -24,22 +25,22 @@ aggregates:
   RegistryHandle:
     name: RegistryHandle
     multiplicity: 0..*
-    type: 
+    type:
     description: A handle name into the registry of the contact. See Section 3.9.1.
   PostalAddress:
     name: PostalAddress
     multiplicity: 0..*
-    type: 
+    type:
     description: The postal address of the contact.  See Section 3.9.2.
   Email:
     name: Email
     multiplicity: 0..*
-    type: 
+    type:
     description: The email address of the contact.  See Section 3.9.3.
   Telephone:
     name: Telephone
     multiplicity: 0..*
-    type: 
+    type:
     description: The telephone number of the contact.  See Section 3.9.4.
   Timezone:
     name: Timezone
@@ -49,7 +50,7 @@ aggregates:
   Contact:
     name: Contact
     multiplicity: 0..*
-    type: 
+    type:
     description: A recursive definition of the Contact class.  This definition can
       be used to group common data pertaining to multiple points of contact and is
       especially useful when listing multiple contacts at the same organization.

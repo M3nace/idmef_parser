@@ -4,17 +4,18 @@ description: 'The HistoryItem class is an entry in the History (Section 3.11) lo
   that documents a particular action or event that occurred in the course of handling
   the incident.  The details of the entry are a free-form description, but each can
   be categorized with the type attribute. '
+color: "#FFCC66"
 aggregates:
   DateTime:
     name: DateTime
     multiplicity: 1..1
-    type: 
+    type:
     description: Timestamp of this entry in the history log (e.g., when the action
       described in the Description was taken).
   IncidentID:
     name: IncidentID
     multiplicity: 0..1
-    type: 
+    type:
     description: In a history log created by multiple parties, the IncidentID provides
       a mechanism to specify which CSIRT created a particular entry and references
       this organization's incident tracking number.  When a single organization is
@@ -22,7 +23,7 @@ aggregates:
   Contact:
     name: Contact
     multiplicity: 0..1
-    type: 
+    type:
     description: Provides contact information for the person that performed the action
       documented in this class.
   Description:
@@ -33,7 +34,7 @@ aggregates:
   AdditionalData:
     name: AdditionalData
     multiplicity: 0..*
-    type: 
+    type:
     description: A mechanism by which to extend the data model.
 attributes:
   restriction:

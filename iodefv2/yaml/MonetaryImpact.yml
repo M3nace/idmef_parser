@@ -4,5 +4,6 @@ description: 'The MonetaryImpact class describes the financial impact of the act
   on an organization.  For example, this impact may consider losses due to the cost
   of the investigation or recovery, diminished productivity of the staff, or a tarnished
   reputation that will affect future opportunities. '
+color: "#ff8465"
 aggregates: {}
 attributes: {}

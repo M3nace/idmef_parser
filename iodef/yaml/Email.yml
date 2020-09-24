@@ -2,6 +2,7 @@
 name: Email
 description: 'The Email class specifies an email address formatted according to EMAIL
   data type (Section 2.14). '
+color: "#66CCFF"
 aggregates: {}
 attributes:
   meaning:

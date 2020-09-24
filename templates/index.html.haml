@@ -1,9 +1,13 @@
 .jumbotron
   .container
     .row
-      - generators.each_key do |generator|
-        .col-md-6
-          .text-center
-            %h1
-              %a{href: "/#{location}/#{generator}"}=generator
-
+      .col-md-6
+        .text-center
+          %h1="IDMEF"
+          %a{href: "/#{location}/IDMEFv1", role: "button", class: "btn btn-primary btn-lg"}="v1"
+          %a{href: "/#{location}/IDMEFv2", role: "button", class: "btn btn-primary btn-lg"}="v2"
+      .col-md-6
+        .text-center
+          %h1="IODEF"
+          %a{href: "/#{location}/IODEFv1", role: "button", class: "btn btn-primary btn-lg"}="v1"
+          %a{href: "/#{location}/IODEFv2", role: "button", class: "btn btn-primary btn-lg"}="v2"

@@ -16,14 +16,14 @@
 
 ```sh
 ruby idmef.rb  # To parse the IDMEF RFC (rfc4765.txt)
-ruby iodef.rb  # To parse the IODEF RFC (rfc5070.txt)
+ruby iodef.rb  # To parse the IODEF v1 and v2 RFC (rfc5070.txt and rfc7970.txt)
 
 ruby graph_generator.rb  # To generate classes diagram from already parsed IDMEF / IODEF RFC
 
 ruby gen_html.rb  # Build a website to navigate through the classes
 ```
 
-## Author
+## Original author
 
 👤 **Sélim Menouar**
 * GitHub: [@ningirsu](https://github.com/ningirsu)

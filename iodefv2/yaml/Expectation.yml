@@ -2,6 +2,7 @@
 name: Expectation
 description: 'The Expectation class conveys to the recipient of the IODEF document
   the actions the sender is requesting. '
+color: "#BFBFBF"
 aggregates:
   Description:
     name: Description
@@ -36,7 +37,7 @@ aggregates:
   Contact:
     name: Contact
     multiplicity: 0..1
-    type: 
+    type:
     description: The entity expected to perform the action.  See Section 3.9.
   action:
     name: action

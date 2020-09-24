@@ -3,11 +3,12 @@ name: Method
 description: 'The Method class describes the tactics, techniques, procedures, or weakness
   used by the threat actor in an incident.  This class consists of both a list of
   references describing the attack methods and weaknesses and a free-form text description. '
+color: "#b79370"
 aggregates:
   Reference:
     name: Reference
     multiplicity: 0..*
-    type: 
+    type:
     description: A reference to a vulnerability, malware sample, advisory, or analysis
       of an attack technique.  See Section 3.11.1.
   Description:
@@ -18,7 +19,7 @@ aggregates:
       used by the threat actor.
   ! '':
     multiplicity: 0..*
-    type: 
+    type:
     description: A reference to the exploited weakness per [RFC7203].
   AdditionalData:
     name: AdditionalData
