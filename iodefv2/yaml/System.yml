@@ -1,0 +1,106 @@
+---
+name: System
+description: 'The System class describes a system or network involved in an event. '
+aggregates:
+  Node:
+    name: Node
+    multiplicity: 1..1
+    type: 
+    description: A host or network involved in the incident.  See Section 3.18.
+  NodeRole:
+    name: NodeRole
+    multiplicity: 0..*
+    type: 
+    description: The intended purpose of the system.  See Section 3.18.2.
+  Service:
+    name: Service
+    multiplicity: 0..*
+    type: 
+    description: A network service running on the system.  See Section 3.20.
+  OperatingSystem:
+    name: OperatingSystem
+    multiplicity: 0..*
+    type: SOFTWARE
+    description: The operating system running on the system.
+  Counter:
+    name: Counter
+    multiplicity: 0..*
+    type: 
+    description: A counter with which to summarize properties of this host or network.  See
+      Section 3.18.3.
+  AssetID:
+    name: AssetID
+    multiplicity: 0..*
+    type: STRING
+    description: An asset identifier for the System.
+  Description:
+    name: Description
+    multiplicity: 0..*
+    type: ML_STRING
+    description: A free-form text description of the System.
+  AdditionalData:
+    name: AdditionalData
+    multiplicity: 0..*
+    type: EXTENSION
+    description: A mechanism by which to extend the data model.
+  category:
+    name: category
+    multiplicity: 0..1
+    type: ENUM
+    description: Classifies the role the host or network played in the incident.  These
+      values are maintained in the "System- category" IANA registry per Section 10.2.
+  ext-category:
+    name: ext-category
+    multiplicity: 0..1
+    type: STRING
+    description: A means by which to extend the category attribute.  See Section 5.1.1.
+  interface:
+    name: interface
+    multiplicity: 0..1
+    type: STRING
+    description: Specifies the interface on which the event(s) on this System originated.  If
+      the Node class specifies a network rather than a host, this attribute has no
+      meaning.
+  spoofed:
+    name: spoofed
+    multiplicity: 0..1
+    type: ENUM
+    description: An indication of confidence in whether this System was the true target
+      or attacking host.  The permitted values for this attribute are shown below.  The
+      default value is "unknown".
+  virtual:
+    name: virtual
+    multiplicity: 0..1
+    type: ENUM
+    description: Indicates whether this System is a virtual or physical device.  The
+      default value is "unknown".
+  ownership:
+    name: ownership
+    multiplicity: 0..1
+    type: ENUM
+    description: Describes the ownership of this System relative to the victim in
+      the incident.  These values are maintained in the "System-ownership" IANA registry
+      per Section 10.2.
+  ext-ownership:
+    name: ext-ownership
+    multiplicity: 0..1
+    type: STRING
+    description: A means by which to extend the ownership attribute.  See Section
+      5.1.1.
+  restriction:
+    name: restriction
+    multiplicity: 0..1
+    type: ENUM
+    description: See Section 3.3.1.
+  ext-restriction:
+    name: ext-restriction
+    multiplicity: 0..1
+    type: STRING
+    description: A means by which to extend the restriction attribute.  See Section
+      5.1.1.
+  observable-id:
+    name: observable-id
+    multiplicity: 0..1
+    type: ID
+    description: See Section 3.3.2.
+attributes: {}

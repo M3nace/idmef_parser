@@ -1,0 +1,14 @@
+{
+  "name": "ApplicationHeader",
+  "description": "The ApplicationHeader class describes arbitrary fields from a protocol header and its corresponding value. ",
+  "aggregates": {
+    "ApplicationHeaderField": {
+      "name": "ApplicationHeaderField",
+      "multiplicity": "1..*",
+      "type": "EXTENSION",
+      "description": "A field name and value in a protocol header.  The name attribute MUST be set to the field name.  The field value MUST be set in the element content."
+    }
+  },
+  "attributes": {
+  }
+}

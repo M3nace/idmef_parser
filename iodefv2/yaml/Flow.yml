@@ -1,0 +1,11 @@
+---
+name: Flow
+description: 'The Flow class describes the systems and networks involved in the incident
+  and the relationships between them. '
+aggregates:
+  System:
+    name: System
+    multiplicity: 1..*
+    type: 
+    description: A host or network involved in an event.  See Section 3.17.
+attributes: {}

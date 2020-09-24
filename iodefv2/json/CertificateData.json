@@ -1,0 +1,32 @@
+{
+  "name": "CertificateData",
+  "description": "The CertificateData class describes X.509 certificates. ",
+  "aggregates": {
+    "Certificate": {
+      "name": "Certificate",
+      "multiplicity": "1..*",
+      "type": null,
+      "description": "A description of an X.509 certificate or certificate chain.  See Section 3.24.1."
+    },
+    "restriction": {
+      "name": "restriction",
+      "multiplicity": "0..1",
+      "type": "ENUM",
+      "description": "See Section 3.3.1."
+    },
+    "ext-restriction": {
+      "name": "ext-restriction",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "A means by which to extend the restriction attribute.  See Section 5.1.1."
+    },
+    "observable-id": {
+      "name": "observable-id",
+      "multiplicity": "0..1",
+      "type": "ID",
+      "description": "See Section 3.3.2."
+    }
+  },
+  "attributes": {
+  }
+}

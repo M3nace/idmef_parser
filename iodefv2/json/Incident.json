@@ -1,0 +1,157 @@
+{
+  "name": "Incident",
+  "description": "The Incident class describes commonly exchanged information when reporting or sharing derived analysis from security incidents. ",
+  "aggregates": {
+    "IncidentID": {
+      "name": "IncidentID",
+      "multiplicity": "1..1",
+      "type": null,
+      "description": "An incident tracking number assigned to this incident by the CSIRT that generated the IODEF document.  See Section 3.4."
+    },
+    "AlternativeID": {
+      "name": "AlternativeID",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "The incident tracking numbers used by other CSIRTs to refer to the incident described in the document.  See Section 3.5."
+    },
+    "RelatedActivity": {
+      "name": "RelatedActivity",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "Related activity and attribution of this activity. See Section 3.6."
+    },
+    "DetectTime": {
+      "name": "DetectTime",
+      "multiplicity": "0..1",
+      "type": "DATETIME",
+      "description": "The time the incident was first detected."
+    },
+    "StartTime": {
+      "name": "StartTime",
+      "multiplicity": "0..1",
+      "type": "DATETIME",
+      "description": "The time the incident started."
+    },
+    "EndTime": {
+      "name": "EndTime",
+      "multiplicity": "0..1",
+      "type": "DATETIME",
+      "description": "The time the incident ended."
+    },
+    "RecoveryTime": {
+      "name": "RecoveryTime",
+      "multiplicity": "0..1",
+      "type": "DATETIME",
+      "description": "The time the site recovered from the incident."
+    },
+    "ReportTime": {
+      "name": "ReportTime",
+      "multiplicity": "0..1",
+      "type": "DATETIME",
+      "description": "The time the incident was reported."
+    },
+    "GenerationTime": {
+      "name": "GenerationTime",
+      "multiplicity": "1..1",
+      "type": "DATETIME",
+      "description": "The time the content in this Incident class was generated."
+    },
+    "Description": {
+      "name": "Description",
+      "multiplicity": "0..*",
+      "type": "ML_STRING",
+      "description": "A free-form text description of the incident."
+    },
+    "Discovery": {
+      "name": "Discovery",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "The means by which this incident was detected.  See Section 3.10."
+    },
+    "Assessment": {
+      "name": "Assessment",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "A characterization of the impact of the incident. See Section 3.12."
+    },
+    "Method": {
+      "name": "Method",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "The techniques used by the threat actor in the incident.  See Section 3.11."
+    },
+    "Contact": {
+      "name": "Contact",
+      "multiplicity": "1..*",
+      "type": null,
+      "description": "Contact information for the parties involved in the incident.  See Section 3.9."
+    },
+    "EventData": {
+      "name": "EventData",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "Description of the events comprising the incident. See Section 3.14."
+    },
+    "IndicatorData": {
+      "name": "IndicatorData",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "Indicators from the analysis of an incident.  See Section 3.28."
+    },
+    "History": {
+      "name": "History",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A log of significant events or actions that occurred during the course of handling the incident.  See Section 3.13."
+    },
+    "AdditionalData": {
+      "name": "AdditionalData",
+      "multiplicity": "0..*",
+      "type": "EXTENSION",
+      "description": "Mechanism by which to extend the data model."
+    },
+    "purpose": {
+      "name": "purpose",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "A means by which to extend the purpose attribute.  See Section 5.1.1."
+    },
+    "status": {
+      "name": "status",
+      "multiplicity": "0..1",
+      "type": "ENUM",
+      "description": "The status attribute conveys the state in a workflow where the incident is currently found.  These values are maintained in the \"Incident-status\" IANA registry per Section 10.2.  This attribute is defined as an enumerated list:"
+    },
+    "ext-status": {
+      "name": "ext-status",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "A means by which to extend the status attribute.  See Section 5.1.1."
+    },
+    "": {
+      "multiplicity": "0..1",
+      "type": "ENUM",
+      "description": "A language identifier per Section 2.12 of [W3C.XML] whose values and form are described in [RFC5646].  The interpretation of this code is described in Section 6."
+    },
+    "restriction": {
+      "name": "restriction",
+      "multiplicity": "0..1",
+      "type": "ENUM",
+      "description": "See Section 3.3.1.  The default value is \"private\"."
+    },
+    "ext-restriction": {
+      "name": "ext-restriction",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "A means by which to extend the restriction attribute.  See Section 5.1.1."
+    },
+    "observable-id": {
+      "name": "observable-id",
+      "multiplicity": "0..1",
+      "type": "ID",
+      "description": "See Section 3.3.2."
+    }
+  },
+  "attributes": {
+  }
+}

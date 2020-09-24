@@ -1,8 +1,6 @@
 require 'json'
 require 'yaml'
 
-RFC = "rfc5070.txt"
-
 class RfcReader
   attr_accessor :classes, :tree_classes
 
@@ -98,7 +96,7 @@ class RfcReader
               current_attr = {}
             end
             next
-          elsif current_attr["name"].nil? && line =~ /^\s+([\w-]+)$/ 
+          elsif current_attr["name"].nil? && line =~ /^\s+([\w-]+)$/
             current_attr["name"] = $1
             next
           elsif current_attr["multiplicity"].nil? && line =~ /^\s+(Exactly|Zero|Optional|One)\s?(?:or)?\s?([oO]ne|[mM]ore|[Mm]any)?\.\s+(?:(\S+)\.)?\s*(.+)$/
@@ -182,6 +180,9 @@ class RfcReader
   end
 end
 
-rfc = RfcReader.new(RFC)
+rfc = RfcReader.new("rfc5070.txt")
 rfc.to_file "iodef/json", "json"
 rfc.to_file "iodef/yaml", "yml"
+rfc = RfcReader.new("rfc7970.txt")
+rfc.to_file "iodefv2/json", "json"
+rfc.to_file "iodefv2/yaml", "yml"

@@ -1,0 +1,19 @@
+{
+  "name": "Hash",
+  "description": "The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. ",
+  "aggregates": {
+    "": {
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "The canonicalization method used on the object being hashed.  See Section 4.3.1 of [W3C.XMLSIG]."
+    },
+    "Application": {
+      "name": "Application",
+      "multiplicity": "0..1",
+      "type": "SOFTWARE",
+      "description": "The application used to calculate the hash."
+    }
+  },
+  "attributes": {
+  }
+}

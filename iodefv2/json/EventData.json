@@ -1,0 +1,116 @@
+{
+  "name": "EventData",
+  "description": "The EventData class is a container class to organize data about events that occurred during an incident. ",
+  "aggregates": {
+    "Description": {
+      "name": "Description",
+      "multiplicity": "0..*",
+      "type": "ML_STRING",
+      "description": "A free-form text description of the event."
+    },
+    "DetectTime": {
+      "name": "DetectTime",
+      "multiplicity": "0..1",
+      "type": "DATETIME",
+      "description": "The time the event was detected."
+    },
+    "StartTime": {
+      "name": "StartTime",
+      "multiplicity": "0..1",
+      "type": "DATETIME",
+      "description": "The time the event started."
+    },
+    "EndTime": {
+      "name": "EndTime",
+      "multiplicity": "0..1",
+      "type": "DATETIME",
+      "description": "The time the event ended."
+    },
+    "RecoveryTime": {
+      "name": "RecoveryTime",
+      "multiplicity": "0..1",
+      "type": "DATETIME",
+      "description": "The time the site recovered from the event."
+    },
+    "ReportTime": {
+      "name": "ReportTime",
+      "multiplicity": "0..1",
+      "type": "DATETIME",
+      "description": "The time the event was reported."
+    },
+    "Contact": {
+      "name": "Contact",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "Contact information for the parties involved in the event.  See Section 3.9."
+    },
+    "Discovery": {
+      "name": "Discovery",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "The means by which the event was detected.  See Section 3.10."
+    },
+    "Assessment": {
+      "name": "Assessment",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "The impact of the event on the victim and the actions taken.  See Section 3.12."
+    },
+    "Method": {
+      "name": "Method",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "The technique used by the threat actor in the event.  See Section 3.11."
+    },
+    "Flow": {
+      "name": "Flow",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "A description of the systems or networks involved. See Section 3.16."
+    },
+    "Expectation": {
+      "name": "Expectation",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "The expected action to be performed by the recipient for the described event.  See Section 3.15."
+    },
+    "Record": {
+      "name": "Record",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "Supportive data (e.g., log files) that provides additional information about the event.  See Section 3.22."
+    },
+    "EventData": {
+      "name": "EventData",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "A recursive definition of the EventData class.  See Section 3.14.2 for an explanation on using this class."
+    },
+    "AdditionalData": {
+      "name": "AdditionalData",
+      "multiplicity": "0..*",
+      "type": "EXTENSION",
+      "description": "An extension mechanism for data not explicitly represented in the data model."
+    },
+    "restriction": {
+      "name": "restriction",
+      "multiplicity": "0..1",
+      "type": "ENUM",
+      "description": "See Section 3.3.1.  The default value is \"default\"."
+    },
+    "ext-restriction": {
+      "name": "ext-restriction",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "A means by which to extend the restriction attribute.  See Section 5.1.1."
+    },
+    "observable-id": {
+      "name": "observable-id",
+      "multiplicity": "0..1",
+      "type": "ID",
+      "description": "See Section 3.3.2."
+    }
+  },
+  "attributes": {
+  }
+}

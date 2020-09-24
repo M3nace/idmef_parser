@@ -1,0 +1,52 @@
+---
+name: IndicatorExpression
+description: 'The IndicatorExpression describes an expression composed of observed
+  phenomenon, features, or indicators.  Elements of the expression can be described
+  directly, reference relevant data from other parts of a given IODEF document, or
+  reference previously defined indicators. '
+aggregates:
+  IndicatorExpression:
+    name: IndicatorExpression
+    multiplicity: 0..*
+    type: 
+    description: An expression composed of other observables or indicators.  See Section
+      3.29.4.
+  Observable:
+    name: Observable
+    multiplicity: 0..*
+    type: 
+    description: A description of an observable.  See Section 3.29.3.
+  ObservableReference:
+    name: ObservableReference
+    multiplicity: 0..*
+    type: 
+    description: A reference to an observable.  See Section 3.29.6.
+  IndicatorReference:
+    name: IndicatorReference
+    multiplicity: 0..*
+    type: 
+    description: A reference to an indicator.  See Section 3.29.7.
+  Confidence:
+    name: Confidence
+    multiplicity: 0..1
+    type: 
+    description: An estimate of the confidence in the quality of the terms expressed
+      in the expression.  See Section 3.12.5.
+  AdditionalData:
+    name: AdditionalData
+    multiplicity: 0..*
+    type: EXTENSION
+    description: Mechanism by which to extend the data model.
+  operator:
+    name: operator
+    multiplicity: 0..1
+    type: ENUM
+    description: The operator to be applied between the child elements.  See Section
+      3.29.5 for parsing guidance.  The default value is "and".  These values are
+      maintained in the "IndicatorExpression-operator" IANA registry per Section 10.2.
+  ext-operator:
+    name: ext-operator
+    multiplicity: 0..1
+    type: STRING
+    description: A means by which to extend the operator attribute.  See Section 5.1.1.
+attributes: {}

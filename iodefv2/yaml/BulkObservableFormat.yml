@@ -1,0 +1,16 @@
+---
+name: BulkObservableFormat
+description: 'The ObservableFormat class specifies metadata about the format of an
+  observable enumerated in a sibling BulkObservableList class. '
+aggregates:
+  Hash:
+    name: Hash
+    multiplicity: 0..1
+    type: 
+    description: Describes the format of a hash.  See Section 3.26.1.
+  AdditionalData:
+    name: AdditionalData
+    multiplicity: 0..*
+    type: EXTENSION
+    description: Mechanism by which to extend the data model.
+attributes: {}

@@ -1,0 +1,74 @@
+{
+  "name": "EmailData",
+  "description": "The EmailData class describes headers from an email message and cryptographic hashes and signatures applied to it. ",
+  "aggregates": {
+    "EmailTo": {
+      "name": "EmailTo",
+      "multiplicity": "0..*",
+      "type": "EMAIL",
+      "description": "The value of the \"To:\" header field (Section 3.6.3 of [RFC5322]) in an email."
+    },
+    "EmailFrom": {
+      "name": "EmailFrom",
+      "multiplicity": "0..1",
+      "type": "EMAIL",
+      "description": "The value of the \"From:\" header field (Section 3.6.2 of [RFC5322]) in an email."
+    },
+    "EmailSubject": {
+      "name": "EmailSubject",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "The value of the \"Subject:\" header field in an email.  See Section 3.6.5 of [RFC5322]."
+    },
+    "EmailX-Mailer": {
+      "name": "EmailX-Mailer",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "The value of the \"X-Mailer:\" header field in an email."
+    },
+    "EmailHeaderField": {
+      "name": "EmailHeaderField",
+      "multiplicity": "0..*",
+      "type": "EXTENSION",
+      "description": "The header name and value of an arbitrary header field of the email message.  The name attribute MUST be set to the header name.  The header value MUST be set in the element body.  The dtype attribute MUST be set to \"string\"."
+    },
+    "EmailHeaders": {
+      "name": "EmailHeaders",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "The headers of an email message."
+    },
+    "EmailBody": {
+      "name": "EmailBody",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "The body of an email message."
+    },
+    "EmailMessage": {
+      "name": "EmailMessage",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "The headers and body of an email message."
+    },
+    "HashData": {
+      "name": "HashData",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "Hash(es) associated with this email message.  See Section 3.26."
+    },
+    "SignatureData": {
+      "name": "SignatureData",
+      "multiplicity": "0..*",
+      "type": null,
+      "description": "Signature(s) associated with this email message. See Section 3.27."
+    },
+    "observable-id": {
+      "name": "observable-id",
+      "multiplicity": "0..1",
+      "type": "ID",
+      "description": "See Section 3.3.2."
+    }
+  },
+  "attributes": {
+  }
+}

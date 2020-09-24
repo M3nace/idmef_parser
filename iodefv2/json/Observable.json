@@ -1,0 +1,134 @@
+{
+  "name": "Observable",
+  "description": "The Observable class describes a feature and phenomenon that can be observed or measured for the purposes of detecting malicious behavior. ",
+  "aggregates": {
+    "System": {
+      "name": "System",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A System observable.  See Section 3.17."
+    },
+    "Address": {
+      "name": "Address",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "An Address observable.  See Section 3.18.1."
+    },
+    "DomainData": {
+      "name": "DomainData",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A DomainData observable.  See Section 3.19."
+    },
+    "Service": {
+      "name": "Service",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A Service observable.  See Section 3.20."
+    },
+    "EmailData": {
+      "name": "EmailData",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "An EmailData observable.  See Section 3.21."
+    },
+    "WindowsRegistryKeysModified": {
+      "name": "WindowsRegistryKeysModified",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A WindowsRegistryKeysModified observable.  See Section 3.23."
+    },
+    "FileData": {
+      "name": "FileData",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A FileData observable.  See Section 3.25."
+    },
+    "CertificateData": {
+      "name": "CertificateData",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A CertificateData observable.  See Section 3.24."
+    },
+    "RegistryHandle": {
+      "name": "RegistryHandle",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A RegistryHandle observable.  See Section 3.9.1."
+    },
+    "RecordData": {
+      "name": "RecordData",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A RecordData observable.  See Section 3.22.1."
+    },
+    "EventData": {
+      "name": "EventData",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "An EventData observable.  See Section 3.14."
+    },
+    "Incident": {
+      "name": "Incident",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "An Incident observable.  See Section 3.2."
+    },
+    "Expectation": {
+      "name": "Expectation",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "An Expectation observable.  See Section 3.15."
+    },
+    "Reference": {
+      "name": "Reference",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A Reference observable.  See Section 3.11.1."
+    },
+    "Assessment": {
+      "name": "Assessment",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "An Assessment observable.  See Section 3.12."
+    },
+    "DetectionPattern": {
+      "name": "DetectionPattern",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A DetectionPattern observable.  See Section 3.10.1."
+    },
+    "HistoryItem": {
+      "name": "HistoryItem",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A HistoryItem observable.  See Section 3.13.1."
+    },
+    "BulkObservable": {
+      "name": "BulkObservable",
+      "multiplicity": "0..1",
+      "type": null,
+      "description": "A bulk list of observables.  See Section 3.29.3.1."
+    },
+    "AdditionalData": {
+      "name": "AdditionalData",
+      "multiplicity": "0..*",
+      "type": "EXTENSION",
+      "description": "Mechanism by which to extend the data model."
+    },
+    "restriction": {
+      "name": "restriction",
+      "multiplicity": "0..1",
+      "type": "ENUM",
+      "description": "See Section 3.3.1."
+    },
+    "ext-restriction": {
+      "name": "ext-restriction",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "A means by which to extend the restriction attribute.  See Section 5.1.1."
+    }
+  },
+  "attributes": {
+  }
+}

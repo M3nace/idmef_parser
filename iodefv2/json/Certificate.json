@@ -1,0 +1,25 @@
+{
+  "name": "Certificate",
+  "description": "The Certificate class describes a given X.509 certificate or certificate chain. ",
+  "aggregates": {
+    "": {
+      "multiplicity": "1..1",
+      "type": null,
+      "description": "A given X.509 certificate or chain.  See Section 4.4.4 of [W3C.XMLSIG]."
+    },
+    "Description": {
+      "name": "Description",
+      "multiplicity": "0..*",
+      "type": "ML_STRING",
+      "description": "A free-form text description explaining the context of this certificate."
+    },
+    "observable-id": {
+      "name": "observable-id",
+      "multiplicity": "0..1",
+      "type": "ID",
+      "description": "See Section 3.3.2."
+    }
+  },
+  "attributes": {
+  }
+}

@@ -181,5 +181,7 @@ end
 
 if __FILE__ == $0
   GraphGenerator.new('idmef/yaml', "yml").generate_all! "idmef/graph"
+  GraphGenerator.new('idmefv2/yaml', "yml").generate_all! "idmefv2/graph"
   GraphGenerator.new('iodef/yaml', "yml").generate_all! "iodef/graph"
+  GraphGenerator.new('iodefv2/yaml', "yml").generate_all! "iodefv2/graph"
 end

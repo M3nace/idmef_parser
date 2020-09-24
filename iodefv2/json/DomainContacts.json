@@ -1,0 +1,20 @@
+{
+  "name": "DomainContacts",
+  "description": "The DomainContacts class describes the contact information for a given domain provided either by the registrar or through a whois query. ",
+  "aggregates": {
+    "SameDomainContact": {
+      "name": "SameDomainContact",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "A domain name already cited in this document or through previous exchange that contains the identical contact information as the domain name in question.  The domain contact information associated with this domain should be used instead of an explicit definition with the Contact class."
+    },
+    "Contact": {
+      "name": "Contact",
+      "multiplicity": "1..*",
+      "type": null,
+      "description": "Contact information for the domain.  See Section 3.9."
+    }
+  },
+  "attributes": {
+  }
+}

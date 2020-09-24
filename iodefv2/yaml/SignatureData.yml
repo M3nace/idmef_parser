@@ -1,0 +1,11 @@
+---
+name: SignatureData
+description: 'The SignatureData class describes different types of digital signatures
+  on an object. '
+aggregates:
+  Signature:
+    name: Signature
+    multiplicity: 1..*
+    type: 
+    description: A given signature.  See Section 4.2 of [W3C.XMLSIG].
+attributes: {}

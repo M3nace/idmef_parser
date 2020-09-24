@@ -1,0 +1,43 @@
+---
+name: DetectionPattern
+description: 'The DetectionPattern class describes a configuration or signature that
+  can be used by an Intrusion Detection System (IDS) / Intrusion Prevention System
+  (IPS), SIEM, antivirus, endpoint protection, network analysis, malware analysis,
+  or host forensics tool to identify a particular phenomenon.  This class requires
+  the identification of the target application and allows the configuration to be
+  described in either free form or machine-readable form. '
+aggregates:
+  Application:
+    name: Application
+    multiplicity: 1..1
+    type: SOFTWARE
+    description: The application for which the DetectionConfiguration or Description
+      is being provided.
+  Description:
+    name: Description
+    multiplicity: 0..*
+    type: ML_STRING
+    description: A free-form text description of how to use the information provided
+      in the Application or DetectionConfiguration classes.
+  DetectionConfiguration:
+    name: DetectionConfiguration
+    multiplicity: 0..*
+    type: STRING
+    description: A machine-consumable configuration to find a pattern of activity.
+  restriction:
+    name: restriction
+    multiplicity: 0..1
+    type: ENUM
+    description: See Section 3.3.1.
+  ext-restriction:
+    name: ext-restriction
+    multiplicity: 0..1
+    type: STRING
+    description: A means by which to extend the restriction attribute.  See Section
+      5.1.1.
+  observable-id:
+    name: observable-id
+    multiplicity: 0..1
+    type: ID
+    description: See Section 3.3.2.
+attributes: {}

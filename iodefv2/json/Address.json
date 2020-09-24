@@ -1,0 +1,8 @@
+{
+  "name": "Address",
+  "description": "The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. ",
+  "aggregates": {
+  },
+  "attributes": {
+  }
+}

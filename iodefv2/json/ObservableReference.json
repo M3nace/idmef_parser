@@ -1,0 +1,8 @@
+{
+  "name": "ObservableReference",
+  "description": "The ObservableReference describes a reference to an observable feature or phenomenon described elsewhere in the document. ",
+  "aggregates": {
+  },
+  "attributes": {
+  }
+}

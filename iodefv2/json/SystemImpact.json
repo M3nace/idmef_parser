@@ -1,0 +1,32 @@
+{
+  "name": "SystemImpact",
+  "description": "The SystemImpact class describes the technical impact of the incident to the systems on the network. ",
+  "aggregates": {
+    "Description": {
+      "name": "Description",
+      "multiplicity": "0..*",
+      "type": "ML_STRING",
+      "description": "A free-form text description of the impact to the system."
+    },
+    "severity": {
+      "name": "severity",
+      "multiplicity": "0..1",
+      "type": "ENUM",
+      "description": "An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."
+    },
+    "completion": {
+      "name": "completion",
+      "multiplicity": "0..1",
+      "type": "ENUM",
+      "description": "An indication whether the described activity was successful.  The permitted values are shown below.  There is no default value."
+    },
+    "type": {
+      "name": "type",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "A means by which to extend the type attribute. See Section 5.1.1."
+    }
+  },
+  "attributes": {
+  }
+}

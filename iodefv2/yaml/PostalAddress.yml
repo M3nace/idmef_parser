@@ -1,0 +1,27 @@
+---
+name: PostalAddress
+description: 'The PostalAddress class specifies a postal address and associated annotation. '
+aggregates:
+  PAddress:
+    name: PAddress
+    multiplicity: 1..1
+    type: POSTAL
+    description: A postal address.
+  Description:
+    name: Description
+    multiplicity: 0..*
+    type: ML_STRING
+    description: A free-form text description of the address.
+  type:
+    name: type
+    multiplicity: 0..1
+    type: ENUM
+    description: Categorizes the type of address described in the PAddress class.  These
+      values are maintained in the "PostalAddress-type" IANA registry per Section
+      10.2.
+  ext-type:
+    name: ext-type
+    multiplicity: 0..1
+    type: STRING
+    description: A means by which to extend the type attribute. See Section 5.1.1.
+attributes: {}

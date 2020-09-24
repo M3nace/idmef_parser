@@ -1,0 +1,36 @@
+---
+name: Campaign
+description: 'The Campaign class describes a campaign of attacks by a threat actor. '
+aggregates:
+  CampaignID:
+    name: CampaignID
+    multiplicity: 0..*
+    type: STRING
+    description: An identifier for the campaign.
+  URL:
+    name: URL
+    multiplicity: 0..*
+    type: URL
+    description: A URL to a reference describing the campaign.
+  Description:
+    name: Description
+    multiplicity: 0..*
+    type: ML_STRING
+    description: A description of the campaign.
+  AdditionalData:
+    name: AdditionalData
+    multiplicity: 0..*
+    type: EXTENSION
+    description: A mechanism by which to extend the data model.
+  restriction:
+    name: restriction
+    multiplicity: 0..1
+    type: ENUM
+    description: See Section 3.3.1.
+  ext-restriction:
+    name: ext-restriction
+    multiplicity: 0..1
+    type: STRING
+    description: A means by which to extend the restriction attribute.  See Section
+      5.1.1.
+attributes: {}

@@ -1,0 +1,54 @@
+---
+name: File
+description: 'The File class describes a file; its associated metadata; and cryptographic
+  hashes and signatures applied to it. '
+aggregates:
+  FileName:
+    name: FileName
+    multiplicity: 0..1
+    type: STRING
+    description: The name of the file.
+  FileSize:
+    name: FileSize
+    multiplicity: 0..1
+    type: INTEGER
+    description: The size of the file in bytes.
+  FileType:
+    name: FileType
+    multiplicity: 0..1
+    type: STRING
+    description: The type of file per the IANA "Media Types" registry [IANA.Media].  Valid
+      values correspond to the text in the "Template" column (e.g., "application/pdf").
+  URL:
+    name: URL
+    multiplicity: 0..*
+    type: URL
+    description: A URL reference to the file.
+  HashData:
+    name: HashData
+    multiplicity: 0..1
+    type: 
+    description: Hash(es) associated with this file.  See Section 3.26.
+  SignatureData:
+    name: SignatureData
+    multiplicity: 0..1
+    type: 
+    description: Signature(s) associated with this file.  See Section 3.27.
+  AssociatedSoftware:
+    name: AssociatedSoftware
+    multiplicity: 0..1
+    type: SOFTWARE
+    description: The software application or operating system to which this file belongs
+      or by which it can be processed.
+  FileProperties:
+    name: FileProperties
+    multiplicity: 0..*
+    type: EXTENSION
+    description: Mechanism by which to extend the data model to describe properties
+      of the file.
+  observable-id:
+    name: observable-id
+    multiplicity: 0..1
+    type: ID
+    description: See Section 3.3.2.
+attributes: {}

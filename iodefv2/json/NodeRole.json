@@ -1,0 +1,20 @@
+{
+  "name": "NodeRole",
+  "description": "The NodeRole class describes the function performed by or role of a particular system, asset, or network. ",
+  "aggregates": {
+    "Description": {
+      "name": "Description",
+      "multiplicity": "0..*",
+      "type": "ML_STRING",
+      "description": "A free-form text description of the role of the system."
+    },
+    "category": {
+      "name": "category",
+      "multiplicity": "0..1",
+      "type": "STRING",
+      "description": "A means by which to extend the category attribute.  See Section 5.1.1."
+    }
+  },
+  "attributes": {
+  }
+}

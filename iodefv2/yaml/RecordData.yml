@@ -1,0 +1,79 @@
+---
+name: RecordData
+description: 'The RecordData class describes or references log or audit data from
+  a given type of tool and provides a means to annotate the output. '
+aggregates:
+  DateTime:
+    name: DateTime
+    multiplicity: 0..1
+    type: DATETIME
+    description: A timestamp of the data found in the RecordItem or URL classes.
+  Description:
+    name: Description
+    multiplicity: 0..*
+    type: ML_STRING
+    description: A free-form text description of the data provided in the RecordItem
+      or URL classes.
+  Application:
+    name: Application
+    multiplicity: 0..1
+    type: SOFTWARE
+    description: Identifies the tool used to generate the data in the RecordItem or
+      URL classes.
+  RecordPattern:
+    name: RecordPattern
+    multiplicity: 0..*
+    type: 
+    description: A search string to precisely find the relevant data in the RecordItem
+      or URL classes.  See Section 3.22.2.
+  RecordItem:
+    name: RecordItem
+    multiplicity: 0..*
+    type: EXTENSION
+    description: Log, audit, or forensic data to support the conclusions made during
+      the course of analyzing the incident.
+  URL:
+    name: URL
+    multiplicity: 0..*
+    type: URL
+    description: A URL reference to a log or audit data.
+  FileData:
+    name: FileData
+    multiplicity: 0..1
+    type: 
+    description: The files involved in the incident.  See Section 3.25.
+  WindowsRegistryKeysModified:
+    name: WindowsRegistryKeysModified
+    multiplicity: 0..*
+    type: 
+    description: The registry keys that were involved in the incident.  See Section
+      3.23.
+  CertificateData:
+    name: CertificateData
+    multiplicity: 0..*
+    type: 
+    description: The certificates that were involved in the incident.  See Section
+      3.24.
+  AdditionalData:
+    name: AdditionalData
+    multiplicity: 0..*
+    type: EXTENSION
+    description: An extension mechanism for data not explicitly represented in the
+      data model.
+  restriction:
+    name: restriction
+    multiplicity: 0..1
+    type: ENUM
+    description: See Section 3.3.1.
+  ext-restriction:
+    name: ext-restriction
+    multiplicity: 0..1
+    type: STRING
+    description: A means by which to extend the restriction attribute.  See Section
+      5.1.1.
+  observable-id:
+    name: observable-id
+    multiplicity: 0..1
+    type: ID
+    description: See Section 3.3.2.
+attributes: {}
