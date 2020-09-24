@@ -1,8 +1,0 @@
----
-name: Confidence
-description: 'The Confidence class represents an estimate of the validity and accuracy
-  of data expressed in the document.  This estimate can be expressed as a category
-  or a numeric calculation. '
-color: "#ff8465"
-aggregates: {}
-attributes: {}

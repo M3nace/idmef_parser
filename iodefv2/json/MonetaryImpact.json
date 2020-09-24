@@ -1,8 +1,0 @@
-{
-  "name": "MonetaryImpact",
-  "description": "The MonetaryImpact class describes the financial impact of the activity on an organization.  For example, this impact may consider losses due to the cost of the investigation or recovery, diminished productivity of the staff, or a tarnished reputation that will affect future opportunities. ",
-  "aggregates": {
-  },
-  "attributes": {
-  }
-}

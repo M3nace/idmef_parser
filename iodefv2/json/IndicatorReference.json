@@ -1,8 +1,0 @@
-{
-  "name": "IndicatorReference",
-  "description": "The IndicatorReference describes a reference to an indicator.  This reference may be to an indicator described in this IODEF document or in a previously exchanged IODEF document. ",
-  "aggregates": {
-  },
-  "attributes": {
-  }
-}

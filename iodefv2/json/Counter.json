@@ -1,8 +1,0 @@
-{
-  "name": "Counter",
-  "description": "The Counter class summarizes multiple occurrences of an event or conveys counts or rates of various features. ",
-  "aggregates": {
-  },
-  "attributes": {
-  }
-}
