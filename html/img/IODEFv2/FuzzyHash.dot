@@ -1,0 +1,11 @@
+digraph FuzzyHash {
+	graph [bb="0,0,245,92",
+		rankdir=LR
+	];
+	node [label="\N"];
+	FuzzyHash	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/FuzzyHash.html" TITLE="The FuzzyHash class describes a fuzzy hash and the application used to generate it. "><FONT FACE="Nimbus Sans L">FuzzyHash</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEFv2/FuzzyHash.html" TITLE="The computed fuzzy hash value."><FONT FACE="Nimbus Sans L">[EXTENSION] FuzzyHashValue (1..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/FuzzyHash.html" TITLE="The application used to calculate the hash."><FONT FACE="Nimbus Sans L">[SOFTWARE] Application (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/FuzzyHash.html" TITLE="Mechanism by which to extend the data model."><FONT FACE="Nimbus Sans L">[EXTENSION] AdditionalData (0..*)</FONT></td></tr>%</table>>,
+		pos="122.5,46",
+		shape=plaintext,
+		width=3.4028];
+}

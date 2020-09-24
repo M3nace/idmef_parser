@@ -1,0 +1,59 @@
+digraph Assessment {
+	graph [bb="0,0,517,460.5",
+		rankdir=LR
+	];
+	node [label="\N"];
+	Assessment	 [height=3.0278,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/Assessment.html" TITLE="The Assessment class describes the repercussions of the incident to the victim. "><FONT FACE="Nimbus Sans L">Assessment</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEFv2/Assessment.html" TITLE="A free-form text description categorizing the type of incident."><FONT FACE="Nimbus Sans L">[ML_STRING] IncidentCategory (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Assessment.html" TITLE="The intended outcome to the victim sought by the threat actor.  Defined identically to the BusinessImpact defined in Section 3.12.2 but describes intent rather than the realized impact."><FONT FACE="Nimbus Sans L">[] IntendedImpact (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Assessment.html" TITLE="A description of a mitigating factor relative to the impact on the victim organization."><FONT FACE="Nimbus Sans L">[ML_STRING] MitigatingFactor (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Assessment.html" TITLE="A description of an underlying cause of the impact."><FONT FACE="Nimbus Sans L">[ML_STRING] Cause (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Assessment.html" TITLE="A mechanism by which to extend the data model."><FONT FACE="Nimbus Sans L">[EXTENSION] AdditionalData (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Assessment.html" TITLE="Specifies whether the assessment is describing actual or potential outcomes."><FONT FACE="Nimbus Sans L">[ENUM] occurrence (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Assessment.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Assessment.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Assessment.html" TITLE="See Section 3.3.2."><FONT FACE="Nimbus Sans L">[ID] observable-id (0..1)</FONT></td></tr>%</table>>,
+		pos="123,153",
+		shape=plaintext,
+		width=3.4167];
+	SystemImpact	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/SystemImpact.html" TITLE="The SystemImpact class describes the technical impact of the incident to the systems on the network. "><FONT FACE="Nimbus Sans L">SystemImpact</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEFv2/SystemImpact.html" TITLE="A free-form text description of the impact to the system."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/SystemImpact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/SystemImpact.html" TITLE="An indication whether the described activity was successful.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] completion (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/SystemImpact.html" TITLE="A means by which to extend the type attribute. See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] type (0..1)</FONT></td></tr>%</table>>,
+		pos="411,404",
+		shape=plaintext,
+		width=2.9444];
+	Assessment -> SystemImpact	 [label="0..*",
+		lp="275.5,327.5",
+		pos="e,315.98,347.39 221.28,262.45 247.31,288.85 276.21,316.04 305,339 305.89,339.71 306.78,340.41 307.68,341.11"];
+	BusinessImpact	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/BusinessImpact.html" TITLE="The BusinessImpact class describes and characterizes the degree to which the function of the organization was impacted by the incident. "><FONT FACE="Nimbus Sans L">BusinessImpact</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEFv2/BusinessImpact.html" TITLE="A free-form text description of the impact to the organization."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/BusinessImpact.html" TITLE="Characterizes the severity of the incident on business functions.  The permitted values are shown below.  They were derived from Table 3-2 of [NIST800.61rev2].  The default value is &quot;unknown&quot;.  These values are maintained in the &quot;BusinessImpact-severity&quot; IANA registry per Section 10.2."><FONT FACE="Nimbus Sans L">[ENUM] severity (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/BusinessImpact.html" TITLE="A means by which to extend the severity attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-severity (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/BusinessImpact.html" TITLE="A means by which to extend the type attribute. See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] type (0..1)</FONT></td></tr>%</table>>,
+		pos="411,273",
+		shape=plaintext,
+		width=2.9444];
+	Assessment -> BusinessImpact	 [label="0..*",
+		lp="275.5,227.5",
+		pos="e,304.64,228.68 246.39,204.41 262.6,211.17 279.16,218.07 295.24,224.77"];
+	TimeImpact	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/TimeImpact.html" TITLE="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. "><FONT FACE="Nimbus Sans L">TimeImpact</FONT></td> </tr>" %</table>>,
+		pos="411,180",
+		shape=plaintext,
+		width=1.3194];
+	Assessment -> TimeImpact	 [label="0..*",
+		lp="275.5,175.5",
+		pos="e,363.42,175.54 246.39,164.57 283.56,168.05 322.61,171.71 353.33,174.59"];
+	MonetaryImpact	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/MonetaryImpact.html" TITLE="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished productivity of the staff, or a tarnished reputation that will affect future opportunities. "><FONT FACE="Nimbus Sans L">MonetaryImpact</FONT></td> </tr>" %</table>>,
+		pos="411,126",
+		shape=plaintext,
+		width=1.6806];
+	Assessment -> MonetaryImpact	 [label="0..*",
+		lp="275.5,146.5",
+		pos="e,350.48,131.67 246.39,141.43 278.48,138.42 311.96,135.28 340.29,132.63"];
+	Counter	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/Counter.html" TITLE="The Counter class summarizes multiple occurrences of an event or conveys counts or rates of various features. "><FONT FACE="Nimbus Sans L">Counter</FONT></td> </tr>" %</table>>,
+		pos="411,72",
+		shape=plaintext,
+		width=0.98611];
+	Assessment -> Counter	 [label="0..*",
+		lp="275.5,117.5",
+		pos="e,375.09,80.777 246.17,115.75 265.81,110.01 285.94,104.25 305,99 324.71,93.568 346.59,87.93 365.32,83.22"];
+	Confidence	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/Confidence.html" TITLE="The Confidence class represents an estimate of the validity and accuracy of data expressed in the document. This estimate can be expressed as a category or a numeric calculation. "><FONT FACE="Nimbus Sans L">Confidence</FONT></td> </tr>" %</table>>,
+		pos="411,18",
+		shape=plaintext,
+		width=1.2639];
+	Assessment -> Confidence	 [label="0..1",
+		lp="275.5,68.5",
+		pos="e,365.47,26.592 246.12,73.61 265.37,63.066 285.4,53.116 305,45 320.91,38.413 338.85,33.105 355.38,28.996"];
+}

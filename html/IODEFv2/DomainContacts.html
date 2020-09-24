@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<title>IDMEF and IODEF</title>
+<link href='/idmef_parser/css/bootstrap.min.css' rel='stylesheet'>
+<script src='/idmef_parser/js/jquery.min.js'></script>
+<script src='/idmef_parser/js/bootstrap.min.js'></script>
+</head>
+<body>
+<div class='navbar navbar-default navbar-inverse' role='navigation'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<a class='navbar-brand' href='/idmef_parser' title='IDMEF and IODEF'>IDMEF and IODEF</a>
+</div>
+<div class='collapse navbar-collapse'>
+<ul class='nav navbar-nav'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IDMEF
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/idmef_parser/IDMEF'>IDMEF-Message</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Alert.html'>Alert</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Analyzer.html'>Analyzer</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Classification.html'>Classification</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/FileAccess.html'>FileAccess</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Heartbeat.html'>Heartbeat</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Linkage.html'>Linkage</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Source.html'>Source</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Target.html'>Target</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/User.html'>User</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IDMEFv2
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2'>IDMEF-Message</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Alert.html'>Alert</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Analyzer.html'>Analyzer</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Classification.html'>Classification</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/FileAccess.html'>FileAccess</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Heartbeat.html'>Heartbeat</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Linkage.html'>Linkage</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Source.html'>Source</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Target.html'>Target</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Transaction.html'>Transaction</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/User.html'>User</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IODEF
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/idmef_parser/IODEF'>IODEF-Document</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/idmef_parser/IODEF/AlternativeID.html'>AlternativeID</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Contact.html'>Contact</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/EventData.html'>EventData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Expectation.html'>Expectation</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Flow.html'>Flow</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/History.html'>History</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/HistoryItem.html'>HistoryItem</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Incident.html'>Incident</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Method.html'>Method</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Record.html'>Record</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/RecordData.html'>RecordData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/System.html'>System</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IODEFv2
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/idmef_parser/IODEFv2'>IODEF-Document</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/AlternativeID.html'>AlternativeID</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/AlternativeIndicatorID.html'>AlternativeIndicatorID</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/BulkObservable.html'>BulkObservable</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/BulkObservableFormat.html'>BulkObservableFormat</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/CertificateData.html'>CertificateData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Contact.html'>Contact</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Discovery.html'>Discovery</a>
+</li>
+<li class='active'>
+<a href='/idmef_parser/IODEFv2/DomainContacts.html'>DomainContacts</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/DomainData.html'>DomainData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/EmailData.html'>EmailData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/EventData.html'>EventData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Expectation.html'>Expectation</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/FileData.html'>FileData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Flow.html'>Flow</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/HashData.html'>HashData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/History.html'>History</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/HistoryItem.html'>HistoryItem</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Incident.html'>Incident</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Indicator.html'>Indicator</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/IndicatorData.html'>IndicatorData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/IndicatorExpression.html'>IndicatorExpression</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Method.html'>Method</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Nameservers.html'>Nameservers</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Observable.html'>Observable</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Record.html'>Record</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/RecordData.html'>RecordData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/System.html'>System</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/WindowsRegistryKeysModified.html'>WindowsRegistryKeysModified</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='nav navbar-nav navbar-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+RFC
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/idmef_parser/rfc4765.txt' target='_blank'>
+IDMEF (4765)
+</a>
+</li>
+<li>
+<a href='/idmef_parser/None' target='_blank'>
+IDMEFv2 (None)
+</a>
+</li>
+<li>
+<a href='/idmef_parser/rfc5070.txt' target='_blank'>
+IODEF (5070)
+</a>
+</li>
+<li>
+<a href='/idmef_parser/rfc' target='_blank'>
+IODEFv2 ()
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<hr>
+<div class='container'>
+<h1>DomainContacts</h1>
+<p>The DomainContacts class describes the contact information for a given domain provided either by the registrar or through a whois query. </p>
+<ul class='nav nav-tabs' role='tablist'>
+<li class='active' role='presentation'>
+<a aria-control='svg' data-toggle='tab' href='#svg' role='tab'>SVG</a>
+</li>
+<li role='presentation'>
+<a aria-control='png' data-toggle='tab' href='#png' role='tab'>PNG</a>
+</li>
+<li role='presentation'>
+<a aria-control='dot' data-toggle='tab' href='#dot' role='tab'>DOT</a>
+</li>
+<li role='presentation'>
+<a aria-control='pdf' data-toggle='tab' href='#pdf' role='pdf'>PDF</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active' id='svg' role='tabpanel'>
+<div class='img-responsive block-center'>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (0)
+ -->
+<!-- Title: DomainContacts Pages: 1 -->
+<svg width="100%" height="100%"
+ viewBox="0.00 0.00 837.00 437.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 433.5)">
+<title>DomainContacts</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-433.5 833,-433.5 833,4 -4,4"/>
+<!-- DomainContacts -->
+<g id="node1" class="node">
+<title>DomainContacts</title>
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/DomainContacts.html" xlink:title="The DomainContacts class describes the contact information for a given domain provided either by the registrar or through a whois query. ">
+<polygon fill="#cecece" stroke="transparent" points="8,-252.5 8,-273.5 242,-273.5 242,-252.5 8,-252.5"/>
+<polygon fill="none" stroke="#000000" points="8,-252.5 8,-273.5 242,-273.5 242,-252.5 8,-252.5"/>
+<text text-anchor="start" x="74.5" y="-259.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">DomainContacts</text>
+</a>
+</g>
+<g id="a_node1_1"><a xlink:href="/idmef_parser/IODEFv2/DomainContacts.html" xlink:title="A domain name already cited in this document or through previous exchange that contains the identical contact information as the domain name in question. &#160;The domain contact information associated with this domain should be used instead of an explicit definition with the Contact class.">
+<polygon fill="none" stroke="#000000" points="8,-231.5 8,-252.5 242,-252.5 242,-231.5 8,-231.5"/>
+<text text-anchor="start" x="11" y="-238.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] SameDomainContact (0..1)</text>
+</a>
+</g>
+</g>
+<!-- Contact -->
+<g id="node2" class="node">
+<title>Contact</title>
+<g id="a_node2_2"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="The Contact class describes contact information for organizations and personnel involved in the incident. This class allows for the naming of the involved party, specifying contact information for them, and identifying their role in the incident. ">
+<polygon fill="#cecece" stroke="transparent" points="317.5,-336.5 317.5,-357.5 534.5,-357.5 534.5,-336.5 317.5,-336.5"/>
+<polygon fill="none" stroke="#000000" points="317.5,-336.5 317.5,-357.5 534.5,-357.5 534.5,-336.5 317.5,-336.5"/>
+<text text-anchor="start" x="402.5" y="-343.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Contact</text>
+</a>
+</g>
+<g id="a_node2_3"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="The name of the contact. &#160;The contact may either be an organization or a person. &#160;The type attribute disambiguates the semantics.">
+<polygon fill="none" stroke="#000000" points="317.5,-315.5 317.5,-336.5 534.5,-336.5 534.5,-315.5 317.5,-315.5"/>
+<text text-anchor="start" x="323.5" y="-322.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] ContactName (0..*)</text>
+</a>
+</g>
+<g id="a_node2_4"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="The title for the individual named in the ContactName.">
+<polygon fill="none" stroke="#000000" points="317.5,-294.5 317.5,-315.5 534.5,-315.5 534.5,-294.5 317.5,-294.5"/>
+<text text-anchor="start" x="329" y="-301.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] ContactTitle (0..*)</text>
+</a>
+</g>
+<g id="a_node2_5"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="A free&#45;form text description of the contact.">
+<polygon fill="none" stroke="#000000" points="317.5,-273.5 317.5,-294.5 534.5,-294.5 534.5,-273.5 317.5,-273.5"/>
+<text text-anchor="start" x="331" y="-280.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
+</a>
+</g>
+<g id="a_node2_6"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="The timezone in which the contact resides.">
+<polygon fill="none" stroke="#000000" points="317.5,-252.5 317.5,-273.5 534.5,-273.5 534.5,-252.5 317.5,-252.5"/>
+<text text-anchor="start" x="337" y="-259.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[TIMEZONE] Timezone (0..1)</text>
+</a>
+</g>
+<g id="a_node2_7"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="A mechanism by which to extend the data model.">
+<polygon fill="none" stroke="#000000" points="317.5,-231.5 317.5,-252.5 534.5,-252.5 534.5,-231.5 317.5,-231.5"/>
+<text text-anchor="start" x="320.5" y="-238.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
+</a>
+</g>
+<g id="a_node2_8"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="A means by which to extend the role attribute. See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="317.5,-210.5 317.5,-231.5 534.5,-231.5 534.5,-210.5 317.5,-210.5"/>
+<text text-anchor="start" x="365.5" y="-217.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] role (0..1)</text>
+</a>
+</g>
+<g id="a_node2_9"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="317.5,-189.5 317.5,-210.5 534.5,-210.5 534.5,-189.5 317.5,-189.5"/>
+<text text-anchor="start" x="364" y="-196.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] type (0..1)</text>
+</a>
+</g>
+<g id="a_node2_10"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="See Section 3.3.1.">
+<polygon fill="none" stroke="#000000" points="317.5,-168.5 317.5,-189.5 534.5,-189.5 534.5,-168.5 317.5,-168.5"/>
+<text text-anchor="start" x="353" y="-175.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
+</a>
+</g>
+<g id="a_node2_11"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="317.5,-147.5 317.5,-168.5 534.5,-168.5 534.5,-147.5 317.5,-147.5"/>
+<text text-anchor="start" x="337" y="-154.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
+</a>
+</g>
+</g>
+<!-- DomainContacts&#45;&gt;Contact -->
+<g id="edge6" class="edge">
+<title>DomainContacts&#45;&gt;Contact</title>
+<path fill="none" stroke="#000000" d="M250.2631,-252.5C266.1157,-252.5 282.3501,-252.5 298.2336,-252.5"/>
+<polygon fill="#000000" stroke="#000000" points="298.6131,-256.0001 308.6131,-252.5 298.6131,-249.0001 298.6131,-256.0001"/>
+<text text-anchor="middle" x="279.5" y="-256.3" font-family="Times,serif" font-size="14.00" fill="#000000">1..*</text>
+</g>
+<!-- Contact&#45;&gt;Contact -->
+<g id="edge5" class="edge">
+<title>Contact&#45;&gt;Contact</title>
+<path fill="none" stroke="#000000" d="M403.1793,-361.791C407.6516,-372.6154 415.0918,-379.5 425.5,-379.5 432.6556,-379.5 438.4085,-376.246 442.7584,-370.6948"/>
+<polygon fill="#000000" stroke="#000000" points="445.9207,-372.2141 447.8207,-361.791 439.8355,-368.7543 445.9207,-372.2141"/>
+<text text-anchor="middle" x="425.5" y="-383.3" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- RegistryHandle -->
+<g id="node3" class="node">
+<title>RegistryHandle</title>
+<g id="a_node3_12"><a xlink:href="/idmef_parser/IODEFv2/RegistryHandle.html" xlink:title="The RegistryHandle class represents a handle into an Internet registry or community&#45;specific database. ">
+<polygon fill="#cecece" stroke="transparent" points="666,-400.5 666,-421.5 765,-421.5 765,-400.5 666,-400.5"/>
+<polygon fill="none" stroke="#000000" points="666,-400.5 666,-421.5 765,-421.5 765,-400.5 666,-400.5"/>
+<text text-anchor="start" x="669" y="-407.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RegistryHandle</text>
+</a>
+</g>
+</g>
+<!-- Contact&#45;&gt;RegistryHandle -->
+<g id="edge1" class="edge">
+<title>Contact&#45;&gt;RegistryHandle</title>
+<path fill="none" stroke="#000000" d="M542.131,-350.3868C561.0254,-363.1948 580.9815,-375.1072 601,-384.5 615.4248,-391.2682 631.6967,-396.4225 647.3344,-400.3168"/>
+<polygon fill="#000000" stroke="#000000" points="646.9584,-403.8235 657.4933,-402.6983 648.5561,-397.0082 646.9584,-403.8235"/>
+<text text-anchor="middle" x="571.5" y="-377.3" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- PostalAddress -->
+<g id="node4" class="node">
+<title>PostalAddress</title>
+<g id="a_node4_13"><a xlink:href="/idmef_parser/IODEFv2/PostalAddress.html" xlink:title="The PostalAddress class specifies a postal address and associated annotation. ">
+<polygon fill="#cecece" stroke="transparent" points="617,-349.5 617,-370.5 813,-370.5 813,-349.5 617,-349.5"/>
+<polygon fill="none" stroke="#000000" points="617,-349.5 617,-370.5 813,-370.5 813,-349.5 617,-349.5"/>
+<text text-anchor="start" x="671" y="-356.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">PostalAddress</text>
+</a>
+</g>
+<g id="a_node4_14"><a xlink:href="/idmef_parser/IODEFv2/PostalAddress.html" xlink:title="A postal address.">
+<polygon fill="none" stroke="#000000" points="617,-328.5 617,-349.5 813,-349.5 813,-328.5 617,-328.5"/>
+<text text-anchor="start" x="637" y="-335.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[POSTAL] PAddress (1..1)</text>
+</a>
+</g>
+<g id="a_node4_15"><a xlink:href="/idmef_parser/IODEFv2/PostalAddress.html" xlink:title="A free&#45;form text description of the address.">
+<polygon fill="none" stroke="#000000" points="617,-307.5 617,-328.5 813,-328.5 813,-307.5 617,-307.5"/>
+<text text-anchor="start" x="620" y="-314.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
+</a>
+</g>
+<g id="a_node4_16"><a xlink:href="/idmef_parser/IODEFv2/PostalAddress.html" xlink:title="Categorizes the type of address described in the PAddress class. &#160;These values are maintained in the &quot;PostalAddress&#45;type&quot; IANA registry per Section 10.2.">
+<polygon fill="none" stroke="#000000" points="617,-286.5 617,-307.5 813,-307.5 813,-286.5 617,-286.5"/>
+<text text-anchor="start" x="658.5" y="-293.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (0..1)</text>
+</a>
+</g>
+<g id="a_node4_17"><a xlink:href="/idmef_parser/IODEFv2/PostalAddress.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="617,-265.5 617,-286.5 813,-286.5 813,-265.5 617,-265.5"/>
+<text text-anchor="start" x="642.5" y="-272.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (0..1)</text>
+</a>
+</g>
+</g>
+<!-- Contact&#45;&gt;PostalAddress -->
+<g id="edge2" class="edge">
+<title>Contact&#45;&gt;PostalAddress</title>
+<path fill="none" stroke="#000000" d="M542.4163,-279.1545C561.0391,-283.4001 580.3008,-287.7914 598.9046,-292.0327"/>
+<polygon fill="#000000" stroke="#000000" points="598.3362,-295.4928 608.864,-294.3032 599.8921,-288.6679 598.3362,-295.4928"/>
+<text text-anchor="middle" x="571.5" y="-290.3" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- Email -->
+<g id="node5" class="node">
+<title>Email</title>
+<g id="a_node5_18"><a xlink:href="/idmef_parser/IODEFv2/Email.html" xlink:title="The Email class specifies an email address and associated annotation. ">
+<polygon fill="#cecece" stroke="transparent" points="617,-218.5 617,-239.5 813,-239.5 813,-218.5 617,-218.5"/>
+<polygon fill="none" stroke="#000000" points="617,-218.5 617,-239.5 813,-239.5 813,-218.5 617,-218.5"/>
+<text text-anchor="start" x="697.5" y="-225.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Email</text>
+</a>
+</g>
+<g id="a_node5_19"><a xlink:href="/idmef_parser/IODEFv2/Email.html" xlink:title="An email address.">
+<polygon fill="none" stroke="#000000" points="617,-197.5 617,-218.5 813,-218.5 813,-197.5 617,-197.5"/>
+<text text-anchor="start" x="647" y="-204.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EMAIL] EmailTo (1..1)</text>
+</a>
+</g>
+<g id="a_node5_20"><a xlink:href="/idmef_parser/IODEFv2/Email.html" xlink:title="A free&#45;form text description of the email address.">
+<polygon fill="none" stroke="#000000" points="617,-176.5 617,-197.5 813,-197.5 813,-176.5 617,-176.5"/>
+<text text-anchor="start" x="620" y="-183.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
+</a>
+</g>
+<g id="a_node5_21"><a xlink:href="/idmef_parser/IODEFv2/Email.html" xlink:title="Categorizes the type of email address described in the EmailTo class. &#160;These values are maintained in the &quot;Email&#45; type&quot; IANA registry per Section 10.2.">
+<polygon fill="none" stroke="#000000" points="617,-155.5 617,-176.5 813,-176.5 813,-155.5 617,-155.5"/>
+<text text-anchor="start" x="658.5" y="-162.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (0..1)</text>
+</a>
+</g>
+<g id="a_node5_22"><a xlink:href="/idmef_parser/IODEFv2/Email.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="617,-134.5 617,-155.5 813,-155.5 813,-134.5 617,-134.5"/>
+<text text-anchor="start" x="642.5" y="-141.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (0..1)</text>
+</a>
+</g>
+</g>
+<!-- Contact&#45;&gt;Email -->
+<g id="edge3" class="edge">
+<title>Contact&#45;&gt;Email</title>
+<path fill="none" stroke="#000000" d="M542.4163,-226.2494C561.0391,-222.0681 580.3008,-217.7433 598.9046,-213.5663"/>
+<polygon fill="#000000" stroke="#000000" points="599.8737,-216.936 608.864,-211.3302 598.3401,-210.106 599.8737,-216.936"/>
+<text text-anchor="middle" x="571.5" y="-225.3" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- Telephone -->
+<g id="node6" class="node">
+<title>Telephone</title>
+<g id="a_node6_23"><a xlink:href="/idmef_parser/IODEFv2/Telephone.html" xlink:title="The Telephone class describes a telephone number and associated annotation. ">
+<polygon fill="#cecece" stroke="transparent" points="609,-87.5 609,-108.5 821,-108.5 821,-87.5 609,-87.5"/>
+<polygon fill="none" stroke="#000000" points="609,-87.5 609,-108.5 821,-108.5 821,-87.5 609,-87.5"/>
+<text text-anchor="start" x="683.5" y="-94.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Telephone</text>
+</a>
+</g>
+<g id="a_node6_24"><a xlink:href="/idmef_parser/IODEFv2/Telephone.html" xlink:title="A telephone number.">
+<polygon fill="none" stroke="#000000" points="609,-66.5 609,-87.5 821,-87.5 821,-66.5 609,-66.5"/>
+<text text-anchor="start" x="612" y="-73.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[PHONE] TelephoneNumber (1..1)</text>
+</a>
+</g>
+<g id="a_node6_25"><a xlink:href="/idmef_parser/IODEFv2/Telephone.html" xlink:title="A free&#45;form text description of the phone number.">
+<polygon fill="none" stroke="#000000" points="609,-45.5 609,-66.5 821,-66.5 821,-45.5 609,-45.5"/>
+<text text-anchor="start" x="620" y="-52.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
+</a>
+</g>
+<g id="a_node6_26"><a xlink:href="/idmef_parser/IODEFv2/Telephone.html" xlink:title="Categorizes the type of telephone number described in the TelephoneNumber class. &#160;These values are maintained in the &quot;Telephone&#45;type&quot; IANA registry per Section 10.2.">
+<polygon fill="none" stroke="#000000" points="609,-24.5 609,-45.5 821,-45.5 821,-24.5 609,-24.5"/>
+<text text-anchor="start" x="658.5" y="-31.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (0..1)</text>
+</a>
+</g>
+<g id="a_node6_27"><a xlink:href="/idmef_parser/IODEFv2/Telephone.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="609,-3.5 609,-24.5 821,-24.5 821,-3.5 609,-3.5"/>
+<text text-anchor="start" x="642.5" y="-10.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (0..1)</text>
+</a>
+</g>
+</g>
+<!-- Contact&#45;&gt;Telephone -->
+<g id="edge4" class="edge">
+<title>Contact&#45;&gt;Telephone</title>
+<path fill="none" stroke="#000000" d="M542.2047,-163.229C561.5841,-149.2261 581.6678,-135.1982 601,-122.5 602.9413,-121.2248 604.908,-119.947 606.8951,-118.6687"/>
+<polygon fill="#000000" stroke="#000000" points="609.1537,-121.3807 615.7219,-113.0675 605.4031,-115.4702 609.1537,-121.3807"/>
+<text text-anchor="middle" x="571.5" y="-152.3" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+</g>
+</svg>
+
+</div>
+</div>
+<div class='tab-pane' id='png' role='tabpanel'>
+<img class='img-responsive block-center' src='/idmef_parser/img/IODEFv2/DomainContacts.png'>
+</div>
+<div class='tab-pane' id='dot' role='tabpanel'>
+<pre><p>digraph DomainContacts {
+	graph [bb=&quot;0,0,829,429.5&quot;,
+		rankdir=LR
+	];
+	node [label=&quot;\N&quot;];
+	DomainContacts	 [height=0.69444,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/DomainContacts.html&quot; TITLE=&quot;The DomainContacts class describes the contact information for a given domain provided either by the registrar or through a whois query. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;DomainContacts&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/DomainContacts.html&quot; TITLE=&quot;A domain name already cited in this document or through previous exchange that contains the identical contact information as the domain name in question.  The domain contact information associated with this domain should be used instead of an explicit definition with the Contact class.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] SameDomainContact (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;125,252.5&quot;,
+		shape=plaintext,
+		width=3.4722];
+	Contact	 [height=3.0278,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/Contact.html&quot; TITLE=&quot;The Contact class describes contact information for organizations and personnel involved in the incident. This class allows for the naming of the involved party, specifying contact information for them, and identifying their role in the incident. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Contact&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Contact.html&quot; TITLE=&quot;The name of the contact.  The contact may either be an organization or a person.  The type attribute disambiguates the semantics.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ML_STRING] ContactName (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Contact.html&quot; TITLE=&quot;The title for the individual named in the ContactName.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ML_STRING] ContactTitle (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Contact.html&quot; TITLE=&quot;A free-form text description of the contact.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ML_STRING] Description (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Contact.html&quot; TITLE=&quot;The timezone in which the contact resides.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[TIMEZONE] Timezone (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Contact.html&quot; TITLE=&quot;A mechanism by which to extend the data model.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[EXTENSION] AdditionalData (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Contact.html&quot; TITLE=&quot;A means by which to extend the role attribute. See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] role (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Contact.html&quot; TITLE=&quot;A means by which to extend the type attribute. See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] type (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Contact.html&quot; TITLE=&quot;See Section 3.3.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] restriction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Contact.html&quot; TITLE=&quot;A means by which to extend the restriction attribute.  See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-restriction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;425.5,252.5&quot;,
+		shape=plaintext,
+		width=3.2361];
+	DomainContacts -&gt; Contact	 [label=&quot;1..*&quot;,
+		lp=&quot;279.5,260&quot;,
+		pos=&quot;e,308.61,252.5 250.26,252.5 266.12,252.5 282.35,252.5 298.23,252.5&quot;];
+	Contact -&gt; Contact	 [label=&quot;0..*&quot;,
+		lp=&quot;425.5,387&quot;,
+		pos=&quot;e,447.82,361.79 403.18,361.79 407.65,372.62 415.09,379.5 425.5,379.5 432.66,379.5 438.41,376.25 442.76,370.69&quot;];
+	RegistryHandle	 [height=0.5,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/RegistryHandle.html&quot; TITLE=&quot;The RegistryHandle class represents a handle into an Internet registry or community-specific database. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;RegistryHandle&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;/table&gt;&gt;,
+		pos=&quot;715,411.5&quot;,
+		shape=plaintext,
+		width=1.5972];
+	Contact -&gt; RegistryHandle	 [label=&quot;0..*&quot;,
+		lp=&quot;571.5,381&quot;,
+		pos=&quot;e,657.49,402.7 542.13,350.39 561.03,363.19 580.98,375.11 601,384.5 615.42,391.27 631.7,396.42 647.33,400.32&quot;];
+	PostalAddress	 [height=1.5694,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/PostalAddress.html&quot; TITLE=&quot;The PostalAddress class specifies a postal address and associated annotation. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;PostalAddress&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/PostalAddress.html&quot; TITLE=&quot;A postal address.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[POSTAL] PAddress (1..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/PostalAddress.html&quot; TITLE=&quot;A free-form text description of the address.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ML_STRING] Description (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/PostalAddress.html&quot; TITLE=&quot;Categorizes the type of address described in the PAddress class.  These values are maintained in the &amp;quot;PostalAddress-type&amp;quot; IANA registry per Section 10.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] type (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/PostalAddress.html&quot; TITLE=&quot;A means by which to extend the type attribute. See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-type (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;715,318.5&quot;,
+		shape=plaintext,
+		width=2.9444];
+	Contact -&gt; PostalAddress	 [label=&quot;0..*&quot;,
+		lp=&quot;571.5,294&quot;,
+		pos=&quot;e,608.86,294.3 542.42,279.15 561.04,283.4 580.3,287.79 598.9,292.03&quot;];
+	Email	 [height=1.5694,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/Email.html&quot; TITLE=&quot;The Email class specifies an email address and associated annotation. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Email&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Email.html&quot; TITLE=&quot;An email address.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[EMAIL] EmailTo (1..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Email.html&quot; TITLE=&quot;A free-form text description of the email address.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ML_STRING] Description (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Email.html&quot; TITLE=&quot;Categorizes the type of email address described in the EmailTo class.  These values are maintained in the &amp;quot;Email- type&amp;quot; IANA registry per Section 10.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] type (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Email.html&quot; TITLE=&quot;A means by which to extend the type attribute. See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-type (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;715,187.5&quot;,
+		shape=plaintext,
+		width=2.9444];
+	Contact -&gt; Email	 [label=&quot;0..*&quot;,
+		lp=&quot;571.5,229&quot;,
+		pos=&quot;e,608.86,211.33 542.42,226.25 561.04,222.07 580.3,217.74 598.9,213.57&quot;];
+	Telephone	 [height=1.5694,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/Telephone.html&quot; TITLE=&quot;The Telephone class describes a telephone number and associated annotation. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Telephone&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Telephone.html&quot; TITLE=&quot;A telephone number.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[PHONE] TelephoneNumber (1..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Telephone.html&quot; TITLE=&quot;A free-form text description of the phone number.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ML_STRING] Description (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Telephone.html&quot; TITLE=&quot;Categorizes the type of telephone number described in the TelephoneNumber class.  These values are maintained in the &amp;quot;Telephone-type&amp;quot; IANA registry per Section 10.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] type (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Telephone.html&quot; TITLE=&quot;A means by which to extend the type attribute. See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-type (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;715,56.5&quot;,
+		shape=plaintext,
+		width=3.1667];
+	Contact -&gt; Telephone	 [label=&quot;0..*&quot;,
+		lp=&quot;571.5,156&quot;,
+		pos=&quot;e,615.72,113.07 542.2,163.23 561.58,149.23 581.67,135.2 601,122.5 602.94,121.22 604.91,119.95 606.9,118.67&quot;];
+}
+</p></pre>
+</div>
+<div class='tab-pane' id='pdf' role='tabpanel'>
+<iframe height='500px' src='/idmef_parser/img/IODEFv2/DomainContacts.pdf' width='100%'></iframe>
+</div>
+</div>
+<hr>
+<h3>Aggregates</h3>
+<h4>
+SameDomainContact
+(0..1)
+</h4>
+<blockquote>
+A domain name already cited in this document or through previous exchange that contains the identical contact information as the domain name in question.  The domain contact information associated with this domain should be used instead of an explicit definition with the Contact class.
+</blockquote>
+<h4>
+<a href='/idmef_parser/IODEFv2/Contact.html'>Contact</a>
+(1..*)
+</h4>
+<blockquote>
+Contact information for the domain.  See Section 3.9.
+</blockquote>
+<hr>
+</div>
+
+<hr>
+<div class='container'>
+<hr>
+<h4>IDMEF</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEF/Action.html'>Action</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Address.html'>Address</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Alert.html'>Alert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Analyzer.html'>Analyzer</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/AnalyzerTime.html'>AnalyzerTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Checksum.html'>Checksum</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEF/Classification.html'>Classification</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/CorrelationAlert.html'>CorrelationAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/CreateTime.html'>CreateTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/DetectTime.html'>DetectTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/File.html'>File</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/FileAccess.html'>FileAccess</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Heartbeat.html'>Heartbeat</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEF/IDMEF-Message.html'>IDMEF-Message</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Impact.html'>Impact</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Inode.html'>Inode</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Linkage.html'>Linkage</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Node.html'>Node</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/OverflowAlert.html'>OverflowAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Process.html'>Process</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Reference.html'>Reference</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEF/SNMPService.html'>SNMPService</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Service.html'>Service</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Source.html'>Source</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Target.html'>Target</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/ToolAlert.html'>ToolAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/User.html'>User</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/UserId.html'>UserId</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/WebService.html'>WebService</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IDMEFv2</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEFv2/Action.html'>Action</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Address.html'>Address</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Alert.html'>Alert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Analyzer.html'>Analyzer</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/AnalyzerTime.html'>AnalyzerTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Checksum.html'>Checksum</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Classification.html'>Classification</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEFv2/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/CorrelationAlert.html'>CorrelationAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/CreateTime.html'>CreateTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/DetectTime.html'>DetectTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/File.html'>File</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/FileAccess.html'>FileAccess</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Heartbeat.html'>Heartbeat</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/IDMEF-Message.html'>IDMEF-Message</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Impact.html'>Impact</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEFv2/Inode.html'>Inode</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Linkage.html'>Linkage</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Node.html'>Node</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/OverflowAlert.html'>OverflowAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Process.html'>Process</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/SNMPService.html'>SNMPService</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Service.html'>Service</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Source.html'>Source</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEFv2/Stream.html'>Stream</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Target.html'>Target</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/ToolAlert.html'>ToolAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Transaction.html'>Transaction</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/User.html'>User</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/UserId.html'>UserId</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/WebService.html'>WebService</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IODEF</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEF/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Address.html'>Address</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/AlternativeID.html'>AlternativeID</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Application.html'>Application</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Contact.html'>Contact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Counter.html'>Counter</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Email.html'>Email</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEF/EventData.html'>EventData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Expectation.html'>Expectation</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Flow.html'>Flow</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/History.html'>History</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/HistoryItem.html'>HistoryItem</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/IODEF-Document.html'>IODEF-Document</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Impact.html'>Impact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Incident.html'>Incident</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/IncidentID.html'>IncidentID</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEF/Method.html'>Method</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/MonetaryImpact.html'>MonetaryImpact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Node.html'>Node</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/NodeRole.html'>NodeRole</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/OperatingSystem.html'>OperatingSystem</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/PostalAddress.html'>PostalAddress</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Record.html'>Record</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/RecordData.html'>RecordData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/RecordItem.html'>RecordItem</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEF/RecordPattern.html'>RecordPattern</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/RegistryHandle.html'>RegistryHandle</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Service.html'>Service</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/System.html'>System</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/TimeImpact.html'>TimeImpact</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IODEFv2</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEFv2/Address.html'>Address</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/AlternativeID.html'>AlternativeID</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/AlternativeIndicatorID.html'>AlternativeIndicatorID</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/ApplicationHeader.html'>ApplicationHeader</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/AttackPhase.html'>AttackPhase</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/BulkObservable.html'>BulkObservable</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/BulkObservableFormat.html'>BulkObservableFormat</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/BusinessImpact.html'>BusinessImpact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Campaign.html'>Campaign</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Certificate.html'>Certificate</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/CertificateData.html'>CertificateData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Contact.html'>Contact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Counter.html'>Counter</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/DetectionPattern.html'>DetectionPattern</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEFv2/Discovery.html'>Discovery</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/DomainContacts.html'>DomainContacts</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/DomainData.html'>DomainData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Email.html'>Email</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/EmailData.html'>EmailData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/EventData.html'>EventData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Expectation.html'>Expectation</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/File.html'>File</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/FileData.html'>FileData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Flow.html'>Flow</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/FuzzyHash.html'>FuzzyHash</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Hash.html'>Hash</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/HashData.html'>HashData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/History.html'>History</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/HistoryItem.html'>HistoryItem</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IODEF-Document.html'>IODEF-Document</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEFv2/Incident.html'>Incident</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IncidentID.html'>IncidentID</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Indicator.html'>Indicator</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IndicatorData.html'>IndicatorData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IndicatorExpression.html'>IndicatorExpression</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IndicatorID.html'>IndicatorID</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IndicatorReference.html'>IndicatorReference</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Key.html'>Key</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Method.html'>Method</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/MonetaryImpact.html'>MonetaryImpact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Nameservers.html'>Nameservers</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Node.html'>Node</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/NodeRole.html'>NodeRole</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Observable.html'>Observable</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/ObservableReference.html'>ObservableReference</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/PostalAddress.html'>PostalAddress</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEFv2/Record.html'>Record</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/RecordData.html'>RecordData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/RecordPattern.html'>RecordPattern</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/RegistryHandle.html'>RegistryHandle</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Service.html'>Service</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/ServiceName.html'>ServiceName</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/SignatureData.html'>SignatureData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/System.html'>System</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/SystemImpact.html'>SystemImpact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Telephone.html'>Telephone</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/ThreatActor.html'>ThreatActor</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/TimeImpact.html'>TimeImpact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/WindowsRegistryKeysModified.html'>WindowsRegistryKeysModified</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</body>
+</html>

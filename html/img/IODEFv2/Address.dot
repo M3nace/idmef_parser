@@ -1,0 +1,11 @@
+digraph Address {
+	graph [bb="0,0,72,36",
+		rankdir=LR
+	];
+	node [label="\N"];
+	Address	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/Address.html" TITLE="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. "><FONT FACE="Nimbus Sans L">Address</FONT></td> </tr>" %</table>>,
+		pos="36,18",
+		shape=plaintext,
+		width=1];
+}

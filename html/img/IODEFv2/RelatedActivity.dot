@@ -1,0 +1,51 @@
+digraph RelatedActivity {
+	graph [bb="0,0,525,491",
+		rankdir=LR
+	];
+	node [label="\N"];
+	RelatedActivity	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/RelatedActivity.html" TITLE="The RelatedActivity class relates the information described in the rest of the document to previously observed incidents or activity and allows attribution to a specific actor or campaign. "><FONT FACE="Nimbus Sans L">RelatedActivity</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEFv2/RelatedActivity.html" TITLE="A URL to activity related to this incident."><FONT FACE="Nimbus Sans L">[URL] URL (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/RelatedActivity.html" TITLE="A description of how these relationships were derived."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/RelatedActivity.html" TITLE="A mechanism by which to extend the data model."><FONT FACE="Nimbus Sans L">[EXTENSION] AdditionalData (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/RelatedActivity.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/RelatedActivity.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%</table>>,
+		pos="116.5,186",
+		shape=plaintext,
+		width=3.2361];
+	IncidentID	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/IncidentID.html" TITLE="The IncidentID class represents a tracking number that is unique in the context of the CSIRT. It serves as an identifier for an incident or a document identifier when sharing indicators. This identifier would serve as an index into a CSIRT&#39;s incident handling or knowledge management system. "><FONT FACE="Nimbus Sans L">IncidentID</FONT></td> </tr>" %</table>>,
+		pos="408.5,473",
+		shape=plaintext,
+		width=1.1528];
+	RelatedActivity -> IncidentID	 [label="0..*",
+		lp="262.5,437.5",
+		pos="e,366.95,470.83 144.42,253.14 172.78,312.95 222.45,398.17 292,446 310.98,459.05 335.38,465.86 356.95,469.39"];
+	ThreatActor	 [height=2.1528,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/ThreatActor.html" TITLE="The ThreatActor class describes a threat actor. "><FONT FACE="Nimbus Sans L">ThreatActor</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEFv2/ThreatActor.html" TITLE="An identifier for the threat actor."><FONT FACE="Nimbus Sans L">[STRING] ThreatActorID (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/ThreatActor.html" TITLE="A URL to a reference describing the threat actor."><FONT FACE="Nimbus Sans L">[URL] URL (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/ThreatActor.html" TITLE="A description of the threat actor."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/ThreatActor.html" TITLE="A mechanism by which to extend the data model."><FONT FACE="Nimbus Sans L">[EXTENSION] AdditionalData (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/ThreatActor.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/ThreatActor.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%</table>>,
+		pos="408.5,359",
+		shape=plaintext,
+		width=3.2361];
+	RelatedActivity -> ThreatActor	 [label="0..*",
+		lp="262.5,284.5",
+		pos="e,291.88,289.9 229.81,253.13 247.31,263.5 265.47,274.26 283.21,284.77"];
+	Campaign	 [height=2.1528,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/Campaign.html" TITLE="The Campaign class describes a campaign of attacks by a threat actor. "><FONT FACE="Nimbus Sans L">Campaign</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEFv2/Campaign.html" TITLE="An identifier for the campaign."><FONT FACE="Nimbus Sans L">[STRING] CampaignID (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Campaign.html" TITLE="A URL to a reference describing the campaign."><FONT FACE="Nimbus Sans L">[URL] URL (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Campaign.html" TITLE="A description of the campaign."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Campaign.html" TITLE="A mechanism by which to extend the data model."><FONT FACE="Nimbus Sans L">[EXTENSION] AdditionalData (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Campaign.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/Campaign.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%</table>>,
+		pos="408.5,186",
+		shape=plaintext,
+		width=3.2361];
+	RelatedActivity -> Campaign	 [label="0..*",
+		lp="262.5,193.5",
+		pos="e,291.54,186 233.17,186 248.93,186 265.18,186 281.12,186"];
+	IndicatorID	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/IndicatorID.html" TITLE="The IndicatorID class identifies an indicator with a globally unique identifier. The combination of the name and version attributes and the element content form this identifier. Indicators generated by given CSIRT MUST NOT reuse the same value unless they are referencing the same indicator. "><FONT FACE="Nimbus Sans L">IndicatorID</FONT></td> </tr>" %</table>>,
+		pos="408.5,72",
+		shape=plaintext,
+		width=1.2222];
+	RelatedActivity -> IndicatorID	 [label="0..*",
+		lp="262.5,122.5",
+		pos="e,364.4,80.207 233.44,124.31 252.7,115.43 272.69,106.96 292,100 312.01,92.793 334.61,86.877 354.55,82.37"];
+	Confidence	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/Confidence.html" TITLE="The Confidence class represents an estimate of the validity and accuracy of data expressed in the document. This estimate can be expressed as a category or a numeric calculation. "><FONT FACE="Nimbus Sans L">Confidence</FONT></td> </tr>" %</table>>,
+		pos="408.5,18",
+		shape=plaintext,
+		width=1.2639];
+	RelatedActivity -> Confidence	 [label="0..1",
+		lp="262.5,73.5",
+		pos="e,362.93,23.695 185.32,118.7 215.83,92.203 253.51,63.703 292,45 310.93,35.802 333.14,29.655 353.06,25.585"];
+}

@@ -1,0 +1,11 @@
+digraph RecordPattern {
+	graph [bb="0,0,109,36",
+		rankdir=LR
+	];
+	node [label="\N"];
+	RecordPattern	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/RecordPattern.html" TITLE="The RecordPattern class describes where in the log data provided or referenced in the RecordData class relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. "><FONT FACE="Nimbus Sans L">RecordPattern</FONT></td> </tr>" %</table>>,
+		pos="54.5,18",
+		shape=plaintext,
+		width=1.5139];
+}

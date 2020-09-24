@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<title>IDMEF and IODEF</title>
+<link href='/idmef_parser/css/bootstrap.min.css' rel='stylesheet'>
+<script src='/idmef_parser/js/jquery.min.js'></script>
+<script src='/idmef_parser/js/bootstrap.min.js'></script>
+</head>
+<body>
+<div class='navbar navbar-default navbar-inverse' role='navigation'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<a class='navbar-brand' href='/idmef_parser' title='IDMEF and IODEF'>IDMEF and IODEF</a>
+</div>
+<div class='collapse navbar-collapse'>
+<ul class='nav navbar-nav'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IDMEF
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/idmef_parser/IDMEF'>IDMEF-Message</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Alert.html'>Alert</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Analyzer.html'>Analyzer</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Classification.html'>Classification</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/FileAccess.html'>FileAccess</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Heartbeat.html'>Heartbeat</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Linkage.html'>Linkage</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Source.html'>Source</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/Target.html'>Target</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEF/User.html'>User</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IDMEFv2
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2'>IDMEF-Message</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Alert.html'>Alert</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Analyzer.html'>Analyzer</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Classification.html'>Classification</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/FileAccess.html'>FileAccess</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Heartbeat.html'>Heartbeat</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Linkage.html'>Linkage</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Source.html'>Source</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Target.html'>Target</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/Transaction.html'>Transaction</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IDMEFv2/User.html'>User</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IODEF
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/idmef_parser/IODEF'>IODEF-Document</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/idmef_parser/IODEF/AlternativeID.html'>AlternativeID</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Contact.html'>Contact</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/EventData.html'>EventData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Expectation.html'>Expectation</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Flow.html'>Flow</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/History.html'>History</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/HistoryItem.html'>HistoryItem</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Incident.html'>Incident</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Method.html'>Method</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Record.html'>Record</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/RecordData.html'>RecordData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEF/System.html'>System</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IODEFv2
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/idmef_parser/IODEFv2'>IODEF-Document</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/AlternativeID.html'>AlternativeID</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/AlternativeIndicatorID.html'>AlternativeIndicatorID</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/BulkObservable.html'>BulkObservable</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/BulkObservableFormat.html'>BulkObservableFormat</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/CertificateData.html'>CertificateData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Contact.html'>Contact</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Discovery.html'>Discovery</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/DomainContacts.html'>DomainContacts</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/DomainData.html'>DomainData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/EmailData.html'>EmailData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/EventData.html'>EventData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Expectation.html'>Expectation</a>
+</li>
+<li class='active'>
+<a href='/idmef_parser/IODEFv2/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/FileData.html'>FileData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Flow.html'>Flow</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/HashData.html'>HashData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/History.html'>History</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/HistoryItem.html'>HistoryItem</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Incident.html'>Incident</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Indicator.html'>Indicator</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/IndicatorData.html'>IndicatorData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/IndicatorExpression.html'>IndicatorExpression</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Method.html'>Method</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Nameservers.html'>Nameservers</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Observable.html'>Observable</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Record.html'>Record</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/RecordData.html'>RecordData</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/System.html'>System</a>
+</li>
+<li class=''>
+<a href='/idmef_parser/IODEFv2/WindowsRegistryKeysModified.html'>WindowsRegistryKeysModified</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='nav navbar-nav navbar-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+RFC
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/idmef_parser/rfc4765.txt' target='_blank'>
+IDMEF (4765)
+</a>
+</li>
+<li>
+<a href='/idmef_parser/None' target='_blank'>
+IDMEFv2 (None)
+</a>
+</li>
+<li>
+<a href='/idmef_parser/rfc5070.txt' target='_blank'>
+IODEF (5070)
+</a>
+</li>
+<li>
+<a href='/idmef_parser/rfc' target='_blank'>
+IODEFv2 ()
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<hr>
+<div class='container'>
+<h1>File</h1>
+<p>The File class describes a file; its associated metadata; and cryptographic hashes and signatures applied to it. </p>
+<ul class='nav nav-tabs' role='tablist'>
+<li class='active' role='presentation'>
+<a aria-control='svg' data-toggle='tab' href='#svg' role='tab'>SVG</a>
+</li>
+<li role='presentation'>
+<a aria-control='png' data-toggle='tab' href='#png' role='tab'>PNG</a>
+</li>
+<li role='presentation'>
+<a aria-control='dot' data-toggle='tab' href='#dot' role='tab'>DOT</a>
+</li>
+<li role='presentation'>
+<a aria-control='pdf' data-toggle='tab' href='#pdf' role='pdf'>PDF</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active' id='svg' role='tabpanel'>
+<div class='img-responsive block-center'>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (0)
+ -->
+<!-- Title: File Pages: 1 -->
+<svg width="100%" height="100%"
+ viewBox="0.00 0.00 840.00 241.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 237.5)">
+<title>File</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-237.5 836,-237.5 836,4 -4,4"/>
+<!-- File -->
+<g id="node1" class="node">
+<title>File</title>
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="The File class describes a file; its associated metadata; and cryptographic hashes and signatures applied to it. ">
+<polygon fill="#cecece" stroke="transparent" points="8,-151 8,-172 258,-172 258,-151 8,-151"/>
+<polygon fill="none" stroke="#000000" points="8,-151 8,-172 258,-172 258,-151 8,-151"/>
+<text text-anchor="start" x="122" y="-157.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">File</text>
+</a>
+</g>
+<g id="a_node1_1"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="The name of the file.">
+<polygon fill="none" stroke="#000000" points="8,-130 8,-151 258,-151 258,-130 8,-130"/>
+<text text-anchor="start" x="54.5" y="-136.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] FileName (0..1)</text>
+</a>
+</g>
+<g id="a_node1_2"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="The size of the file in bytes.">
+<polygon fill="none" stroke="#000000" points="8,-109 8,-130 258,-130 258,-109 8,-109"/>
+<text text-anchor="start" x="55" y="-115.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] FileSize (0..1)</text>
+</a>
+</g>
+<g id="a_node1_3"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="The type of file per the IANA &quot;Media Types&quot; registry [IANA.Media]. &#160;Valid values correspond to the text in the &quot;Template&quot; column (e.g., &quot;application/pdf&quot;).">
+<polygon fill="none" stroke="#000000" points="8,-88 8,-109 258,-109 258,-88 8,-88"/>
+<text text-anchor="start" x="59" y="-94.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] FileType (0..1)</text>
+</a>
+</g>
+<g id="a_node1_4"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="A URL reference to the file.">
+<polygon fill="none" stroke="#000000" points="8,-67 8,-88 258,-88 258,-67 8,-67"/>
+<text text-anchor="start" x="84.5" y="-73.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
+</a>
+</g>
+<g id="a_node1_5"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="The software application or operating system to which this file belongs or by which it can be processed.">
+<polygon fill="none" stroke="#000000" points="8,-46 8,-67 258,-67 258,-46 8,-46"/>
+<text text-anchor="start" x="11" y="-52.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] AssociatedSoftware (0..1)</text>
+</a>
+</g>
+<g id="a_node1_6"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="Mechanism by which to extend the data model to describe properties of the file.">
+<polygon fill="none" stroke="#000000" points="8,-25 8,-46 258,-46 258,-25 8,-25"/>
+<text text-anchor="start" x="29.5" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] FileProperties (0..*)</text>
+</a>
+</g>
+<g id="a_node1_7"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="See Section 3.3.2.">
+<polygon fill="none" stroke="#000000" points="8,-4 8,-25 258,-25 258,-4 8,-4"/>
+<text text-anchor="start" x="62" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
+</a>
+</g>
+</g>
+<!-- HashData -->
+<g id="node2" class="node">
+<title>HashData</title>
+<g id="a_node2_8"><a xlink:href="/idmef_parser/IODEFv2/HashData.html" xlink:title="The HashData class describes different types of hashes on a given object (e.g., file, part of a file, email). ">
+<polygon fill="#cecece" stroke="transparent" points="333.5,-158 333.5,-179 520.5,-179 520.5,-158 333.5,-158"/>
+<polygon fill="none" stroke="#000000" points="333.5,-158 333.5,-179 520.5,-179 520.5,-158 333.5,-158"/>
+<text text-anchor="start" x="396.5" y="-164.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">HashData</text>
+</a>
+</g>
+<g id="a_node2_9"><a xlink:href="/idmef_parser/IODEFv2/HashData.html" xlink:title="An identifier that references a subset of the object being hashed. &#160;The semantics of this identifier are specified by the scope attribute.">
+<polygon fill="none" stroke="#000000" points="333.5,-137 333.5,-158 520.5,-158 520.5,-137 333.5,-137"/>
+<text text-anchor="start" x="336.5" y="-143.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] HashTargetID (0..1)</text>
+</a>
+</g>
+<g id="a_node2_10"><a xlink:href="/idmef_parser/IODEFv2/HashData.html" xlink:title="A means by which to extend the scope attribute. &#160;See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="333.5,-116 333.5,-137 520.5,-137 520.5,-116 333.5,-116"/>
+<text text-anchor="start" x="360" y="-122.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] scope (0..1)</text>
+</a>
+</g>
+</g>
+<!-- File&#45;&gt;HashData -->
+<g id="edge3" class="edge">
+<title>File&#45;&gt;HashData</title>
+<path fill="none" stroke="#000000" d="M266.0101,-115.1912C282.3386,-118.5292 298.896,-121.914 314.8641,-125.1784"/>
+<polygon fill="#000000" stroke="#000000" points="314.2247,-128.6199 324.7231,-127.1938 315.6267,-121.7618 314.2247,-128.6199"/>
+<text text-anchor="middle" x="295.5" y="-126.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..1</text>
+</g>
+<!-- SignatureData -->
+<g id="node5" class="node">
+<title>SignatureData</title>
+<g id="a_node5_11"><a xlink:href="/idmef_parser/IODEFv2/SignatureData.html" xlink:title="The SignatureData class describes different types of digital signatures on an object. ">
+<polygon fill="#cecece" stroke="transparent" points="372.5,-69 372.5,-90 480.5,-90 480.5,-69 372.5,-69"/>
+<polygon fill="none" stroke="#000000" points="372.5,-69 372.5,-90 480.5,-90 480.5,-69 372.5,-69"/>
+<text text-anchor="start" x="383" y="-75.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">SignatureData</text>
+</a>
+</g>
+<g id="a_node5_12"><a xlink:href="/idmef_parser/IODEFv2/SignatureData.html" xlink:title="A given signature. &#160;See Section 4.2 of [W3C.XMLSIG].">
+<polygon fill="none" stroke="#000000" points="372.5,-48 372.5,-69 480.5,-69 480.5,-48 372.5,-48"/>
+<text text-anchor="start" x="375.5" y="-54.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] Signature (1..*)</text>
+</a>
+</g>
+</g>
+<!-- File&#45;&gt;SignatureData -->
+<g id="edge4" class="edge">
+<title>File&#45;&gt;SignatureData</title>
+<path fill="none" stroke="#000000" d="M266.0101,-79.3895C296.4051,-77.4218 327.5931,-75.4028 354.2971,-73.6741"/>
+<polygon fill="#000000" stroke="#000000" points="354.5481,-77.1653 364.3011,-73.0265 354.0958,-70.1799 354.5481,-77.1653"/>
+<text text-anchor="middle" x="295.5" y="-81.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..1</text>
+</g>
+<!-- Hash -->
+<g id="node3" class="node">
+<title>Hash</title>
+<g id="a_node3_13"><a xlink:href="/idmef_parser/IODEFv2/Hash.html" xlink:title="The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. ">
+<polygon fill="#cecece" stroke="transparent" points="611.5,-208 611.5,-229 807.5,-229 807.5,-208 611.5,-208"/>
+<polygon fill="none" stroke="#000000" points="611.5,-208 611.5,-229 807.5,-229 807.5,-208 611.5,-208"/>
+<text text-anchor="start" x="693.5" y="-214.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Hash</text>
+</a>
+</g>
+<g id="a_node3_14"><a xlink:href="/idmef_parser/IODEFv2/Hash.html" xlink:title="The canonicalization method used on the object being hashed. &#160;See Section 4.3.1 of [W3C.XMLSIG].">
+<polygon fill="none" stroke="#000000" points="611.5,-187 611.5,-208 807.5,-208 807.5,-187 611.5,-187"/>
+<text text-anchor="start" x="686" y="-193.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] &#160;(0..1)</text>
+</a>
+</g>
+<g id="a_node3_15"><a xlink:href="/idmef_parser/IODEFv2/Hash.html" xlink:title="The application used to calculate the hash.">
+<polygon fill="none" stroke="#000000" points="611.5,-166 611.5,-187 807.5,-187 807.5,-166 611.5,-166"/>
+<text text-anchor="start" x="614.5" y="-172.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
+</a>
+</g>
+</g>
+<!-- HashData&#45;&gt;Hash -->
+<g id="edge1" class="edge">
+<title>HashData&#45;&gt;Hash</title>
+<path fill="none" stroke="#000000" d="M528.2697,-165.9805C549.432,-169.7194 571.8845,-173.6863 593.5143,-177.5078"/>
+<polygon fill="#000000" stroke="#000000" points="592.9304,-180.9588 603.3869,-179.2521 594.1484,-174.0656 592.9304,-180.9588"/>
+<text text-anchor="middle" x="557.5" y="-176.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- FuzzyHash -->
+<g id="node4" class="node">
+<title>FuzzyHash</title>
+<g id="a_node4_16"><a xlink:href="/idmef_parser/IODEFv2/FuzzyHash.html" xlink:title="The FuzzyHash class describes a fuzzy hash and the application used to generate it. ">
+<polygon fill="#cecece" stroke="transparent" points="595.5,-119 595.5,-140 824.5,-140 824.5,-119 595.5,-119"/>
+<polygon fill="none" stroke="#000000" points="595.5,-119 595.5,-140 824.5,-140 824.5,-119 595.5,-119"/>
+<text text-anchor="start" x="676.5" y="-125.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">FuzzyHash</text>
+</a>
+</g>
+<g id="a_node4_17"><a xlink:href="/idmef_parser/IODEFv2/FuzzyHash.html" xlink:title="The computed fuzzy hash value.">
+<polygon fill="none" stroke="#000000" points="595.5,-98 595.5,-119 824.5,-119 824.5,-98 595.5,-98"/>
+<text text-anchor="start" x="598.5" y="-104.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] FuzzyHashValue (1..*)</text>
+</a>
+</g>
+<g id="a_node4_18"><a xlink:href="/idmef_parser/IODEFv2/FuzzyHash.html" xlink:title="The application used to calculate the hash.">
+<polygon fill="none" stroke="#000000" points="595.5,-77 595.5,-98 824.5,-98 824.5,-77 595.5,-77"/>
+<text text-anchor="start" x="615" y="-83.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
+</a>
+</g>
+<g id="a_node4_19"><a xlink:href="/idmef_parser/IODEFv2/FuzzyHash.html" xlink:title="Mechanism by which to extend the data model.">
+<polygon fill="none" stroke="#000000" points="595.5,-56 595.5,-77 824.5,-77 824.5,-56 595.5,-56"/>
+<text text-anchor="start" x="604.5" y="-62.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
+</a>
+</g>
+</g>
+<!-- HashData&#45;&gt;FuzzyHash -->
+<g id="edge2" class="edge">
+<title>HashData&#45;&gt;FuzzyHash</title>
+<path fill="none" stroke="#000000" d="M528.2697,-130.0195C544.017,-127.2373 560.4787,-124.3289 576.7842,-121.448"/>
+<polygon fill="#000000" stroke="#000000" points="577.6703,-124.8458 586.9088,-119.6592 576.4523,-117.9525 577.6703,-124.8458"/>
+<text text-anchor="middle" x="557.5" y="-128.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+</g>
+</svg>
+
+</div>
+</div>
+<div class='tab-pane' id='png' role='tabpanel'>
+<img class='img-responsive block-center' src='/idmef_parser/img/IODEFv2/File.png'>
+</div>
+<div class='tab-pane' id='dot' role='tabpanel'>
+<pre><p>digraph File {
+	graph [bb=&quot;0,0,832,233.5&quot;,
+		rankdir=LR
+	];
+	node [label=&quot;\N&quot;];
+	File	 [height=2.4444,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/File.html&quot; TITLE=&quot;The File class describes a file; its associated metadata; and cryptographic hashes and signatures applied to it. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;File&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/File.html&quot; TITLE=&quot;The name of the file.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] FileName (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/File.html&quot; TITLE=&quot;The size of the file in bytes.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[INTEGER] FileSize (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/File.html&quot; TITLE=&quot;The type of file per the IANA &amp;quot;Media Types&amp;quot; registry [IANA.Media].  Valid values correspond to the text in the &amp;quot;Template&amp;quot; column (e.g., &amp;quot;application/pdf&amp;quot;).&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] FileType (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/File.html&quot; TITLE=&quot;A URL reference to the file.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[URL] URL (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/File.html&quot; TITLE=&quot;The software application or operating system to which this file belongs or by which it can be processed.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[SOFTWARE] AssociatedSoftware (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/File.html&quot; TITLE=&quot;Mechanism by which to extend the data model to describe properties of the file.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[EXTENSION] FileProperties (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/File.html&quot; TITLE=&quot;See Section 3.3.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ID] observable-id (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;133,88&quot;,
+		shape=plaintext,
+		width=3.6944];
+	HashData	 [height=0.98611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/HashData.html&quot; TITLE=&quot;The HashData class describes different types of hashes on a given object (e.g., file, part of a file, email). &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;HashData&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/HashData.html&quot; TITLE=&quot;An identifier that references a subset of the object being hashed.  The semantics of this identifier are specified by the scope attribute.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] HashTargetID (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/HashData.html&quot; TITLE=&quot;A means by which to extend the scope attribute.  See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] scope (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;426.5,148&quot;,
+		shape=plaintext,
+		width=2.8194];
+	File -&gt; HashData	 [label=&quot;0..1&quot;,
+		lp=&quot;295.5,130.5&quot;,
+		pos=&quot;e,324.72,127.19 266.01,115.19 282.34,118.53 298.9,121.91 314.86,125.18&quot;];
+	SignatureData	 [height=0.69444,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/SignatureData.html&quot; TITLE=&quot;The SignatureData class describes different types of digital signatures on an object. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;SignatureData&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/SignatureData.html&quot; TITLE=&quot;A given signature.  See Section 4.2 of [W3C.XMLSIG].&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[] Signature (1..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;426.5,69&quot;,
+		shape=plaintext,
+		width=1.7222];
+	File -&gt; SignatureData	 [label=&quot;0..1&quot;,
+		lp=&quot;295.5,85.5&quot;,
+		pos=&quot;e,364.3,73.027 266.01,79.389 296.41,77.422 327.59,75.403 354.3,73.674&quot;];
+	Hash	 [height=0.98611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/Hash.html&quot; TITLE=&quot;The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Hash&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Hash.html&quot; TITLE=&quot;The canonicalization method used on the object being hashed.  See Section 4.3.1 of [W3C.XMLSIG].&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[]  (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/Hash.html&quot; TITLE=&quot;The application used to calculate the hash.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[SOFTWARE] Application (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;709.5,198&quot;,
+		shape=plaintext,
+		width=2.9444];
+	HashData -&gt; Hash	 [label=&quot;0..*&quot;,
+		lp=&quot;557.5,180.5&quot;,
+		pos=&quot;e,603.39,179.25 528.27,165.98 549.43,169.72 571.88,173.69 593.51,177.51&quot;];
+	FuzzyHash	 [height=1.2778,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/idmef_parser/IODEFv2/FuzzyHash.html&quot; TITLE=&quot;The FuzzyHash class describes a fuzzy hash and the application used to generate it. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;FuzzyHash&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/FuzzyHash.html&quot; TITLE=&quot;The computed fuzzy hash value.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[EXTENSION] FuzzyHashValue (1..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/FuzzyHash.html&quot; TITLE=&quot;The application used to calculate the hash.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[SOFTWARE] Application (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/idmef_parser/IODEFv2/FuzzyHash.html&quot; TITLE=&quot;Mechanism by which to extend the data model.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[EXTENSION] AdditionalData (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;709.5,98&quot;,
+		shape=plaintext,
+		width=3.4028];
+	HashData -&gt; FuzzyHash	 [label=&quot;0..*&quot;,
+		lp=&quot;557.5,132.5&quot;,
+		pos=&quot;e,586.91,119.66 528.27,130.02 544.02,127.24 560.48,124.33 576.78,121.45&quot;];
+}
+</p></pre>
+</div>
+<div class='tab-pane' id='pdf' role='tabpanel'>
+<iframe height='500px' src='/idmef_parser/img/IODEFv2/File.pdf' width='100%'></iframe>
+</div>
+</div>
+<hr>
+<h3>Aggregates</h3>
+<h4>
+FileName
+(0..1)
+</h4>
+<blockquote>
+The name of the file.
+</blockquote>
+<h4>
+FileSize
+(0..1)
+</h4>
+<blockquote>
+The size of the file in bytes.
+</blockquote>
+<h4>
+FileType
+(0..1)
+</h4>
+<blockquote>
+The type of file per the IANA "Media Types" registry [IANA.Media].  Valid values correspond to the text in the "Template" column (e.g., "application/pdf").
+</blockquote>
+<h4>
+URL
+(0..*)
+</h4>
+<blockquote>
+A URL reference to the file.
+</blockquote>
+<h4>
+<a href='/idmef_parser/IODEFv2/HashData.html'>HashData</a>
+(0..1)
+</h4>
+<blockquote>
+Hash(es) associated with this file.  See Section 3.26.
+</blockquote>
+<h4>
+<a href='/idmef_parser/IODEFv2/SignatureData.html'>SignatureData</a>
+(0..1)
+</h4>
+<blockquote>
+Signature(s) associated with this file.  See Section 3.27.
+</blockquote>
+<h4>
+AssociatedSoftware
+(0..1)
+</h4>
+<blockquote>
+The software application or operating system to which this file belongs or by which it can be processed.
+</blockquote>
+<h4>
+FileProperties
+(0..*)
+</h4>
+<blockquote>
+Mechanism by which to extend the data model to describe properties of the file.
+</blockquote>
+<h4>
+observable-id
+(0..1)
+</h4>
+<blockquote>
+See Section 3.3.2.
+</blockquote>
+<hr>
+</div>
+
+<hr>
+<div class='container'>
+<hr>
+<h4>IDMEF</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEF/Action.html'>Action</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Address.html'>Address</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Alert.html'>Alert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Analyzer.html'>Analyzer</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/AnalyzerTime.html'>AnalyzerTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Checksum.html'>Checksum</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEF/Classification.html'>Classification</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/CorrelationAlert.html'>CorrelationAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/CreateTime.html'>CreateTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/DetectTime.html'>DetectTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/File.html'>File</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/FileAccess.html'>FileAccess</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Heartbeat.html'>Heartbeat</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEF/IDMEF-Message.html'>IDMEF-Message</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Impact.html'>Impact</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Inode.html'>Inode</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Linkage.html'>Linkage</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Node.html'>Node</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/OverflowAlert.html'>OverflowAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Process.html'>Process</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Reference.html'>Reference</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEF/SNMPService.html'>SNMPService</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Service.html'>Service</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Source.html'>Source</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/Target.html'>Target</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/ToolAlert.html'>ToolAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/User.html'>User</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/UserId.html'>UserId</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEF/WebService.html'>WebService</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IDMEFv2</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEFv2/Action.html'>Action</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Address.html'>Address</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Alert.html'>Alert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Analyzer.html'>Analyzer</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/AnalyzerTime.html'>AnalyzerTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Checksum.html'>Checksum</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Classification.html'>Classification</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEFv2/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/CorrelationAlert.html'>CorrelationAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/CreateTime.html'>CreateTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/DetectTime.html'>DetectTime</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/File.html'>File</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/FileAccess.html'>FileAccess</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Heartbeat.html'>Heartbeat</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/IDMEF-Message.html'>IDMEF-Message</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Impact.html'>Impact</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEFv2/Inode.html'>Inode</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Linkage.html'>Linkage</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Node.html'>Node</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/OverflowAlert.html'>OverflowAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Process.html'>Process</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/SNMPService.html'>SNMPService</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Service.html'>Service</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Source.html'>Source</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IDMEFv2/Stream.html'>Stream</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Target.html'>Target</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/ToolAlert.html'>ToolAlert</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/Transaction.html'>Transaction</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/User.html'>User</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/UserId.html'>UserId</a>
+</li>
+<li>
+<a href='/idmef_parser/IDMEFv2/WebService.html'>WebService</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IODEF</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEF/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Address.html'>Address</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/AlternativeID.html'>AlternativeID</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Application.html'>Application</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Contact.html'>Contact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Counter.html'>Counter</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Email.html'>Email</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEF/EventData.html'>EventData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Expectation.html'>Expectation</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Flow.html'>Flow</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/History.html'>History</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/HistoryItem.html'>HistoryItem</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/IODEF-Document.html'>IODEF-Document</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Impact.html'>Impact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Incident.html'>Incident</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/IncidentID.html'>IncidentID</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEF/Method.html'>Method</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/MonetaryImpact.html'>MonetaryImpact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Node.html'>Node</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/NodeRole.html'>NodeRole</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/OperatingSystem.html'>OperatingSystem</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/PostalAddress.html'>PostalAddress</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Record.html'>Record</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/RecordData.html'>RecordData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/RecordItem.html'>RecordItem</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEF/RecordPattern.html'>RecordPattern</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/RegistryHandle.html'>RegistryHandle</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/Service.html'>Service</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/System.html'>System</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEF/TimeImpact.html'>TimeImpact</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IODEFv2</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEFv2/Address.html'>Address</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/AlternativeID.html'>AlternativeID</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/AlternativeIndicatorID.html'>AlternativeIndicatorID</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/ApplicationHeader.html'>ApplicationHeader</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/AttackPhase.html'>AttackPhase</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/BulkObservable.html'>BulkObservable</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/BulkObservableFormat.html'>BulkObservableFormat</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/BusinessImpact.html'>BusinessImpact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Campaign.html'>Campaign</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Certificate.html'>Certificate</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/CertificateData.html'>CertificateData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Contact.html'>Contact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Counter.html'>Counter</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/DetectionPattern.html'>DetectionPattern</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEFv2/Discovery.html'>Discovery</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/DomainContacts.html'>DomainContacts</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/DomainData.html'>DomainData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Email.html'>Email</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/EmailData.html'>EmailData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/EventData.html'>EventData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Expectation.html'>Expectation</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/File.html'>File</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/FileData.html'>FileData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Flow.html'>Flow</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/FuzzyHash.html'>FuzzyHash</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Hash.html'>Hash</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/HashData.html'>HashData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/History.html'>History</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/HistoryItem.html'>HistoryItem</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IODEF-Document.html'>IODEF-Document</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEFv2/Incident.html'>Incident</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IncidentID.html'>IncidentID</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Indicator.html'>Indicator</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IndicatorData.html'>IndicatorData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IndicatorExpression.html'>IndicatorExpression</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IndicatorID.html'>IndicatorID</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/IndicatorReference.html'>IndicatorReference</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Key.html'>Key</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Method.html'>Method</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/MonetaryImpact.html'>MonetaryImpact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Nameservers.html'>Nameservers</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Node.html'>Node</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/NodeRole.html'>NodeRole</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Observable.html'>Observable</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/ObservableReference.html'>ObservableReference</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/PostalAddress.html'>PostalAddress</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/idmef_parser/IODEFv2/Record.html'>Record</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/RecordData.html'>RecordData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/RecordPattern.html'>RecordPattern</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/RegistryHandle.html'>RegistryHandle</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Service.html'>Service</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/ServiceName.html'>ServiceName</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/SignatureData.html'>SignatureData</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/System.html'>System</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/SystemImpact.html'>SystemImpact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/Telephone.html'>Telephone</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/ThreatActor.html'>ThreatActor</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/TimeImpact.html'>TimeImpact</a>
+</li>
+<li>
+<a href='/idmef_parser/IODEFv2/WindowsRegistryKeysModified.html'>WindowsRegistryKeysModified</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</body>
+</html>

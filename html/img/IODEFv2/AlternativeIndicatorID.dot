@@ -1,0 +1,19 @@
+digraph AlternativeIndicatorID {
+	graph [bb="0,0,396,71",
+		rankdir=LR
+	];
+	node [label="\N"];
+	AlternativeIndicatorID	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/AlternativeIndicatorID.html" TITLE="The AlternativeIndicatorID class lists alternative identifiers for an indicator. "><FONT FACE="Nimbus Sans L">AlternativeIndicatorID</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEFv2/AlternativeIndicatorID.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEFv2/AlternativeIndicatorID.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%</table>>,
+		pos="100,35.5",
+		shape=plaintext,
+		width=2.7778];
+	IndicatorReference	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/IndicatorReference.html" TITLE="The IndicatorReference describes a reference to an indicator. This reference may be to an indicator described in this IODEF document or in a previously exchanged IODEF document. "><FONT FACE="Nimbus Sans L">IndicatorReference</FONT></td> </tr>" %</table>>,
+		pos="327.5,35.5",
+		shape=plaintext,
+		width=1.9028];
+	AlternativeIndicatorID -> IndicatorReference	 [label="1..*",
+		lp="229.5,43",
+		pos="e,258.72,35.5 200.12,35.5 216.35,35.5 232.96,35.5 248.59,35.5"];
+}
