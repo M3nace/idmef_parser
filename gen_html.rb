@@ -14,6 +14,7 @@ class HTMLGenerator
     @conf = YAML.load(File.read("conf.yml"))
     @generators = @conf["generators"].map{|k, g|
       generator = GraphGenerator.new(
+        k,
         g['classes'],
         g['type']
       )
@@ -41,7 +42,7 @@ class HTMLGenerator
       generator[:generator].classes.each_key do |cls|
         puts "Generate #{name}: #{cls} class"
 
-        generator[:graphes][cls].gen_all! "#{folder}/img/#{name}/#{cls}"
+        generator[:graphes][cls].gen_all! "#{folder}/img/#{name}/#{cls}", name
 
         File.open("#{folder}/#{name}/#{cls}.html", "w") do |f|
           f.write(render_index cls, name)
@@ -64,7 +65,7 @@ class HTMLGenerator
   end
 
   def render haml, dataset={}
-    return Haml::Engine.new(haml).render(Object.new, **dataset) 
+    return Haml::Engine.new(haml).render(Object.new, **dataset)
   end
 
   def render_footer

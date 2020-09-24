@@ -4,12 +4,12 @@ digraph Nameservers {
 	];
 	node [label="\N"];
 	Nameservers	 [height=0.69444,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/Nameservers.html" TITLE="The Nameservers class describes the nameservers associated with a given domain. "><FONT FACE="Nimbus Sans L">Nameservers</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEFv2/Nameservers.html" TITLE="The domain name of the nameserver."><FONT FACE="Nimbus Sans L">[STRING] Server (1..1)</FONT></td></tr>%</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/Nameservers.html" TITLE="The Nameservers class describes the nameservers associated with a given domain. "><FONT FACE="Nimbus Sans L">Nameservers</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/Nameservers.html" TITLE="The domain name of the nameserver."><FONT FACE="Nimbus Sans L">[STRING] Server (1..1)</FONT></td></tr>%</table>>,
 		pos="80.5,25",
 		shape=plaintext,
 		width=2.2361];
 	Address	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/Address.html" TITLE="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. "><FONT FACE="Nimbus Sans L">Address</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/Address.html" TITLE="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. "><FONT FACE="Nimbus Sans L">Address</FONT></td> </tr>" %</table>>,
 		pos="256,25",
 		shape=plaintext,
 		width=1];

@@ -1,0 +1,51 @@
+digraph Record {
+	graph [bb="0,0,752,576.5",
+		rankdir=LR
+	];
+	node [label="\N"];
+	Record	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Record.html" TITLE="The Record class is a container class for log and audit data that provides supportive information about the incident. The source of this data will often be the output of monitoring tools. These logs should substantiate the activity described in the document. "><FONT FACE="Nimbus Sans L">Record</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Record.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="98.5,227",
+		shape=plaintext,
+		width=2.7361];
+	RecordData	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/RecordData.html" TITLE="The RecordData class groups log or audit data from a given sensor (e.g., IDS, firewall log) and provides a way to annotate the output. "><FONT FACE="Nimbus Sans L">RecordData</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/RecordData.html" TITLE="Timestamp of the RecordItem data."><FONT FACE="Nimbus Sans L">[] DateTime (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordData.html" TITLE="Free-form textual description of the provided RecordItem data.  At minimum, this description should convey the significance of the provided RecordItem data."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordData.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="362,227",
+		shape=plaintext,
+		width=2.9444];
+	Record -> RecordData	 [label="1..*",
+		lp="226.5,234.5",
+		pos="e,255.96,227 197.37,227 213.21,227 229.73,227 245.93,227"];
+	Application	 [height=2.7361,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Application.html" TITLE="The Application class describes an application running on a System providing a Service. "><FONT FACE="Nimbus Sans L">Application</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="A URL describing the application."><FONT FACE="Nimbus Sans L">[URL] URL (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="An identifier that can be used to reference this software."><FONT FACE="Nimbus Sans L">[STRING] swid (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="An identifier that can be used to reference a particular configuration of this software."><FONT FACE="Nimbus Sans L">[STRING] configid (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="Vendor name of the software."><FONT FACE="Nimbus Sans L">[STRING] vendor (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="Family of the software."><FONT FACE="Nimbus Sans L">[STRING] family (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="Name of the software."><FONT FACE="Nimbus Sans L">[STRING] name (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="Version of the software."><FONT FACE="Nimbus Sans L">[STRING] version (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="Patch or service pack level of the software."><FONT FACE="Nimbus Sans L">[STRING] patch (Optional)</FONT></td></tr>%</table>>,
+		pos="639.5,478",
+		shape=plaintext,
+		width=2.7083];
+	RecordData -> Application	 [label="0..1",
+		lp="497.5,359.5",
+		pos="e,541.75,389.58 412.9,273.04 446.85,303.74 492.72,345.23 534.31,382.85"];
+	RecordPattern	 [height=2.1528,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/RecordPattern.html" TITLE="The RecordPattern class describes where in the content of the RecordItem relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. "><FONT FACE="Nimbus Sans L">RecordPattern</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="Describes the type of pattern being specified in the element content.  The default is &quot;regex&quot;."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="Amount of units (determined by the offsetunit attribute) to seek into the RecordItem data before matching the pattern."><FONT FACE="Nimbus Sans L">[INTEGER] offset (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="Describes the units of the offset attribute. The default is &quot;line&quot;."><FONT FACE="Nimbus Sans L">[ENUM] offsetunit (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="A means by which to extend the offsetunit attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-offsetunit (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="Number of types to apply the specified pattern."><FONT FACE="Nimbus Sans L">[INTEGER] instance (Optional)</FONT></td></tr>%</table>>,
+		pos="639.5,284",
+		shape=plaintext,
+		width=3.125];
+	RecordData -> RecordPattern	 [label="0..*",
+		lp="497.5,262.5",
+		pos="e,526.54,260.8 468.1,248.79 483.94,252.05 500.38,255.42 516.53,258.74"];
+	RecordItem	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/RecordItem.html" TITLE="The RecordItem class provides a way to incorporate relevant logs, audit trails, or forensic data to support the conclusions made during the course of analyzing the incident. The class supports both the direct encapsulation of the data, as well as, provides primitives to reference data stored elsewhere. "><FONT FACE="Nimbus Sans L">RecordItem</FONT></td> </tr>" %</table>>,
+		pos="639.5,170",
+		shape=plaintext,
+		width=1.2917];
+	RecordData -> RecordItem	 [label="1..*",
+		lp="497.5,207.5",
+		pos="e,592.93,179.57 468.1,205.21 507.2,197.17 549.97,188.39 583.01,181.6"];
+	AdditionalData	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/AdditionalData.html" TITLE="The AdditionalData class serves as an extension mechanism for information not otherwise represented in the data model. For relatively simple information, atomic data types (e.g., integers, strings) are provided with a mechanism to annotate their meaning. The class can also be used to extend the data model (and the associated Schema) to support proprietary extensions by encapsulating entire XML documents conforming to another Schema (e.g., IDMEF). A detailed discussion for extending the data model and the schema can be found in Section 5. "><FONT FACE="Nimbus Sans L">AdditionalData</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/AdditionalData.html" TITLE="The data type of the element content.  The permitted values for this attribute are shown below.  The default value is &quot;string&quot;."><FONT FACE="Nimbus Sans L">[ENUM] dtype (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/AdditionalData.html" TITLE="A means by which to extend the dtype attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-dtype (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/AdditionalData.html" TITLE="A free-form description of the element content."><FONT FACE="Nimbus Sans L">[STRING] meaning (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/AdditionalData.html" TITLE="An identifier referencing the format and semantics of the element content."><FONT FACE="Nimbus Sans L">[STRING] formatid (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/AdditionalData.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="639.5,67",
+		shape=plaintext,
+		width=2.8194];
+	RecordData -> AdditionalData	 [label="0..1",
+		lp="497.5,158.5",
+		pos="e,537.91,125.57 441.89,180.94 469.03,165.29 499.85,147.52 528.94,130.75"];
+}

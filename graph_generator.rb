@@ -28,15 +28,15 @@ class IDMEFGraph
     @graph.output(dot: file)
   end
 
-  def gen_pdf! base_name, file
-    IDMEFPDF.new(base_name, "#{base_name}.png", file)
+  def gen_pdf! top, base_name, file
+    IDMEFPDF.new(top, base_name, "#{base_name}.png", file)
   end
 
-  def gen_all! base_name
+  def gen_all! base_name, top
     gen_svg! "#{base_name}.svg"
     gen_png! "#{base_name}.png"
     gen_dot! "#{base_name}.dot"
-    gen_pdf! base_name, "#{base_name}.pdf"
+    gen_pdf! top, base_name, "#{base_name}.pdf"
   end
 
   def to_svg
@@ -120,7 +120,8 @@ class GraphGenerator
     "yml" => Proc.new {|a| YAML.load(a)},
   }
 
-  def initialize folder="json", ext="json"
+  def initialize top, folder="json", ext="json"
+    @top = top
     @folder = folder
     @ext = ext
     @classes = parse_folder
@@ -131,7 +132,7 @@ class GraphGenerator
 
     Dir.mkdir(folder) unless File.exists?(folder)
     Dir.chdir(folder) do
-      graph.gen_all! idmef_class
+      graph.gen_all! idmef_class, top
     end
 
   end
@@ -180,8 +181,8 @@ class GraphGenerator
 end
 
 if __FILE__ == $0
-  GraphGenerator.new('idmef/yaml', "yml").generate_all! "idmef/graph"
-  GraphGenerator.new('idmefv2/yaml', "yml").generate_all! "idmefv2/graph"
-  GraphGenerator.new('iodef/yaml', "yml").generate_all! "iodef/graph"
-  GraphGenerator.new('iodefv2/yaml', "yml").generate_all! "iodefv2/graph"
+  GraphGenerator.new('IDMEFv1', 'idmef/yaml', "yml").generate_all! "idmef/graph"
+  GraphGenerator.new('IDMEFv2', 'idmefv2/yaml', "yml").generate_all! "idmefv2/graph"
+  GraphGenerator.new('IODEFv1', 'iodef/yaml', "yml").generate_all! "iodef/graph"
+  GraphGenerator.new('IODEFv2', 'iodefv2/yaml', "yml").generate_all! "iodefv2/graph"
 end

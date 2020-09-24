@@ -12,13 +12,13 @@
 <!-- FileAccess -->
 <g id="node1" class="node">
 <title>FileAccess</title>
-<g id="a_node1_0"><a xlink:href="/idmef_parser/IDMEFv2/FileAccess.html" xlink:title="The FileAccess class represents the access permissions on a file. The representation is intended to be useful across operating systems. ">
+<g id="a_node1_0"><a xlink:href="/html/IDMEFv2/FileAccess.html" xlink:title="The FileAccess class represents the access permissions on a file. The representation is intended to be useful across operating systems. ">
 <polygon fill="#cca300" stroke="transparent" points="8.5,-67 8.5,-88 165.5,-88 165.5,-67 8.5,-67"/>
 <polygon fill="none" stroke="#000000" points="8.5,-67 8.5,-88 165.5,-88 165.5,-67 8.5,-67"/>
 <text text-anchor="start" x="54" y="-73.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">FileAccess</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/idmef_parser/IDMEFv2/FileAccess.html" xlink:title="Level of access allowed. &#160;The permitted values are shown below. &#160;There is no default value. &#160;(See also Section 10.)">
+<g id="a_node1_1"><a xlink:href="/html/IDMEFv2/FileAccess.html" xlink:title="Level of access allowed. &#160;The permitted values are shown below. &#160;There is no default value. &#160;(See also Section 10.)">
 <polygon fill="#ffcc00" stroke="transparent" points="8.5,-46 8.5,-67 165.5,-67 165.5,-46 8.5,-46"/>
 <polygon fill="none" stroke="#000000" points="8.5,-46 8.5,-67 165.5,-67 165.5,-46 8.5,-46"/>
 <text text-anchor="start" x="11.5" y="-52.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] Permission (1..*)</text>
@@ -28,37 +28,37 @@
 <!-- UserId -->
 <g id="node2" class="node">
 <title>UserId</title>
-<g id="a_node2_2"><a xlink:href="/idmef_parser/IDMEFv2/UserId.html" xlink:title="The UserId class provides specific information about a user. More than one UserId can be used within the User class to indicate attempts to transition from one user to another, or to provide complete information about a user&#39;s (or process&#39;) privileges. ">
+<g id="a_node2_2"><a xlink:href="/html/IDMEFv2/UserId.html" xlink:title="The UserId class provides specific information about a user. More than one UserId can be used within the User class to indicate attempts to transition from one user to another, or to provide complete information about a user&#39;s (or process&#39;) privileges. ">
 <polygon fill="#52a3cc" stroke="transparent" points="225,-109 225,-130 387,-130 387,-109 225,-109"/>
 <polygon fill="none" stroke="#000000" points="225,-109 225,-130 387,-130 387,-109 225,-109"/>
 <text text-anchor="start" x="286" y="-115.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">UserId</text>
 </a>
 </g>
-<g id="a_node2_3"><a xlink:href="/idmef_parser/IDMEFv2/UserId.html" xlink:title="A user or group name.">
+<g id="a_node2_3"><a xlink:href="/html/IDMEFv2/UserId.html" xlink:title="A user or group name.">
 <polygon fill="#66ccff" stroke="transparent" points="225,-88 225,-109 387,-109 387,-88 225,-88"/>
 <polygon fill="none" stroke="#000000" points="225,-88 225,-109 387,-109 387,-88 225,-88"/>
 <text text-anchor="start" x="239.5" y="-94.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] name (0..1)</text>
 </a>
 </g>
-<g id="a_node2_4"><a xlink:href="/idmef_parser/IDMEFv2/UserId.html" xlink:title="A user or group number.">
+<g id="a_node2_4"><a xlink:href="/html/IDMEFv2/UserId.html" xlink:title="A user or group number.">
 <polygon fill="#66ccff" stroke="transparent" points="225,-67 225,-88 387,-88 387,-67 225,-67"/>
 <polygon fill="none" stroke="#000000" points="225,-67 225,-88 387,-88 387,-67 225,-67"/>
 <text text-anchor="start" x="229" y="-73.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] number (0..1)</text>
 </a>
 </g>
-<g id="a_node2_5"><a xlink:href="/idmef_parser/IDMEFv2/UserId.html" xlink:title="A unique identifier for the user id, see Section 3.2.9.">
+<g id="a_node2_5"><a xlink:href="/html/IDMEFv2/UserId.html" xlink:title="A unique identifier for the user id, see Section 3.2.9.">
 <polygon fill="#66ccff" stroke="transparent" points="225,-46 225,-67 387,-67 387,-46 225,-46"/>
 <polygon fill="none" stroke="#000000" points="225,-46 225,-67 387,-67 387,-46 225,-46"/>
 <text text-anchor="start" x="228" y="-52.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ident (Optional)</text>
 </a>
 </g>
-<g id="a_node2_6"><a xlink:href="/idmef_parser/IDMEFv2/UserId.html" xlink:title="The type of user information represented. &#160;The permitted values for this attribute are shown below. &#160;The default value is &quot;original&#45;user&quot;. &#160;(See also Section 10.)">
+<g id="a_node2_6"><a xlink:href="/html/IDMEFv2/UserId.html" xlink:title="The type of user information represented. &#160;The permitted values for this attribute are shown below. &#160;The default value is &quot;original&#45;user&quot;. &#160;(See also Section 10.)">
 <polygon fill="#66ccff" stroke="transparent" points="225,-25 225,-46 387,-46 387,-25 225,-25"/>
 <polygon fill="none" stroke="#000000" points="225,-25 225,-46 387,-46 387,-25 225,-25"/>
 <text text-anchor="start" x="235" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (Optional)</text>
 </a>
 </g>
-<g id="a_node2_7"><a xlink:href="/idmef_parser/IDMEFv2/UserId.html" xlink:title="The tty the user is using.">
+<g id="a_node2_7"><a xlink:href="/html/IDMEFv2/UserId.html" xlink:title="The tty the user is using.">
 <polygon fill="#66ccff" stroke="transparent" points="225,-4 225,-25 387,-25 387,-4 225,-4"/>
 <polygon fill="none" stroke="#000000" points="225,-4 225,-25 387,-25 387,-4 225,-4"/>
 <text text-anchor="start" x="235.5" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] tty (Optional)</text>

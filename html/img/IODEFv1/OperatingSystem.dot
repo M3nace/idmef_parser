@@ -1,0 +1,11 @@
+digraph OperatingSystem {
+	graph [bb="0,0,128,36",
+		rankdir=LR
+	];
+	node [label="\N"];
+	OperatingSystem	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/OperatingSystem.html" TITLE="The OperatingSystem class describes the operating system running on a System. The definition is identical to the Application class (Section 3.17.1). "><FONT FACE="Nimbus Sans L">OperatingSystem</FONT></td> </tr>" %</table>>,
+		pos="64,18",
+		shape=plaintext,
+		width=1.7778];
+}

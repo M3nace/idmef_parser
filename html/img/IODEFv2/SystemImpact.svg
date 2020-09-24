@@ -12,28 +12,28 @@
 <!-- SystemImpact -->
 <g id="node1" class="node">
 <title>SystemImpact</title>
-<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="The SystemImpact class describes the technical impact of the incident to the systems on the network. ">
+<g id="a_node1_0"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="The SystemImpact class describes the technical impact of the incident to the systems on the network. ">
 <polygon fill="#cecece" stroke="transparent" points="8,-87.5 8,-108.5 204,-108.5 204,-87.5 8,-87.5"/>
 <polygon fill="none" stroke="#000000" points="8,-87.5 8,-108.5 204,-108.5 204,-87.5 8,-87.5"/>
 <text text-anchor="start" x="62" y="-94.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">SystemImpact</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="A free&#45;form text description of the impact to the system.">
+<g id="a_node1_1"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="A free&#45;form text description of the impact to the system.">
 <polygon fill="none" stroke="#000000" points="8,-66.5 8,-87.5 204,-87.5 204,-66.5 8,-66.5"/>
 <text text-anchor="start" x="11" y="-73.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node1_2"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
+<g id="a_node1_2"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
 <polygon fill="none" stroke="#000000" points="8,-45.5 8,-66.5 204,-66.5 204,-45.5 8,-45.5"/>
 <text text-anchor="start" x="39" y="-52.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (0..1)</text>
 </a>
 </g>
-<g id="a_node1_3"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="An indication whether the described activity was successful. &#160;The permitted values are shown below. &#160;There is no default value.">
+<g id="a_node1_3"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="An indication whether the described activity was successful. &#160;The permitted values are shown below. &#160;There is no default value.">
 <polygon fill="none" stroke="#000000" points="8,-24.5 8,-45.5 204,-45.5 204,-24.5 8,-24.5"/>
 <text text-anchor="start" x="29" y="-31.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] completion (0..1)</text>
 </a>
 </g>
-<g id="a_node1_4"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node1_4"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="8,-3.5 8,-24.5 204,-24.5 204,-3.5 8,-3.5"/>
 <text text-anchor="start" x="44" y="-10.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] type (0..1)</text>
 </a>

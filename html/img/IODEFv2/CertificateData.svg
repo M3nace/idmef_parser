@@ -12,23 +12,23 @@
 <!-- CertificateData -->
 <g id="node1" class="node">
 <title>CertificateData</title>
-<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/CertificateData.html" xlink:title="The CertificateData class describes X.509 certificates. ">
+<g id="a_node1_0"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="The CertificateData class describes X.509 certificates. ">
 <polygon fill="#cecece" stroke="transparent" points="8,-67 8,-88 192,-88 192,-67 8,-67"/>
 <polygon fill="none" stroke="#000000" points="8,-67 8,-88 192,-88 192,-67 8,-67"/>
 <text text-anchor="start" x="54.5" y="-73.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">CertificateData</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/idmef_parser/IODEFv2/CertificateData.html" xlink:title="See Section 3.3.1.">
+<g id="a_node1_1"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="8,-46 8,-67 192,-67 192,-46 8,-46"/>
 <text text-anchor="start" x="27" y="-52.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node1_2"><a xlink:href="/idmef_parser/IODEFv2/CertificateData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node1_2"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="8,-25 8,-46 192,-46 192,-25 8,-25"/>
 <text text-anchor="start" x="11" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node1_3"><a xlink:href="/idmef_parser/IODEFv2/CertificateData.html" xlink:title="See Section 3.3.2.">
+<g id="a_node1_3"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="8,-4 8,-25 192,-25 192,-4 8,-4"/>
 <text text-anchor="start" x="29" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -37,23 +37,23 @@
 <!-- Certificate -->
 <g id="node2" class="node">
 <title>Certificate</title>
-<g id="a_node2_4"><a xlink:href="/idmef_parser/IODEFv2/Certificate.html" xlink:title="The Certificate class describes a given X.509 certificate or certificate chain. ">
+<g id="a_node2_4"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="The Certificate class describes a given X.509 certificate or certificate chain. ">
 <polygon fill="#cecece" stroke="transparent" points="267,-67 267,-88 463,-88 463,-67 267,-67"/>
 <polygon fill="none" stroke="#000000" points="267,-67 267,-88 463,-88 463,-67 267,-67"/>
 <text text-anchor="start" x="334" y="-73.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Certificate</text>
 </a>
 </g>
-<g id="a_node2_5"><a xlink:href="/idmef_parser/IODEFv2/Certificate.html" xlink:title="A given X.509 certificate or chain. &#160;See Section 4.4.4 of [W3C.XMLSIG].">
+<g id="a_node2_5"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="A given X.509 certificate or chain. &#160;See Section 4.4.4 of [W3C.XMLSIG].">
 <polygon fill="none" stroke="#000000" points="267,-46 267,-67 463,-67 463,-46 267,-46"/>
 <text text-anchor="start" x="341.5" y="-52.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] &#160;(1..1)</text>
 </a>
 </g>
-<g id="a_node2_6"><a xlink:href="/idmef_parser/IODEFv2/Certificate.html" xlink:title="A free&#45;form text description explaining the context of this certificate.">
+<g id="a_node2_6"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="A free&#45;form text description explaining the context of this certificate.">
 <polygon fill="none" stroke="#000000" points="267,-25 267,-46 463,-46 463,-25 267,-25"/>
 <text text-anchor="start" x="270" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node2_7"><a xlink:href="/idmef_parser/IODEFv2/Certificate.html" xlink:title="See Section 3.3.2.">
+<g id="a_node2_7"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="267,-4 267,-25 463,-25 463,-4 267,-4"/>
 <text text-anchor="start" x="294" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>

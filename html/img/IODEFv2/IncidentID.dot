@@ -4,7 +4,7 @@ digraph IncidentID {
 	];
 	node [label="\N"];
 	IncidentID	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/IncidentID.html" TITLE="The IncidentID class represents a tracking number that is unique in the context of the CSIRT. It serves as an identifier for an incident or a document identifier when sharing indicators. This identifier would serve as an index into a CSIRT&#39;s incident handling or knowledge management system. "><FONT FACE="Nimbus Sans L">IncidentID</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/IncidentID.html" TITLE="The IncidentID class represents a tracking number that is unique in the context of the CSIRT. It serves as an identifier for an incident or a document identifier when sharing indicators. This identifier would serve as an index into a CSIRT&#39;s incident handling or knowledge management system. "><FONT FACE="Nimbus Sans L">IncidentID</FONT></td> </tr>" %</table>>,
 		pos="41.5,18",
 		shape=plaintext,
 		width=1.1528];

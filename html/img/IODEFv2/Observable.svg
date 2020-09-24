@@ -12,23 +12,23 @@
 <!-- Observable -->
 <g id="node1" class="node">
 <title>Observable</title>
-<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/Observable.html" xlink:title="The Observable class describes a feature and phenomenon that can be observed or measured for the purposes of detecting malicious behavior. ">
+<g id="a_node1_0"><a xlink:href="/html/IODEFv2/Observable.html" xlink:title="The Observable class describes a feature and phenomenon that can be observed or measured for the purposes of detecting malicious behavior. ">
 <polygon fill="#cecece" stroke="transparent" points="8.5,-1798.5 8.5,-1819.5 225.5,-1819.5 225.5,-1798.5 8.5,-1798.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-1798.5 8.5,-1819.5 225.5,-1819.5 225.5,-1798.5 8.5,-1798.5"/>
 <text text-anchor="start" x="81.5" y="-1805.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Observable</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/idmef_parser/IODEFv2/Observable.html" xlink:title="Mechanism by which to extend the data model.">
+<g id="a_node1_1"><a xlink:href="/html/IODEFv2/Observable.html" xlink:title="Mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="8.5,-1777.5 8.5,-1798.5 225.5,-1798.5 225.5,-1777.5 8.5,-1777.5"/>
 <text text-anchor="start" x="11.5" y="-1784.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node1_2"><a xlink:href="/idmef_parser/IODEFv2/Observable.html" xlink:title="See Section 3.3.1.">
+<g id="a_node1_2"><a xlink:href="/html/IODEFv2/Observable.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="8.5,-1756.5 8.5,-1777.5 225.5,-1777.5 225.5,-1756.5 8.5,-1756.5"/>
 <text text-anchor="start" x="44" y="-1763.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node1_3"><a xlink:href="/idmef_parser/IODEFv2/Observable.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node1_3"><a xlink:href="/html/IODEFv2/Observable.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="8.5,-1735.5 8.5,-1756.5 225.5,-1756.5 225.5,-1735.5 8.5,-1735.5"/>
 <text text-anchor="start" x="28" y="-1742.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -37,78 +37,78 @@
 <!-- System -->
 <g id="node2" class="node">
 <title>System</title>
-<g id="a_node2_4"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="The System class describes a system or network involved in an event. ">
+<g id="a_node2_4"><a xlink:href="/html/IODEFv2/System.html" xlink:title="The System class describes a system or network involved in an event. ">
 <polygon fill="#cecece" stroke="transparent" points="1794,-3039.5 1794,-3060.5 2027,-3060.5 2027,-3039.5 1794,-3039.5"/>
 <polygon fill="none" stroke="#000000" points="1794,-3039.5 1794,-3060.5 2027,-3060.5 2027,-3039.5 1794,-3039.5"/>
 <text text-anchor="start" x="1887.5" y="-3046.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">System</text>
 </a>
 </g>
-<g id="a_node2_5"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="The operating system running on the system.">
+<g id="a_node2_5"><a xlink:href="/html/IODEFv2/System.html" xlink:title="The operating system running on the system.">
 <polygon fill="none" stroke="#000000" points="1794,-3018.5 1794,-3039.5 2027,-3039.5 2027,-3018.5 1794,-3018.5"/>
 <text text-anchor="start" x="1797" y="-3025.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] OperatingSystem (0..*)</text>
 </a>
 </g>
-<g id="a_node2_6"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="An asset identifier for the System.">
+<g id="a_node2_6"><a xlink:href="/html/IODEFv2/System.html" xlink:title="An asset identifier for the System.">
 <polygon fill="none" stroke="#000000" points="1794,-2997.5 1794,-3018.5 2027,-3018.5 2027,-2997.5 1794,-2997.5"/>
 <text text-anchor="start" x="1839.5" y="-3004.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] AssetID (0..*)</text>
 </a>
 </g>
-<g id="a_node2_7"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="A free&#45;form text description of the System.">
+<g id="a_node2_7"><a xlink:href="/html/IODEFv2/System.html" xlink:title="A free&#45;form text description of the System.">
 <polygon fill="none" stroke="#000000" points="1794,-2976.5 1794,-2997.5 2027,-2997.5 2027,-2976.5 1794,-2976.5"/>
 <text text-anchor="start" x="1815.5" y="-2983.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node2_8"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="A mechanism by which to extend the data model.">
+<g id="a_node2_8"><a xlink:href="/html/IODEFv2/System.html" xlink:title="A mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1794,-2955.5 1794,-2976.5 2027,-2976.5 2027,-2955.5 1794,-2955.5"/>
 <text text-anchor="start" x="1805" y="-2962.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node2_9"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="Classifies the role the host or network played in the incident. &#160;These values are maintained in the &quot;System&#45; category&quot; IANA registry per Section 10.2.">
+<g id="a_node2_9"><a xlink:href="/html/IODEFv2/System.html" xlink:title="Classifies the role the host or network played in the incident. &#160;These values are maintained in the &quot;System&#45; category&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="1794,-2934.5 1794,-2955.5 2027,-2955.5 2027,-2934.5 1794,-2934.5"/>
 <text text-anchor="start" x="1841" y="-2941.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] category (0..1)</text>
 </a>
 </g>
-<g id="a_node2_10"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="A means by which to extend the category attribute. &#160;See Section 5.1.1.">
+<g id="a_node2_10"><a xlink:href="/html/IODEFv2/System.html" xlink:title="A means by which to extend the category attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1794,-2913.5 1794,-2934.5 2027,-2934.5 2027,-2913.5 1794,-2913.5"/>
 <text text-anchor="start" x="1824.5" y="-2920.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;category (0..1)</text>
 </a>
 </g>
-<g id="a_node2_11"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="Specifies the interface on which the event(s) on this System originated. &#160;If the Node class specifies a network rather than a host, this attribute has no meaning.">
+<g id="a_node2_11"><a xlink:href="/html/IODEFv2/System.html" xlink:title="Specifies the interface on which the event(s) on this System originated. &#160;If the Node class specifies a network rather than a host, this attribute has no meaning.">
 <polygon fill="none" stroke="#000000" points="1794,-2892.5 1794,-2913.5 2027,-2913.5 2027,-2892.5 1794,-2892.5"/>
 <text text-anchor="start" x="1835.5" y="-2899.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] interface (0..1)</text>
 </a>
 </g>
-<g id="a_node2_12"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="An indication of confidence in whether this System was the true target or attacking host. &#160;The permitted values for this attribute are shown below. &#160;The default value is &quot;unknown&quot;.">
+<g id="a_node2_12"><a xlink:href="/html/IODEFv2/System.html" xlink:title="An indication of confidence in whether this System was the true target or attacking host. &#160;The permitted values for this attribute are shown below. &#160;The default value is &quot;unknown&quot;.">
 <polygon fill="none" stroke="#000000" points="1794,-2871.5 1794,-2892.5 2027,-2892.5 2027,-2871.5 1794,-2871.5"/>
 <text text-anchor="start" x="1842.5" y="-2878.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] spoofed (0..1)</text>
 </a>
 </g>
-<g id="a_node2_13"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="Indicates whether this System is a virtual or physical device. &#160;The default value is &quot;unknown&quot;.">
+<g id="a_node2_13"><a xlink:href="/html/IODEFv2/System.html" xlink:title="Indicates whether this System is a virtual or physical device. &#160;The default value is &quot;unknown&quot;.">
 <polygon fill="none" stroke="#000000" points="1794,-2850.5 1794,-2871.5 2027,-2871.5 2027,-2850.5 1794,-2850.5"/>
 <text text-anchor="start" x="1848.5" y="-2857.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] virtual (0..1)</text>
 </a>
 </g>
-<g id="a_node2_14"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="Describes the ownership of this System relative to the victim in the incident. &#160;These values are maintained in the &quot;System&#45;ownership&quot; IANA registry per Section 10.2.">
+<g id="a_node2_14"><a xlink:href="/html/IODEFv2/System.html" xlink:title="Describes the ownership of this System relative to the victim in the incident. &#160;These values are maintained in the &quot;System&#45;ownership&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="1794,-2829.5 1794,-2850.5 2027,-2850.5 2027,-2829.5 1794,-2829.5"/>
 <text text-anchor="start" x="1836" y="-2836.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] ownership (0..1)</text>
 </a>
 </g>
-<g id="a_node2_15"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="A means by which to extend the ownership attribute. &#160;See Section 5.1.1.">
+<g id="a_node2_15"><a xlink:href="/html/IODEFv2/System.html" xlink:title="A means by which to extend the ownership attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1794,-2808.5 1794,-2829.5 2027,-2829.5 2027,-2808.5 1794,-2808.5"/>
 <text text-anchor="start" x="1820" y="-2815.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;ownership (0..1)</text>
 </a>
 </g>
-<g id="a_node2_16"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="See Section 3.3.1.">
+<g id="a_node2_16"><a xlink:href="/html/IODEFv2/System.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1794,-2787.5 1794,-2808.5 2027,-2808.5 2027,-2787.5 1794,-2787.5"/>
 <text text-anchor="start" x="1837.5" y="-2794.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node2_17"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node2_17"><a xlink:href="/html/IODEFv2/System.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1794,-2766.5 1794,-2787.5 2027,-2787.5 2027,-2766.5 1794,-2766.5"/>
 <text text-anchor="start" x="1821.5" y="-2773.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node2_18"><a xlink:href="/idmef_parser/IODEFv2/System.html" xlink:title="See Section 3.3.2.">
+<g id="a_node2_18"><a xlink:href="/html/IODEFv2/System.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="1794,-2745.5 1794,-2766.5 2027,-2766.5 2027,-2745.5 1794,-2745.5"/>
 <text text-anchor="start" x="1839.5" y="-2752.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -124,48 +124,48 @@
 <!-- DomainData -->
 <g id="node4" class="node">
 <title>DomainData</title>
-<g id="a_node4_19"><a xlink:href="/idmef_parser/IODEFv2/DomainData.html" xlink:title="The DomainData class describes a domain name and metadata associated with this domain. ">
+<g id="a_node4_19"><a xlink:href="/html/IODEFv2/DomainData.html" xlink:title="The DomainData class describes a domain name and metadata associated with this domain. ">
 <polygon fill="#cecece" stroke="transparent" points="2375,-3125.5 2375,-3146.5 2651,-3146.5 2651,-3125.5 2375,-3125.5"/>
 <polygon fill="none" stroke="#000000" points="2375,-3125.5 2375,-3146.5 2651,-3146.5 2651,-3125.5 2375,-3125.5"/>
 <text text-anchor="start" x="2475" y="-3132.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">DomainData</text>
 </a>
 </g>
-<g id="a_node4_20"><a xlink:href="/idmef_parser/IODEFv2/DomainData.html" xlink:title="The domain name of a system.">
+<g id="a_node4_20"><a xlink:href="/html/IODEFv2/DomainData.html" xlink:title="The domain name of a system.">
 <polygon fill="none" stroke="#000000" points="2375,-3104.5 2375,-3125.5 2651,-3125.5 2651,-3104.5 2375,-3104.5"/>
 <text text-anchor="start" x="2445.5" y="-3111.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] Name (1..1)</text>
 </a>
 </g>
-<g id="a_node4_21"><a xlink:href="/idmef_parser/IODEFv2/DomainData.html" xlink:title="A timestamp of when the domain listed in the Name class was resolved.">
+<g id="a_node4_21"><a xlink:href="/html/IODEFv2/DomainData.html" xlink:title="A timestamp of when the domain listed in the Name class was resolved.">
 <polygon fill="none" stroke="#000000" points="2375,-3083.5 2375,-3104.5 2651,-3104.5 2651,-3083.5 2375,-3083.5"/>
 <text text-anchor="start" x="2378" y="-3090.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] DateDomainWasChecked (0..1)</text>
 </a>
 </g>
-<g id="a_node4_22"><a xlink:href="/idmef_parser/IODEFv2/DomainData.html" xlink:title="A timestamp of when domain listed in the Name class was registered.">
+<g id="a_node4_22"><a xlink:href="/html/IODEFv2/DomainData.html" xlink:title="A timestamp of when domain listed in the Name class was registered.">
 <polygon fill="none" stroke="#000000" points="2375,-3062.5 2375,-3083.5 2651,-3083.5 2651,-3062.5 2375,-3062.5"/>
 <text text-anchor="start" x="2406" y="-3069.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] RegistrationDate (0..1)</text>
 </a>
 </g>
-<g id="a_node4_23"><a xlink:href="/idmef_parser/IODEFv2/DomainData.html" xlink:title="A timestamp of when the domain listed in the Name class is set to expire.">
+<g id="a_node4_23"><a xlink:href="/html/IODEFv2/DomainData.html" xlink:title="A timestamp of when the domain listed in the Name class is set to expire.">
 <polygon fill="none" stroke="#000000" points="2375,-3041.5 2375,-3062.5 2651,-3062.5 2651,-3041.5 2375,-3041.5"/>
 <text text-anchor="start" x="2412" y="-3048.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] ExpirationDate (0..1)</text>
 </a>
 </g>
-<g id="a_node4_24"><a xlink:href="/idmef_parser/IODEFv2/DomainData.html" xlink:title="Additional DNS records associated with this domain.">
+<g id="a_node4_24"><a xlink:href="/html/IODEFv2/DomainData.html" xlink:title="Additional DNS records associated with this domain.">
 <polygon fill="none" stroke="#000000" points="2375,-3020.5 2375,-3041.5 2651,-3041.5 2651,-3020.5 2375,-3020.5"/>
 <text text-anchor="start" x="2414" y="-3027.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] RelatedDNS (0..*)</text>
 </a>
 </g>
-<g id="a_node4_25"><a xlink:href="/idmef_parser/IODEFv2/DomainData.html" xlink:title="A means by which to extend the system&#45;status attribute. &#160;See Section 5.1.1.">
+<g id="a_node4_25"><a xlink:href="/html/IODEFv2/DomainData.html" xlink:title="A means by which to extend the system&#45;status attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="2375,-2999.5 2375,-3020.5 2651,-3020.5 2651,-2999.5 2375,-2999.5"/>
 <text text-anchor="start" x="2422" y="-3006.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] system&#45;status (0..1)</text>
 </a>
 </g>
-<g id="a_node4_26"><a xlink:href="/idmef_parser/IODEFv2/DomainData.html" xlink:title="A means by which to extend the domain&#45;status attribute. &#160;See Section 5.1.1.">
+<g id="a_node4_26"><a xlink:href="/html/IODEFv2/DomainData.html" xlink:title="A means by which to extend the domain&#45;status attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="2375,-2978.5 2375,-2999.5 2651,-2999.5 2651,-2978.5 2375,-2978.5"/>
 <text text-anchor="start" x="2421" y="-2985.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] domain&#45;status (0..1)</text>
 </a>
 </g>
-<g id="a_node4_27"><a xlink:href="/idmef_parser/IODEFv2/DomainData.html" xlink:title="See Section 3.3.2.">
+<g id="a_node4_27"><a xlink:href="/html/IODEFv2/DomainData.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="2375,-2957.5 2375,-2978.5 2651,-2978.5 2651,-2957.5 2375,-2957.5"/>
 <text text-anchor="start" x="2442" y="-2964.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -181,7 +181,7 @@
 <!-- Address -->
 <g id="node6" class="node">
 <title>Address</title>
-<g id="a_node6_28"><a xlink:href="/idmef_parser/IODEFv2/Address.html" xlink:title="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. ">
+<g id="a_node6_28"><a xlink:href="/html/IODEFv2/Address.html" xlink:title="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. ">
 <polygon fill="#cecece" stroke="transparent" points="3121.5,-3041.5 3121.5,-3062.5 3177.5,-3062.5 3177.5,-3041.5 3121.5,-3041.5"/>
 <polygon fill="none" stroke="#000000" points="3121.5,-3041.5 3121.5,-3062.5 3177.5,-3062.5 3177.5,-3041.5 3121.5,-3041.5"/>
 <text text-anchor="start" x="3124.5" y="-3048.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Address</text>
@@ -198,7 +198,7 @@
 <!-- RegistryHandle -->
 <g id="node9" class="node">
 <title>RegistryHandle</title>
-<g id="a_node9_29"><a xlink:href="/idmef_parser/IODEFv2/RegistryHandle.html" xlink:title="The RegistryHandle class represents a handle into an Internet registry or community&#45;specific database. ">
+<g id="a_node9_29"><a xlink:href="/html/IODEFv2/RegistryHandle.html" xlink:title="The RegistryHandle class represents a handle into an Internet registry or community&#45;specific database. ">
 <polygon fill="#cecece" stroke="transparent" points="3396,-3078.5 3396,-3099.5 3495,-3099.5 3495,-3078.5 3396,-3078.5"/>
 <polygon fill="none" stroke="#000000" points="3396,-3078.5 3396,-3099.5 3495,-3099.5 3495,-3078.5 3396,-3078.5"/>
 <text text-anchor="start" x="3399" y="-3085.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RegistryHandle</text>
@@ -215,48 +215,48 @@
 <!-- Service -->
 <g id="node15" class="node">
 <title>Service</title>
-<g id="a_node15_30"><a xlink:href="/idmef_parser/IODEFv2/Service.html" xlink:title="The Service class describes a network service. The service is described by a protocol, port, protocol header field, and application providing or using the service. ">
+<g id="a_node15_30"><a xlink:href="/html/IODEFv2/Service.html" xlink:title="The Service class describes a network service. The service is described by a protocol, port, protocol header field, and application providing or using the service. ">
 <polygon fill="#cecece" stroke="transparent" points="2104,-2858.5 2104,-2879.5 2300,-2879.5 2300,-2858.5 2104,-2858.5"/>
 <polygon fill="none" stroke="#000000" points="2104,-2858.5 2104,-2879.5 2300,-2879.5 2300,-2858.5 2104,-2858.5"/>
 <text text-anchor="start" x="2179" y="-2865.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Service</text>
 </a>
 </g>
-<g id="a_node15_31"><a xlink:href="/idmef_parser/IODEFv2/Service.html" xlink:title="A port number.">
+<g id="a_node15_31"><a xlink:href="/html/IODEFv2/Service.html" xlink:title="A port number.">
 <polygon fill="none" stroke="#000000" points="2104,-2837.5 2104,-2858.5 2300,-2858.5 2300,-2837.5 2104,-2837.5"/>
 <text text-anchor="start" x="2135.5" y="-2844.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] Port (0..1)</text>
 </a>
 </g>
-<g id="a_node15_32"><a xlink:href="/idmef_parser/IODEFv2/Service.html" xlink:title="A list of port numbers.">
+<g id="a_node15_32"><a xlink:href="/html/IODEFv2/Service.html" xlink:title="A list of port numbers.">
 <polygon fill="none" stroke="#000000" points="2104,-2816.5 2104,-2837.5 2300,-2837.5 2300,-2816.5 2104,-2816.5"/>
 <text text-anchor="start" x="2124.5" y="-2823.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[PORTLIST] Portlist (0..1)</text>
 </a>
 </g>
-<g id="a_node15_33"><a xlink:href="/idmef_parser/IODEFv2/Service.html" xlink:title="A transport&#45;layer (Layer 4) protocol&#45; specific code field (e.g., ICMP code field).">
+<g id="a_node15_33"><a xlink:href="/html/IODEFv2/Service.html" xlink:title="A transport&#45;layer (Layer 4) protocol&#45; specific code field (e.g., ICMP code field).">
 <polygon fill="none" stroke="#000000" points="2104,-2795.5 2104,-2816.5 2300,-2816.5 2300,-2795.5 2104,-2795.5"/>
 <text text-anchor="start" x="2116" y="-2802.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] ProtoCode (0..1)</text>
 </a>
 </g>
-<g id="a_node15_34"><a xlink:href="/idmef_parser/IODEFv2/Service.html" xlink:title="A transport&#45;layer (Layer 4) protocol&#45; specific type field (e.g., ICMP type field).">
+<g id="a_node15_34"><a xlink:href="/html/IODEFv2/Service.html" xlink:title="A transport&#45;layer (Layer 4) protocol&#45; specific type field (e.g., ICMP type field).">
 <polygon fill="none" stroke="#000000" points="2104,-2774.5 2104,-2795.5 2300,-2795.5 2300,-2774.5 2104,-2774.5"/>
 <text text-anchor="start" x="2118.5" y="-2781.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] ProtoType (0..1)</text>
 </a>
 </g>
-<g id="a_node15_35"><a xlink:href="/idmef_parser/IODEFv2/Service.html" xlink:title="A transport&#45;layer (Layer 4) protocol&#45; specific flag field (e.g., TCP flag field).">
+<g id="a_node15_35"><a xlink:href="/html/IODEFv2/Service.html" xlink:title="A transport&#45;layer (Layer 4) protocol&#45; specific flag field (e.g., TCP flag field).">
 <polygon fill="none" stroke="#000000" points="2104,-2753.5 2104,-2774.5 2300,-2774.5 2300,-2753.5 2104,-2753.5"/>
 <text text-anchor="start" x="2117.5" y="-2760.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] ProtoField (0..1)</text>
 </a>
 </g>
-<g id="a_node15_36"><a xlink:href="/idmef_parser/IODEFv2/Service.html" xlink:title="The application acting as either the client or the server for the service.">
+<g id="a_node15_36"><a xlink:href="/html/IODEFv2/Service.html" xlink:title="The application acting as either the client or the server for the service.">
 <polygon fill="none" stroke="#000000" points="2104,-2732.5 2104,-2753.5 2300,-2753.5 2300,-2732.5 2104,-2732.5"/>
 <text text-anchor="start" x="2107" y="-2739.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
 </a>
 </g>
-<g id="a_node15_37"><a xlink:href="/idmef_parser/IODEFv2/Service.html" xlink:title="The IANA&#45;assigned IP protocol number per [IANA.Protocols]. &#160;The attribute MUST be set if a Port, Portlist, ProtoCode, ProtoType, or ProtoField class is present.">
+<g id="a_node15_37"><a xlink:href="/html/IODEFv2/Service.html" xlink:title="The IANA&#45;assigned IP protocol number per [IANA.Protocols]. &#160;The attribute MUST be set if a Port, Portlist, ProtoCode, ProtoType, or ProtoField class is present.">
 <polygon fill="none" stroke="#000000" points="2104,-2711.5 2104,-2732.5 2300,-2732.5 2300,-2711.5 2104,-2711.5"/>
 <text text-anchor="start" x="2116.5" y="-2718.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] ip&#45;protocol (0..1)</text>
 </a>
 </g>
-<g id="a_node15_38"><a xlink:href="/idmef_parser/IODEFv2/Service.html" xlink:title="See Section 3.3.2.">
+<g id="a_node15_38"><a xlink:href="/html/IODEFv2/Service.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="2104,-2690.5 2104,-2711.5 2300,-2711.5 2300,-2690.5 2104,-2690.5"/>
 <text text-anchor="start" x="2131" y="-2697.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -272,53 +272,53 @@
 <!-- EmailData -->
 <g id="node18" class="node">
 <title>EmailData</title>
-<g id="a_node18_39"><a xlink:href="/idmef_parser/IODEFv2/EmailData.html" xlink:title="The EmailData class describes headers from an email message and cryptographic hashes and signatures applied to it. ">
+<g id="a_node18_39"><a xlink:href="/html/IODEFv2/EmailData.html" xlink:title="The EmailData class describes headers from an email message and cryptographic hashes and signatures applied to it. ">
 <polygon fill="#cecece" stroke="transparent" points="2395,-704.5 2395,-725.5 2632,-725.5 2632,-704.5 2395,-704.5"/>
 <polygon fill="none" stroke="#000000" points="2395,-704.5 2395,-725.5 2632,-725.5 2632,-704.5 2395,-704.5"/>
 <text text-anchor="start" x="2481.5" y="-711.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">EmailData</text>
 </a>
 </g>
-<g id="a_node18_40"><a xlink:href="/idmef_parser/IODEFv2/EmailData.html" xlink:title="The value of the &quot;To:&quot; header field (Section 3.6.3 of [RFC5322]) in an email.">
+<g id="a_node18_40"><a xlink:href="/html/IODEFv2/EmailData.html" xlink:title="The value of the &quot;To:&quot; header field (Section 3.6.3 of [RFC5322]) in an email.">
 <polygon fill="none" stroke="#000000" points="2395,-683.5 2395,-704.5 2632,-704.5 2632,-683.5 2395,-683.5"/>
 <text text-anchor="start" x="2447" y="-690.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EMAIL] EmailTo (0..*)</text>
 </a>
 </g>
-<g id="a_node18_41"><a xlink:href="/idmef_parser/IODEFv2/EmailData.html" xlink:title="The value of the &quot;From:&quot; header field (Section 3.6.2 of [RFC5322]) in an email.">
+<g id="a_node18_41"><a xlink:href="/html/IODEFv2/EmailData.html" xlink:title="The value of the &quot;From:&quot; header field (Section 3.6.2 of [RFC5322]) in an email.">
 <polygon fill="none" stroke="#000000" points="2395,-662.5 2395,-683.5 2632,-683.5 2632,-662.5 2395,-662.5"/>
 <text text-anchor="start" x="2436.5" y="-669.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EMAIL] EmailFrom (0..1)</text>
 </a>
 </g>
-<g id="a_node18_42"><a xlink:href="/idmef_parser/IODEFv2/EmailData.html" xlink:title="The value of the &quot;Subject:&quot; header field in an email. &#160;See Section 3.6.5 of [RFC5322].">
+<g id="a_node18_42"><a xlink:href="/html/IODEFv2/EmailData.html" xlink:title="The value of the &quot;Subject:&quot; header field in an email. &#160;See Section 3.6.5 of [RFC5322].">
 <polygon fill="none" stroke="#000000" points="2395,-641.5 2395,-662.5 2632,-662.5 2632,-641.5 2395,-641.5"/>
 <text text-anchor="start" x="2424.5" y="-648.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] EmailSubject (0..1)</text>
 </a>
 </g>
-<g id="a_node18_43"><a xlink:href="/idmef_parser/IODEFv2/EmailData.html" xlink:title="The value of the &quot;X&#45;Mailer:&quot; header field in an email.">
+<g id="a_node18_43"><a xlink:href="/html/IODEFv2/EmailData.html" xlink:title="The value of the &quot;X&#45;Mailer:&quot; header field in an email.">
 <polygon fill="none" stroke="#000000" points="2395,-620.5 2395,-641.5 2632,-641.5 2632,-620.5 2395,-620.5"/>
 <text text-anchor="start" x="2422" y="-627.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] EmailX&#45;Mailer (0..1)</text>
 </a>
 </g>
-<g id="a_node18_44"><a xlink:href="/idmef_parser/IODEFv2/EmailData.html" xlink:title="The header name and value of an arbitrary header field of the email message. &#160;The name attribute MUST be set to the header name. &#160;The header value MUST be set in the element body. &#160;The dtype attribute MUST be set to &quot;string&quot;.">
+<g id="a_node18_44"><a xlink:href="/html/IODEFv2/EmailData.html" xlink:title="The header name and value of an arbitrary header field of the email message. &#160;The name attribute MUST be set to the header name. &#160;The header value MUST be set in the element body. &#160;The dtype attribute MUST be set to &quot;string&quot;.">
 <polygon fill="none" stroke="#000000" points="2395,-599.5 2395,-620.5 2632,-620.5 2632,-599.5 2395,-599.5"/>
 <text text-anchor="start" x="2398" y="-606.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] EmailHeaderField (0..*)</text>
 </a>
 </g>
-<g id="a_node18_45"><a xlink:href="/idmef_parser/IODEFv2/EmailData.html" xlink:title="The headers of an email message.">
+<g id="a_node18_45"><a xlink:href="/html/IODEFv2/EmailData.html" xlink:title="The headers of an email message.">
 <polygon fill="none" stroke="#000000" points="2395,-578.5 2395,-599.5 2632,-599.5 2632,-578.5 2395,-578.5"/>
 <text text-anchor="start" x="2421.5" y="-585.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] EmailHeaders (0..1)</text>
 </a>
 </g>
-<g id="a_node18_46"><a xlink:href="/idmef_parser/IODEFv2/EmailData.html" xlink:title="The body of an email message.">
+<g id="a_node18_46"><a xlink:href="/html/IODEFv2/EmailData.html" xlink:title="The body of an email message.">
 <polygon fill="none" stroke="#000000" points="2395,-557.5 2395,-578.5 2632,-578.5 2632,-557.5 2395,-557.5"/>
 <text text-anchor="start" x="2432" y="-564.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] EmailBody (0..1)</text>
 </a>
 </g>
-<g id="a_node18_47"><a xlink:href="/idmef_parser/IODEFv2/EmailData.html" xlink:title="The headers and body of an email message.">
+<g id="a_node18_47"><a xlink:href="/html/IODEFv2/EmailData.html" xlink:title="The headers and body of an email message.">
 <polygon fill="none" stroke="#000000" points="2395,-536.5 2395,-557.5 2632,-557.5 2632,-536.5 2395,-536.5"/>
 <text text-anchor="start" x="2419.5" y="-543.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] EmailMessage (0..1)</text>
 </a>
 </g>
-<g id="a_node18_48"><a xlink:href="/idmef_parser/IODEFv2/EmailData.html" xlink:title="See Section 3.3.2.">
+<g id="a_node18_48"><a xlink:href="/html/IODEFv2/EmailData.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="2395,-515.5 2395,-536.5 2632,-536.5 2632,-515.5 2395,-515.5"/>
 <text text-anchor="start" x="2442.5" y="-522.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -334,13 +334,13 @@
 <!-- WindowsRegistryKeysModified -->
 <g id="node23" class="node">
 <title>WindowsRegistryKeysModified</title>
-<g id="a_node23_49"><a xlink:href="/idmef_parser/IODEFv2/WindowsRegistryKeysModified.html" xlink:title="The WindowsRegistryKeysModified class describes Windows operating system registry keys and the operations that were performed on them. This class was derived from [RFC5901]. ">
+<g id="a_node23_49"><a xlink:href="/html/IODEFv2/WindowsRegistryKeysModified.html" xlink:title="The WindowsRegistryKeysModified class describes Windows operating system registry keys and the operations that were performed on them. This class was derived from [RFC5901]. ">
 <polygon fill="#cecece" stroke="transparent" points="2106,-429.5 2106,-450.5 2299,-450.5 2299,-429.5 2106,-429.5"/>
 <polygon fill="none" stroke="#000000" points="2106,-429.5 2106,-450.5 2299,-450.5 2299,-429.5 2106,-429.5"/>
 <text text-anchor="start" x="2109" y="-436.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">WindowsRegistryKeysModified</text>
 </a>
 </g>
-<g id="a_node23_50"><a xlink:href="/idmef_parser/IODEFv2/WindowsRegistryKeysModified.html" xlink:title="See Section 3.3.2.">
+<g id="a_node23_50"><a xlink:href="/html/IODEFv2/WindowsRegistryKeysModified.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="2106,-408.5 2106,-429.5 2299,-429.5 2299,-408.5 2106,-408.5"/>
 <text text-anchor="start" x="2131.5" y="-415.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -356,23 +356,23 @@
 <!-- FileData -->
 <g id="node25" class="node">
 <title>FileData</title>
-<g id="a_node25_51"><a xlink:href="/idmef_parser/IODEFv2/FileData.html" xlink:title="The FileData class describes a file or set of files. ">
+<g id="a_node25_51"><a xlink:href="/html/IODEFv2/FileData.html" xlink:title="The FileData class describes a file or set of files. ">
 <polygon fill="#cecece" stroke="transparent" points="2110,-206.5 2110,-227.5 2294,-227.5 2294,-206.5 2110,-206.5"/>
 <polygon fill="none" stroke="#000000" points="2110,-206.5 2110,-227.5 2294,-227.5 2294,-206.5 2110,-206.5"/>
 <text text-anchor="start" x="2176.5" y="-213.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">FileData</text>
 </a>
 </g>
-<g id="a_node25_52"><a xlink:href="/idmef_parser/IODEFv2/FileData.html" xlink:title="See Section 3.3.1.">
+<g id="a_node25_52"><a xlink:href="/html/IODEFv2/FileData.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="2110,-185.5 2110,-206.5 2294,-206.5 2294,-185.5 2110,-185.5"/>
 <text text-anchor="start" x="2129" y="-192.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node25_53"><a xlink:href="/idmef_parser/IODEFv2/FileData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node25_53"><a xlink:href="/html/IODEFv2/FileData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="2110,-164.5 2110,-185.5 2294,-185.5 2294,-164.5 2110,-164.5"/>
 <text text-anchor="start" x="2113" y="-171.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node25_54"><a xlink:href="/idmef_parser/IODEFv2/FileData.html" xlink:title="See Section 3.3.2.">
+<g id="a_node25_54"><a xlink:href="/html/IODEFv2/FileData.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="2110,-143.5 2110,-164.5 2294,-164.5 2294,-143.5 2110,-143.5"/>
 <text text-anchor="start" x="2131" y="-150.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -388,23 +388,23 @@
 <!-- CertificateData -->
 <g id="node27" class="node">
 <title>CertificateData</title>
-<g id="a_node27_55"><a xlink:href="/idmef_parser/IODEFv2/CertificateData.html" xlink:title="The CertificateData class describes X.509 certificates. ">
+<g id="a_node27_55"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="The CertificateData class describes X.509 certificates. ">
 <polygon fill="#cecece" stroke="transparent" points="2110,-316.5 2110,-337.5 2294,-337.5 2294,-316.5 2110,-316.5"/>
 <polygon fill="none" stroke="#000000" points="2110,-316.5 2110,-337.5 2294,-337.5 2294,-316.5 2110,-316.5"/>
 <text text-anchor="start" x="2156.5" y="-323.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">CertificateData</text>
 </a>
 </g>
-<g id="a_node27_56"><a xlink:href="/idmef_parser/IODEFv2/CertificateData.html" xlink:title="See Section 3.3.1.">
+<g id="a_node27_56"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="2110,-295.5 2110,-316.5 2294,-316.5 2294,-295.5 2110,-295.5"/>
 <text text-anchor="start" x="2129" y="-302.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node27_57"><a xlink:href="/idmef_parser/IODEFv2/CertificateData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node27_57"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="2110,-274.5 2110,-295.5 2294,-295.5 2294,-274.5 2110,-274.5"/>
 <text text-anchor="start" x="2113" y="-281.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node27_58"><a xlink:href="/idmef_parser/IODEFv2/CertificateData.html" xlink:title="See Section 3.3.2.">
+<g id="a_node27_58"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="2110,-253.5 2110,-274.5 2294,-274.5 2294,-253.5 2110,-253.5"/>
 <text text-anchor="start" x="2131" y="-260.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -420,53 +420,53 @@
 <!-- RecordData -->
 <g id="node29" class="node">
 <title>RecordData</title>
-<g id="a_node29_59"><a xlink:href="/idmef_parser/IODEFv2/RecordData.html" xlink:title="The RecordData class describes or references log or audit data from a given type of tool and provides a means to annotate the output. ">
+<g id="a_node29_59"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="The RecordData class describes or references log or audit data from a given type of tool and provides a means to annotate the output. ">
 <polygon fill="#cecece" stroke="transparent" points="1802,-630.5 1802,-651.5 2019,-651.5 2019,-630.5 1802,-630.5"/>
 <polygon fill="none" stroke="#000000" points="1802,-630.5 1802,-651.5 2019,-651.5 2019,-630.5 1802,-630.5"/>
 <text text-anchor="start" x="1874" y="-637.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RecordData</text>
 </a>
 </g>
-<g id="a_node29_60"><a xlink:href="/idmef_parser/IODEFv2/RecordData.html" xlink:title="A timestamp of the data found in the RecordItem or URL classes.">
+<g id="a_node29_60"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A timestamp of the data found in the RecordItem or URL classes.">
 <polygon fill="none" stroke="#000000" points="1802,-609.5 1802,-630.5 2019,-630.5 2019,-609.5 1802,-609.5"/>
 <text text-anchor="start" x="1824" y="-616.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] DateTime (0..1)</text>
 </a>
 </g>
-<g id="a_node29_61"><a xlink:href="/idmef_parser/IODEFv2/RecordData.html" xlink:title="A free&#45;form text description of the data provided in the RecordItem or URL classes.">
+<g id="a_node29_61"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A free&#45;form text description of the data provided in the RecordItem or URL classes.">
 <polygon fill="none" stroke="#000000" points="1802,-588.5 1802,-609.5 2019,-609.5 2019,-588.5 1802,-588.5"/>
 <text text-anchor="start" x="1815.5" y="-595.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node29_62"><a xlink:href="/idmef_parser/IODEFv2/RecordData.html" xlink:title="Identifies the tool used to generate the data in the RecordItem or URL classes.">
+<g id="a_node29_62"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="Identifies the tool used to generate the data in the RecordItem or URL classes.">
 <polygon fill="none" stroke="#000000" points="1802,-567.5 1802,-588.5 2019,-588.5 2019,-567.5 1802,-567.5"/>
 <text text-anchor="start" x="1815.5" y="-574.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
 </a>
 </g>
-<g id="a_node29_63"><a xlink:href="/idmef_parser/IODEFv2/RecordData.html" xlink:title="Log, audit, or forensic data to support the conclusions made during the course of analyzing the incident.">
+<g id="a_node29_63"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="Log, audit, or forensic data to support the conclusions made during the course of analyzing the incident.">
 <polygon fill="none" stroke="#000000" points="1802,-546.5 1802,-567.5 2019,-567.5 2019,-546.5 1802,-546.5"/>
 <text text-anchor="start" x="1814" y="-553.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] RecordItem (0..*)</text>
 </a>
 </g>
-<g id="a_node29_64"><a xlink:href="/idmef_parser/IODEFv2/RecordData.html" xlink:title="A URL reference to a log or audit data.">
+<g id="a_node29_64"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A URL reference to a log or audit data.">
 <polygon fill="none" stroke="#000000" points="1802,-525.5 1802,-546.5 2019,-546.5 2019,-525.5 1802,-525.5"/>
 <text text-anchor="start" x="1862" y="-532.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
-<g id="a_node29_65"><a xlink:href="/idmef_parser/IODEFv2/RecordData.html" xlink:title="An extension mechanism for data not explicitly represented in the data model.">
+<g id="a_node29_65"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="An extension mechanism for data not explicitly represented in the data model.">
 <polygon fill="none" stroke="#000000" points="1802,-504.5 1802,-525.5 2019,-525.5 2019,-504.5 1802,-504.5"/>
 <text text-anchor="start" x="1805" y="-511.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node29_66"><a xlink:href="/idmef_parser/IODEFv2/RecordData.html" xlink:title="See Section 3.3.1.">
+<g id="a_node29_66"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1802,-483.5 1802,-504.5 2019,-504.5 2019,-483.5 1802,-483.5"/>
 <text text-anchor="start" x="1837.5" y="-490.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node29_67"><a xlink:href="/idmef_parser/IODEFv2/RecordData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node29_67"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1802,-462.5 1802,-483.5 2019,-483.5 2019,-462.5 1802,-462.5"/>
 <text text-anchor="start" x="1821.5" y="-469.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node29_68"><a xlink:href="/idmef_parser/IODEFv2/RecordData.html" xlink:title="See Section 3.3.2.">
+<g id="a_node29_68"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="1802,-441.5 1802,-462.5 2019,-462.5 2019,-441.5 1802,-441.5"/>
 <text text-anchor="start" x="1839.5" y="-448.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -482,58 +482,58 @@
 <!-- EventData -->
 <g id="node31" class="node">
 <title>EventData</title>
-<g id="a_node31_69"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="The EventData class is a container class to organize data about events that occurred during an incident. ">
+<g id="a_node31_69"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="The EventData class is a container class to organize data about events that occurred during an incident. ">
 <polygon fill="#cecece" stroke="transparent" points="807.5,-1539.5 807.5,-1560.5 1024.5,-1560.5 1024.5,-1539.5 807.5,-1539.5"/>
 <polygon fill="none" stroke="#000000" points="807.5,-1539.5 807.5,-1560.5 1024.5,-1560.5 1024.5,-1539.5 807.5,-1539.5"/>
 <text text-anchor="start" x="884.5" y="-1546.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">EventData</text>
 </a>
 </g>
-<g id="a_node31_70"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="A free&#45;form text description of the event.">
+<g id="a_node31_70"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="A free&#45;form text description of the event.">
 <polygon fill="none" stroke="#000000" points="807.5,-1518.5 807.5,-1539.5 1024.5,-1539.5 1024.5,-1518.5 807.5,-1518.5"/>
 <text text-anchor="start" x="821" y="-1525.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node31_71"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="The time the event was detected.">
+<g id="a_node31_71"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="The time the event was detected.">
 <polygon fill="none" stroke="#000000" points="807.5,-1497.5 807.5,-1518.5 1024.5,-1518.5 1024.5,-1497.5 807.5,-1497.5"/>
 <text text-anchor="start" x="824" y="-1504.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] DetectTime (0..1)</text>
 </a>
 </g>
-<g id="a_node31_72"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="The time the event started.">
+<g id="a_node31_72"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="The time the event started.">
 <polygon fill="none" stroke="#000000" points="807.5,-1476.5 807.5,-1497.5 1024.5,-1497.5 1024.5,-1476.5 807.5,-1476.5"/>
 <text text-anchor="start" x="829" y="-1483.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] StartTime (0..1)</text>
 </a>
 </g>
-<g id="a_node31_73"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="The time the event ended.">
+<g id="a_node31_73"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="The time the event ended.">
 <polygon fill="none" stroke="#000000" points="807.5,-1455.5 807.5,-1476.5 1024.5,-1476.5 1024.5,-1455.5 807.5,-1455.5"/>
 <text text-anchor="start" x="831.5" y="-1462.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] EndTime (0..1)</text>
 </a>
 </g>
-<g id="a_node31_74"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="The time the site recovered from the event.">
+<g id="a_node31_74"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="The time the site recovered from the event.">
 <polygon fill="none" stroke="#000000" points="807.5,-1434.5 807.5,-1455.5 1024.5,-1455.5 1024.5,-1434.5 807.5,-1434.5"/>
 <text text-anchor="start" x="815" y="-1441.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] RecoveryTime (0..1)</text>
 </a>
 </g>
-<g id="a_node31_75"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="The time the event was reported.">
+<g id="a_node31_75"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="The time the event was reported.">
 <polygon fill="none" stroke="#000000" points="807.5,-1413.5 807.5,-1434.5 1024.5,-1434.5 1024.5,-1413.5 807.5,-1413.5"/>
 <text text-anchor="start" x="823" y="-1420.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] ReportTime (0..1)</text>
 </a>
 </g>
-<g id="a_node31_76"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="An extension mechanism for data not explicitly represented in the data model.">
+<g id="a_node31_76"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="An extension mechanism for data not explicitly represented in the data model.">
 <polygon fill="none" stroke="#000000" points="807.5,-1392.5 807.5,-1413.5 1024.5,-1413.5 1024.5,-1392.5 807.5,-1392.5"/>
 <text text-anchor="start" x="810.5" y="-1399.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node31_77"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="See Section 3.3.1. &#160;The default value is &quot;default&quot;.">
+<g id="a_node31_77"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="See Section 3.3.1. &#160;The default value is &quot;default&quot;.">
 <polygon fill="none" stroke="#000000" points="807.5,-1371.5 807.5,-1392.5 1024.5,-1392.5 1024.5,-1371.5 807.5,-1371.5"/>
 <text text-anchor="start" x="843" y="-1378.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node31_78"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node31_78"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="807.5,-1350.5 807.5,-1371.5 1024.5,-1371.5 1024.5,-1350.5 807.5,-1350.5"/>
 <text text-anchor="start" x="827" y="-1357.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node31_79"><a xlink:href="/idmef_parser/IODEFv2/EventData.html" xlink:title="See Section 3.3.2.">
+<g id="a_node31_79"><a xlink:href="/html/IODEFv2/EventData.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="807.5,-1329.5 807.5,-1350.5 1024.5,-1350.5 1024.5,-1329.5 807.5,-1329.5"/>
 <text text-anchor="start" x="845" y="-1336.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -549,38 +549,38 @@
 <!-- DetectionPattern -->
 <g id="node33" class="node">
 <title>DetectionPattern</title>
-<g id="a_node33_80"><a xlink:href="/idmef_parser/IODEFv2/DetectionPattern.html" xlink:title="The DetectionPattern class describes a configuration or signature that can be used by an Intrusion Detection System (IDS) / Intrusion Prevention System (IPS), SIEM, antivirus, endpoint protection, network analysis, malware analysis, or host forensics tool to identify a particular phenomenon. This class requires the identification of the target application and allows the configuration to be described in either free form or machine&#45;readable form. ">
+<g id="a_node33_80"><a xlink:href="/html/IODEFv2/DetectionPattern.html" xlink:title="The DetectionPattern class describes a configuration or signature that can be used by an Intrusion Detection System (IDS) / Intrusion Prevention System (IPS), SIEM, antivirus, endpoint protection, network analysis, malware analysis, or host forensics tool to identify a particular phenomenon. This class requires the identification of the target application and allows the configuration to be described in either free form or machine&#45;readable form. ">
 <polygon fill="#cecece" stroke="transparent" points="1791,-1461.5 1791,-1482.5 2029,-1482.5 2029,-1461.5 1791,-1461.5"/>
 <polygon fill="none" stroke="#000000" points="1791,-1461.5 1791,-1482.5 2029,-1482.5 2029,-1461.5 1791,-1461.5"/>
 <text text-anchor="start" x="1860" y="-1468.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">DetectionPattern</text>
 </a>
 </g>
-<g id="a_node33_81"><a xlink:href="/idmef_parser/IODEFv2/DetectionPattern.html" xlink:title="The application for which the DetectionConfiguration or Description is being provided.">
+<g id="a_node33_81"><a xlink:href="/html/IODEFv2/DetectionPattern.html" xlink:title="The application for which the DetectionConfiguration or Description is being provided.">
 <polygon fill="none" stroke="#000000" points="1791,-1440.5 1791,-1461.5 2029,-1461.5 2029,-1440.5 1791,-1440.5"/>
 <text text-anchor="start" x="1815" y="-1447.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (1..1)</text>
 </a>
 </g>
-<g id="a_node33_82"><a xlink:href="/idmef_parser/IODEFv2/DetectionPattern.html" xlink:title="A free&#45;form text description of how to use the information provided in the Application or DetectionConfiguration classes.">
+<g id="a_node33_82"><a xlink:href="/html/IODEFv2/DetectionPattern.html" xlink:title="A free&#45;form text description of how to use the information provided in the Application or DetectionConfiguration classes.">
 <polygon fill="none" stroke="#000000" points="1791,-1419.5 1791,-1440.5 2029,-1440.5 2029,-1419.5 1791,-1419.5"/>
 <text text-anchor="start" x="1815" y="-1426.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node33_83"><a xlink:href="/idmef_parser/IODEFv2/DetectionPattern.html" xlink:title="A machine&#45;consumable configuration to find a pattern of activity.">
+<g id="a_node33_83"><a xlink:href="/html/IODEFv2/DetectionPattern.html" xlink:title="A machine&#45;consumable configuration to find a pattern of activity.">
 <polygon fill="none" stroke="#000000" points="1791,-1398.5 1791,-1419.5 2029,-1419.5 2029,-1398.5 1791,-1398.5"/>
 <text text-anchor="start" x="1794" y="-1405.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] DetectionConfiguration (0..*)</text>
 </a>
 </g>
-<g id="a_node33_84"><a xlink:href="/idmef_parser/IODEFv2/DetectionPattern.html" xlink:title="See Section 3.3.1.">
+<g id="a_node33_84"><a xlink:href="/html/IODEFv2/DetectionPattern.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1791,-1377.5 1791,-1398.5 2029,-1398.5 2029,-1377.5 1791,-1377.5"/>
 <text text-anchor="start" x="1837" y="-1384.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node33_85"><a xlink:href="/idmef_parser/IODEFv2/DetectionPattern.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node33_85"><a xlink:href="/html/IODEFv2/DetectionPattern.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1791,-1356.5 1791,-1377.5 2029,-1377.5 2029,-1356.5 1791,-1356.5"/>
 <text text-anchor="start" x="1821" y="-1363.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node33_86"><a xlink:href="/idmef_parser/IODEFv2/DetectionPattern.html" xlink:title="See Section 3.3.2.">
+<g id="a_node33_86"><a xlink:href="/html/IODEFv2/DetectionPattern.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="1791,-1335.5 1791,-1356.5 2029,-1356.5 2029,-1335.5 1791,-1335.5"/>
 <text text-anchor="start" x="1839" y="-1342.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -596,53 +596,53 @@
 <!-- Assessment -->
 <g id="node34" class="node">
 <title>Assessment</title>
-<g id="a_node34_87"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="The Assessment class describes the repercussions of the incident to the victim. ">
+<g id="a_node34_87"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="The Assessment class describes the repercussions of the incident to the victim. ">
 <polygon fill="#cecece" stroke="transparent" points="1276,-1771.5 1276,-1792.5 1506,-1792.5 1506,-1771.5 1276,-1771.5"/>
 <polygon fill="none" stroke="#000000" points="1276,-1771.5 1276,-1792.5 1506,-1792.5 1506,-1771.5 1276,-1771.5"/>
 <text text-anchor="start" x="1353.5" y="-1778.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Assessment</text>
 </a>
 </g>
-<g id="a_node34_88"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="A free&#45;form text description categorizing the type of incident.">
+<g id="a_node34_88"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="A free&#45;form text description categorizing the type of incident.">
 <polygon fill="none" stroke="#000000" points="1276,-1750.5 1276,-1771.5 1506,-1771.5 1506,-1750.5 1276,-1750.5"/>
 <text text-anchor="start" x="1279" y="-1757.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] IncidentCategory (0..*)</text>
 </a>
 </g>
-<g id="a_node34_89"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="The intended outcome to the victim sought by the threat actor. &#160;Defined identically to the BusinessImpact defined in Section 3.12.2 but describes intent rather than the realized impact.">
+<g id="a_node34_89"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="The intended outcome to the victim sought by the threat actor. &#160;Defined identically to the BusinessImpact defined in Section 3.12.2 but describes intent rather than the realized impact.">
 <polygon fill="none" stroke="#000000" points="1276,-1729.5 1276,-1750.5 1506,-1750.5 1506,-1729.5 1276,-1729.5"/>
 <text text-anchor="start" x="1322" y="-1736.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] IntendedImpact (0..*)</text>
 </a>
 </g>
-<g id="a_node34_90"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="A description of a mitigating factor relative to the impact on the victim organization.">
+<g id="a_node34_90"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="A description of a mitigating factor relative to the impact on the victim organization.">
 <polygon fill="none" stroke="#000000" points="1276,-1708.5 1276,-1729.5 1506,-1729.5 1506,-1708.5 1276,-1708.5"/>
 <text text-anchor="start" x="1282" y="-1715.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] MitigatingFactor (0..*)</text>
 </a>
 </g>
-<g id="a_node34_91"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="A description of an underlying cause of the impact.">
+<g id="a_node34_91"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="A description of an underlying cause of the impact.">
 <polygon fill="none" stroke="#000000" points="1276,-1687.5 1276,-1708.5 1506,-1708.5 1506,-1687.5 1276,-1687.5"/>
 <text text-anchor="start" x="1310.5" y="-1694.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Cause (0..*)</text>
 </a>
 </g>
-<g id="a_node34_92"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="A mechanism by which to extend the data model.">
+<g id="a_node34_92"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="A mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1276,-1666.5 1276,-1687.5 1506,-1687.5 1506,-1666.5 1276,-1666.5"/>
 <text text-anchor="start" x="1285.5" y="-1673.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node34_93"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="Specifies whether the assessment is describing actual or potential outcomes.">
+<g id="a_node34_93"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="Specifies whether the assessment is describing actual or potential outcomes.">
 <polygon fill="none" stroke="#000000" points="1276,-1645.5 1276,-1666.5 1506,-1666.5 1506,-1645.5 1276,-1645.5"/>
 <text text-anchor="start" x="1314" y="-1652.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] occurrence (0..1)</text>
 </a>
 </g>
-<g id="a_node34_94"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="See Section 3.3.1.">
+<g id="a_node34_94"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1276,-1624.5 1276,-1645.5 1506,-1645.5 1506,-1624.5 1276,-1624.5"/>
 <text text-anchor="start" x="1318" y="-1631.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node34_95"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node34_95"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1276,-1603.5 1276,-1624.5 1506,-1624.5 1506,-1603.5 1276,-1603.5"/>
 <text text-anchor="start" x="1302" y="-1610.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node34_96"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="See Section 3.3.2.">
+<g id="a_node34_96"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="1276,-1582.5 1276,-1603.5 1506,-1603.5 1506,-1582.5 1276,-1582.5"/>
 <text text-anchor="start" x="1320" y="-1589.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -658,28 +658,28 @@
 <!-- Reference -->
 <g id="node41" class="node">
 <title>Reference</title>
-<g id="a_node41_97"><a xlink:href="/idmef_parser/IODEFv2/Reference.html" xlink:title="The Reference class is an external reference to relevant information such as a vulnerability, IDS alert, malware sample, advisory, or attack technique. ">
+<g id="a_node41_97"><a xlink:href="/html/IODEFv2/Reference.html" xlink:title="The Reference class is an external reference to relevant information such as a vulnerability, IDS alert, malware sample, advisory, or attack technique. ">
 <polygon fill="#cecece" stroke="transparent" points="1812,-2362.5 1812,-2383.5 2008,-2383.5 2008,-2362.5 1812,-2362.5"/>
 <polygon fill="none" stroke="#000000" points="1812,-2362.5 1812,-2383.5 2008,-2383.5 2008,-2362.5 1812,-2362.5"/>
 <text text-anchor="start" x="1878.5" y="-2369.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Reference</text>
 </a>
 </g>
-<g id="a_node41_98"><a xlink:href="/idmef_parser/IODEFv2/Reference.html" xlink:title="Reference identifier per [RFC7495].">
+<g id="a_node41_98"><a xlink:href="/html/IODEFv2/Reference.html" xlink:title="Reference identifier per [RFC7495].">
 <polygon fill="none" stroke="#000000" points="1812,-2341.5 1812,-2362.5 2008,-2362.5 2008,-2341.5 1812,-2341.5"/>
 <text text-anchor="start" x="1886.5" y="-2348.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] &#160;(0..1)</text>
 </a>
 </g>
-<g id="a_node41_99"><a xlink:href="/idmef_parser/IODEFv2/Reference.html" xlink:title="A URL to a reference.">
+<g id="a_node41_99"><a xlink:href="/html/IODEFv2/Reference.html" xlink:title="A URL to a reference.">
 <polygon fill="none" stroke="#000000" points="1812,-2320.5 1812,-2341.5 2008,-2341.5 2008,-2320.5 1812,-2320.5"/>
 <text text-anchor="start" x="1861.5" y="-2327.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
-<g id="a_node41_100"><a xlink:href="/idmef_parser/IODEFv2/Reference.html" xlink:title="A free&#45;form text description of this reference.">
+<g id="a_node41_100"><a xlink:href="/html/IODEFv2/Reference.html" xlink:title="A free&#45;form text description of this reference.">
 <polygon fill="none" stroke="#000000" points="1812,-2299.5 1812,-2320.5 2008,-2320.5 2008,-2299.5 1812,-2299.5"/>
 <text text-anchor="start" x="1815" y="-2306.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node41_101"><a xlink:href="/idmef_parser/IODEFv2/Reference.html" xlink:title="See Section 3.3.2.">
+<g id="a_node41_101"><a xlink:href="/html/IODEFv2/Reference.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="1812,-2278.5 1812,-2299.5 2008,-2299.5 2008,-2278.5 1812,-2278.5"/>
 <text text-anchor="start" x="1839" y="-2285.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -695,58 +695,58 @@
 <!-- Expectation -->
 <g id="node43" class="node">
 <title>Expectation</title>
-<g id="a_node43_102"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="The Expectation class conveys to the recipient of the IODEF document the actions the sender is requesting. ">
+<g id="a_node43_102"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="The Expectation class conveys to the recipient of the IODEF document the actions the sender is requesting. ">
 <polygon fill="#cecece" stroke="transparent" points="1293,-824.5 1293,-845.5 1489,-845.5 1489,-824.5 1293,-824.5"/>
 <polygon fill="none" stroke="#000000" points="1293,-824.5 1293,-845.5 1489,-845.5 1489,-824.5 1293,-824.5"/>
 <text text-anchor="start" x="1355.5" y="-831.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Expectation</text>
 </a>
 </g>
-<g id="a_node43_103"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="A free&#45;form text description of the desired action(s).">
+<g id="a_node43_103"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="A free&#45;form text description of the desired action(s).">
 <polygon fill="none" stroke="#000000" points="1293,-803.5 1293,-824.5 1489,-824.5 1489,-803.5 1293,-803.5"/>
 <text text-anchor="start" x="1296" y="-810.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node43_104"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="A unique identifier meaningful to the sender and recipient of this document that references a course of action. &#160;This class MUST be present if the action attribute is set to &quot;defined&#45;coa&quot;.">
+<g id="a_node43_104"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="A unique identifier meaningful to the sender and recipient of this document that references a course of action. &#160;This class MUST be present if the action attribute is set to &quot;defined&#45;coa&quot;.">
 <polygon fill="none" stroke="#000000" points="1293,-782.5 1293,-803.5 1489,-803.5 1489,-782.5 1293,-782.5"/>
 <text text-anchor="start" x="1305.5" y="-789.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] DefinedCOA (0..*)</text>
 </a>
 </g>
-<g id="a_node43_105"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="The time at which the sender would like the action performed. &#160;A timestamp that is earlier than the ReportTime specified in the Incident class denotes that the sender would like the action performed as soon as possible. &#160;The absence of this element indicates no expectations of when the recipient would like the action performed.">
+<g id="a_node43_105"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="The time at which the sender would like the action performed. &#160;A timestamp that is earlier than the ReportTime specified in the Incident class denotes that the sender would like the action performed as soon as possible. &#160;The absence of this element indicates no expectations of when the recipient would like the action performed.">
 <polygon fill="none" stroke="#000000" points="1293,-761.5 1293,-782.5 1489,-782.5 1489,-761.5 1293,-761.5"/>
 <text text-anchor="start" x="1304" y="-768.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] StartTime (0..1)</text>
 </a>
 </g>
-<g id="a_node43_106"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="The time by which the sender expects the recipient to complete the action. &#160;If the recipient cannot complete the action before EndTime, the recipient MUST NOT carry out the action. &#160;Because of transit delays and clock drift, the sender MUST be prepared for the recipient to have carried out the action, even if it completes past EndTime.">
+<g id="a_node43_106"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="The time by which the sender expects the recipient to complete the action. &#160;If the recipient cannot complete the action before EndTime, the recipient MUST NOT carry out the action. &#160;Because of transit delays and clock drift, the sender MUST be prepared for the recipient to have carried out the action, even if it completes past EndTime.">
 <polygon fill="none" stroke="#000000" points="1293,-740.5 1293,-761.5 1489,-761.5 1489,-740.5 1293,-740.5"/>
 <text text-anchor="start" x="1306.5" y="-747.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] EndTime (0..1)</text>
 </a>
 </g>
-<g id="a_node43_107"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="Classifies the type of action requested. &#160;The default value of &quot;other&quot;. &#160;These values are maintained in the &quot;Expectation&#45;action&quot; IANA registry per Section 10.2.">
+<g id="a_node43_107"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="Classifies the type of action requested. &#160;The default value of &quot;other&quot;. &#160;These values are maintained in the &quot;Expectation&#45;action&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="1293,-719.5 1293,-740.5 1489,-740.5 1489,-719.5 1293,-719.5"/>
 <text text-anchor="start" x="1329" y="-726.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] action (0..1)</text>
 </a>
 </g>
-<g id="a_node43_108"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="A means by which to extend the action attribute. &#160;See Section 5.1.1.">
+<g id="a_node43_108"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="A means by which to extend the action attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1293,-698.5 1293,-719.5 1489,-719.5 1489,-698.5 1293,-698.5"/>
 <text text-anchor="start" x="1313" y="-705.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;action (0..1)</text>
 </a>
 </g>
-<g id="a_node43_109"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="Indicates the desired priority of the action. This attribute is an enumerated list with no default value, and the semantics of these relative measures are context dependent.">
+<g id="a_node43_109"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="Indicates the desired priority of the action. This attribute is an enumerated list with no default value, and the semantics of these relative measures are context dependent.">
 <polygon fill="none" stroke="#000000" points="1293,-677.5 1293,-698.5 1489,-698.5 1489,-677.5 1293,-677.5"/>
 <text text-anchor="start" x="1324" y="-684.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (0..1)</text>
 </a>
 </g>
-<g id="a_node43_110"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="See Section 3.3.1. &#160;The default value is &quot;default&quot;.">
+<g id="a_node43_110"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="See Section 3.3.1. &#160;The default value is &quot;default&quot;.">
 <polygon fill="none" stroke="#000000" points="1293,-656.5 1293,-677.5 1489,-677.5 1489,-656.5 1293,-656.5"/>
 <text text-anchor="start" x="1318" y="-663.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node43_111"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node43_111"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1293,-635.5 1293,-656.5 1489,-656.5 1489,-635.5 1293,-635.5"/>
 <text text-anchor="start" x="1302" y="-642.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node43_112"><a xlink:href="/idmef_parser/IODEFv2/Expectation.html" xlink:title="See Section 3.3.2.">
+<g id="a_node43_112"><a xlink:href="/html/IODEFv2/Expectation.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="1293,-614.5 1293,-635.5 1489,-635.5 1489,-614.5 1293,-614.5"/>
 <text text-anchor="start" x="1320" y="-621.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -762,83 +762,83 @@
 <!-- Incident -->
 <g id="node45" class="node">
 <title>Incident</title>
-<g id="a_node45_113"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="The Incident class describes commonly exchanged information when reporting or sharing derived analysis from security incidents. ">
+<g id="a_node45_113"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="The Incident class describes commonly exchanged information when reporting or sharing derived analysis from security incidents. ">
 <polygon fill="#cecece" stroke="transparent" points="300.5,-1781.5 300.5,-1802.5 517.5,-1802.5 517.5,-1781.5 300.5,-1781.5"/>
 <polygon fill="none" stroke="#000000" points="300.5,-1781.5 300.5,-1802.5 517.5,-1802.5 517.5,-1781.5 300.5,-1781.5"/>
 <text text-anchor="start" x="385" y="-1788.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Incident</text>
 </a>
 </g>
-<g id="a_node45_114"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="The time the incident was first detected.">
+<g id="a_node45_114"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="The time the incident was first detected.">
 <polygon fill="none" stroke="#000000" points="300.5,-1760.5 300.5,-1781.5 517.5,-1781.5 517.5,-1760.5 300.5,-1760.5"/>
 <text text-anchor="start" x="317" y="-1767.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] DetectTime (0..1)</text>
 </a>
 </g>
-<g id="a_node45_115"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="The time the incident started.">
+<g id="a_node45_115"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="The time the incident started.">
 <polygon fill="none" stroke="#000000" points="300.5,-1739.5 300.5,-1760.5 517.5,-1760.5 517.5,-1739.5 300.5,-1739.5"/>
 <text text-anchor="start" x="322" y="-1746.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] StartTime (0..1)</text>
 </a>
 </g>
-<g id="a_node45_116"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="The time the incident ended.">
+<g id="a_node45_116"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="The time the incident ended.">
 <polygon fill="none" stroke="#000000" points="300.5,-1718.5 300.5,-1739.5 517.5,-1739.5 517.5,-1718.5 300.5,-1718.5"/>
 <text text-anchor="start" x="324.5" y="-1725.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] EndTime (0..1)</text>
 </a>
 </g>
-<g id="a_node45_117"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="The time the site recovered from the incident.">
+<g id="a_node45_117"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="The time the site recovered from the incident.">
 <polygon fill="none" stroke="#000000" points="300.5,-1697.5 300.5,-1718.5 517.5,-1718.5 517.5,-1697.5 300.5,-1697.5"/>
 <text text-anchor="start" x="308" y="-1704.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] RecoveryTime (0..1)</text>
 </a>
 </g>
-<g id="a_node45_118"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="The time the incident was reported.">
+<g id="a_node45_118"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="The time the incident was reported.">
 <polygon fill="none" stroke="#000000" points="300.5,-1676.5 300.5,-1697.5 517.5,-1697.5 517.5,-1676.5 300.5,-1676.5"/>
 <text text-anchor="start" x="316" y="-1683.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] ReportTime (0..1)</text>
 </a>
 </g>
-<g id="a_node45_119"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="The time the content in this Incident class was generated.">
+<g id="a_node45_119"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="The time the content in this Incident class was generated.">
 <polygon fill="none" stroke="#000000" points="300.5,-1655.5 300.5,-1676.5 517.5,-1676.5 517.5,-1655.5 300.5,-1655.5"/>
 <text text-anchor="start" x="303.5" y="-1662.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] GenerationTime (1..1)</text>
 </a>
 </g>
-<g id="a_node45_120"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="A free&#45;form text description of the incident.">
+<g id="a_node45_120"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="A free&#45;form text description of the incident.">
 <polygon fill="none" stroke="#000000" points="300.5,-1634.5 300.5,-1655.5 517.5,-1655.5 517.5,-1634.5 300.5,-1634.5"/>
 <text text-anchor="start" x="314" y="-1641.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node45_121"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="Mechanism by which to extend the data model.">
+<g id="a_node45_121"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="Mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="300.5,-1613.5 300.5,-1634.5 517.5,-1634.5 517.5,-1613.5 300.5,-1613.5"/>
 <text text-anchor="start" x="303.5" y="-1620.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node45_122"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="A means by which to extend the purpose attribute. &#160;See Section 5.1.1.">
+<g id="a_node45_122"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="A means by which to extend the purpose attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="300.5,-1592.5 300.5,-1613.5 517.5,-1613.5 517.5,-1592.5 300.5,-1592.5"/>
 <text text-anchor="start" x="335.5" y="-1599.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] purpose (0..1)</text>
 </a>
 </g>
-<g id="a_node45_123"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="The status attribute conveys the state in a workflow where the incident is currently found. &#160;These values are maintained in the &quot;Incident&#45;status&quot; IANA registry per Section 10.2. &#160;This attribute is defined as an enumerated list:">
+<g id="a_node45_123"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="The status attribute conveys the state in a workflow where the incident is currently found. &#160;These values are maintained in the &quot;Incident&#45;status&quot; IANA registry per Section 10.2. &#160;This attribute is defined as an enumerated list:">
 <polygon fill="none" stroke="#000000" points="300.5,-1571.5 300.5,-1592.5 517.5,-1592.5 517.5,-1571.5 300.5,-1571.5"/>
 <text text-anchor="start" x="347" y="-1578.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] status (0..1)</text>
 </a>
 </g>
-<g id="a_node45_124"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="A means by which to extend the status attribute. &#160;See Section 5.1.1.">
+<g id="a_node45_124"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="A means by which to extend the status attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="300.5,-1550.5 300.5,-1571.5 517.5,-1571.5 517.5,-1550.5 300.5,-1550.5"/>
 <text text-anchor="start" x="331" y="-1557.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;status (0..1)</text>
 </a>
 </g>
-<g id="a_node45_125"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="A language identifier per Section 2.12 of [W3C.XML] whose values and form are described in [RFC5646]. &#160;The interpretation of this code is described in Section 6.">
+<g id="a_node45_125"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="A language identifier per Section 2.12 of [W3C.XML] whose values and form are described in [RFC5646]. &#160;The interpretation of this code is described in Section 6.">
 <polygon fill="none" stroke="#000000" points="300.5,-1529.5 300.5,-1550.5 517.5,-1550.5 517.5,-1529.5 300.5,-1529.5"/>
 <text text-anchor="start" x="365" y="-1536.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] &#160;(0..1)</text>
 </a>
 </g>
-<g id="a_node45_126"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="See Section 3.3.1. &#160;The default value is &quot;private&quot;.">
+<g id="a_node45_126"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="See Section 3.3.1. &#160;The default value is &quot;private&quot;.">
 <polygon fill="none" stroke="#000000" points="300.5,-1508.5 300.5,-1529.5 517.5,-1529.5 517.5,-1508.5 300.5,-1508.5"/>
 <text text-anchor="start" x="336" y="-1515.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node45_127"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node45_127"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="300.5,-1487.5 300.5,-1508.5 517.5,-1508.5 517.5,-1487.5 300.5,-1487.5"/>
 <text text-anchor="start" x="320" y="-1494.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node45_128"><a xlink:href="/idmef_parser/IODEFv2/Incident.html" xlink:title="See Section 3.3.2.">
+<g id="a_node45_128"><a xlink:href="/html/IODEFv2/Incident.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="300.5,-1466.5 300.5,-1487.5 517.5,-1487.5 517.5,-1466.5 300.5,-1466.5"/>
 <text text-anchor="start" x="338" y="-1473.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -854,48 +854,48 @@
 <!-- HistoryItem -->
 <g id="node60" class="node">
 <title>HistoryItem</title>
-<g id="a_node60_129"><a xlink:href="/idmef_parser/IODEFv2/HistoryItem.html" xlink:title="The HistoryItem class is an entry in the History (Section 3.13) log that documents a particular action or event that occurred in the course of handling the incident. The details of the entry are a free&#45;form text description, but each can be categorized with the type attribute. ">
+<g id="a_node60_129"><a xlink:href="/html/IODEFv2/HistoryItem.html" xlink:title="The HistoryItem class is an entry in the History (Section 3.13) log that documents a particular action or event that occurred in the course of handling the incident. The details of the entry are a free&#45;form text description, but each can be categorized with the type attribute. ">
 <polygon fill="#cecece" stroke="transparent" points="1283,-1192.5 1283,-1213.5 1500,-1213.5 1500,-1192.5 1283,-1192.5"/>
 <polygon fill="none" stroke="#000000" points="1283,-1192.5 1283,-1213.5 1500,-1213.5 1500,-1192.5 1283,-1192.5"/>
 <text text-anchor="start" x="1356.5" y="-1199.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">HistoryItem</text>
 </a>
 </g>
-<g id="a_node60_130"><a xlink:href="/idmef_parser/IODEFv2/HistoryItem.html" xlink:title="A timestamp of this entry in the history log.">
+<g id="a_node60_130"><a xlink:href="/html/IODEFv2/HistoryItem.html" xlink:title="A timestamp of this entry in the history log.">
 <polygon fill="none" stroke="#000000" points="1283,-1171.5 1283,-1192.5 1500,-1192.5 1500,-1171.5 1283,-1171.5"/>
 <text text-anchor="start" x="1305" y="-1178.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] DateTime (1..1)</text>
 </a>
 </g>
-<g id="a_node60_131"><a xlink:href="/idmef_parser/IODEFv2/HistoryItem.html" xlink:title="A free&#45;form text description of the action or event.">
+<g id="a_node60_131"><a xlink:href="/html/IODEFv2/HistoryItem.html" xlink:title="A free&#45;form text description of the action or event.">
 <polygon fill="none" stroke="#000000" points="1283,-1150.5 1283,-1171.5 1500,-1171.5 1500,-1150.5 1283,-1150.5"/>
 <text text-anchor="start" x="1296.5" y="-1157.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node60_132"><a xlink:href="/idmef_parser/IODEFv2/HistoryItem.html" xlink:title="An identifier meaningful to the sender and recipient of this document that references a course of action (COA). &#160;This class MUST be present if the action attribute is set to &quot;defined&#45;coa&quot;.">
+<g id="a_node60_132"><a xlink:href="/html/IODEFv2/HistoryItem.html" xlink:title="An identifier meaningful to the sender and recipient of this document that references a course of action (COA). &#160;This class MUST be present if the action attribute is set to &quot;defined&#45;coa&quot;.">
 <polygon fill="none" stroke="#000000" points="1283,-1129.5 1283,-1150.5 1500,-1150.5 1500,-1129.5 1283,-1129.5"/>
 <text text-anchor="start" x="1306" y="-1136.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] DefinedCOA (0..*)</text>
 </a>
 </g>
-<g id="a_node60_133"><a xlink:href="/idmef_parser/IODEFv2/HistoryItem.html" xlink:title="A mechanism by which to extend the data model.">
+<g id="a_node60_133"><a xlink:href="/html/IODEFv2/HistoryItem.html" xlink:title="A mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1283,-1108.5 1283,-1129.5 1500,-1129.5 1500,-1108.5 1283,-1108.5"/>
 <text text-anchor="start" x="1286" y="-1115.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node60_134"><a xlink:href="/idmef_parser/IODEFv2/HistoryItem.html" xlink:title="A means by which to extend the action attribute. &#160;See Section 5.1.1.">
+<g id="a_node60_134"><a xlink:href="/html/IODEFv2/HistoryItem.html" xlink:title="A means by which to extend the action attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1283,-1087.5 1283,-1108.5 1500,-1108.5 1500,-1087.5 1283,-1087.5"/>
 <text text-anchor="start" x="1324.5" y="-1094.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] action (0..1)</text>
 </a>
 </g>
-<g id="a_node60_135"><a xlink:href="/idmef_parser/IODEFv2/HistoryItem.html" xlink:title="See Section 3.3.1.">
+<g id="a_node60_135"><a xlink:href="/html/IODEFv2/HistoryItem.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1283,-1066.5 1283,-1087.5 1500,-1087.5 1500,-1066.5 1283,-1066.5"/>
 <text text-anchor="start" x="1318.5" y="-1073.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node60_136"><a xlink:href="/idmef_parser/IODEFv2/HistoryItem.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node60_136"><a xlink:href="/html/IODEFv2/HistoryItem.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1283,-1045.5 1283,-1066.5 1500,-1066.5 1500,-1045.5 1283,-1045.5"/>
 <text text-anchor="start" x="1302.5" y="-1052.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node60_137"><a xlink:href="/idmef_parser/IODEFv2/HistoryItem.html" xlink:title="See Section 3.3.2.">
+<g id="a_node60_137"><a xlink:href="/html/IODEFv2/HistoryItem.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="1283,-1024.5 1283,-1045.5 1500,-1045.5 1500,-1024.5 1283,-1024.5"/>
 <text text-anchor="start" x="1320.5" y="-1031.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -911,28 +911,28 @@
 <!-- BulkObservable -->
 <g id="node61" class="node">
 <title>BulkObservable</title>
-<g id="a_node61_138"><a xlink:href="/idmef_parser/IODEFv2/BulkObservable.html" xlink:title="The BulkObservable class allows the enumeration of a single type of observable without requiring each one to be encoded individually in multiple instances of the same class. ">
+<g id="a_node61_138"><a xlink:href="/html/IODEFv2/BulkObservable.html" xlink:title="The BulkObservable class allows the enumeration of a single type of observable without requiring each one to be encoded individually in multiple instances of the same class. ">
 <polygon fill="#cecece" stroke="transparent" points="551,-142.5 551,-163.5 773,-163.5 773,-142.5 551,-142.5"/>
 <polygon fill="none" stroke="#000000" points="551,-142.5 551,-163.5 773,-163.5 773,-142.5 551,-142.5"/>
 <text text-anchor="start" x="613.5" y="-149.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">BulkObservable</text>
 </a>
 </g>
-<g id="a_node61_139"><a xlink:href="/idmef_parser/IODEFv2/BulkObservable.html" xlink:title="A list of observables, one per line. &#160;Each line is separated with either a LF character or CR and LF characters. &#160;The type attribute specifies which observables will be listed.">
+<g id="a_node61_139"><a xlink:href="/html/IODEFv2/BulkObservable.html" xlink:title="A list of observables, one per line. &#160;Each line is separated with either a LF character or CR and LF characters. &#160;The type attribute specifies which observables will be listed.">
 <polygon fill="none" stroke="#000000" points="551,-121.5 551,-142.5 773,-142.5 773,-121.5 551,-121.5"/>
 <text text-anchor="start" x="554" y="-128.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] BulkObservableList (1..1)</text>
 </a>
 </g>
-<g id="a_node61_140"><a xlink:href="/idmef_parser/IODEFv2/BulkObservable.html" xlink:title="Mechanism by which to extend the data model.">
+<g id="a_node61_140"><a xlink:href="/html/IODEFv2/BulkObservable.html" xlink:title="Mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="551,-100.5 551,-121.5 773,-121.5 773,-100.5 551,-100.5"/>
 <text text-anchor="start" x="556.5" y="-107.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node61_141"><a xlink:href="/idmef_parser/IODEFv2/BulkObservable.html" xlink:title="The type of the observable listed in the child ObservableList class. &#160;These values are maintained in the &quot;BulkObservable&#45;type&quot; IANA registry per Section 10.2.">
+<g id="a_node61_141"><a xlink:href="/html/IODEFv2/BulkObservable.html" xlink:title="The type of the observable listed in the child ObservableList class. &#160;These values are maintained in the &quot;BulkObservable&#45;type&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="551,-79.5 551,-100.5 773,-100.5 773,-79.5 551,-79.5"/>
 <text text-anchor="start" x="605.5" y="-86.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (0..1)</text>
 </a>
 </g>
-<g id="a_node61_142"><a xlink:href="/idmef_parser/IODEFv2/BulkObservable.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node61_142"><a xlink:href="/html/IODEFv2/BulkObservable.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="551,-58.5 551,-79.5 773,-79.5 773,-58.5 551,-58.5"/>
 <text text-anchor="start" x="589.5" y="-65.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (0..1)</text>
 </a>
@@ -948,13 +948,13 @@
 <!-- Node -->
 <g id="node3" class="node">
 <title>Node</title>
-<g id="a_node3_143"><a xlink:href="/idmef_parser/IODEFv2/Node.html" xlink:title="The Node class identifies a system, asset, or network and its location. ">
+<g id="a_node3_143"><a xlink:href="/html/IODEFv2/Node.html" xlink:title="The Node class identifies a system, asset, or network and its location. ">
 <polygon fill="#cecece" stroke="transparent" points="2113,-2927.5 2113,-2948.5 2292,-2948.5 2292,-2927.5 2113,-2927.5"/>
 <polygon fill="none" stroke="#000000" points="2113,-2927.5 2113,-2948.5 2292,-2948.5 2292,-2927.5 2113,-2927.5"/>
 <text text-anchor="start" x="2186" y="-2934.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Node</text>
 </a>
 </g>
-<g id="a_node3_144"><a xlink:href="/idmef_parser/IODEFv2/Node.html" xlink:title="A free&#45;form text description of the physical location of the node. &#160;This description may provide a more detailed description of where at the address specified by the PostalAddress class this node is found (e.g., room number, rack number, or slot number in a chassis).">
+<g id="a_node3_144"><a xlink:href="/html/IODEFv2/Node.html" xlink:title="A free&#45;form text description of the physical location of the node. &#160;This description may provide a more detailed description of where at the address specified by the PostalAddress class this node is found (e.g., room number, rack number, or slot number in a chassis).">
 <polygon fill="none" stroke="#000000" points="2113,-2906.5 2113,-2927.5 2292,-2927.5 2292,-2906.5 2113,-2906.5"/>
 <text text-anchor="start" x="2116" y="-2913.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Location (0..*)</text>
 </a>
@@ -970,7 +970,7 @@
 <!-- Counter -->
 <g id="node13" class="node">
 <title>Counter</title>
-<g id="a_node13_145"><a xlink:href="/idmef_parser/IODEFv2/Counter.html" xlink:title="The Counter class summarizes multiple occurrences of an event or conveys counts or rates of various features. ">
+<g id="a_node13_145"><a xlink:href="/html/IODEFv2/Counter.html" xlink:title="The Counter class summarizes multiple occurrences of an event or conveys counts or rates of various features. ">
 <polygon fill="#cecece" stroke="transparent" points="2486,-2627.5 2486,-2648.5 2541,-2648.5 2541,-2627.5 2486,-2627.5"/>
 <polygon fill="none" stroke="#000000" points="2486,-2627.5 2486,-2648.5 2541,-2648.5 2541,-2627.5 2486,-2627.5"/>
 <text text-anchor="start" x="2489" y="-2634.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Counter</text>
@@ -987,18 +987,18 @@
 <!-- NodeRole -->
 <g id="node14" class="node">
 <title>NodeRole</title>
-<g id="a_node14_146"><a xlink:href="/idmef_parser/IODEFv2/NodeRole.html" xlink:title="The NodeRole class describes the function performed by or role of a particular system, asset, or network. ">
+<g id="a_node14_146"><a xlink:href="/html/IODEFv2/NodeRole.html" xlink:title="The NodeRole class describes the function performed by or role of a particular system, asset, or network. ">
 <polygon fill="#cecece" stroke="transparent" points="2104,-2591.5 2104,-2612.5 2300,-2612.5 2300,-2591.5 2104,-2591.5"/>
 <polygon fill="none" stroke="#000000" points="2104,-2591.5 2104,-2612.5 2300,-2612.5 2300,-2591.5 2104,-2591.5"/>
 <text text-anchor="start" x="2171.5" y="-2598.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">NodeRole</text>
 </a>
 </g>
-<g id="a_node14_147"><a xlink:href="/idmef_parser/IODEFv2/NodeRole.html" xlink:title="A free&#45;form text description of the role of the system.">
+<g id="a_node14_147"><a xlink:href="/html/IODEFv2/NodeRole.html" xlink:title="A free&#45;form text description of the role of the system.">
 <polygon fill="none" stroke="#000000" points="2104,-2570.5 2104,-2591.5 2300,-2591.5 2300,-2570.5 2104,-2570.5"/>
 <text text-anchor="start" x="2107" y="-2577.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node14_148"><a xlink:href="/idmef_parser/IODEFv2/NodeRole.html" xlink:title="A means by which to extend the category attribute. &#160;See Section 5.1.1.">
+<g id="a_node14_148"><a xlink:href="/html/IODEFv2/NodeRole.html" xlink:title="A means by which to extend the category attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="2104,-2549.5 2104,-2570.5 2300,-2570.5 2300,-2549.5 2104,-2549.5"/>
 <text text-anchor="start" x="2127" y="-2556.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] category (0..1)</text>
 </a>
@@ -1035,28 +1035,28 @@
 <!-- PostalAddress -->
 <g id="node10" class="node">
 <title>PostalAddress</title>
-<g id="a_node10_149"><a xlink:href="/idmef_parser/IODEFv2/PostalAddress.html" xlink:title="The PostalAddress class specifies a postal address and associated annotation. ">
+<g id="a_node10_149"><a xlink:href="/html/IODEFv2/PostalAddress.html" xlink:title="The PostalAddress class specifies a postal address and associated annotation. ">
 <polygon fill="#cecece" stroke="transparent" points="3347,-2667.5 3347,-2688.5 3543,-2688.5 3543,-2667.5 3347,-2667.5"/>
 <polygon fill="none" stroke="#000000" points="3347,-2667.5 3347,-2688.5 3543,-2688.5 3543,-2667.5 3347,-2667.5"/>
 <text text-anchor="start" x="3401" y="-2674.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">PostalAddress</text>
 </a>
 </g>
-<g id="a_node10_150"><a xlink:href="/idmef_parser/IODEFv2/PostalAddress.html" xlink:title="A postal address.">
+<g id="a_node10_150"><a xlink:href="/html/IODEFv2/PostalAddress.html" xlink:title="A postal address.">
 <polygon fill="none" stroke="#000000" points="3347,-2646.5 3347,-2667.5 3543,-2667.5 3543,-2646.5 3347,-2646.5"/>
 <text text-anchor="start" x="3367" y="-2653.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[POSTAL] PAddress (1..1)</text>
 </a>
 </g>
-<g id="a_node10_151"><a xlink:href="/idmef_parser/IODEFv2/PostalAddress.html" xlink:title="A free&#45;form text description of the address.">
+<g id="a_node10_151"><a xlink:href="/html/IODEFv2/PostalAddress.html" xlink:title="A free&#45;form text description of the address.">
 <polygon fill="none" stroke="#000000" points="3347,-2625.5 3347,-2646.5 3543,-2646.5 3543,-2625.5 3347,-2625.5"/>
 <text text-anchor="start" x="3350" y="-2632.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node10_152"><a xlink:href="/idmef_parser/IODEFv2/PostalAddress.html" xlink:title="Categorizes the type of address described in the PAddress class. &#160;These values are maintained in the &quot;PostalAddress&#45;type&quot; IANA registry per Section 10.2.">
+<g id="a_node10_152"><a xlink:href="/html/IODEFv2/PostalAddress.html" xlink:title="Categorizes the type of address described in the PAddress class. &#160;These values are maintained in the &quot;PostalAddress&#45;type&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="3347,-2604.5 3347,-2625.5 3543,-2625.5 3543,-2604.5 3347,-2604.5"/>
 <text text-anchor="start" x="3388.5" y="-2611.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (0..1)</text>
 </a>
 </g>
-<g id="a_node10_153"><a xlink:href="/idmef_parser/IODEFv2/PostalAddress.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node10_153"><a xlink:href="/html/IODEFv2/PostalAddress.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="3347,-2583.5 3347,-2604.5 3543,-2604.5 3543,-2583.5 3347,-2583.5"/>
 <text text-anchor="start" x="3372.5" y="-2590.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (0..1)</text>
 </a>
@@ -1079,13 +1079,13 @@
 <!-- Nameservers -->
 <g id="node5" class="node">
 <title>Nameservers</title>
-<g id="a_node5_154"><a xlink:href="/idmef_parser/IODEFv2/Nameservers.html" xlink:title="The Nameservers class describes the nameservers associated with a given domain. ">
+<g id="a_node5_154"><a xlink:href="/html/IODEFv2/Nameservers.html" xlink:title="The Nameservers class describes the nameservers associated with a given domain. ">
 <polygon fill="#cecece" stroke="transparent" points="2771,-3052.5 2771,-3073.5 2916,-3073.5 2916,-3052.5 2771,-3052.5"/>
 <polygon fill="none" stroke="#000000" points="2771,-3052.5 2771,-3073.5 2916,-3073.5 2916,-3052.5 2771,-3052.5"/>
 <text text-anchor="start" x="2802.5" y="-3059.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Nameservers</text>
 </a>
 </g>
-<g id="a_node5_155"><a xlink:href="/idmef_parser/IODEFv2/Nameservers.html" xlink:title="The domain name of the nameserver.">
+<g id="a_node5_155"><a xlink:href="/html/IODEFv2/Nameservers.html" xlink:title="The domain name of the nameserver.">
 <polygon fill="none" stroke="#000000" points="2771,-3031.5 2771,-3052.5 2916,-3052.5 2916,-3031.5 2771,-3031.5"/>
 <text text-anchor="start" x="2774" y="-3038.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] Server (1..1)</text>
 </a>
@@ -1101,13 +1101,13 @@
 <!-- DomainContacts -->
 <g id="node7" class="node">
 <title>DomainContacts</title>
-<g id="a_node7_156"><a xlink:href="/idmef_parser/IODEFv2/DomainContacts.html" xlink:title="The DomainContacts class describes the contact information for a given domain provided either by the registrar or through a whois query. ">
+<g id="a_node7_156"><a xlink:href="/html/IODEFv2/DomainContacts.html" xlink:title="The DomainContacts class describes the contact information for a given domain provided either by the registrar or through a whois query. ">
 <polygon fill="#cecece" stroke="transparent" points="2726,-2981.5 2726,-3002.5 2960,-3002.5 2960,-2981.5 2726,-2981.5"/>
 <polygon fill="none" stroke="#000000" points="2726,-2981.5 2726,-3002.5 2960,-3002.5 2960,-2981.5 2726,-2981.5"/>
 <text text-anchor="start" x="2792.5" y="-2988.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">DomainContacts</text>
 </a>
 </g>
-<g id="a_node7_157"><a xlink:href="/idmef_parser/IODEFv2/DomainContacts.html" xlink:title="A domain name already cited in this document or through previous exchange that contains the identical contact information as the domain name in question. &#160;The domain contact information associated with this domain should be used instead of an explicit definition with the Contact class.">
+<g id="a_node7_157"><a xlink:href="/html/IODEFv2/DomainContacts.html" xlink:title="A domain name already cited in this document or through previous exchange that contains the identical contact information as the domain name in question. &#160;The domain contact information associated with this domain should be used instead of an explicit definition with the Contact class.">
 <polygon fill="none" stroke="#000000" points="2726,-2960.5 2726,-2981.5 2960,-2981.5 2960,-2960.5 2726,-2960.5"/>
 <text text-anchor="start" x="2729" y="-2967.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] SameDomainContact (0..1)</text>
 </a>
@@ -1130,53 +1130,53 @@
 <!-- Contact -->
 <g id="node8" class="node">
 <title>Contact</title>
-<g id="a_node8_158"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="The Contact class describes contact information for organizations and personnel involved in the incident. This class allows for the naming of the involved party, specifying contact information for them, and identifying their role in the incident. ">
+<g id="a_node8_158"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="The Contact class describes contact information for organizations and personnel involved in the incident. This class allows for the naming of the involved party, specifying contact information for them, and identifying their role in the incident. ">
 <polygon fill="#cecece" stroke="transparent" points="3041.5,-2072.5 3041.5,-2093.5 3258.5,-2093.5 3258.5,-2072.5 3041.5,-2072.5"/>
 <polygon fill="none" stroke="#000000" points="3041.5,-2072.5 3041.5,-2093.5 3258.5,-2093.5 3258.5,-2072.5 3041.5,-2072.5"/>
 <text text-anchor="start" x="3126.5" y="-2079.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Contact</text>
 </a>
 </g>
-<g id="a_node8_159"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="The name of the contact. &#160;The contact may either be an organization or a person. &#160;The type attribute disambiguates the semantics.">
+<g id="a_node8_159"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="The name of the contact. &#160;The contact may either be an organization or a person. &#160;The type attribute disambiguates the semantics.">
 <polygon fill="none" stroke="#000000" points="3041.5,-2051.5 3041.5,-2072.5 3258.5,-2072.5 3258.5,-2051.5 3041.5,-2051.5"/>
 <text text-anchor="start" x="3047.5" y="-2058.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] ContactName (0..*)</text>
 </a>
 </g>
-<g id="a_node8_160"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="The title for the individual named in the ContactName.">
+<g id="a_node8_160"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="The title for the individual named in the ContactName.">
 <polygon fill="none" stroke="#000000" points="3041.5,-2030.5 3041.5,-2051.5 3258.5,-2051.5 3258.5,-2030.5 3041.5,-2030.5"/>
 <text text-anchor="start" x="3053" y="-2037.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] ContactTitle (0..*)</text>
 </a>
 </g>
-<g id="a_node8_161"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="A free&#45;form text description of the contact.">
+<g id="a_node8_161"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="A free&#45;form text description of the contact.">
 <polygon fill="none" stroke="#000000" points="3041.5,-2009.5 3041.5,-2030.5 3258.5,-2030.5 3258.5,-2009.5 3041.5,-2009.5"/>
 <text text-anchor="start" x="3055" y="-2016.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node8_162"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="The timezone in which the contact resides.">
+<g id="a_node8_162"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="The timezone in which the contact resides.">
 <polygon fill="none" stroke="#000000" points="3041.5,-1988.5 3041.5,-2009.5 3258.5,-2009.5 3258.5,-1988.5 3041.5,-1988.5"/>
 <text text-anchor="start" x="3061" y="-1995.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[TIMEZONE] Timezone (0..1)</text>
 </a>
 </g>
-<g id="a_node8_163"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="A mechanism by which to extend the data model.">
+<g id="a_node8_163"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="A mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="3041.5,-1967.5 3041.5,-1988.5 3258.5,-1988.5 3258.5,-1967.5 3041.5,-1967.5"/>
 <text text-anchor="start" x="3044.5" y="-1974.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node8_164"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="A means by which to extend the role attribute. See Section 5.1.1.">
+<g id="a_node8_164"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="A means by which to extend the role attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="3041.5,-1946.5 3041.5,-1967.5 3258.5,-1967.5 3258.5,-1946.5 3041.5,-1946.5"/>
 <text text-anchor="start" x="3089.5" y="-1953.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] role (0..1)</text>
 </a>
 </g>
-<g id="a_node8_165"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node8_165"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="3041.5,-1925.5 3041.5,-1946.5 3258.5,-1946.5 3258.5,-1925.5 3041.5,-1925.5"/>
 <text text-anchor="start" x="3088" y="-1932.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] type (0..1)</text>
 </a>
 </g>
-<g id="a_node8_166"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="See Section 3.3.1.">
+<g id="a_node8_166"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="3041.5,-1904.5 3041.5,-1925.5 3258.5,-1925.5 3258.5,-1904.5 3041.5,-1904.5"/>
 <text text-anchor="start" x="3077" y="-1911.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node8_167"><a xlink:href="/idmef_parser/IODEFv2/Contact.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node8_167"><a xlink:href="/html/IODEFv2/Contact.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="3041.5,-1883.5 3041.5,-1904.5 3258.5,-1904.5 3258.5,-1883.5 3041.5,-1883.5"/>
 <text text-anchor="start" x="3061" y="-1890.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -1213,28 +1213,28 @@
 <!-- Email -->
 <g id="node11" class="node">
 <title>Email</title>
-<g id="a_node11_168"><a xlink:href="/idmef_parser/IODEFv2/Email.html" xlink:title="The Email class specifies an email address and associated annotation. ">
+<g id="a_node11_168"><a xlink:href="/html/IODEFv2/Email.html" xlink:title="The Email class specifies an email address and associated annotation. ">
 <polygon fill="#cecece" stroke="transparent" points="3347,-2085.5 3347,-2106.5 3543,-2106.5 3543,-2085.5 3347,-2085.5"/>
 <polygon fill="none" stroke="#000000" points="3347,-2085.5 3347,-2106.5 3543,-2106.5 3543,-2085.5 3347,-2085.5"/>
 <text text-anchor="start" x="3427.5" y="-2092.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Email</text>
 </a>
 </g>
-<g id="a_node11_169"><a xlink:href="/idmef_parser/IODEFv2/Email.html" xlink:title="An email address.">
+<g id="a_node11_169"><a xlink:href="/html/IODEFv2/Email.html" xlink:title="An email address.">
 <polygon fill="none" stroke="#000000" points="3347,-2064.5 3347,-2085.5 3543,-2085.5 3543,-2064.5 3347,-2064.5"/>
 <text text-anchor="start" x="3377" y="-2071.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EMAIL] EmailTo (1..1)</text>
 </a>
 </g>
-<g id="a_node11_170"><a xlink:href="/idmef_parser/IODEFv2/Email.html" xlink:title="A free&#45;form text description of the email address.">
+<g id="a_node11_170"><a xlink:href="/html/IODEFv2/Email.html" xlink:title="A free&#45;form text description of the email address.">
 <polygon fill="none" stroke="#000000" points="3347,-2043.5 3347,-2064.5 3543,-2064.5 3543,-2043.5 3347,-2043.5"/>
 <text text-anchor="start" x="3350" y="-2050.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node11_171"><a xlink:href="/idmef_parser/IODEFv2/Email.html" xlink:title="Categorizes the type of email address described in the EmailTo class. &#160;These values are maintained in the &quot;Email&#45; type&quot; IANA registry per Section 10.2.">
+<g id="a_node11_171"><a xlink:href="/html/IODEFv2/Email.html" xlink:title="Categorizes the type of email address described in the EmailTo class. &#160;These values are maintained in the &quot;Email&#45; type&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="3347,-2022.5 3347,-2043.5 3543,-2043.5 3543,-2022.5 3347,-2022.5"/>
 <text text-anchor="start" x="3388.5" y="-2029.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (0..1)</text>
 </a>
 </g>
-<g id="a_node11_172"><a xlink:href="/idmef_parser/IODEFv2/Email.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node11_172"><a xlink:href="/html/IODEFv2/Email.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="3347,-2001.5 3347,-2022.5 3543,-2022.5 3543,-2001.5 3347,-2001.5"/>
 <text text-anchor="start" x="3372.5" y="-2008.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (0..1)</text>
 </a>
@@ -1250,28 +1250,28 @@
 <!-- Telephone -->
 <g id="node12" class="node">
 <title>Telephone</title>
-<g id="a_node12_173"><a xlink:href="/idmef_parser/IODEFv2/Telephone.html" xlink:title="The Telephone class describes a telephone number and associated annotation. ">
+<g id="a_node12_173"><a xlink:href="/html/IODEFv2/Telephone.html" xlink:title="The Telephone class describes a telephone number and associated annotation. ">
 <polygon fill="#cecece" stroke="transparent" points="3339,-1954.5 3339,-1975.5 3551,-1975.5 3551,-1954.5 3339,-1954.5"/>
 <polygon fill="none" stroke="#000000" points="3339,-1954.5 3339,-1975.5 3551,-1975.5 3551,-1954.5 3339,-1954.5"/>
 <text text-anchor="start" x="3413.5" y="-1961.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Telephone</text>
 </a>
 </g>
-<g id="a_node12_174"><a xlink:href="/idmef_parser/IODEFv2/Telephone.html" xlink:title="A telephone number.">
+<g id="a_node12_174"><a xlink:href="/html/IODEFv2/Telephone.html" xlink:title="A telephone number.">
 <polygon fill="none" stroke="#000000" points="3339,-1933.5 3339,-1954.5 3551,-1954.5 3551,-1933.5 3339,-1933.5"/>
 <text text-anchor="start" x="3342" y="-1940.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[PHONE] TelephoneNumber (1..1)</text>
 </a>
 </g>
-<g id="a_node12_175"><a xlink:href="/idmef_parser/IODEFv2/Telephone.html" xlink:title="A free&#45;form text description of the phone number.">
+<g id="a_node12_175"><a xlink:href="/html/IODEFv2/Telephone.html" xlink:title="A free&#45;form text description of the phone number.">
 <polygon fill="none" stroke="#000000" points="3339,-1912.5 3339,-1933.5 3551,-1933.5 3551,-1912.5 3339,-1912.5"/>
 <text text-anchor="start" x="3350" y="-1919.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node12_176"><a xlink:href="/idmef_parser/IODEFv2/Telephone.html" xlink:title="Categorizes the type of telephone number described in the TelephoneNumber class. &#160;These values are maintained in the &quot;Telephone&#45;type&quot; IANA registry per Section 10.2.">
+<g id="a_node12_176"><a xlink:href="/html/IODEFv2/Telephone.html" xlink:title="Categorizes the type of telephone number described in the TelephoneNumber class. &#160;These values are maintained in the &quot;Telephone&#45;type&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="3339,-1891.5 3339,-1912.5 3551,-1912.5 3551,-1891.5 3339,-1891.5"/>
 <text text-anchor="start" x="3388.5" y="-1898.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (0..1)</text>
 </a>
 </g>
-<g id="a_node12_177"><a xlink:href="/idmef_parser/IODEFv2/Telephone.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node12_177"><a xlink:href="/html/IODEFv2/Telephone.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="3339,-1870.5 3339,-1891.5 3551,-1891.5 3551,-1870.5 3339,-1870.5"/>
 <text text-anchor="start" x="3372.5" y="-1877.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (0..1)</text>
 </a>
@@ -1287,23 +1287,23 @@
 <!-- ServiceName -->
 <g id="node16" class="node">
 <title>ServiceName</title>
-<g id="a_node16_178"><a xlink:href="/idmef_parser/IODEFv2/ServiceName.html" xlink:title="The ServiceName class identifies an application protocol. It can be described by referencing an IANA&#45;registered protocol, by referencing a URL, or with free&#45;form text. ">
+<g id="a_node16_178"><a xlink:href="/html/IODEFv2/ServiceName.html" xlink:title="The ServiceName class identifies an application protocol. It can be described by referencing an IANA&#45;registered protocol, by referencing a URL, or with free&#45;form text. ">
 <polygon fill="#cecece" stroke="transparent" points="2415,-2809.5 2415,-2830.5 2611,-2830.5 2611,-2809.5 2415,-2809.5"/>
 <polygon fill="none" stroke="#000000" points="2415,-2809.5 2415,-2830.5 2611,-2830.5 2611,-2809.5 2415,-2809.5"/>
 <text text-anchor="start" x="2471.5" y="-2816.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">ServiceName</text>
 </a>
 </g>
-<g id="a_node16_179"><a xlink:href="/idmef_parser/IODEFv2/ServiceName.html" xlink:title="The name of the service per the &quot;Service Name&quot; field of the registry [IANA.Ports].">
+<g id="a_node16_179"><a xlink:href="/html/IODEFv2/ServiceName.html" xlink:title="The name of the service per the &quot;Service Name&quot; field of the registry [IANA.Ports].">
 <polygon fill="none" stroke="#000000" points="2415,-2788.5 2415,-2809.5 2611,-2809.5 2611,-2788.5 2415,-2788.5"/>
 <text text-anchor="start" x="2425.5" y="-2795.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] IANAService (0..1)</text>
 </a>
 </g>
-<g id="a_node16_180"><a xlink:href="/idmef_parser/IODEFv2/ServiceName.html" xlink:title="A URL to a resource describing the service.">
+<g id="a_node16_180"><a xlink:href="/html/IODEFv2/ServiceName.html" xlink:title="A URL to a resource describing the service.">
 <polygon fill="none" stroke="#000000" points="2415,-2767.5 2415,-2788.5 2611,-2788.5 2611,-2767.5 2415,-2767.5"/>
 <text text-anchor="start" x="2464.5" y="-2774.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
-<g id="a_node16_181"><a xlink:href="/idmef_parser/IODEFv2/ServiceName.html" xlink:title="A free&#45;form text description of the service.">
+<g id="a_node16_181"><a xlink:href="/html/IODEFv2/ServiceName.html" xlink:title="A free&#45;form text description of the service.">
 <polygon fill="none" stroke="#000000" points="2415,-2746.5 2415,-2767.5 2611,-2767.5 2611,-2746.5 2415,-2746.5"/>
 <text text-anchor="start" x="2418" y="-2753.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
@@ -1319,13 +1319,13 @@
 <!-- ApplicationHeader -->
 <g id="node17" class="node">
 <title>ApplicationHeader</title>
-<g id="a_node17_182"><a xlink:href="/idmef_parser/IODEFv2/ApplicationHeader.html" xlink:title="The ApplicationHeader class describes arbitrary fields from a protocol header and its corresponding value. ">
+<g id="a_node17_182"><a xlink:href="/html/IODEFv2/ApplicationHeader.html" xlink:title="The ApplicationHeader class describes arbitrary fields from a protocol header and its corresponding value. ">
 <polygon fill="#cecece" stroke="transparent" points="2379,-2699.5 2379,-2720.5 2647,-2720.5 2647,-2699.5 2379,-2699.5"/>
 <polygon fill="none" stroke="#000000" points="2379,-2699.5 2379,-2720.5 2647,-2720.5 2647,-2699.5 2379,-2699.5"/>
 <text text-anchor="start" x="2457.5" y="-2706.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">ApplicationHeader</text>
 </a>
 </g>
-<g id="a_node17_183"><a xlink:href="/idmef_parser/IODEFv2/ApplicationHeader.html" xlink:title="A field name and value in a protocol header. &#160;The name attribute MUST be set to the field name. &#160;The field value MUST be set in the element content.">
+<g id="a_node17_183"><a xlink:href="/html/IODEFv2/ApplicationHeader.html" xlink:title="A field name and value in a protocol header. &#160;The name attribute MUST be set to the field name. &#160;The field value MUST be set in the element content.">
 <polygon fill="none" stroke="#000000" points="2379,-2678.5 2379,-2699.5 2647,-2699.5 2647,-2678.5 2379,-2678.5"/>
 <text text-anchor="start" x="2382" y="-2685.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] ApplicationHeaderField (1..*)</text>
 </a>
@@ -1348,18 +1348,18 @@
 <!-- HashData -->
 <g id="node19" class="node">
 <title>HashData</title>
-<g id="a_node19_184"><a xlink:href="/idmef_parser/IODEFv2/HashData.html" xlink:title="The HashData class describes different types of hashes on a given object (e.g., file, part of a file, email). ">
+<g id="a_node19_184"><a xlink:href="/html/IODEFv2/HashData.html" xlink:title="The HashData class describes different types of hashes on a given object (e.g., file, part of a file, email). ">
 <polygon fill="#cecece" stroke="transparent" points="2750,-153.5 2750,-174.5 2937,-174.5 2937,-153.5 2750,-153.5"/>
 <polygon fill="none" stroke="#000000" points="2750,-153.5 2750,-174.5 2937,-174.5 2937,-153.5 2750,-153.5"/>
 <text text-anchor="start" x="2813" y="-160.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">HashData</text>
 </a>
 </g>
-<g id="a_node19_185"><a xlink:href="/idmef_parser/IODEFv2/HashData.html" xlink:title="An identifier that references a subset of the object being hashed. &#160;The semantics of this identifier are specified by the scope attribute.">
+<g id="a_node19_185"><a xlink:href="/html/IODEFv2/HashData.html" xlink:title="An identifier that references a subset of the object being hashed. &#160;The semantics of this identifier are specified by the scope attribute.">
 <polygon fill="none" stroke="#000000" points="2750,-132.5 2750,-153.5 2937,-153.5 2937,-132.5 2750,-132.5"/>
 <text text-anchor="start" x="2753" y="-139.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] HashTargetID (0..1)</text>
 </a>
 </g>
-<g id="a_node19_186"><a xlink:href="/idmef_parser/IODEFv2/HashData.html" xlink:title="A means by which to extend the scope attribute. &#160;See Section 5.1.1.">
+<g id="a_node19_186"><a xlink:href="/html/IODEFv2/HashData.html" xlink:title="A means by which to extend the scope attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="2750,-111.5 2750,-132.5 2937,-132.5 2937,-111.5 2750,-111.5"/>
 <text text-anchor="start" x="2776.5" y="-118.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] scope (0..1)</text>
 </a>
@@ -1375,13 +1375,13 @@
 <!-- SignatureData -->
 <g id="node22" class="node">
 <title>SignatureData</title>
-<g id="a_node22_187"><a xlink:href="/idmef_parser/IODEFv2/SignatureData.html" xlink:title="The SignatureData class describes different types of digital signatures on an object. ">
+<g id="a_node22_187"><a xlink:href="/html/IODEFv2/SignatureData.html" xlink:title="The SignatureData class describes different types of digital signatures on an object. ">
 <polygon fill="#cecece" stroke="transparent" points="2789,-356.5 2789,-377.5 2897,-377.5 2897,-356.5 2789,-356.5"/>
 <polygon fill="none" stroke="#000000" points="2789,-356.5 2789,-377.5 2897,-377.5 2897,-356.5 2789,-356.5"/>
 <text text-anchor="start" x="2799.5" y="-363.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">SignatureData</text>
 </a>
 </g>
-<g id="a_node22_188"><a xlink:href="/idmef_parser/IODEFv2/SignatureData.html" xlink:title="A given signature. &#160;See Section 4.2 of [W3C.XMLSIG].">
+<g id="a_node22_188"><a xlink:href="/html/IODEFv2/SignatureData.html" xlink:title="A given signature. &#160;See Section 4.2 of [W3C.XMLSIG].">
 <polygon fill="none" stroke="#000000" points="2789,-335.5 2789,-356.5 2897,-356.5 2897,-335.5 2789,-335.5"/>
 <text text-anchor="start" x="2792" y="-342.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] Signature (1..*)</text>
 </a>
@@ -1397,18 +1397,18 @@
 <!-- Hash -->
 <g id="node20" class="node">
 <title>Hash</title>
-<g id="a_node20_189"><a xlink:href="/idmef_parser/IODEFv2/Hash.html" xlink:title="The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. ">
+<g id="a_node20_189"><a xlink:href="/html/IODEFv2/Hash.html" xlink:title="The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. ">
 <polygon fill="#cecece" stroke="transparent" points="3051.5,-45.5 3051.5,-66.5 3247.5,-66.5 3247.5,-45.5 3051.5,-45.5"/>
 <polygon fill="none" stroke="#000000" points="3051.5,-45.5 3051.5,-66.5 3247.5,-66.5 3247.5,-45.5 3051.5,-45.5"/>
 <text text-anchor="start" x="3133.5" y="-52.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Hash</text>
 </a>
 </g>
-<g id="a_node20_190"><a xlink:href="/idmef_parser/IODEFv2/Hash.html" xlink:title="The canonicalization method used on the object being hashed. &#160;See Section 4.3.1 of [W3C.XMLSIG].">
+<g id="a_node20_190"><a xlink:href="/html/IODEFv2/Hash.html" xlink:title="The canonicalization method used on the object being hashed. &#160;See Section 4.3.1 of [W3C.XMLSIG].">
 <polygon fill="none" stroke="#000000" points="3051.5,-24.5 3051.5,-45.5 3247.5,-45.5 3247.5,-24.5 3051.5,-24.5"/>
 <text text-anchor="start" x="3126" y="-31.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] &#160;(0..1)</text>
 </a>
 </g>
-<g id="a_node20_191"><a xlink:href="/idmef_parser/IODEFv2/Hash.html" xlink:title="The application used to calculate the hash.">
+<g id="a_node20_191"><a xlink:href="/html/IODEFv2/Hash.html" xlink:title="The application used to calculate the hash.">
 <polygon fill="none" stroke="#000000" points="3051.5,-3.5 3051.5,-24.5 3247.5,-24.5 3247.5,-3.5 3051.5,-3.5"/>
 <text text-anchor="start" x="3054.5" y="-10.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
 </a>
@@ -1424,23 +1424,23 @@
 <!-- FuzzyHash -->
 <g id="node21" class="node">
 <title>FuzzyHash</title>
-<g id="a_node21_192"><a xlink:href="/idmef_parser/IODEFv2/FuzzyHash.html" xlink:title="The FuzzyHash class describes a fuzzy hash and the application used to generate it. ">
+<g id="a_node21_192"><a xlink:href="/html/IODEFv2/FuzzyHash.html" xlink:title="The FuzzyHash class describes a fuzzy hash and the application used to generate it. ">
 <polygon fill="#cecece" stroke="transparent" points="3035.5,-164.5 3035.5,-185.5 3264.5,-185.5 3264.5,-164.5 3035.5,-164.5"/>
 <polygon fill="none" stroke="#000000" points="3035.5,-164.5 3035.5,-185.5 3264.5,-185.5 3264.5,-164.5 3035.5,-164.5"/>
 <text text-anchor="start" x="3116.5" y="-171.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">FuzzyHash</text>
 </a>
 </g>
-<g id="a_node21_193"><a xlink:href="/idmef_parser/IODEFv2/FuzzyHash.html" xlink:title="The computed fuzzy hash value.">
+<g id="a_node21_193"><a xlink:href="/html/IODEFv2/FuzzyHash.html" xlink:title="The computed fuzzy hash value.">
 <polygon fill="none" stroke="#000000" points="3035.5,-143.5 3035.5,-164.5 3264.5,-164.5 3264.5,-143.5 3035.5,-143.5"/>
 <text text-anchor="start" x="3038.5" y="-150.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] FuzzyHashValue (1..*)</text>
 </a>
 </g>
-<g id="a_node21_194"><a xlink:href="/idmef_parser/IODEFv2/FuzzyHash.html" xlink:title="The application used to calculate the hash.">
+<g id="a_node21_194"><a xlink:href="/html/IODEFv2/FuzzyHash.html" xlink:title="The application used to calculate the hash.">
 <polygon fill="none" stroke="#000000" points="3035.5,-122.5 3035.5,-143.5 3264.5,-143.5 3264.5,-122.5 3035.5,-122.5"/>
 <text text-anchor="start" x="3055" y="-129.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
 </a>
 </g>
-<g id="a_node21_195"><a xlink:href="/idmef_parser/IODEFv2/FuzzyHash.html" xlink:title="Mechanism by which to extend the data model.">
+<g id="a_node21_195"><a xlink:href="/html/IODEFv2/FuzzyHash.html" xlink:title="Mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="3035.5,-101.5 3035.5,-122.5 3264.5,-122.5 3264.5,-101.5 3035.5,-101.5"/>
 <text text-anchor="start" x="3044.5" y="-108.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
@@ -1456,33 +1456,33 @@
 <!-- Key -->
 <g id="node24" class="node">
 <title>Key</title>
-<g id="a_node24_196"><a xlink:href="/idmef_parser/IODEFv2/Key.html" xlink:title="The Key class describes a Windows operating system registry key name and value pair, as well as the operation performed on it. ">
+<g id="a_node24_196"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="The Key class describes a Windows operating system registry key name and value pair, as well as the operation performed on it. ">
 <polygon fill="#cecece" stroke="transparent" points="2410,-468.5 2410,-489.5 2616,-489.5 2616,-468.5 2410,-468.5"/>
 <polygon fill="none" stroke="#000000" points="2410,-468.5 2410,-489.5 2616,-489.5 2616,-468.5 2410,-468.5"/>
 <text text-anchor="start" x="2501.5" y="-475.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Key</text>
 </a>
 </g>
-<g id="a_node24_197"><a xlink:href="/idmef_parser/IODEFv2/Key.html" xlink:title="The name of a Windows operating system registry key (e.g., [HKEY_LOCAL_MACHINE\Software\Test\KeyName]).">
+<g id="a_node24_197"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="The name of a Windows operating system registry key (e.g., [HKEY_LOCAL_MACHINE\Software\Test\KeyName]).">
 <polygon fill="none" stroke="#000000" points="2410,-447.5 2410,-468.5 2616,-468.5 2616,-447.5 2410,-447.5"/>
 <text text-anchor="start" x="2434.5" y="-454.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] KeyName (1..1)</text>
 </a>
 </g>
-<g id="a_node24_198"><a xlink:href="/idmef_parser/IODEFv2/Key.html" xlink:title="The value of the registry key identified in the KeyName class encoded per the .reg file format [KB310516].">
+<g id="a_node24_198"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="The value of the registry key identified in the KeyName class encoded per the .reg file format [KB310516].">
 <polygon fill="none" stroke="#000000" points="2410,-426.5 2410,-447.5 2616,-447.5 2616,-426.5 2410,-426.5"/>
 <text text-anchor="start" x="2436" y="-433.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] KeyValue (0..1)</text>
 </a>
 </g>
-<g id="a_node24_199"><a xlink:href="/idmef_parser/IODEFv2/Key.html" xlink:title="The type of action taken on the registry key. These values are maintained in the &quot;Key&#45;registryaction&quot; IANA registry per Section 10.2.">
+<g id="a_node24_199"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="The type of action taken on the registry key. These values are maintained in the &quot;Key&#45;registryaction&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="2410,-405.5 2410,-426.5 2616,-426.5 2616,-405.5 2410,-405.5"/>
 <text text-anchor="start" x="2429" y="-412.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] registryaction (0..1)</text>
 </a>
 </g>
-<g id="a_node24_200"><a xlink:href="/idmef_parser/IODEFv2/Key.html" xlink:title="A means by which to extend the registryaction attribute. &#160;See Section 5.1.1.">
+<g id="a_node24_200"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="A means by which to extend the registryaction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="2410,-384.5 2410,-405.5 2616,-405.5 2616,-384.5 2410,-384.5"/>
 <text text-anchor="start" x="2413" y="-391.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;registryaction (0..1)</text>
 </a>
 </g>
-<g id="a_node24_201"><a xlink:href="/idmef_parser/IODEFv2/Key.html" xlink:title="See Section 3.3.2.">
+<g id="a_node24_201"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="2410,-363.5 2410,-384.5 2616,-384.5 2616,-363.5 2410,-363.5"/>
 <text text-anchor="start" x="2442" y="-370.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -1498,43 +1498,43 @@
 <!-- File -->
 <g id="node26" class="node">
 <title>File</title>
-<g id="a_node26_202"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="The File class describes a file; its associated metadata; and cryptographic hashes and signatures applied to it. ">
+<g id="a_node26_202"><a xlink:href="/html/IODEFv2/File.html" xlink:title="The File class describes a file; its associated metadata; and cryptographic hashes and signatures applied to it. ">
 <polygon fill="#cecece" stroke="transparent" points="2388,-206.5 2388,-227.5 2638,-227.5 2638,-206.5 2388,-206.5"/>
 <polygon fill="none" stroke="#000000" points="2388,-206.5 2388,-227.5 2638,-227.5 2638,-206.5 2388,-206.5"/>
 <text text-anchor="start" x="2502" y="-213.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">File</text>
 </a>
 </g>
-<g id="a_node26_203"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="The name of the file.">
+<g id="a_node26_203"><a xlink:href="/html/IODEFv2/File.html" xlink:title="The name of the file.">
 <polygon fill="none" stroke="#000000" points="2388,-185.5 2388,-206.5 2638,-206.5 2638,-185.5 2388,-185.5"/>
 <text text-anchor="start" x="2434.5" y="-192.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] FileName (0..1)</text>
 </a>
 </g>
-<g id="a_node26_204"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="The size of the file in bytes.">
+<g id="a_node26_204"><a xlink:href="/html/IODEFv2/File.html" xlink:title="The size of the file in bytes.">
 <polygon fill="none" stroke="#000000" points="2388,-164.5 2388,-185.5 2638,-185.5 2638,-164.5 2388,-164.5"/>
 <text text-anchor="start" x="2435" y="-171.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] FileSize (0..1)</text>
 </a>
 </g>
-<g id="a_node26_205"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="The type of file per the IANA &quot;Media Types&quot; registry [IANA.Media]. &#160;Valid values correspond to the text in the &quot;Template&quot; column (e.g., &quot;application/pdf&quot;).">
+<g id="a_node26_205"><a xlink:href="/html/IODEFv2/File.html" xlink:title="The type of file per the IANA &quot;Media Types&quot; registry [IANA.Media]. &#160;Valid values correspond to the text in the &quot;Template&quot; column (e.g., &quot;application/pdf&quot;).">
 <polygon fill="none" stroke="#000000" points="2388,-143.5 2388,-164.5 2638,-164.5 2638,-143.5 2388,-143.5"/>
 <text text-anchor="start" x="2439" y="-150.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] FileType (0..1)</text>
 </a>
 </g>
-<g id="a_node26_206"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="A URL reference to the file.">
+<g id="a_node26_206"><a xlink:href="/html/IODEFv2/File.html" xlink:title="A URL reference to the file.">
 <polygon fill="none" stroke="#000000" points="2388,-122.5 2388,-143.5 2638,-143.5 2638,-122.5 2388,-122.5"/>
 <text text-anchor="start" x="2464.5" y="-129.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
-<g id="a_node26_207"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="The software application or operating system to which this file belongs or by which it can be processed.">
+<g id="a_node26_207"><a xlink:href="/html/IODEFv2/File.html" xlink:title="The software application or operating system to which this file belongs or by which it can be processed.">
 <polygon fill="none" stroke="#000000" points="2388,-101.5 2388,-122.5 2638,-122.5 2638,-101.5 2388,-101.5"/>
 <text text-anchor="start" x="2391" y="-108.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] AssociatedSoftware (0..1)</text>
 </a>
 </g>
-<g id="a_node26_208"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="Mechanism by which to extend the data model to describe properties of the file.">
+<g id="a_node26_208"><a xlink:href="/html/IODEFv2/File.html" xlink:title="Mechanism by which to extend the data model to describe properties of the file.">
 <polygon fill="none" stroke="#000000" points="2388,-80.5 2388,-101.5 2638,-101.5 2638,-80.5 2388,-80.5"/>
 <text text-anchor="start" x="2409.5" y="-87.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] FileProperties (0..*)</text>
 </a>
 </g>
-<g id="a_node26_209"><a xlink:href="/idmef_parser/IODEFv2/File.html" xlink:title="See Section 3.3.2.">
+<g id="a_node26_209"><a xlink:href="/html/IODEFv2/File.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="2388,-59.5 2388,-80.5 2638,-80.5 2638,-59.5 2388,-59.5"/>
 <text text-anchor="start" x="2442" y="-66.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -1564,23 +1564,23 @@
 <!-- Certificate -->
 <g id="node28" class="node">
 <title>Certificate</title>
-<g id="a_node28_210"><a xlink:href="/idmef_parser/IODEFv2/Certificate.html" xlink:title="The Certificate class describes a given X.509 certificate or certificate chain. ">
+<g id="a_node28_210"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="The Certificate class describes a given X.509 certificate or certificate chain. ">
 <polygon fill="#cecece" stroke="transparent" points="2415,-316.5 2415,-337.5 2611,-337.5 2611,-316.5 2415,-316.5"/>
 <polygon fill="none" stroke="#000000" points="2415,-316.5 2415,-337.5 2611,-337.5 2611,-316.5 2415,-316.5"/>
 <text text-anchor="start" x="2482" y="-323.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Certificate</text>
 </a>
 </g>
-<g id="a_node28_211"><a xlink:href="/idmef_parser/IODEFv2/Certificate.html" xlink:title="A given X.509 certificate or chain. &#160;See Section 4.4.4 of [W3C.XMLSIG].">
+<g id="a_node28_211"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="A given X.509 certificate or chain. &#160;See Section 4.4.4 of [W3C.XMLSIG].">
 <polygon fill="none" stroke="#000000" points="2415,-295.5 2415,-316.5 2611,-316.5 2611,-295.5 2415,-295.5"/>
 <text text-anchor="start" x="2489.5" y="-302.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] &#160;(1..1)</text>
 </a>
 </g>
-<g id="a_node28_212"><a xlink:href="/idmef_parser/IODEFv2/Certificate.html" xlink:title="A free&#45;form text description explaining the context of this certificate.">
+<g id="a_node28_212"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="A free&#45;form text description explaining the context of this certificate.">
 <polygon fill="none" stroke="#000000" points="2415,-274.5 2415,-295.5 2611,-295.5 2611,-274.5 2415,-274.5"/>
 <text text-anchor="start" x="2418" y="-281.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node28_213"><a xlink:href="/idmef_parser/IODEFv2/Certificate.html" xlink:title="See Section 3.3.2.">
+<g id="a_node28_213"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="See Section 3.3.2.">
 <polygon fill="none" stroke="#000000" points="2415,-253.5 2415,-274.5 2611,-274.5 2611,-253.5 2415,-253.5"/>
 <text text-anchor="start" x="2442" y="-260.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
 </a>
@@ -1617,7 +1617,7 @@
 <!-- RecordPattern -->
 <g id="node30" class="node">
 <title>RecordPattern</title>
-<g id="a_node30_214"><a xlink:href="/idmef_parser/IODEFv2/RecordPattern.html" xlink:title="The RecordPattern class describes where in the log data provided or referenced in the RecordData class relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. ">
+<g id="a_node30_214"><a xlink:href="/html/IODEFv2/RecordPattern.html" xlink:title="The RecordPattern class describes where in the log data provided or referenced in the RecordData class relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. ">
 <polygon fill="#cecece" stroke="transparent" points="2156,-535.5 2156,-556.5 2249,-556.5 2249,-535.5 2156,-535.5"/>
 <polygon fill="none" stroke="#000000" points="2156,-535.5 2156,-556.5 2249,-556.5 2249,-535.5 2156,-535.5"/>
 <text text-anchor="start" x="2159" y="-542.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RecordPattern</text>
@@ -1648,33 +1648,33 @@
 <!-- Discovery -->
 <g id="node32" class="node">
 <title>Discovery</title>
-<g id="a_node32_215"><a xlink:href="/idmef_parser/IODEFv2/Discovery.html" xlink:title="The Discovery class describes how an incident was detected. ">
+<g id="a_node32_215"><a xlink:href="/html/IODEFv2/Discovery.html" xlink:title="The Discovery class describes how an incident was detected. ">
 <polygon fill="#cecece" stroke="transparent" points="1293,-1479.5 1293,-1500.5 1489,-1500.5 1489,-1479.5 1293,-1479.5"/>
 <polygon fill="none" stroke="#000000" points="1293,-1479.5 1293,-1500.5 1489,-1500.5 1489,-1479.5 1293,-1479.5"/>
 <text text-anchor="start" x="1361" y="-1486.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Discovery</text>
 </a>
 </g>
-<g id="a_node32_216"><a xlink:href="/idmef_parser/IODEFv2/Discovery.html" xlink:title="A free&#45;form text description of how this incident was detected.">
+<g id="a_node32_216"><a xlink:href="/html/IODEFv2/Discovery.html" xlink:title="A free&#45;form text description of how this incident was detected.">
 <polygon fill="none" stroke="#000000" points="1293,-1458.5 1293,-1479.5 1489,-1479.5 1489,-1458.5 1293,-1458.5"/>
 <text text-anchor="start" x="1296" y="-1465.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node32_217"><a xlink:href="/idmef_parser/IODEFv2/Discovery.html" xlink:title="Categorizes the techniques used to discover the incident. &#160;These values are partially derived from Table 3&#45;1 of [NIST800.61rev2]. &#160;These values are maintained in the &quot;Discovery&#45; source&quot; IANA registry per Section 10.2.">
+<g id="a_node32_217"><a xlink:href="/html/IODEFv2/Discovery.html" xlink:title="Categorizes the techniques used to discover the incident. &#160;These values are partially derived from Table 3&#45;1 of [NIST800.61rev2]. &#160;These values are maintained in the &quot;Discovery&#45; source&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="1293,-1437.5 1293,-1458.5 1489,-1458.5 1489,-1437.5 1293,-1437.5"/>
 <text text-anchor="start" x="1327" y="-1444.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] source (0..1)</text>
 </a>
 </g>
-<g id="a_node32_218"><a xlink:href="/idmef_parser/IODEFv2/Discovery.html" xlink:title="A means by which to extend the source attribute. &#160;See Section 5.1.1.">
+<g id="a_node32_218"><a xlink:href="/html/IODEFv2/Discovery.html" xlink:title="A means by which to extend the source attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1293,-1416.5 1293,-1437.5 1489,-1437.5 1489,-1416.5 1293,-1416.5"/>
 <text text-anchor="start" x="1311" y="-1423.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;source (0..1)</text>
 </a>
 </g>
-<g id="a_node32_219"><a xlink:href="/idmef_parser/IODEFv2/Discovery.html" xlink:title="See Section 3.3.1.">
+<g id="a_node32_219"><a xlink:href="/html/IODEFv2/Discovery.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1293,-1395.5 1293,-1416.5 1489,-1416.5 1489,-1395.5 1293,-1395.5"/>
 <text text-anchor="start" x="1318" y="-1402.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node32_220"><a xlink:href="/idmef_parser/IODEFv2/Discovery.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node32_220"><a xlink:href="/html/IODEFv2/Discovery.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1293,-1374.5 1293,-1395.5 1489,-1395.5 1489,-1374.5 1293,-1374.5"/>
 <text text-anchor="start" x="1302" y="-1381.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -1697,33 +1697,33 @@
 <!-- Method -->
 <g id="node40" class="node">
 <title>Method</title>
-<g id="a_node40_221"><a xlink:href="/idmef_parser/IODEFv2/Method.html" xlink:title="The Method class describes the tactics, techniques, procedures, or weakness used by the threat actor in an incident. This class consists of both a list of references describing the attack methods and weaknesses and a free&#45;form text description. ">
+<g id="a_node40_221"><a xlink:href="/html/IODEFv2/Method.html" xlink:title="The Method class describes the tactics, techniques, procedures, or weakness used by the threat actor in an incident. This class consists of both a list of references describing the attack methods and weaknesses and a free&#45;form text description. ">
 <polygon fill="#cecece" stroke="transparent" points="1283,-1961.5 1283,-1982.5 1500,-1982.5 1500,-1961.5 1283,-1961.5"/>
 <polygon fill="none" stroke="#000000" points="1283,-1961.5 1283,-1982.5 1500,-1982.5 1500,-1961.5 1283,-1961.5"/>
 <text text-anchor="start" x="1368.5" y="-1968.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Method</text>
 </a>
 </g>
-<g id="a_node40_222"><a xlink:href="/idmef_parser/IODEFv2/Method.html" xlink:title="A free&#45;form text description of techniques, tactics, or procedures used by the threat actor.">
+<g id="a_node40_222"><a xlink:href="/html/IODEFv2/Method.html" xlink:title="A free&#45;form text description of techniques, tactics, or procedures used by the threat actor.">
 <polygon fill="none" stroke="#000000" points="1283,-1940.5 1283,-1961.5 1500,-1961.5 1500,-1940.5 1283,-1940.5"/>
 <text text-anchor="start" x="1296.5" y="-1947.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node40_223"><a xlink:href="/idmef_parser/IODEFv2/Method.html" xlink:title="A reference to the exploited weakness per [RFC7203].">
+<g id="a_node40_223"><a xlink:href="/html/IODEFv2/Method.html" xlink:title="A reference to the exploited weakness per [RFC7203].">
 <polygon fill="none" stroke="#000000" points="1283,-1919.5 1283,-1940.5 1500,-1940.5 1500,-1919.5 1283,-1919.5"/>
 <text text-anchor="start" x="1369.5" y="-1926.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] &#160;(0..*)</text>
 </a>
 </g>
-<g id="a_node40_224"><a xlink:href="/idmef_parser/IODEFv2/Method.html" xlink:title="A mechanism by which to extend the data model.">
+<g id="a_node40_224"><a xlink:href="/html/IODEFv2/Method.html" xlink:title="A mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1283,-1898.5 1283,-1919.5 1500,-1919.5 1500,-1898.5 1283,-1898.5"/>
 <text text-anchor="start" x="1286" y="-1905.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node40_225"><a xlink:href="/idmef_parser/IODEFv2/Method.html" xlink:title="See Section 3.3.1.">
+<g id="a_node40_225"><a xlink:href="/html/IODEFv2/Method.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1283,-1877.5 1283,-1898.5 1500,-1898.5 1500,-1877.5 1283,-1877.5"/>
 <text text-anchor="start" x="1318.5" y="-1884.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node40_226"><a xlink:href="/idmef_parser/IODEFv2/Method.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node40_226"><a xlink:href="/html/IODEFv2/Method.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1283,-1856.5 1283,-1877.5 1500,-1877.5 1500,-1856.5 1283,-1856.5"/>
 <text text-anchor="start" x="1302.5" y="-1863.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -1739,7 +1739,7 @@
 <!-- Flow -->
 <g id="node42" class="node">
 <title>Flow</title>
-<g id="a_node42_227"><a xlink:href="/idmef_parser/IODEFv2/Flow.html" xlink:title="The Flow class describes the systems and networks involved in the incident and the relationships between them. ">
+<g id="a_node42_227"><a xlink:href="/html/IODEFv2/Flow.html" xlink:title="The Flow class describes the systems and networks involved in the incident and the relationships between them. ">
 <polygon fill="#cecece" stroke="transparent" points="1374,-2618.5 1374,-2639.5 1409,-2639.5 1409,-2618.5 1374,-2618.5"/>
 <polygon fill="none" stroke="#000000" points="1374,-2618.5 1374,-2639.5 1409,-2639.5 1409,-2618.5 1374,-2618.5"/>
 <text text-anchor="start" x="1377" y="-2625.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Flow</text>
@@ -1763,18 +1763,18 @@
 <!-- Record -->
 <g id="node44" class="node">
 <title>Record</title>
-<g id="a_node44_228"><a xlink:href="/idmef_parser/IODEFv2/Record.html" xlink:title="The Record class is a container class for log and audit data that provides supportive information about the events in an incident. The source of this data will often be the output of monitoring tools. These logs substantiate the activity described in the document. ">
+<g id="a_node44_228"><a xlink:href="/html/IODEFv2/Record.html" xlink:title="The Record class is a container class for log and audit data that provides supportive information about the events in an incident. The source of this data will often be the output of monitoring tools. These logs substantiate the activity described in the document. ">
 <polygon fill="#cecece" stroke="transparent" points="1299,-567.5 1299,-588.5 1483,-588.5 1483,-567.5 1299,-567.5"/>
 <polygon fill="none" stroke="#000000" points="1299,-567.5 1299,-588.5 1483,-588.5 1483,-567.5 1299,-567.5"/>
 <text text-anchor="start" x="1369" y="-574.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Record</text>
 </a>
 </g>
-<g id="a_node44_229"><a xlink:href="/idmef_parser/IODEFv2/Record.html" xlink:title="See Section 3.3.1.">
+<g id="a_node44_229"><a xlink:href="/html/IODEFv2/Record.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1299,-546.5 1299,-567.5 1483,-567.5 1483,-546.5 1299,-546.5"/>
 <text text-anchor="start" x="1318" y="-553.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node44_230"><a xlink:href="/idmef_parser/IODEFv2/Record.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node44_230"><a xlink:href="/html/IODEFv2/Record.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1299,-525.5 1299,-546.5 1483,-546.5 1483,-525.5 1299,-525.5"/>
 <text text-anchor="start" x="1302" y="-532.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -1811,28 +1811,28 @@
 <!-- SystemImpact -->
 <g id="node35" class="node">
 <title>SystemImpact</title>
-<g id="a_node35_231"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="The SystemImpact class describes the technical impact of the incident to the systems on the network. ">
+<g id="a_node35_231"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="The SystemImpact class describes the technical impact of the incident to the systems on the network. ">
 <polygon fill="#cecece" stroke="transparent" points="1812,-1592.5 1812,-1613.5 2008,-1613.5 2008,-1592.5 1812,-1592.5"/>
 <polygon fill="none" stroke="#000000" points="1812,-1592.5 1812,-1613.5 2008,-1613.5 2008,-1592.5 1812,-1592.5"/>
 <text text-anchor="start" x="1866" y="-1599.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">SystemImpact</text>
 </a>
 </g>
-<g id="a_node35_232"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="A free&#45;form text description of the impact to the system.">
+<g id="a_node35_232"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="A free&#45;form text description of the impact to the system.">
 <polygon fill="none" stroke="#000000" points="1812,-1571.5 1812,-1592.5 2008,-1592.5 2008,-1571.5 1812,-1571.5"/>
 <text text-anchor="start" x="1815" y="-1578.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node35_233"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
+<g id="a_node35_233"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
 <polygon fill="none" stroke="#000000" points="1812,-1550.5 1812,-1571.5 2008,-1571.5 2008,-1550.5 1812,-1550.5"/>
 <text text-anchor="start" x="1843" y="-1557.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (0..1)</text>
 </a>
 </g>
-<g id="a_node35_234"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="An indication whether the described activity was successful. &#160;The permitted values are shown below. &#160;There is no default value.">
+<g id="a_node35_234"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="An indication whether the described activity was successful. &#160;The permitted values are shown below. &#160;There is no default value.">
 <polygon fill="none" stroke="#000000" points="1812,-1529.5 1812,-1550.5 2008,-1550.5 2008,-1529.5 1812,-1529.5"/>
 <text text-anchor="start" x="1833" y="-1536.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] completion (0..1)</text>
 </a>
 </g>
-<g id="a_node35_235"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node35_235"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1812,-1508.5 1812,-1529.5 2008,-1529.5 2008,-1508.5 1812,-1508.5"/>
 <text text-anchor="start" x="1848" y="-1515.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] type (0..1)</text>
 </a>
@@ -1848,28 +1848,28 @@
 <!-- BusinessImpact -->
 <g id="node36" class="node">
 <title>BusinessImpact</title>
-<g id="a_node36_236"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="The BusinessImpact class describes and characterizes the degree to which the function of the organization was impacted by the incident. ">
+<g id="a_node36_236"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="The BusinessImpact class describes and characterizes the degree to which the function of the organization was impacted by the incident. ">
 <polygon fill="#cecece" stroke="transparent" points="1812,-1883.5 1812,-1904.5 2008,-1904.5 2008,-1883.5 1812,-1883.5"/>
 <polygon fill="none" stroke="#000000" points="1812,-1883.5 1812,-1904.5 2008,-1904.5 2008,-1883.5 1812,-1883.5"/>
 <text text-anchor="start" x="1861.5" y="-1890.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">BusinessImpact</text>
 </a>
 </g>
-<g id="a_node36_237"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="A free&#45;form text description of the impact to the organization.">
+<g id="a_node36_237"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="A free&#45;form text description of the impact to the organization.">
 <polygon fill="none" stroke="#000000" points="1812,-1862.5 1812,-1883.5 2008,-1883.5 2008,-1862.5 1812,-1862.5"/>
 <text text-anchor="start" x="1815" y="-1869.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node36_238"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="Characterizes the severity of the incident on business functions. &#160;The permitted values are shown below. &#160;They were derived from Table 3&#45;2 of [NIST800.61rev2]. &#160;The default value is &quot;unknown&quot;. &#160;These values are maintained in the &quot;BusinessImpact&#45;severity&quot; IANA registry per Section 10.2.">
+<g id="a_node36_238"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="Characterizes the severity of the incident on business functions. &#160;The permitted values are shown below. &#160;They were derived from Table 3&#45;2 of [NIST800.61rev2]. &#160;The default value is &quot;unknown&quot;. &#160;These values are maintained in the &quot;BusinessImpact&#45;severity&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="1812,-1841.5 1812,-1862.5 2008,-1862.5 2008,-1841.5 1812,-1841.5"/>
 <text text-anchor="start" x="1843" y="-1848.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (0..1)</text>
 </a>
 </g>
-<g id="a_node36_239"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the severity attribute. &#160;See Section 5.1.1.">
+<g id="a_node36_239"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the severity attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1812,-1820.5 1812,-1841.5 2008,-1841.5 2008,-1820.5 1812,-1820.5"/>
 <text text-anchor="start" x="1827" y="-1827.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;severity (0..1)</text>
 </a>
 </g>
-<g id="a_node36_240"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node36_240"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1812,-1799.5 1812,-1820.5 2008,-1820.5 2008,-1799.5 1812,-1799.5"/>
 <text text-anchor="start" x="1848" y="-1806.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] type (0..1)</text>
 </a>
@@ -1885,7 +1885,7 @@
 <!-- TimeImpact -->
 <g id="node37" class="node">
 <title>TimeImpact</title>
-<g id="a_node37_241"><a xlink:href="/idmef_parser/IODEFv2/TimeImpact.html" xlink:title="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. ">
+<g id="a_node37_241"><a xlink:href="/html/IODEFv2/TimeImpact.html" xlink:title="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. ">
 <polygon fill="#cecece" stroke="transparent" points="1871,-1748.5 1871,-1769.5 1950,-1769.5 1950,-1748.5 1871,-1748.5"/>
 <polygon fill="none" stroke="#000000" points="1871,-1748.5 1871,-1769.5 1950,-1769.5 1950,-1748.5 1871,-1748.5"/>
 <text text-anchor="start" x="1874" y="-1755.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">TimeImpact</text>
@@ -1902,7 +1902,7 @@
 <!-- MonetaryImpact -->
 <g id="node38" class="node">
 <title>MonetaryImpact</title>
-<g id="a_node38_242"><a xlink:href="/idmef_parser/IODEFv2/MonetaryImpact.html" xlink:title="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished productivity of the staff, or a tarnished reputation that will affect future opportunities. ">
+<g id="a_node38_242"><a xlink:href="/html/IODEFv2/MonetaryImpact.html" xlink:title="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished productivity of the staff, or a tarnished reputation that will affect future opportunities. ">
 <polygon fill="#cecece" stroke="transparent" points="1858,-1694.5 1858,-1715.5 1963,-1715.5 1963,-1694.5 1858,-1694.5"/>
 <polygon fill="none" stroke="#000000" points="1858,-1694.5 1858,-1715.5 1963,-1715.5 1963,-1694.5 1858,-1694.5"/>
 <text text-anchor="start" x="1861" y="-1701.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">MonetaryImpact</text>
@@ -1919,7 +1919,7 @@
 <!-- Confidence -->
 <g id="node39" class="node">
 <title>Confidence</title>
-<g id="a_node39_243"><a xlink:href="/idmef_parser/IODEFv2/Confidence.html" xlink:title="The Confidence class represents an estimate of the validity and accuracy of data expressed in the document. This estimate can be expressed as a category or a numeric calculation. ">
+<g id="a_node39_243"><a xlink:href="/html/IODEFv2/Confidence.html" xlink:title="The Confidence class represents an estimate of the validity and accuracy of data expressed in the document. This estimate can be expressed as a category or a numeric calculation. ">
 <polygon fill="#cecece" stroke="transparent" points="2165,-1781.5 2165,-1802.5 2240,-1802.5 2240,-1781.5 2165,-1781.5"/>
 <polygon fill="none" stroke="#000000" points="2165,-1781.5 2165,-1802.5 2240,-1802.5 2240,-1781.5 2165,-1781.5"/>
 <text text-anchor="start" x="2168" y="-1788.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Confidence</text>
@@ -1999,7 +1999,7 @@
 <!-- IncidentID -->
 <g id="node46" class="node">
 <title>IncidentID</title>
-<g id="a_node46_244"><a xlink:href="/idmef_parser/IODEFv2/IncidentID.html" xlink:title="The IncidentID class represents a tracking number that is unique in the context of the CSIRT. It serves as an identifier for an incident or a document identifier when sharing indicators. This identifier would serve as an index into a CSIRT&#39;s incident handling or knowledge management system. ">
+<g id="a_node46_244"><a xlink:href="/html/IODEFv2/IncidentID.html" xlink:title="The IncidentID class represents a tracking number that is unique in the context of the CSIRT. It serves as an identifier for an incident or a document identifier when sharing indicators. This identifier would serve as an index into a CSIRT&#39;s incident handling or knowledge management system. ">
 <polygon fill="#cecece" stroke="transparent" points="1877,-1154.5 1877,-1175.5 1944,-1175.5 1944,-1154.5 1877,-1154.5"/>
 <polygon fill="none" stroke="#000000" points="1877,-1154.5 1877,-1175.5 1944,-1175.5 1944,-1154.5 1877,-1154.5"/>
 <text text-anchor="start" x="1880" y="-1161.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">IncidentID</text>
@@ -2016,18 +2016,18 @@
 <!-- AlternativeID -->
 <g id="node47" class="node">
 <title>AlternativeID</title>
-<g id="a_node47_245"><a xlink:href="/idmef_parser/IODEFv2/AlternativeID.html" xlink:title="The AlternativeID class lists the tracking numbers used by CSIRTs, other than the one generating the document, to refer to the identical activity described in the IODEF document. A tracking number listed as an AlternativeID references the same incident detected by another CSIRT. The tracking numbers of the CSIRT that generated the IODEF document must never be considered an AlternativeID. ">
+<g id="a_node47_245"><a xlink:href="/html/IODEFv2/AlternativeID.html" xlink:title="The AlternativeID class lists the tracking numbers used by CSIRTs, other than the one generating the document, to refer to the identical activity described in the IODEF document. A tracking number listed as an AlternativeID references the same incident detected by another CSIRT. The tracking numbers of the CSIRT that generated the IODEF document must never be considered an AlternativeID. ">
 <polygon fill="#cecece" stroke="transparent" points="1058,-1248.5 1058,-1269.5 1242,-1269.5 1242,-1248.5 1058,-1248.5"/>
 <polygon fill="none" stroke="#000000" points="1058,-1248.5 1058,-1269.5 1242,-1269.5 1242,-1248.5 1058,-1248.5"/>
 <text text-anchor="start" x="1111" y="-1255.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">AlternativeID</text>
 </a>
 </g>
-<g id="a_node47_246"><a xlink:href="/idmef_parser/IODEFv2/AlternativeID.html" xlink:title="See Section 3.3.1.">
+<g id="a_node47_246"><a xlink:href="/html/IODEFv2/AlternativeID.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1058,-1227.5 1058,-1248.5 1242,-1248.5 1242,-1227.5 1058,-1227.5"/>
 <text text-anchor="start" x="1077" y="-1234.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node47_247"><a xlink:href="/idmef_parser/IODEFv2/AlternativeID.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node47_247"><a xlink:href="/html/IODEFv2/AlternativeID.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1058,-1206.5 1058,-1227.5 1242,-1227.5 1242,-1206.5 1058,-1206.5"/>
 <text text-anchor="start" x="1061" y="-1213.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -2043,33 +2043,33 @@
 <!-- RelatedActivity -->
 <g id="node48" class="node">
 <title>RelatedActivity</title>
-<g id="a_node48_248"><a xlink:href="/idmef_parser/IODEFv2/RelatedActivity.html" xlink:title="The RelatedActivity class relates the information described in the rest of the document to previously observed incidents or activity and allows attribution to a specific actor or campaign. ">
+<g id="a_node48_248"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="The RelatedActivity class relates the information described in the rest of the document to previously observed incidents or activity and allows attribution to a specific actor or campaign. ">
 <polygon fill="#cecece" stroke="transparent" points="1283,-977.5 1283,-998.5 1500,-998.5 1500,-977.5 1283,-977.5"/>
 <polygon fill="none" stroke="#000000" points="1283,-977.5 1283,-998.5 1500,-998.5 1500,-977.5 1283,-977.5"/>
 <text text-anchor="start" x="1346.5" y="-984.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RelatedActivity</text>
 </a>
 </g>
-<g id="a_node48_249"><a xlink:href="/idmef_parser/IODEFv2/RelatedActivity.html" xlink:title="A URL to activity related to this incident.">
+<g id="a_node48_249"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="A URL to activity related to this incident.">
 <polygon fill="none" stroke="#000000" points="1283,-956.5 1283,-977.5 1500,-977.5 1500,-956.5 1283,-956.5"/>
 <text text-anchor="start" x="1343" y="-963.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
-<g id="a_node48_250"><a xlink:href="/idmef_parser/IODEFv2/RelatedActivity.html" xlink:title="A description of how these relationships were derived.">
+<g id="a_node48_250"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="A description of how these relationships were derived.">
 <polygon fill="none" stroke="#000000" points="1283,-935.5 1283,-956.5 1500,-956.5 1500,-935.5 1283,-935.5"/>
 <text text-anchor="start" x="1296.5" y="-942.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node48_251"><a xlink:href="/idmef_parser/IODEFv2/RelatedActivity.html" xlink:title="A mechanism by which to extend the data model.">
+<g id="a_node48_251"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="A mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1283,-914.5 1283,-935.5 1500,-935.5 1500,-914.5 1283,-914.5"/>
 <text text-anchor="start" x="1286" y="-921.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node48_252"><a xlink:href="/idmef_parser/IODEFv2/RelatedActivity.html" xlink:title="See Section 3.3.1.">
+<g id="a_node48_252"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1283,-893.5 1283,-914.5 1500,-914.5 1500,-893.5 1283,-893.5"/>
 <text text-anchor="start" x="1318.5" y="-900.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node48_253"><a xlink:href="/idmef_parser/IODEFv2/RelatedActivity.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node48_253"><a xlink:href="/html/IODEFv2/RelatedActivity.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1283,-872.5 1283,-893.5 1500,-893.5 1500,-872.5 1283,-872.5"/>
 <text text-anchor="start" x="1302.5" y="-879.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -2085,7 +2085,7 @@
 <!-- IndicatorData -->
 <g id="node52" class="node">
 <title>IndicatorData</title>
-<g id="a_node52_254"><a xlink:href="/idmef_parser/IODEFv2/IndicatorData.html" xlink:title="The IndicatorData class describes indicators and metadata associated with them. ">
+<g id="a_node52_254"><a xlink:href="/html/IODEFv2/IndicatorData.html" xlink:title="The IndicatorData class describes indicators and metadata associated with them. ">
 <polygon fill="#cecece" stroke="transparent" points="872.5,-1930.5 872.5,-1951.5 959.5,-1951.5 959.5,-1930.5 872.5,-1930.5"/>
 <polygon fill="none" stroke="#000000" points="872.5,-1930.5 872.5,-1951.5 959.5,-1951.5 959.5,-1930.5 872.5,-1930.5"/>
 <text text-anchor="start" x="875.5" y="-1937.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">IndicatorData</text>
@@ -2102,18 +2102,18 @@
 <!-- History -->
 <g id="node59" class="node">
 <title>History</title>
-<g id="a_node59_255"><a xlink:href="/idmef_parser/IODEFv2/History.html" xlink:title="The History class is a log of the significant events or actions performed by the involved parties during the course of handling the incident. ">
+<g id="a_node59_255"><a xlink:href="/html/IODEFv2/History.html" xlink:title="The History class is a log of the significant events or actions performed by the involved parties during the course of handling the incident. ">
 <polygon fill="#cecece" stroke="transparent" points="823.5,-1198.5 823.5,-1219.5 1007.5,-1219.5 1007.5,-1198.5 823.5,-1198.5"/>
 <polygon fill="none" stroke="#000000" points="823.5,-1198.5 823.5,-1219.5 1007.5,-1219.5 1007.5,-1198.5 823.5,-1198.5"/>
 <text text-anchor="start" x="894" y="-1205.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">History</text>
 </a>
 </g>
-<g id="a_node59_256"><a xlink:href="/idmef_parser/IODEFv2/History.html" xlink:title="See Section 3.3.1.">
+<g id="a_node59_256"><a xlink:href="/html/IODEFv2/History.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="823.5,-1177.5 823.5,-1198.5 1007.5,-1198.5 1007.5,-1177.5 823.5,-1177.5"/>
 <text text-anchor="start" x="842.5" y="-1184.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node59_257"><a xlink:href="/idmef_parser/IODEFv2/History.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node59_257"><a xlink:href="/html/IODEFv2/History.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="823.5,-1156.5 823.5,-1177.5 1007.5,-1177.5 1007.5,-1156.5 823.5,-1156.5"/>
 <text text-anchor="start" x="826.5" y="-1163.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -2150,38 +2150,38 @@
 <!-- ThreatActor -->
 <g id="node49" class="node">
 <title>ThreatActor</title>
-<g id="a_node49_258"><a xlink:href="/idmef_parser/IODEFv2/ThreatActor.html" xlink:title="The ThreatActor class describes a threat actor. ">
+<g id="a_node49_258"><a xlink:href="/html/IODEFv2/ThreatActor.html" xlink:title="The ThreatActor class describes a threat actor. ">
 <polygon fill="#cecece" stroke="transparent" points="1802,-1014.5 1802,-1035.5 2019,-1035.5 2019,-1014.5 1802,-1014.5"/>
 <polygon fill="none" stroke="#000000" points="1802,-1014.5 1802,-1035.5 2019,-1035.5 2019,-1014.5 1802,-1014.5"/>
 <text text-anchor="start" x="1875" y="-1021.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">ThreatActor</text>
 </a>
 </g>
-<g id="a_node49_259"><a xlink:href="/idmef_parser/IODEFv2/ThreatActor.html" xlink:title="An identifier for the threat actor.">
+<g id="a_node49_259"><a xlink:href="/html/IODEFv2/ThreatActor.html" xlink:title="An identifier for the threat actor.">
 <polygon fill="none" stroke="#000000" points="1802,-993.5 1802,-1014.5 2019,-1014.5 2019,-993.5 1802,-993.5"/>
 <text text-anchor="start" x="1821" y="-1000.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ThreatActorID (0..*)</text>
 </a>
 </g>
-<g id="a_node49_260"><a xlink:href="/idmef_parser/IODEFv2/ThreatActor.html" xlink:title="A URL to a reference describing the threat actor.">
+<g id="a_node49_260"><a xlink:href="/html/IODEFv2/ThreatActor.html" xlink:title="A URL to a reference describing the threat actor.">
 <polygon fill="none" stroke="#000000" points="1802,-972.5 1802,-993.5 2019,-993.5 2019,-972.5 1802,-972.5"/>
 <text text-anchor="start" x="1862" y="-979.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
-<g id="a_node49_261"><a xlink:href="/idmef_parser/IODEFv2/ThreatActor.html" xlink:title="A description of the threat actor.">
+<g id="a_node49_261"><a xlink:href="/html/IODEFv2/ThreatActor.html" xlink:title="A description of the threat actor.">
 <polygon fill="none" stroke="#000000" points="1802,-951.5 1802,-972.5 2019,-972.5 2019,-951.5 1802,-951.5"/>
 <text text-anchor="start" x="1815.5" y="-958.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node49_262"><a xlink:href="/idmef_parser/IODEFv2/ThreatActor.html" xlink:title="A mechanism by which to extend the data model.">
+<g id="a_node49_262"><a xlink:href="/html/IODEFv2/ThreatActor.html" xlink:title="A mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1802,-930.5 1802,-951.5 2019,-951.5 2019,-930.5 1802,-930.5"/>
 <text text-anchor="start" x="1805" y="-937.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node49_263"><a xlink:href="/idmef_parser/IODEFv2/ThreatActor.html" xlink:title="See Section 3.3.1.">
+<g id="a_node49_263"><a xlink:href="/html/IODEFv2/ThreatActor.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1802,-909.5 1802,-930.5 2019,-930.5 2019,-909.5 1802,-909.5"/>
 <text text-anchor="start" x="1837.5" y="-916.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node49_264"><a xlink:href="/idmef_parser/IODEFv2/ThreatActor.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node49_264"><a xlink:href="/html/IODEFv2/ThreatActor.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1802,-888.5 1802,-909.5 2019,-909.5 2019,-888.5 1802,-888.5"/>
 <text text-anchor="start" x="1821.5" y="-895.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -2197,38 +2197,38 @@
 <!-- Campaign -->
 <g id="node50" class="node">
 <title>Campaign</title>
-<g id="a_node50_265"><a xlink:href="/idmef_parser/IODEFv2/Campaign.html" xlink:title="The Campaign class describes a campaign of attacks by a threat actor. ">
+<g id="a_node50_265"><a xlink:href="/html/IODEFv2/Campaign.html" xlink:title="The Campaign class describes a campaign of attacks by a threat actor. ">
 <polygon fill="#cecece" stroke="transparent" points="1802,-841.5 1802,-862.5 2019,-862.5 2019,-841.5 1802,-841.5"/>
 <polygon fill="none" stroke="#000000" points="1802,-841.5 1802,-862.5 2019,-862.5 2019,-841.5 1802,-841.5"/>
 <text text-anchor="start" x="1879" y="-848.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Campaign</text>
 </a>
 </g>
-<g id="a_node50_266"><a xlink:href="/idmef_parser/IODEFv2/Campaign.html" xlink:title="An identifier for the campaign.">
+<g id="a_node50_266"><a xlink:href="/html/IODEFv2/Campaign.html" xlink:title="An identifier for the campaign.">
 <polygon fill="none" stroke="#000000" points="1802,-820.5 1802,-841.5 2019,-841.5 2019,-820.5 1802,-820.5"/>
 <text text-anchor="start" x="1825" y="-827.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] CampaignID (0..*)</text>
 </a>
 </g>
-<g id="a_node50_267"><a xlink:href="/idmef_parser/IODEFv2/Campaign.html" xlink:title="A URL to a reference describing the campaign.">
+<g id="a_node50_267"><a xlink:href="/html/IODEFv2/Campaign.html" xlink:title="A URL to a reference describing the campaign.">
 <polygon fill="none" stroke="#000000" points="1802,-799.5 1802,-820.5 2019,-820.5 2019,-799.5 1802,-799.5"/>
 <text text-anchor="start" x="1862" y="-806.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
-<g id="a_node50_268"><a xlink:href="/idmef_parser/IODEFv2/Campaign.html" xlink:title="A description of the campaign.">
+<g id="a_node50_268"><a xlink:href="/html/IODEFv2/Campaign.html" xlink:title="A description of the campaign.">
 <polygon fill="none" stroke="#000000" points="1802,-778.5 1802,-799.5 2019,-799.5 2019,-778.5 1802,-778.5"/>
 <text text-anchor="start" x="1815.5" y="-785.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node50_269"><a xlink:href="/idmef_parser/IODEFv2/Campaign.html" xlink:title="A mechanism by which to extend the data model.">
+<g id="a_node50_269"><a xlink:href="/html/IODEFv2/Campaign.html" xlink:title="A mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1802,-757.5 1802,-778.5 2019,-778.5 2019,-757.5 1802,-757.5"/>
 <text text-anchor="start" x="1805" y="-764.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node50_270"><a xlink:href="/idmef_parser/IODEFv2/Campaign.html" xlink:title="See Section 3.3.1.">
+<g id="a_node50_270"><a xlink:href="/html/IODEFv2/Campaign.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1802,-736.5 1802,-757.5 2019,-757.5 2019,-736.5 1802,-736.5"/>
 <text text-anchor="start" x="1837.5" y="-743.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node50_271"><a xlink:href="/idmef_parser/IODEFv2/Campaign.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node50_271"><a xlink:href="/html/IODEFv2/Campaign.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1802,-715.5 1802,-736.5 2019,-736.5 2019,-715.5 1802,-715.5"/>
 <text text-anchor="start" x="1821.5" y="-722.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -2244,7 +2244,7 @@
 <!-- IndicatorID -->
 <g id="node51" class="node">
 <title>IndicatorID</title>
-<g id="a_node51_272"><a xlink:href="/idmef_parser/IODEFv2/IndicatorID.html" xlink:title="The IndicatorID class identifies an indicator with a globally unique identifier. The combination of the name and version attributes and the element content form this identifier. Indicators generated by given CSIRT MUST NOT reuse the same value unless they are referencing the same indicator. ">
+<g id="a_node51_272"><a xlink:href="/html/IODEFv2/IndicatorID.html" xlink:title="The IndicatorID class identifies an indicator with a globally unique identifier. The combination of the name and version attributes and the element content form this identifier. Indicators generated by given CSIRT MUST NOT reuse the same value unless they are referencing the same indicator. ">
 <polygon fill="#cecece" stroke="transparent" points="1874,-1284.5 1874,-1305.5 1946,-1305.5 1946,-1284.5 1874,-1284.5"/>
 <polygon fill="none" stroke="#000000" points="1874,-1284.5 1874,-1305.5 1946,-1305.5 1946,-1284.5 1874,-1284.5"/>
 <text text-anchor="start" x="1877" y="-1291.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">IndicatorID</text>
@@ -2261,38 +2261,38 @@
 <!-- Indicator -->
 <g id="node53" class="node">
 <title>Indicator</title>
-<g id="a_node53_273"><a xlink:href="/idmef_parser/IODEFv2/Indicator.html" xlink:title="The Indicator class describes an indicator. An indicator consists of observable features and phenomenon that aid in the forensic or proactive detection of malicious activity and associated metadata. An indicator can be described outright by referencing or composing previously defined indicators or by referencing observables described in the incident report found in this document. ">
+<g id="a_node53_273"><a xlink:href="/html/IODEFv2/Indicator.html" xlink:title="The Indicator class describes an indicator. An indicator consists of observable features and phenomenon that aid in the forensic or proactive detection of malicious activity and associated metadata. An indicator can be described outright by referencing or composing previously defined indicators or by referencing observables described in the incident report found in this document. ">
 <polygon fill="#cecece" stroke="transparent" points="1283,-2237.5 1283,-2258.5 1500,-2258.5 1500,-2237.5 1283,-2237.5"/>
 <polygon fill="none" stroke="#000000" points="1283,-2237.5 1283,-2258.5 1500,-2258.5 1500,-2237.5 1283,-2237.5"/>
 <text text-anchor="start" x="1365.5" y="-2244.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Indicator</text>
 </a>
 </g>
-<g id="a_node53_274"><a xlink:href="/idmef_parser/IODEFv2/Indicator.html" xlink:title="A free&#45;form text description of the indicator.">
+<g id="a_node53_274"><a xlink:href="/html/IODEFv2/Indicator.html" xlink:title="A free&#45;form text description of the indicator.">
 <polygon fill="none" stroke="#000000" points="1283,-2216.5 1283,-2237.5 1500,-2237.5 1500,-2216.5 1283,-2216.5"/>
 <text text-anchor="start" x="1296.5" y="-2223.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node53_275"><a xlink:href="/idmef_parser/IODEFv2/Indicator.html" xlink:title="A timestamp of the start of the time period during which this indicator is valid.">
+<g id="a_node53_275"><a xlink:href="/html/IODEFv2/Indicator.html" xlink:title="A timestamp of the start of the time period during which this indicator is valid.">
 <polygon fill="none" stroke="#000000" points="1283,-2195.5 1283,-2216.5 1500,-2216.5 1500,-2195.5 1283,-2195.5"/>
 <text text-anchor="start" x="1304.5" y="-2202.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] StartTime (0..1)</text>
 </a>
 </g>
-<g id="a_node53_276"><a xlink:href="/idmef_parser/IODEFv2/Indicator.html" xlink:title="A timestamp of the end of the time period during which this indicator is valid.">
+<g id="a_node53_276"><a xlink:href="/html/IODEFv2/Indicator.html" xlink:title="A timestamp of the end of the time period during which this indicator is valid.">
 <polygon fill="none" stroke="#000000" points="1283,-2174.5 1283,-2195.5 1500,-2195.5 1500,-2174.5 1283,-2174.5"/>
 <text text-anchor="start" x="1307" y="-2181.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] EndTime (0..1)</text>
 </a>
 </g>
-<g id="a_node53_277"><a xlink:href="/idmef_parser/IODEFv2/Indicator.html" xlink:title="Mechanism by which to extend the data model.">
+<g id="a_node53_277"><a xlink:href="/html/IODEFv2/Indicator.html" xlink:title="Mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1283,-2153.5 1283,-2174.5 1500,-2174.5 1500,-2153.5 1283,-2153.5"/>
 <text text-anchor="start" x="1286" y="-2160.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node53_278"><a xlink:href="/idmef_parser/IODEFv2/Indicator.html" xlink:title="See Section 3.3.1.">
+<g id="a_node53_278"><a xlink:href="/html/IODEFv2/Indicator.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1283,-2132.5 1283,-2153.5 1500,-2153.5 1500,-2132.5 1283,-2132.5"/>
 <text text-anchor="start" x="1318.5" y="-2139.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node53_279"><a xlink:href="/idmef_parser/IODEFv2/Indicator.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node53_279"><a xlink:href="/html/IODEFv2/Indicator.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1283,-2111.5 1283,-2132.5 1500,-2132.5 1500,-2111.5 1283,-2111.5"/>
 <text text-anchor="start" x="1302.5" y="-2118.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -2350,18 +2350,18 @@
 <!-- AlternativeIndicatorID -->
 <g id="node54" class="node">
 <title>AlternativeIndicatorID</title>
-<g id="a_node54_280"><a xlink:href="/idmef_parser/IODEFv2/AlternativeIndicatorID.html" xlink:title="The AlternativeIndicatorID class lists alternative identifiers for an indicator. ">
+<g id="a_node54_280"><a xlink:href="/html/IODEFv2/AlternativeIndicatorID.html" xlink:title="The AlternativeIndicatorID class lists alternative identifiers for an indicator. ">
 <polygon fill="#cecece" stroke="transparent" points="1818,-2646.5 1818,-2667.5 2002,-2667.5 2002,-2646.5 1818,-2646.5"/>
 <polygon fill="none" stroke="#000000" points="1818,-2646.5 1818,-2667.5 2002,-2667.5 2002,-2646.5 1818,-2646.5"/>
 <text text-anchor="start" x="1845" y="-2653.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">AlternativeIndicatorID</text>
 </a>
 </g>
-<g id="a_node54_281"><a xlink:href="/idmef_parser/IODEFv2/AlternativeIndicatorID.html" xlink:title="See Section 3.3.1.">
+<g id="a_node54_281"><a xlink:href="/html/IODEFv2/AlternativeIndicatorID.html" xlink:title="See Section 3.3.1.">
 <polygon fill="none" stroke="#000000" points="1818,-2625.5 1818,-2646.5 2002,-2646.5 2002,-2625.5 1818,-2625.5"/>
 <text text-anchor="start" x="1837" y="-2632.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node54_282"><a xlink:href="/idmef_parser/IODEFv2/AlternativeIndicatorID.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node54_282"><a xlink:href="/html/IODEFv2/AlternativeIndicatorID.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1818,-2604.5 1818,-2625.5 2002,-2625.5 2002,-2604.5 1818,-2604.5"/>
 <text text-anchor="start" x="1821" y="-2611.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
@@ -2377,7 +2377,7 @@
 <!-- IndicatorReference -->
 <g id="node55" class="node">
 <title>IndicatorReference</title>
-<g id="a_node55_283"><a xlink:href="/idmef_parser/IODEFv2/IndicatorReference.html" xlink:title="The IndicatorReference describes a reference to an indicator. This reference may be to an indicator described in this IODEF document or in a previously exchanged IODEF document. ">
+<g id="a_node55_283"><a xlink:href="/html/IODEFv2/IndicatorReference.html" xlink:title="The IndicatorReference describes a reference to an indicator. This reference may be to an indicator described in this IODEF document or in a previously exchanged IODEF document. ">
 <polygon fill="#cecece" stroke="transparent" points="2142,-2498.5 2142,-2519.5 2263,-2519.5 2263,-2498.5 2142,-2498.5"/>
 <polygon fill="none" stroke="#000000" points="2142,-2498.5 2142,-2519.5 2263,-2519.5 2263,-2498.5 2142,-2498.5"/>
 <text text-anchor="start" x="2145" y="-2505.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">IndicatorReference</text>
@@ -2394,7 +2394,7 @@
 <!-- ObservableReference -->
 <g id="node56" class="node">
 <title>ObservableReference</title>
-<g id="a_node56_284"><a xlink:href="/idmef_parser/IODEFv2/ObservableReference.html" xlink:title="The ObservableReference describes a reference to an observable feature or phenomenon described elsewhere in the document. ">
+<g id="a_node56_284"><a xlink:href="/html/IODEFv2/ObservableReference.html" xlink:title="The ObservableReference describes a reference to an observable feature or phenomenon described elsewhere in the document. ">
 <polygon fill="#cecece" stroke="transparent" points="2133,-2429.5 2133,-2450.5 2272,-2450.5 2272,-2429.5 2133,-2429.5"/>
 <polygon fill="none" stroke="#000000" points="2133,-2429.5 2133,-2450.5 2272,-2450.5 2272,-2429.5 2133,-2429.5"/>
 <text text-anchor="start" x="2136" y="-2436.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">ObservableReference</text>
@@ -2411,23 +2411,23 @@
 <!-- IndicatorExpression -->
 <g id="node57" class="node">
 <title>IndicatorExpression</title>
-<g id="a_node57_285"><a xlink:href="/idmef_parser/IODEFv2/IndicatorExpression.html" xlink:title="The IndicatorExpression describes an expression composed of observed phenomenon, features, or indicators. Elements of the expression can be described directly, reference relevant data from other parts of a given IODEF document, or reference previously defined indicators. ">
+<g id="a_node57_285"><a xlink:href="/html/IODEFv2/IndicatorExpression.html" xlink:title="The IndicatorExpression describes an expression composed of observed phenomenon, features, or indicators. Elements of the expression can be described directly, reference relevant data from other parts of a given IODEF document, or reference previously defined indicators. ">
 <polygon fill="#cecece" stroke="transparent" points="1802,-2524.5 1802,-2545.5 2019,-2545.5 2019,-2524.5 1802,-2524.5"/>
 <polygon fill="none" stroke="#000000" points="1802,-2524.5 1802,-2545.5 2019,-2545.5 2019,-2524.5 1802,-2524.5"/>
 <text text-anchor="start" x="1851" y="-2531.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">IndicatorExpression</text>
 </a>
 </g>
-<g id="a_node57_286"><a xlink:href="/idmef_parser/IODEFv2/IndicatorExpression.html" xlink:title="Mechanism by which to extend the data model.">
+<g id="a_node57_286"><a xlink:href="/html/IODEFv2/IndicatorExpression.html" xlink:title="Mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1802,-2503.5 1802,-2524.5 2019,-2524.5 2019,-2503.5 1802,-2503.5"/>
 <text text-anchor="start" x="1805" y="-2510.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node57_287"><a xlink:href="/idmef_parser/IODEFv2/IndicatorExpression.html" xlink:title="The operator to be applied between the child elements. &#160;See Section 3.29.5 for parsing guidance. &#160;The default value is &quot;and&quot;. &#160;These values are maintained in the &quot;IndicatorExpression&#45;operator&quot; IANA registry per Section 10.2.">
+<g id="a_node57_287"><a xlink:href="/html/IODEFv2/IndicatorExpression.html" xlink:title="The operator to be applied between the child elements. &#160;See Section 3.29.5 for parsing guidance. &#160;The default value is &quot;and&quot;. &#160;These values are maintained in the &quot;IndicatorExpression&#45;operator&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="1802,-2482.5 1802,-2503.5 2019,-2503.5 2019,-2482.5 1802,-2482.5"/>
 <text text-anchor="start" x="1841.5" y="-2489.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] operator (0..1)</text>
 </a>
 </g>
-<g id="a_node57_288"><a xlink:href="/idmef_parser/IODEFv2/IndicatorExpression.html" xlink:title="A means by which to extend the operator attribute. &#160;See Section 5.1.1.">
+<g id="a_node57_288"><a xlink:href="/html/IODEFv2/IndicatorExpression.html" xlink:title="A means by which to extend the operator attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="1802,-2461.5 1802,-2482.5 2019,-2482.5 2019,-2461.5 1802,-2461.5"/>
 <text text-anchor="start" x="1825.5" y="-2468.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;operator (0..1)</text>
 </a>
@@ -2443,28 +2443,28 @@
 <!-- AttackPhase -->
 <g id="node58" class="node">
 <title>AttackPhase</title>
-<g id="a_node58_289"><a xlink:href="/idmef_parser/IODEFv2/AttackPhase.html" xlink:title="The AttackPhase class describes a particular phase of an attack life cycle. ">
+<g id="a_node58_289"><a xlink:href="/html/IODEFv2/AttackPhase.html" xlink:title="The AttackPhase class describes a particular phase of an attack life cycle. ">
 <polygon fill="#cecece" stroke="transparent" points="1802,-2231.5 1802,-2252.5 2019,-2252.5 2019,-2231.5 1802,-2231.5"/>
 <polygon fill="none" stroke="#000000" points="1802,-2231.5 1802,-2252.5 2019,-2252.5 2019,-2231.5 1802,-2231.5"/>
 <text text-anchor="start" x="1872.5" y="-2238.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">AttackPhase</text>
 </a>
 </g>
-<g id="a_node58_290"><a xlink:href="/idmef_parser/IODEFv2/AttackPhase.html" xlink:title="An identifier for the phase of the attack.">
+<g id="a_node58_290"><a xlink:href="/html/IODEFv2/AttackPhase.html" xlink:title="An identifier for the phase of the attack.">
 <polygon fill="none" stroke="#000000" points="1802,-2210.5 1802,-2231.5 2019,-2231.5 2019,-2210.5 1802,-2210.5"/>
 <text text-anchor="start" x="1835" y="-2217.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] Specified (0..*)</text>
 </a>
 </g>
-<g id="a_node58_291"><a xlink:href="/idmef_parser/IODEFv2/AttackPhase.html" xlink:title="A URL to a resource describing this phase of the attack.">
+<g id="a_node58_291"><a xlink:href="/html/IODEFv2/AttackPhase.html" xlink:title="A URL to a resource describing this phase of the attack.">
 <polygon fill="none" stroke="#000000" points="1802,-2189.5 1802,-2210.5 2019,-2210.5 2019,-2189.5 1802,-2189.5"/>
 <text text-anchor="start" x="1862" y="-2196.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
 </a>
 </g>
-<g id="a_node58_292"><a xlink:href="/idmef_parser/IODEFv2/AttackPhase.html" xlink:title="A free&#45;form text description of this phase of the attack.">
+<g id="a_node58_292"><a xlink:href="/html/IODEFv2/AttackPhase.html" xlink:title="A free&#45;form text description of this phase of the attack.">
 <polygon fill="none" stroke="#000000" points="1802,-2168.5 1802,-2189.5 2019,-2189.5 2019,-2168.5 1802,-2168.5"/>
 <text text-anchor="start" x="1815.5" y="-2175.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node58_293"><a xlink:href="/idmef_parser/IODEFv2/AttackPhase.html" xlink:title="A mechanism by which to extend the data model.">
+<g id="a_node58_293"><a xlink:href="/html/IODEFv2/AttackPhase.html" xlink:title="A mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1802,-2147.5 1802,-2168.5 2019,-2168.5 2019,-2147.5 1802,-2147.5"/>
 <text text-anchor="start" x="1805" y="-2154.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
@@ -2543,13 +2543,13 @@
 <!-- BulkObservableFormat -->
 <g id="node62" class="node">
 <title>BulkObservableFormat</title>
-<g id="a_node62_294"><a xlink:href="/idmef_parser/IODEFv2/BulkObservableFormat.html" xlink:title="The ObservableFormat class specifies metadata about the format of an observable enumerated in a sibling BulkObservableList class. ">
+<g id="a_node62_294"><a xlink:href="/html/IODEFv2/BulkObservableFormat.html" xlink:title="The ObservableFormat class specifies metadata about the format of an observable enumerated in a sibling BulkObservableList class. ">
 <polygon fill="#cecece" stroke="transparent" points="1540.5,-38.5 1540.5,-59.5 1757.5,-59.5 1757.5,-38.5 1540.5,-38.5"/>
 <polygon fill="none" stroke="#000000" points="1540.5,-38.5 1540.5,-59.5 1757.5,-59.5 1757.5,-38.5 1540.5,-38.5"/>
 <text text-anchor="start" x="1578.5" y="-45.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">BulkObservableFormat</text>
 </a>
 </g>
-<g id="a_node62_295"><a xlink:href="/idmef_parser/IODEFv2/BulkObservableFormat.html" xlink:title="Mechanism by which to extend the data model.">
+<g id="a_node62_295"><a xlink:href="/html/IODEFv2/BulkObservableFormat.html" xlink:title="Mechanism by which to extend the data model.">
 <polygon fill="none" stroke="#000000" points="1540.5,-17.5 1540.5,-38.5 1757.5,-38.5 1757.5,-17.5 1540.5,-17.5"/>
 <text text-anchor="start" x="1543.5" y="-24.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>

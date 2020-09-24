@@ -12,28 +12,28 @@
 <!-- BusinessImpact -->
 <g id="node1" class="node">
 <title>BusinessImpact</title>
-<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="The BusinessImpact class describes and characterizes the degree to which the function of the organization was impacted by the incident. ">
+<g id="a_node1_0"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="The BusinessImpact class describes and characterizes the degree to which the function of the organization was impacted by the incident. ">
 <polygon fill="#cecece" stroke="transparent" points="8,-87.5 8,-108.5 204,-108.5 204,-87.5 8,-87.5"/>
 <polygon fill="none" stroke="#000000" points="8,-87.5 8,-108.5 204,-108.5 204,-87.5 8,-87.5"/>
 <text text-anchor="start" x="57.5" y="-94.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">BusinessImpact</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="A free&#45;form text description of the impact to the organization.">
+<g id="a_node1_1"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="A free&#45;form text description of the impact to the organization.">
 <polygon fill="none" stroke="#000000" points="8,-66.5 8,-87.5 204,-87.5 204,-66.5 8,-66.5"/>
 <text text-anchor="start" x="11" y="-73.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node1_2"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="Characterizes the severity of the incident on business functions. &#160;The permitted values are shown below. &#160;They were derived from Table 3&#45;2 of [NIST800.61rev2]. &#160;The default value is &quot;unknown&quot;. &#160;These values are maintained in the &quot;BusinessImpact&#45;severity&quot; IANA registry per Section 10.2.">
+<g id="a_node1_2"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="Characterizes the severity of the incident on business functions. &#160;The permitted values are shown below. &#160;They were derived from Table 3&#45;2 of [NIST800.61rev2]. &#160;The default value is &quot;unknown&quot;. &#160;These values are maintained in the &quot;BusinessImpact&#45;severity&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="8,-45.5 8,-66.5 204,-66.5 204,-45.5 8,-45.5"/>
 <text text-anchor="start" x="39" y="-52.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (0..1)</text>
 </a>
 </g>
-<g id="a_node1_3"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the severity attribute. &#160;See Section 5.1.1.">
+<g id="a_node1_3"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the severity attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="8,-24.5 8,-45.5 204,-45.5 204,-24.5 8,-24.5"/>
 <text text-anchor="start" x="23" y="-31.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;severity (0..1)</text>
 </a>
 </g>
-<g id="a_node1_4"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node1_4"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="8,-3.5 8,-24.5 204,-24.5 204,-3.5 8,-3.5"/>
 <text text-anchor="start" x="44" y="-10.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] type (0..1)</text>
 </a>

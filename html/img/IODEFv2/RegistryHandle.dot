@@ -4,7 +4,7 @@ digraph RegistryHandle {
 	];
 	node [label="\N"];
 	RegistryHandle	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/RegistryHandle.html" TITLE="The RegistryHandle class represents a handle into an Internet registry or community-specific database. "><FONT FACE="Nimbus Sans L">RegistryHandle</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/RegistryHandle.html" TITLE="The RegistryHandle class represents a handle into an Internet registry or community-specific database. "><FONT FACE="Nimbus Sans L">RegistryHandle</FONT></td> </tr>" %</table>>,
 		pos="57.5,18",
 		shape=plaintext,
 		width=1.5972];

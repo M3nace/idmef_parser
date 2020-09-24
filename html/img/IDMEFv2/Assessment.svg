@@ -12,7 +12,7 @@
 <!-- Assessment -->
 <g id="node1" class="node">
 <title>Assessment</title>
-<g id="a_node1_0"><a xlink:href="/idmef_parser/IDMEFv2/Assessment.html" xlink:title="The Assessment class is used to provide the analyzer&#39;s assessment of an event &#45;&#45; its impact, actions taken in response, and confidence. ">
+<g id="a_node1_0"><a xlink:href="/html/IDMEFv2/Assessment.html" xlink:title="The Assessment class is used to provide the analyzer&#39;s assessment of an event &#45;&#45; its impact, actions taken in response, and confidence. ">
 <polygon fill="#cc401d" stroke="transparent" points="8.5,-82 8.5,-103 89.5,-103 89.5,-82 8.5,-82"/>
 <polygon fill="none" stroke="#000000" points="8.5,-82 8.5,-103 89.5,-103 89.5,-82 8.5,-82"/>
 <text text-anchor="start" x="11.5" y="-88.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Assessment</text>
@@ -22,25 +22,25 @@
 <!-- Impact -->
 <g id="node2" class="node">
 <title>Impact</title>
-<g id="a_node2_1"><a xlink:href="/idmef_parser/IDMEFv2/Impact.html" xlink:title="The Impact class is used to provide the analyzer&#39;s assessment of the impact of the event on the target(s). It is represented in the IDMEF DTD as follows: ">
+<g id="a_node2_1"><a xlink:href="/html/IDMEFv2/Impact.html" xlink:title="The Impact class is used to provide the analyzer&#39;s assessment of the impact of the event on the target(s). It is represented in the IDMEF DTD as follows: ">
 <polygon fill="#cc401d" stroke="transparent" points="164,-203 164,-224 352,-224 352,-203 164,-203"/>
 <polygon fill="none" stroke="#000000" points="164,-203 164,-224 352,-224 352,-203 164,-203"/>
 <text text-anchor="start" x="237" y="-209.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Impact</text>
 </a>
 </g>
-<g id="a_node2_2"><a xlink:href="/idmef_parser/IDMEFv2/Impact.html" xlink:title="Section 10.)">
+<g id="a_node2_2"><a xlink:href="/html/IDMEFv2/Impact.html" xlink:title="Section 10.)">
 <polygon fill="#ff5024" stroke="transparent" points="164,-182 164,-203 352,-203 352,-182 164,-182"/>
 <polygon fill="none" stroke="#000000" points="164,-182 164,-203 352,-203 352,-182 164,-182"/>
 <text text-anchor="start" x="176.5" y="-188.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (Optional)</text>
 </a>
 </g>
-<g id="a_node2_3"><a xlink:href="/idmef_parser/IDMEFv2/Impact.html" xlink:title="Section 10.)">
+<g id="a_node2_3"><a xlink:href="/html/IDMEFv2/Impact.html" xlink:title="Section 10.)">
 <polygon fill="#ff5024" stroke="transparent" points="164,-161 164,-182 352,-182 352,-161 164,-161"/>
 <polygon fill="none" stroke="#000000" points="164,-161 164,-182 352,-182 352,-161 164,-161"/>
 <text text-anchor="start" x="167" y="-167.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] completion (Optional)</text>
 </a>
 </g>
-<g id="a_node2_4"><a xlink:href="/idmef_parser/IDMEFv2/Impact.html" xlink:title="value is &quot;other&quot;. &#160;(See also Section 10.)">
+<g id="a_node2_4"><a xlink:href="/html/IDMEFv2/Impact.html" xlink:title="value is &quot;other&quot;. &#160;(See also Section 10.)">
 <polygon fill="#ff5024" stroke="transparent" points="164,-140 164,-161 352,-161 352,-140 164,-140"/>
 <polygon fill="none" stroke="#000000" points="164,-140 164,-161 352,-161 352,-140 164,-140"/>
 <text text-anchor="start" x="187" y="-146.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (Optional)</text>
@@ -57,13 +57,13 @@
 <!-- Action -->
 <g id="node3" class="node">
 <title>Action</title>
-<g id="a_node3_5"><a xlink:href="/idmef_parser/IDMEFv2/Action.html" xlink:title="The Action class is used to describe any actions taken by the analyzer in response to the event. Is is represented in the IDMEF DTD as follows: ">
+<g id="a_node3_5"><a xlink:href="/html/IDMEFv2/Action.html" xlink:title="The Action class is used to describe any actions taken by the analyzer in response to the event. Is is represented in the IDMEF DTD as follows: ">
 <polygon fill="#cc401d" stroke="transparent" points="197,-93 197,-114 320,-114 320,-93 197,-93"/>
 <polygon fill="none" stroke="#000000" points="197,-93 197,-114 320,-114 320,-93 197,-93"/>
 <text text-anchor="start" x="239.5" y="-99.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Action</text>
 </a>
 </g>
-<g id="a_node3_6"><a xlink:href="/idmef_parser/IDMEFv2/Action.html" xlink:title="The default value is &quot;other&quot;. &#160;(See also Section 10.)">
+<g id="a_node3_6"><a xlink:href="/html/IDMEFv2/Action.html" xlink:title="The default value is &quot;other&quot;. &#160;(See also Section 10.)">
 <polygon fill="#ff5024" stroke="transparent" points="197,-72 197,-93 320,-93 320,-72 197,-72"/>
 <polygon fill="none" stroke="#000000" points="197,-72 197,-93 320,-93 320,-72 197,-72"/>
 <text text-anchor="start" x="200" y="-78.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] category ()</text>
@@ -80,13 +80,13 @@
 <!-- Confidence -->
 <g id="node4" class="node">
 <title>Confidence</title>
-<g id="a_node4_7"><a xlink:href="/idmef_parser/IDMEFv2/Confidence.html" xlink:title="The Confidence class is used to represent the analyzer&#39;s best estimate of the validity of its analysis. It is represented in the IDMEF DTD as follows: ">
+<g id="a_node4_7"><a xlink:href="/html/IDMEFv2/Confidence.html" xlink:title="The Confidence class is used to represent the analyzer&#39;s best estimate of the validity of its analysis. It is represented in the IDMEF DTD as follows: ">
 <polygon fill="#cc401d" stroke="transparent" points="206,-25 206,-46 311,-46 311,-25 206,-25"/>
 <polygon fill="none" stroke="#000000" points="206,-25 206,-46 311,-46 311,-25 206,-25"/>
 <text text-anchor="start" x="224" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Confidence</text>
 </a>
 </g>
-<g id="a_node4_8"><a xlink:href="/idmef_parser/IDMEFv2/Confidence.html" xlink:title="also Section 10.)">
+<g id="a_node4_8"><a xlink:href="/html/IDMEFv2/Confidence.html" xlink:title="also Section 10.)">
 <polygon fill="#ff5024" stroke="transparent" points="206,-4 206,-25 311,-25 311,-4 206,-4"/>
 <polygon fill="none" stroke="#000000" points="206,-4 206,-25 311,-25 311,-4 206,-4"/>
 <text text-anchor="start" x="209" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] rating ()</text>

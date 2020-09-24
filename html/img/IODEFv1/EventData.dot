@@ -1,0 +1,258 @@
+digraph EventData {
+	graph [bb="0,0,1356,1567",
+		rankdir=LR
+	];
+	node [label="\N"];
+	EventData	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/EventData.html" TITLE="The EventData class describes a particular event of the incident for a given set of hosts or networks. This description includes the systems from which the activity originated and those targeted, an assessment of the techniques used by the intruder, the impact of the activity on the organization, and any forensic evidence discovered. "><FONT FACE="Nimbus Sans L">EventData</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/EventData.html" TITLE="A free-form textual description of the event."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/EventData.html" TITLE="The time the event was detected."><FONT FACE="Nimbus Sans L">[] DetectTime (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/EventData.html" TITLE="The time the event started."><FONT FACE="Nimbus Sans L">[] StartTime (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/EventData.html" TITLE="The time the event ended."><FONT FACE="Nimbus Sans L">[] EndTime (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/EventData.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="106,793.5",
+		shape=plaintext,
+		width=2.9444];
+	EventData -> EventData	 [label="0..*",
+		lp="106,886",
+		pos="e,129.03,860.84 82.974,860.84 86.417,871.34 94.092,878.5 106,878.5 114,878.5 120.09,875.27 124.27,869.96"];
+	Contact	 [height=3.3194,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Contact.html" TITLE="The Contact class describes contact information for organizations and personnel involved in the incident. This class allows for the naming of the involved party, specifying contact information for them, and identifying their role in the incident. "><FONT FACE="Nimbus Sans L">Contact</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Contact.html" TITLE="The name of the contact.  The contact may either be an organization or a person.  The type attribute disambiguates the semantics."><FONT FACE="Nimbus Sans L">[ML_STRING] ContactName (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Contact.html" TITLE="A free-form description of this contact.  In the case of a person, this is often the organizational title of the individual."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Contact.html" TITLE="The telephone number of the contact."><FONT FACE="Nimbus Sans L">[] Telephone (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Contact.html" TITLE="The facsimile telephone number of the contact."><FONT FACE="Nimbus Sans L">[] Fax (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Contact.html" TITLE="The timezone in which the contact resides formatted according to Section 2.9."><FONT FACE="Nimbus Sans L">[TIMEZONE] Timezone (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Contact.html" TITLE="Indicates the role the contact fulfills.  This attribute is defined as an enumerated list:"><FONT FACE="Nimbus Sans L">[ENUM] role (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Contact.html" TITLE="A means by which to extend the role attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-role (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Contact.html" TITLE="Indicates the type of contact being described. This attribute is defined as an enumerated list:"><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Contact.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Contact.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="665,1347.5",
+		shape=plaintext,
+		width=3.1944];
+	EventData -> Contact	 [label="0..*",
+		lp="377,1339",
+		pos="e,549.76,1342.7 112.13,860.76 124.64,958 161.9,1137.2 271,1237.5 343.91,1304.6 454.33,1331.2 539.74,1341.6"];
+	AdditionalData	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/AdditionalData.html" TITLE="The AdditionalData class serves as an extension mechanism for information not otherwise represented in the data model. For relatively simple information, atomic data types (e.g., integers, strings) are provided with a mechanism to annotate their meaning. The class can also be used to extend the data model (and the associated Schema) to support proprietary extensions by encapsulating entire XML documents conforming to another Schema (e.g., IDMEF). A detailed discussion for extending the data model and the schema can be found in Section 5. "><FONT FACE="Nimbus Sans L">AdditionalData</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/AdditionalData.html" TITLE="The data type of the element content.  The permitted values for this attribute are shown below.  The default value is &quot;string&quot;."><FONT FACE="Nimbus Sans L">[ENUM] dtype (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/AdditionalData.html" TITLE="A means by which to extend the dtype attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-dtype (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/AdditionalData.html" TITLE="A free-form description of the element content."><FONT FACE="Nimbus Sans L">[STRING] meaning (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/AdditionalData.html" TITLE="An identifier referencing the format and semantics of the element content."><FONT FACE="Nimbus Sans L">[STRING] formatid (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/AdditionalData.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="961,734.5",
+		shape=plaintext,
+		width=2.8194];
+	EventData -> AdditionalData	 [label="0..*",
+		lp="512.5,781",
+		pos="e,859.06,745.7 212.15,788.84 346.4,782.55 584.59,770.08 788,752.5 807.69,750.8 828.62,748.79 848.86,746.74"];
+	Assessment	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Assessment.html" TITLE="The Assessment class describes the technical and non-technical repercussions of the incident on the CSIRT&#39;s constituency. "><FONT FACE="Nimbus Sans L">Assessment</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Assessment.html" TITLE="Specifies whether the assessment is describing actual or potential outcomes.  The default is &quot;actual&quot; and is assumed if not specified."><FONT FACE="Nimbus Sans L">[ENUM] occurrence (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Assessment.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="665,976.5",
+		shape=plaintext,
+		width=2.8472];
+	EventData -> Assessment	 [label="0..1",
+		lp="377,923",
+		pos="e,562.12,942.82 212.13,828.24 309.43,860.1 453.05,907.11 552.35,939.62"];
+	Method	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Method.html" TITLE="The Method class describes the methodology used by the intruder to perpetrate the events of the incident. This class consists of a list of references describing the attack method and a free form description of the technique. "><FONT FACE="Nimbus Sans L">Method</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Method.html" TITLE="A free-form text description of the methodology used by the intruder."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Method.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="377,729.5",
+		shape=plaintext,
+		width=2.9444];
+	EventData -> Method	 [label="0..*",
+		lp="241.5,771",
+		pos="e,270.98,754.54 212.33,768.39 228.29,764.62 244.82,760.72 260.98,756.9"];
+	Flow	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Flow.html" TITLE="The Flow class groups related the source and target hosts. "><FONT FACE="Nimbus Sans L">Flow</FONT></td> </tr>" %</table>>,
+		pos="377,601.5",
+		shape=plaintext,
+		width=0.75];
+	EventData -> Flow	 [label="0..*",
+		lp="241.5,711",
+		pos="e,351.58,619.51 200.78,726.35 250.17,691.36 307.52,650.73 343.04,625.56"];
+	Expectation	 [height=2.4444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Expectation.html" TITLE="The Expectation class conveys to the recipient of the IODEF document the actions the sender is requesting. The scope of the requested action is limited to purview of the EventData class in which this class is aggregated. "><FONT FACE="Nimbus Sans L">Expectation</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Expectation.html" TITLE="A free-form description of the desired action(s)."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Expectation.html" TITLE="The time at which the action should be performed.  A timestamp that is earlier than the ReportTime specified in the Incident class denotes that the expectation should be fulfilled as soon as possible.  The absence of this element leaves the execution of the expectation to the discretion of the recipient."><FONT FACE="Nimbus Sans L">[] StartTime (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Expectation.html" TITLE="The time by which the action should be completed. If the action is not carried out by this time, it should no longer be performed."><FONT FACE="Nimbus Sans L">[] EndTime (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Expectation.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Expectation.html" TITLE="Indicates the desired priority of the action. This attribute is an enumerated list with no default value, and the semantics of these relative measures are context dependent."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Expectation.html" TITLE="Classifies the type of action requested.  This attribute is an enumerated list with no default value."><FONT FACE="Nimbus Sans L">[ENUM] action (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Expectation.html" TITLE="A means by which to extend the action attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-action (Optional)</FONT></td></tr>%</table>>,
+		pos="377,1140.5",
+		shape=plaintext,
+		width=2.9444];
+	EventData -> Expectation	 [label="0..*",
+		lp="241.5,985",
+		pos="e,308.14,1052.3 158.57,860.82 199.29,912.96 256.25,985.89 301.79,1044.2"];
+	Record	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Record.html" TITLE="The Record class is a container class for log and audit data that provides supportive information about the incident. The source of this data will often be the output of monitoring tools. These logs should substantiate the activity described in the document. "><FONT FACE="Nimbus Sans L">Record</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Record.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="377,428.5",
+		shape=plaintext,
+		width=2.7361];
+	EventData -> Record	 [label="0..1",
+		lp="241.5,630",
+		pos="e,358.38,453.58 156.02,726.13 214.18,647.79 307.86,521.62 352.2,461.9"];
+	Contact -> Contact	 [label="0..*",
+		lp="665,1492.5",
+		pos="e,687.65,1467.2 642.35,1467.2 647.06,1478.1 654.61,1485 665,1485 672.14,1485 677.94,1481.8 682.4,1476.2"];
+	RegistryHandle	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/RegistryHandle.html" TITLE="The RegistryHandle class represents a handle into an Internet registry or community-specific database. The handle is specified in the element content and the type attribute specifies the database. "><FONT FACE="Nimbus Sans L">RegistryHandle</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/RegistryHandle.html" TITLE="The database to which the handle belongs.  The default value is &#39;local&#39;.  The possible values are:"><FONT FACE="Nimbus Sans L">[ENUM] registry (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RegistryHandle.html" TITLE="A means by which to extend the registry attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-registry (Optional)</FONT></td></tr>%</table>>,
+		pos="961,1531.5",
+		shape=plaintext,
+		width=2.9861];
+	Contact -> RegistryHandle	 [label="0..*",
+		lp="817.5,1482",
+		pos="e,863.12,1495.9 780.04,1443.8 801.56,1459.5 824.41,1474.8 847,1487.5 849.35,1488.8 851.74,1490.1 854.17,1491.4"];
+	PostalAddress	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/PostalAddress.html" TITLE="The PostalAddress class specifies a postal address formatted according to the POSTAL data type (Section 2.11). "><FONT FACE="Nimbus Sans L">PostalAddress</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/PostalAddress.html" TITLE="A free-form description of the element content."><FONT FACE="Nimbus Sans L">[ENUM] meaning (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/PostalAddress.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Required)</FONT></td></tr>%</table>>,
+		pos="961,1442.5",
+		shape=plaintext,
+		width=2.6528];
+	Contact -> PostalAddress	 [label="0..1",
+		lp="817.5,1405",
+		pos="e,865.18,1411.7 780.29,1384.5 805.08,1392.5 831.16,1400.8 855.56,1408.7"];
+	Email	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Email.html" TITLE="The Email class specifies an email address formatted according to EMAIL data type (Section 2.14). "><FONT FACE="Nimbus Sans L">Email</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Email.html" TITLE="A free-form description of the element content (e.g., hours of coverage for a given number)."><FONT FACE="Nimbus Sans L">[ENUM] meaning (Optional)</FONT></td></tr>%</table>>,
+		pos="961,1363.5",
+		shape=plaintext,
+		width=2.6528];
+	Contact -> Email	 [label="0..*",
+		lp="817.5,1363",
+		pos="e,865.18,1358.3 780.29,1353.7 804.86,1355.1 830.7,1356.5 854.91,1357.8"];
+	Contact -> AdditionalData	 [label="0..*",
+		lp="817.5,1250",
+		pos="e,859.29,793.35 780.26,1272.2 799.75,1254.1 817.4,1233 829,1209.5 868.26,1129.9 803.37,887.79 847,810.5 848.78,807.35 850.75,804.3 \
+852.88,801.36"];
+	Assessment -> AdditionalData	 [label="0..*",
+		lp="817.5,848",
+		pos="e,859.42,801.05 700.86,940.78 736.56,905.94 793.61,852.26 847,810.5 848.38,809.42 849.78,808.33 851.2,807.25"];
+	Impact	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Impact.html" TITLE="The Impact class allows for categorizing and describing the technical impact of the incident on the network of an organization. "><FONT FACE="Nimbus Sans L">Impact</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Impact.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Impact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Impact.html" TITLE="An indication whether the described activity was successful.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] completion (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Impact.html" TITLE="Classifies the malicious activity into incident categories.  The permitted values are shown below.  The default value is &quot;other&quot;."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Impact.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%</table>>,
+		pos="961,1128.5",
+		shape=plaintext,
+		width=2.8333];
+	Assessment -> Impact	 [label="0..*",
+		lp="817.5,1065",
+		pos="e,858.94,1076.1 734.4,1012.1 768.73,1029.8 811,1051.5 849.7,1071.3"];
+	TimeImpact	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/TimeImpact.html" TITLE="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. "><FONT FACE="Nimbus Sans L">TimeImpact</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/TimeImpact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/TimeImpact.html" TITLE="Defines the metric in which the time is expressed.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] metric (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/TimeImpact.html" TITLE="A means by which to extend the metric attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-metric (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/TimeImpact.html" TITLE="Defines a unit of time, that when combined with the metric attribute, fully describes a metric of impact that will be conveyed in the element content.  The permitted values are shown below.  The default value is &quot;hour&quot;."><FONT FACE="Nimbus Sans L">[ENUM] duration (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/TimeImpact.html" TITLE="A means by which to extend the duration attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-duration (Optional)</FONT></td></tr>%</table>>,
+		pos="961,976.5",
+		shape=plaintext,
+		width=3.0417];
+	Assessment -> TimeImpact	 [label="0..*",
+		lp="817.5,984",
+		pos="e,851.43,976.5 767.7,976.5 791.47,976.5 816.97,976.5 841.4,976.5"];
+	MonetaryImpact	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/MonetaryImpact.html" TITLE="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished "><FONT FACE="Nimbus Sans L">MonetaryImpact</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/MonetaryImpact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/MonetaryImpact.html" TITLE="Defines the currency in which the monetary impact is expressed.  The permitted values are defined in ISO 4217:2001, Codes for the representation of currencies and funds [14].  There is no default value."><FONT FACE="Nimbus Sans L">[STRING] currency (Required)</FONT></td></tr>%</table>>,
+		pos="961,855.5",
+		shape=plaintext,
+		width=2.8333];
+	Assessment -> MonetaryImpact	 [label="0..*",
+		lp="817.5,925",
+		pos="e,870.4,891.08 749.13,940.97 779.87,928.09 814.96,913.51 847,900.5 851.51,898.67 856.12,896.81 860.78,894.93"];
+	Counter	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Counter.html" TITLE="The Counter class summarize multiple occurrences of some event, or conveys counts or rates on various features (e.g., packets, sessions, events). "><FONT FACE="Nimbus Sans L">Counter</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Counter.html" TITLE="Specifies the units of the element content."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Counter.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Counter.html" TITLE="If present, the Counter class represents a rate rather than a count over the entire event.  In that case, this attribute specifies the denominator of the rate (where the type attribute specified the nominator).  The possible values of this attribute are defined in Section 3.10.2"><FONT FACE="Nimbus Sans L">[ENUM] duration (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Counter.html" TITLE="A means by which to extend the duration attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-duration (Optional)</FONT></td></tr>%</table>>,
+		pos="1245,683.5",
+		shape=plaintext,
+		width=3.0417];
+	Assessment -> Counter	 [label="0..*",
+		lp="961,1321",
+		pos="e,1237.3,740.43 681.35,1012.2 715.35,1084.6 794.83,1244.2 847,1272.5 936.08,1320.8 994.02,1333.4 1075,1272.5 1159.2,1209.1 1214.9,\
+891.32 1235.8,750.65"];
+	Confidence	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Confidence.html" TITLE="The Confidence class represents a best estimate of the validity and accuracy of the described impact (see Section 3.10) of the incident activity. This estimate can be expressed as a category or a numeric calculation. "><FONT FACE="Nimbus Sans L">Confidence</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Confidence.html" TITLE="A rating of the analytical validity of the specified Assessment.  The permitted values are shown below. There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] rating (Required)</FONT></td></tr>%</table>>,
+		pos="961,1238.5",
+		shape=plaintext,
+		width=2.4444];
+	Assessment -> Confidence	 [label="0..1",
+		lp="817.5,1198",
+		pos="e,872.91,1218.2 684.09,1012.2 712.81,1062.5 771.84,1153.8 847,1204.5 852.22,1208 857.82,1211.2 863.63,1214"];
+	Method -> AdditionalData	 [label="0..*",
+		lp="665,741",
+		pos="e,859.09,733.63 483.1,730.41 586.63,731.29 743.55,732.64 849.04,733.54"];
+	Reference	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Reference.html" TITLE="The Reference class is a reference to a vulnerability, IDS alert, malware sample, advisory, or attack technique. A reference consists of a name, a URL to this reference, and an optional description. "><FONT FACE="Nimbus Sans L">Reference</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Reference.html" TITLE="Name of the reference."><FONT FACE="Nimbus Sans L">[ML_STRING] ReferenceName (1..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Reference.html" TITLE="A URL associated with the reference."><FONT FACE="Nimbus Sans L">[URL] URL (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Reference.html" TITLE="A free-form text description of this reference."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%</table>>,
+		pos="665,668.5",
+		shape=plaintext,
+		width=3.4167];
+	Method -> Reference	 [label="0..*",
+		lp="512.5,711",
+		pos="e,541.67,694.62 483.01,707.05 498.82,703.7 515.28,700.21 531.56,696.76"];
+	System	 [height=2.1528,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/System.html" TITLE="The System class describes a system or network involved in an event. The systems or networks represented by this class are categorized according to the role they played in the incident through the category attribute. The value of this category attribute dictates the semantics of the aggregated classes in the System class. If the category attribute has a value of &quot;source&quot;, then the aggregated classes denote the machine and service from which the activity is originating. With a category attribute value of &quot;target&quot; or &quot;intermediary&quot;, then the machine or service is the one targeted in the activity. A value of &quot;sensor&quot; dictates that this System was part of an instrumentation to monitor the network. "><FONT FACE="Nimbus Sans L">System</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/System.html" TITLE="A free-form text description of the System."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/System.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/System.html" TITLE="Classifies the role the host or network played in the incident.  The possible values are:"><FONT FACE="Nimbus Sans L">[ENUM] category (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/System.html" TITLE="A means by which to extend the category attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-category (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/System.html" TITLE="Specifies the interface on which the event(s) on this System originated.  If the Node class specifies a network rather than a host, this attribute has no meaning."><FONT FACE="Nimbus Sans L">[STRING] interface (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/System.html" TITLE="An indication of confidence in whether this System was the true target or attacking host.  The permitted values for this attribute are shown below.  The default value is &quot;unknown&quot;."><FONT FACE="Nimbus Sans L">[ENUM] spoofed (Optional)</FONT></td></tr>%</table>>,
+		pos="665,526.5",
+		shape=plaintext,
+		width=3.0833];
+	Flow -> System	 [label="1..*",
+		lp="512.5,576",
+		pos="e,553.8,555.46 404.09,594.44 436.26,586.07 492.07,571.53 543.85,558.05"];
+	System -> AdditionalData	 [label="0..*",
+		lp="817.5,676",
+		pos="e,859.38,689.5 776.26,601.07 780.38,605.11 784.31,609.25 788,613.5 799.47,626.71 793.83,635.94 806,648.5 819.04,661.96 834.64,673.88 \
+850.86,684.23"];
+	System -> Counter	 [label="0..*",
+		lp="961,651",
+		pos="e,1135.3,655.21 769.4,604.11 781.32,610.51 793.64,616.18 806,620.5 919.26,660.14 956.51,624.6 1075,643.5 1091.4,646.12 1108.6,649.44 \
+1125.4,653.06"];
+	"Node"	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Node.html" TITLE="The Node class names a system (e.g., PC, router) or network. "><FONT FACE="Nimbus Sans L">Node</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Node.html" TITLE="The name of the Node (e.g., fully qualified domain name).  This information MUST be provided if no Address information is given."><FONT FACE="Nimbus Sans L">[ML_STRING] NodeName (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Node.html" TITLE="A free-from description of the physical location of the equipment."><FONT FACE="Nimbus Sans L">[ML_STRING] Location (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Node.html" TITLE="A timestamp of when the resolution between the name and address was performed.  This information SHOULD be provided if both an Address and NodeName are specified."><FONT FACE="Nimbus Sans L">[] DateTime (0..1)</FONT></td></tr>%</table>>,
+		pos="961,552.5",
+		shape=plaintext,
+		width=2.9583];
+	System -> "Node"	 [label="1..1",
+		lp="817.5,548",
+		pos="e,854.22,543.12 776.06,536.26 798.25,538.2 821.63,540.26 844.01,542.22"];
+	Service	 [height=2.1528,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Service.html" TITLE="The Service class describes a network service of a host or network. The service is identified by specific port or list of ports, along with the application listening on that port. "><FONT FACE="Nimbus Sans L">Service</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Service.html" TITLE="A port number."><FONT FACE="Nimbus Sans L">[INTEGER] Port (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Service.html" TITLE="A list of port numbers formatted according to Section 2.10."><FONT FACE="Nimbus Sans L">[PORTLIST] Portlist (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Service.html" TITLE="A layer-4 protocol-specific code field (e.g., ICMP code field)."><FONT FACE="Nimbus Sans L">[INTEGER] ProtoCode (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Service.html" TITLE="A layer-4 protocol specific type field (e.g., ICMP type field)."><FONT FACE="Nimbus Sans L">[INTEGER] ProtoType (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Service.html" TITLE="A layer-4 protocol specific flag field (e.g., TCP flag field)."><FONT FACE="Nimbus Sans L">[INTEGER] ProtoFlags (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Service.html" TITLE="The IANA protocol number."><FONT FACE="Nimbus Sans L">[INTEGER] ip_protocol (Required)</FONT></td></tr>%</table>>,
+		pos="961,356.5",
+		shape=plaintext,
+		width=3.1667];
+	System -> Service	 [label="0..*",
+		lp="817.5,449",
+		pos="e,846.85,422.06 776.06,462.71 796.3,451.09 817.52,438.9 838.08,427.09"];
+	OperatingSystem	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/OperatingSystem.html" TITLE="The OperatingSystem class describes the operating system running on a System. The definition is identical to the Application class (Section 3.17.1). "><FONT FACE="Nimbus Sans L">OperatingSystem</FONT></td> </tr>" %</table>>,
+		pos="961,470.5",
+		shape=plaintext,
+		width=1.7778];
+	System -> OperatingSystem	 [label="0..1",
+		lp="817.5,506",
+		pos="e,896.65,482.67 776.06,505.49 812.93,498.51 853.07,490.92 886.5,484.59"];
+	"Node" -> Counter	 [label="0..*",
+		lp="1104.5,613",
+		pos="e,1149.1,626.93 1067.5,584.84 1084.1,591.02 1100.7,597.94 1116,605.5 1124.6,609.76 1125.9,612.37 1134,617.5 1136.2,618.86 1138.3,\
+620.23 1140.5,621.6"];
+	Address	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Address.html" TITLE="The Address class represents a hardware (layer-2), network (layer-3), or application (layer-7) address. "><FONT FACE="Nimbus Sans L">Address</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Address.html" TITLE="The type of address represented.  The permitted values for this attribute are shown below.  The default value is &quot;ipv4-addr&quot;."><FONT FACE="Nimbus Sans L">[ENUM] category (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Address.html" TITLE="A means by which to extend the category attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-category (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Address.html" TITLE="The name of the Virtual LAN to which the address belongs."><FONT FACE="Nimbus Sans L">[STRING] vlan-name (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Address.html" TITLE="The number of the Virtual LAN to which the address belongs."><FONT FACE="Nimbus Sans L">[STRING] vlan-num (Optional)</FONT></td></tr>%</table>>,
+		pos="1245,552.5",
+		shape=plaintext,
+		width=3.0833];
+	"Node" -> Address	 [label="0..*",
+		lp="1104.5,560",
+		pos="e,1133.6,552.5 1067.6,552.5 1085.8,552.5 1104.8,552.5 1123.3,552.5"];
+	NodeRole	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/NodeRole.html" TITLE="The NodeRole class describes the intended function performed by a particular host. "><FONT FACE="Nimbus Sans L">NodeRole</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/NodeRole.html" TITLE="Functionality provided by a node."><FONT FACE="Nimbus Sans L">[ENUM] category (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/NodeRole.html" TITLE="A means by which to extend the category attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-category (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/NodeRole.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Required)</FONT></td></tr>%</table>>,
+		pos="1245,431.5",
+		shape=plaintext,
+		width=3.0833];
+	"Node" -> NodeRole	 [label="0..*",
+		lp="1104.5,504",
+		pos="e,1136.9,477.56 1067.6,507.1 1087.1,498.76 1107.7,490.02 1127.5,481.55"];
+	Application	 [height=2.7361,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/Application.html" TITLE="The Application class describes an application running on a System providing a Service. "><FONT FACE="Nimbus Sans L">Application</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="A URL describing the application."><FONT FACE="Nimbus Sans L">[URL] URL (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="An identifier that can be used to reference this software."><FONT FACE="Nimbus Sans L">[STRING] swid (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="An identifier that can be used to reference a particular configuration of this software."><FONT FACE="Nimbus Sans L">[STRING] configid (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="Vendor name of the software."><FONT FACE="Nimbus Sans L">[STRING] vendor (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="Family of the software."><FONT FACE="Nimbus Sans L">[STRING] family (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="Name of the software."><FONT FACE="Nimbus Sans L">[STRING] name (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="Version of the software."><FONT FACE="Nimbus Sans L">[STRING] version (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/Application.html" TITLE="Patch or service pack level of the software."><FONT FACE="Nimbus Sans L">[STRING] patch (Optional)</FONT></td></tr>%</table>>,
+		pos="1245,257.5",
+		shape=plaintext,
+		width=2.7083];
+	Service -> Application	 [label="0..*",
+		lp="1104.5,318",
+		pos="e,1147.4,291.53 1075.3,316.66 1095.9,309.47 1117.3,302 1137.8,294.88"];
+	Expectation -> Contact	 [label="0..1",
+		lp="512.5,1251",
+		pos="e,549.52,1264.5 483.01,1216.7 501.96,1230.3 521.85,1244.6 541.24,1258.5"];
+	RecordData	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/RecordData.html" TITLE="The RecordData class groups log or audit data from a given sensor (e.g., IDS, firewall log) and provides a way to annotate the output. "><FONT FACE="Nimbus Sans L">RecordData</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/RecordData.html" TITLE="Timestamp of the RecordItem data."><FONT FACE="Nimbus Sans L">[] DateTime (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordData.html" TITLE="Free-form textual description of the provided RecordItem data.  At minimum, this description should convey the significance of the provided RecordItem data."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordData.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="665,245.5",
+		shape=plaintext,
+		width=2.9444];
+	Record -> RecordData	 [label="1..*",
+		lp="512.5,356",
+		pos="e,592.54,291.54 416.44,403.44 459.36,376.17 529.17,331.81 583.89,297.04"];
+	RecordData -> AdditionalData	 [label="0..1",
+		lp="817.5,636",
+		pos="e,859.66,667.44 702.05,291.57 730.25,329.14 767.58,384.76 788,439.5 806.85,490.03 791.09,507.67 806,559.5 818.6,603.3 818.26,618.12 \
+847,653.5 848.83,655.75 850.74,657.97 852.71,660.15"];
+	RecordData -> Application	 [label="0..1",
+		lp="961,262",
+		pos="e,1147.4,255.48 771.04,247.69 874.97,249.84 1032.6,253.1 1137.1,255.27"];
+	RecordPattern	 [height=2.1528,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/RecordPattern.html" TITLE="The RecordPattern class describes where in the content of the RecordItem relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. "><FONT FACE="Nimbus Sans L">RecordPattern</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="Describes the type of pattern being specified in the element content.  The default is &quot;regex&quot;."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="Amount of units (determined by the offsetunit attribute) to seek into the RecordItem data before matching the pattern."><FONT FACE="Nimbus Sans L">[INTEGER] offset (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="Describes the units of the offset attribute. The default is &quot;line&quot;."><FONT FACE="Nimbus Sans L">[ENUM] offsetunit (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="A means by which to extend the offsetunit attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-offsetunit (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv1/RecordPattern.html" TITLE="Number of types to apply the specified pattern."><FONT FACE="Nimbus Sans L">[INTEGER] instance (Optional)</FONT></td></tr>%</table>>,
+		pos="961,77.5",
+		shape=plaintext,
+		width=3.125];
+	RecordData -> RecordPattern	 [label="0..*",
+		lp="817.5,169",
+		pos="e,848.31,141.46 746.27,199.37 775.06,183.03 808.1,164.28 839.5,146.46"];
+	RecordItem	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv1/RecordItem.html" TITLE="The RecordItem class provides a way to incorporate relevant logs, audit trails, or forensic data to support the conclusions made during the course of analyzing the incident. The class supports both the direct encapsulation of the data, as well as, provides primitives to reference data stored elsewhere. "><FONT FACE="Nimbus Sans L">RecordItem</FONT></td> </tr>" %</table>>,
+		pos="961,191.5",
+		shape=plaintext,
+		width=1.2917];
+	RecordData -> RecordItem	 [label="1..*",
+		lp="817.5,224",
+		pos="e,914.45,198.47 771.15,223.16 782.9,220.84 794.69,218.57 806,216.5 838.5,210.54 874.97,204.62 904.37,200.04"];
+}

@@ -12,7 +12,7 @@
 <!-- MonetaryImpact -->
 <g id="node1" class="node">
 <title>MonetaryImpact</title>
-<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/MonetaryImpact.html" xlink:title="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished productivity of the staff, or a tarnished reputation that will affect future opportunities. ">
+<g id="a_node1_0"><a xlink:href="/html/IODEFv2/MonetaryImpact.html" xlink:title="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished productivity of the staff, or a tarnished reputation that will affect future opportunities. ">
 <polygon fill="#cecece" stroke="transparent" points="8.5,-7 8.5,-28 113.5,-28 113.5,-7 8.5,-7"/>
 <polygon fill="none" stroke="#000000" points="8.5,-7 8.5,-28 113.5,-28 113.5,-7 8.5,-7"/>
 <text text-anchor="start" x="11.5" y="-13.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">MonetaryImpact</text>

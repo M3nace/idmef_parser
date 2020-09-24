@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<title>IDMEF and IODEF</title>
+<link href='/html/css/bootstrap.min.css' rel='stylesheet'>
+<script src='/html/js/jquery.min.js'></script>
+<script src='/html/js/bootstrap.min.js'></script>
+</head>
+<body>
+<div class='navbar navbar-default navbar-inverse' role='navigation'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<a class='navbar-brand' href='/html' title='IDMEF and IODEF'>IDMEF and IODEF</a>
+</div>
+<div class='collapse navbar-collapse'>
+<ul class='nav navbar-nav'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IDMEFv1
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/html/IDMEFv1'>IDMEF-Message</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/html/IDMEFv1/Alert.html'>Alert</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Analyzer.html'>Analyzer</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Classification.html'>Classification</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/FileAccess.html'>FileAccess</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Heartbeat.html'>Heartbeat</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Linkage.html'>Linkage</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Source.html'>Source</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Target.html'>Target</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/User.html'>User</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IDMEFv2
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/html/IDMEFv2'>IDMEF-Message</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/html/IDMEFv2/Alert.html'>Alert</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Analyzer.html'>Analyzer</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Classification.html'>Classification</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/FileAccess.html'>FileAccess</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Heartbeat.html'>Heartbeat</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Linkage.html'>Linkage</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Source.html'>Source</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Target.html'>Target</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Transaction.html'>Transaction</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/User.html'>User</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IODEFv1
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/html/IODEFv1'>IODEF-Document</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/html/IODEFv1/AlternativeID.html'>AlternativeID</a>
+</li>
+<li class='active'>
+<a href='/html/IODEFv1/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Contact.html'>Contact</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/EventData.html'>EventData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Expectation.html'>Expectation</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Flow.html'>Flow</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/History.html'>History</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/HistoryItem.html'>HistoryItem</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Incident.html'>Incident</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Method.html'>Method</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Record.html'>Record</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/RecordData.html'>RecordData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/System.html'>System</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IODEFv2
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/html/IODEFv2'>IODEF-Document</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/html/IODEFv2/AlternativeID.html'>AlternativeID</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/AlternativeIndicatorID.html'>AlternativeIndicatorID</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/BulkObservable.html'>BulkObservable</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/BulkObservableFormat.html'>BulkObservableFormat</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/CertificateData.html'>CertificateData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Contact.html'>Contact</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Discovery.html'>Discovery</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/DomainContacts.html'>DomainContacts</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/DomainData.html'>DomainData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/EmailData.html'>EmailData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/EventData.html'>EventData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Expectation.html'>Expectation</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/FileData.html'>FileData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Flow.html'>Flow</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/HashData.html'>HashData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/History.html'>History</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/HistoryItem.html'>HistoryItem</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Incident.html'>Incident</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Indicator.html'>Indicator</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/IndicatorData.html'>IndicatorData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/IndicatorExpression.html'>IndicatorExpression</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Method.html'>Method</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Nameservers.html'>Nameservers</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Observable.html'>Observable</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Record.html'>Record</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/RecordData.html'>RecordData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/System.html'>System</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/WindowsRegistryKeysModified.html'>WindowsRegistryKeysModified</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='nav navbar-nav navbar-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+RFC
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/html/rfc4765.txt' target='_blank'>
+IDMEFv1 (4765)
+</a>
+</li>
+<li>
+<a>
+IDMEFv2 (no official RFC)
+</a>
+</li>
+<li>
+<a href='/html/rfc5070.txt' target='_blank'>
+IODEFv1 (5070)
+</a>
+</li>
+<li>
+<a href='/html/rfc7970.txt' target='_blank'>
+IODEFv2 (7970)
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<hr>
+<div class='container'>
+<h1>Assessment</h1>
+<p>The Assessment class describes the technical and non-technical repercussions of the incident on the CSIRT's constituency. </p>
+<ul class='nav nav-tabs' role='tablist'>
+<li class='active' role='presentation'>
+<a aria-control='svg' data-toggle='tab' href='#svg' role='tab'>SVG</a>
+</li>
+<li role='presentation'>
+<a aria-control='png' data-toggle='tab' href='#png' role='tab'>PNG</a>
+</li>
+<li role='presentation'>
+<a aria-control='dot' data-toggle='tab' href='#dot' role='tab'>DOT</a>
+</li>
+<li role='presentation'>
+<a aria-control='pdf' data-toggle='tab' href='#pdf' role='pdf'>PDF</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active' id='svg' role='tabpanel'>
+<div class='img-responsive block-center'>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (0)
+ -->
+<!-- Title: Assessment Pages: 1 -->
+<svg width="100%" height="100%"
+ viewBox="0.00 0.00 491.00 735.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 731)">
+<title>Assessment</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-731 487,-731 487,4 -4,4"/>
+<!-- Assessment -->
+<g id="node1" class="node">
+<title>Assessment</title>
+<g id="a_node1_0"><a xlink:href="/html/IODEFv1/Assessment.html" xlink:title="The Assessment class describes the technical and non&#45;technical repercussions of the incident on the CSIRT&#39;s constituency. ">
+<polygon fill="#cecece" stroke="transparent" points="8.5,-342 8.5,-363 197.5,-363 197.5,-342 8.5,-342"/>
+<polygon fill="none" stroke="#000000" points="8.5,-342 8.5,-363 197.5,-363 197.5,-342 8.5,-342"/>
+<text text-anchor="start" x="65.5" y="-348.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Assessment</text>
+</a>
+</g>
+<g id="a_node1_1"><a xlink:href="/html/IODEFv1/Assessment.html" xlink:title="Specifies whether the assessment is describing actual or potential outcomes. &#160;The default is &quot;actual&quot; and is assumed if not specified.">
+<polygon fill="none" stroke="#000000" points="8.5,-321 8.5,-342 197.5,-342 197.5,-321 8.5,-321"/>
+<text text-anchor="start" x="11.5" y="-327.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] occurrence (Optional)</text>
+</a>
+</g>
+<g id="a_node1_2"><a xlink:href="/html/IODEFv1/Assessment.html" xlink:title="This attribute is defined in Section 3.2.">
+<polygon fill="none" stroke="#000000" points="8.5,-300 8.5,-321 197.5,-321 197.5,-300 8.5,-300"/>
+<text text-anchor="start" x="15.5" y="-306.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
+</a>
+</g>
+</g>
+<!-- Impact -->
+<g id="node2" class="node">
+<title>Impact</title>
+<g id="a_node2_3"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="The Impact class allows for categorizing and describing the technical impact of the incident on the network of an organization. ">
+<polygon fill="#cecece" stroke="transparent" points="279.5,-702 279.5,-723 467.5,-723 467.5,-702 279.5,-702"/>
+<polygon fill="none" stroke="#000000" points="279.5,-702 279.5,-723 467.5,-723 467.5,-702 279.5,-702"/>
+<text text-anchor="start" x="352.5" y="-708.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Impact</text>
+</a>
+</g>
+<g id="a_node2_4"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;. &#160;The interpretation of this code is described in Section 6.">
+<polygon fill="none" stroke="#000000" points="279.5,-681 279.5,-702 467.5,-702 467.5,-681 279.5,-681"/>
+<text text-anchor="start" x="301" y="-687.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] lang (Required)</text>
+</a>
+</g>
+<g id="a_node2_5"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
+<polygon fill="none" stroke="#000000" points="279.5,-660 279.5,-681 467.5,-681 467.5,-660 279.5,-660"/>
+<text text-anchor="start" x="292" y="-666.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (Optional)</text>
+</a>
+</g>
+<g id="a_node2_6"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="An indication whether the described activity was successful. &#160;The permitted values are shown below. &#160;There is no default value.">
+<polygon fill="none" stroke="#000000" points="279.5,-639 279.5,-660 467.5,-660 467.5,-639 279.5,-639"/>
+<text text-anchor="start" x="282.5" y="-645.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] completion (Optional)</text>
+</a>
+</g>
+<g id="a_node2_7"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="Classifies the malicious activity into incident categories. &#160;The permitted values are shown below. &#160;The default value is &quot;other&quot;.">
+<polygon fill="none" stroke="#000000" points="279.5,-618 279.5,-639 467.5,-639 467.5,-618 279.5,-618"/>
+<text text-anchor="start" x="301" y="-624.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (Required)</text>
+</a>
+</g>
+<g id="a_node2_8"><a xlink:href="/html/IODEFv1/Impact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.">
+<polygon fill="none" stroke="#000000" points="279.5,-597 279.5,-618 467.5,-618 467.5,-597 279.5,-597"/>
+<text text-anchor="start" x="286.5" y="-603.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (Optional)</text>
+</a>
+</g>
+</g>
+<!-- Assessment&#45;&gt;Impact -->
+<g id="edge1" class="edge">
+<title>Assessment&#45;&gt;Impact</title>
+<path fill="none" stroke="#000000" d="M119.5873,-367.6366C145.6161,-419.4293 199.0893,-516.6556 264,-584 264.542,-584.5623 265.0887,-585.123 265.64,-585.682"/>
+<polygon fill="#000000" stroke="#000000" points="263.4245,-588.4087 273.0432,-592.8507 268.2939,-583.3799 263.4245,-588.4087"/>
+<text text-anchor="middle" x="234.5" y="-562.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- TimeImpact -->
+<g id="node3" class="node">
+<title>TimeImpact</title>
+<g id="a_node3_9"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. ">
+<polygon fill="#cecece" stroke="transparent" points="272.5,-550 272.5,-571 475.5,-571 475.5,-550 272.5,-550"/>
+<polygon fill="none" stroke="#000000" points="272.5,-550 272.5,-571 475.5,-571 475.5,-550 272.5,-550"/>
+<text text-anchor="start" x="337.5" y="-556.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">TimeImpact</text>
+</a>
+</g>
+<g id="a_node3_10"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
+<polygon fill="none" stroke="#000000" points="272.5,-529 272.5,-550 475.5,-550 475.5,-529 272.5,-529"/>
+<text text-anchor="start" x="292.5" y="-535.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (Optional)</text>
+</a>
+</g>
+<g id="a_node3_11"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="Defines the metric in which the time is expressed. &#160;The permitted values are shown below. &#160;There is no default value.">
+<polygon fill="none" stroke="#000000" points="272.5,-508 272.5,-529 475.5,-529 475.5,-508 272.5,-508"/>
+<text text-anchor="start" x="295.5" y="-514.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] metric (Required)</text>
+</a>
+</g>
+<g id="a_node3_12"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="A means by which to extend the metric attribute. &#160;See Section 5.1.">
+<polygon fill="none" stroke="#000000" points="272.5,-487 272.5,-508 475.5,-508 475.5,-487 272.5,-487"/>
+<text text-anchor="start" x="281" y="-493.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;metric (Optional)</text>
+</a>
+</g>
+<g id="a_node3_13"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="Defines a unit of time, that when combined with the metric attribute, fully describes a metric of impact that will be conveyed in the element content. &#160;The permitted values are shown below. &#160;The default value is &quot;hour&quot;.">
+<polygon fill="none" stroke="#000000" points="272.5,-466 272.5,-487 475.5,-487 475.5,-466 272.5,-466"/>
+<text text-anchor="start" x="289.5" y="-472.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] duration (Required)</text>
+</a>
+</g>
+<g id="a_node3_14"><a xlink:href="/html/IODEFv1/TimeImpact.html" xlink:title="A means by which to extend the duration attribute. &#160;See Section 5.1.">
+<polygon fill="none" stroke="#000000" points="272.5,-445 272.5,-466 475.5,-466 475.5,-445 272.5,-445"/>
+<text text-anchor="start" x="275.5" y="-451.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;duration (Optional)</text>
+</a>
+</g>
+</g>
+<!-- Assessment&#45;&gt;TimeImpact -->
+<g id="edge2" class="edge">
+<title>Assessment&#45;&gt;TimeImpact</title>
+<path fill="none" stroke="#000000" d="M157.3409,-367.6162C187.3378,-387.0976 225.6267,-411.9642 261.621,-435.3406"/>
+<polygon fill="#000000" stroke="#000000" points="259.9352,-438.4191 270.2281,-440.9304 263.7479,-432.5485 259.9352,-438.4191"/>
+<text text-anchor="middle" x="234.5" y="-423.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- MonetaryImpact -->
+<g id="node4" class="node">
+<title>MonetaryImpact</title>
+<g id="a_node4_15"><a xlink:href="/html/IODEFv1/MonetaryImpact.html" xlink:title="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished ">
+<polygon fill="#cecece" stroke="transparent" points="279.5,-397 279.5,-418 467.5,-418 467.5,-397 279.5,-397"/>
+<polygon fill="none" stroke="#000000" points="279.5,-397 279.5,-418 467.5,-418 467.5,-397 279.5,-397"/>
+<text text-anchor="start" x="324" y="-403.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">MonetaryImpact</text>
+</a>
+</g>
+<g id="a_node4_16"><a xlink:href="/html/IODEFv1/MonetaryImpact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
+<polygon fill="none" stroke="#000000" points="279.5,-376 279.5,-397 467.5,-397 467.5,-376 279.5,-376"/>
+<text text-anchor="start" x="292" y="-382.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (Optional)</text>
+</a>
+</g>
+<g id="a_node4_17"><a xlink:href="/html/IODEFv1/MonetaryImpact.html" xlink:title="Defines the currency in which the monetary impact is expressed. &#160;The permitted values are defined in ISO 4217:2001, Codes for the representation of currencies and funds [14]. &#160;There is no default value.">
+<polygon fill="none" stroke="#000000" points="279.5,-355 279.5,-376 467.5,-376 467.5,-355 279.5,-355"/>
+<text text-anchor="start" x="282.5" y="-361.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] currency (Required)</text>
+</a>
+</g>
+</g>
+<!-- Assessment&#45;&gt;MonetaryImpact -->
+<g id="edge3" class="edge">
+<title>Assessment&#45;&gt;MonetaryImpact</title>
+<path fill="none" stroke="#000000" d="M205.3399,-352.8716C223.6168,-356.5809 242.7367,-360.4613 261.2589,-364.2205"/>
+<polygon fill="#000000" stroke="#000000" points="260.6829,-367.6748 271.1793,-366.2338 262.0753,-360.8147 260.6829,-367.6748"/>
+<text text-anchor="middle" x="234.5" y="-362.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- Counter -->
+<g id="node5" class="node">
+<title>Counter</title>
+<g id="a_node5_18"><a xlink:href="/html/IODEFv1/Counter.html" xlink:title="The Counter class summarize multiple occurrences of some event, or conveys counts or rates on various features (e.g., packets, sessions, events). ">
+<polygon fill="#cecece" stroke="transparent" points="272.5,-308 272.5,-329 475.5,-329 475.5,-308 272.5,-308"/>
+<polygon fill="none" stroke="#000000" points="272.5,-308 272.5,-329 475.5,-329 475.5,-308 272.5,-308"/>
+<text text-anchor="start" x="349.5" y="-314.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Counter</text>
+</a>
+</g>
+<g id="a_node5_19"><a xlink:href="/html/IODEFv1/Counter.html" xlink:title="Specifies the units of the element content.">
+<polygon fill="none" stroke="#000000" points="272.5,-287 272.5,-308 475.5,-308 475.5,-287 272.5,-287"/>
+<text text-anchor="start" x="301.5" y="-293.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (Required)</text>
+</a>
+</g>
+<g id="a_node5_20"><a xlink:href="/html/IODEFv1/Counter.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.">
+<polygon fill="none" stroke="#000000" points="272.5,-266 272.5,-287 475.5,-287 475.5,-266 272.5,-266"/>
+<text text-anchor="start" x="287" y="-272.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;type (Optional)</text>
+</a>
+</g>
+<g id="a_node5_21"><a xlink:href="/html/IODEFv1/Counter.html" xlink:title="If present, the Counter class represents a rate rather than a count over the entire event. &#160;In that case, this attribute specifies the denominator of the rate (where the type attribute specified the nominator). &#160;The possible values of this attribute are defined in Section 3.10.2">
+<polygon fill="none" stroke="#000000" points="272.5,-245 272.5,-266 475.5,-266 475.5,-245 272.5,-245"/>
+<text text-anchor="start" x="291.5" y="-251.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] duration (Optional)</text>
+</a>
+</g>
+<g id="a_node5_22"><a xlink:href="/html/IODEFv1/Counter.html" xlink:title="A means by which to extend the duration attribute. &#160;See Section 5.1.">
+<polygon fill="none" stroke="#000000" points="272.5,-224 272.5,-245 475.5,-245 475.5,-224 272.5,-224"/>
+<text text-anchor="start" x="275.5" y="-230.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;duration (Optional)</text>
+</a>
+</g>
+</g>
+<!-- Assessment&#45;&gt;Counter -->
+<g id="edge4" class="edge">
+<title>Assessment&#45;&gt;Counter</title>
+<path fill="none" stroke="#000000" d="M205.3399,-311.1284C221.2117,-307.9072 237.7193,-304.557 253.919,-301.2692"/>
+<polygon fill="#000000" stroke="#000000" points="254.8534,-304.651 263.9575,-299.2319 253.4611,-297.7909 254.8534,-304.651"/>
+<text text-anchor="middle" x="234.5" y="-309.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- Confidence -->
+<g id="node6" class="node">
+<title>Confidence</title>
+<g id="a_node6_23"><a xlink:href="/html/IODEFv1/Confidence.html" xlink:title="The Confidence class represents a best estimate of the validity and accuracy of the described impact (see Section 3.10) of the incident activity. This estimate can be expressed as a category or a numeric calculation. ">
+<polygon fill="#cecece" stroke="transparent" points="293.5,-177 293.5,-198 453.5,-198 453.5,-177 293.5,-177"/>
+<polygon fill="none" stroke="#000000" points="293.5,-177 293.5,-198 453.5,-198 453.5,-177 293.5,-177"/>
+<text text-anchor="start" x="339" y="-183.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Confidence</text>
+</a>
+</g>
+<g id="a_node6_24"><a xlink:href="/html/IODEFv1/Confidence.html" xlink:title="A rating of the analytical validity of the specified Assessment. &#160;The permitted values are shown below. There is no default value.">
+<polygon fill="none" stroke="#000000" points="293.5,-156 293.5,-177 453.5,-177 453.5,-156 293.5,-156"/>
+<text text-anchor="start" x="296.5" y="-162.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] rating (Required)</text>
+</a>
+</g>
+</g>
+<!-- Assessment&#45;&gt;Confidence -->
+<g id="edge5" class="edge">
+<title>Assessment&#45;&gt;Confidence</title>
+<path fill="none" stroke="#000000" d="M142.4918,-296.3804C173.7439,-270.0662 219.2497,-234.9686 264,-212 268.0547,-209.9189 272.2573,-207.9306 276.5492,-206.035"/>
+<polygon fill="#000000" stroke="#000000" points="278.2034,-209.1363 286.0648,-202.0336 275.4899,-202.6836 278.2034,-209.1363"/>
+<text text-anchor="middle" x="234.5" y="-237.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..1</text>
+</g>
+<!-- AdditionalData -->
+<g id="node7" class="node">
+<title>AdditionalData</title>
+<g id="a_node7_25"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="The AdditionalData class serves as an extension mechanism for information not otherwise represented in the data model. For relatively simple information, atomic data types (e.g., integers, strings) are provided with a mechanism to annotate their meaning. The class can also be used to extend the data model (and the associated Schema) to support proprietary extensions by encapsulating entire XML documents conforming to another Schema (e.g., IDMEF). A detailed discussion for extending the data model and the schema can be found in Section 5. ">
+<polygon fill="#cecece" stroke="transparent" points="280.5,-109 280.5,-130 467.5,-130 467.5,-109 280.5,-109"/>
+<polygon fill="none" stroke="#000000" points="280.5,-109 280.5,-130 467.5,-130 467.5,-109 280.5,-109"/>
+<text text-anchor="start" x="330" y="-115.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">AdditionalData</text>
+</a>
+</g>
+<g id="a_node7_26"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="The data type of the element content. &#160;The permitted values for this attribute are shown below. &#160;The default value is &quot;string&quot;.">
+<polygon fill="none" stroke="#000000" points="280.5,-88 280.5,-109 467.5,-109 467.5,-88 280.5,-88"/>
+<text text-anchor="start" x="297.5" y="-94.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] dtype (Required)</text>
+</a>
+</g>
+<g id="a_node7_27"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="A means by which to extend the dtype attribute. &#160;See Section 5.1.">
+<polygon fill="none" stroke="#000000" points="280.5,-67 280.5,-88 467.5,-88 467.5,-67 280.5,-67"/>
+<text text-anchor="start" x="283.5" y="-73.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;dtype (Optional)</text>
+</a>
+</g>
+<g id="a_node7_28"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="A free&#45;form description of the element content.">
+<polygon fill="none" stroke="#000000" points="280.5,-46 280.5,-67 467.5,-67 467.5,-46 280.5,-46"/>
+<text text-anchor="start" x="284.5" y="-52.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] meaning (Optional)</text>
+</a>
+</g>
+<g id="a_node7_29"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="An identifier referencing the format and semantics of the element content.">
+<polygon fill="none" stroke="#000000" points="280.5,-25 280.5,-46 467.5,-46 467.5,-25 280.5,-25"/>
+<text text-anchor="start" x="286" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] formatid (Optional)</text>
+</a>
+</g>
+<g id="a_node7_30"><a xlink:href="/html/IODEFv1/AdditionalData.html" xlink:title="This attribute has been defined in Section 3.2.">
+<polygon fill="none" stroke="#000000" points="280.5,-4 280.5,-25 467.5,-25 467.5,-4 280.5,-4"/>
+<text text-anchor="start" x="286.5" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (Optional)</text>
+</a>
+</g>
+</g>
+<!-- Assessment&#45;&gt;AdditionalData -->
+<g id="edge6" class="edge">
+<title>Assessment&#45;&gt;AdditionalData</title>
+<path fill="none" stroke="#000000" d="M128.6442,-296.1644C158.7307,-256.2586 210.8612,-191.0562 264,-143 264.8152,-142.2627 265.6379,-141.5267 266.4675,-140.792"/>
+<polygon fill="#000000" stroke="#000000" points="268.8053,-143.3978 274.1047,-134.2235 264.2408,-138.0907 268.8053,-143.3978"/>
+<text text-anchor="middle" x="234.5" y="-184.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+</g>
+</svg>
+
+</div>
+</div>
+<div class='tab-pane' id='png' role='tabpanel'>
+<img class='img-responsive block-center' src='/html/img/IODEFv1/Assessment.png'>
+</div>
+<div class='tab-pane' id='dot' role='tabpanel'>
+<pre><p>digraph Assessment {
+	graph [bb=&quot;0,0,483,727&quot;,
+		rankdir=LR
+	];
+	node [label=&quot;\N&quot;];
+	Assessment	 [height=0.98611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv1/Assessment.html&quot; TITLE=&quot;The Assessment class describes the technical and non-technical repercussions of the incident on the CSIRT&amp;#39;s constituency. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Assessment&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Assessment.html&quot; TITLE=&quot;Specifies whether the assessment is describing actual or potential outcomes.  The default is &amp;quot;actual&amp;quot; and is assumed if not specified.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] occurrence (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Assessment.html&quot; TITLE=&quot;This attribute is defined in Section 3.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] restriction (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;102.5,332&quot;,
+		shape=plaintext,
+		width=2.8472];
+	Impact	 [height=1.8611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv1/Impact.html&quot; TITLE=&quot;The Impact class allows for categorizing and describing the technical impact of the incident on the network of an organization. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Impact&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Impact.html&quot; TITLE=&quot;A valid language code per RFC 4646 [7] constrained by the definition of &amp;quot;xs:language&amp;quot;.  The interpretation of this code is described in Section 6.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] lang (Required)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Impact.html&quot; TITLE=&quot;An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] severity (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Impact.html&quot; TITLE=&quot;An indication whether the described activity was successful.  The permitted values are shown below.  There is no default value.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] completion (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Impact.html&quot; TITLE=&quot;Classifies the malicious activity into incident categories.  The permitted values are shown below.  The default value is &amp;quot;other&amp;quot;.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] type (Required)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Impact.html&quot; TITLE=&quot;A means by which to extend the type attribute. See Section 5.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-type (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;373.5,660&quot;,
+		shape=plaintext,
+		width=2.8333];
+	Assessment -&gt; Impact	 [label=&quot;0..*&quot;,
+		lp=&quot;234.5,566.5&quot;,
+		pos=&quot;e,273.04,592.85 119.59,367.64 145.62,419.43 199.09,516.66 264,584 264.54,584.56 265.09,585.12 265.64,585.68&quot;];
+	TimeImpact	 [height=1.8611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv1/TimeImpact.html&quot; TITLE=&quot;The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;TimeImpact&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/TimeImpact.html&quot; TITLE=&quot;An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] severity (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/TimeImpact.html&quot; TITLE=&quot;Defines the metric in which the time is expressed.  The permitted values are shown below.  There is no default value.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] metric (Required)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/TimeImpact.html&quot; TITLE=&quot;A means by which to extend the metric attribute.  See Section 5.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-metric (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/TimeImpact.html&quot; TITLE=&quot;Defines a unit of time, that when combined with the metric attribute, fully describes a metric of impact that will be conveyed in the element content.  The permitted values are shown below.  The default value is &amp;quot;hour&amp;quot;.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] duration (Required)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/TimeImpact.html&quot; TITLE=&quot;A means by which to extend the duration attribute.  See Section 5.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-duration (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;373.5,508&quot;,
+		shape=plaintext,
+		width=3.0417];
+	Assessment -&gt; TimeImpact	 [label=&quot;0..*&quot;,
+		lp=&quot;234.5,427.5&quot;,
+		pos=&quot;e,270.23,440.93 157.34,367.62 187.34,387.1 225.63,411.96 261.62,435.34&quot;];
+	MonetaryImpact	 [height=0.98611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv1/MonetaryImpact.html&quot; TITLE=&quot;The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;MonetaryImpact&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/MonetaryImpact.html&quot; TITLE=&quot;An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] severity (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/MonetaryImpact.html&quot; TITLE=&quot;Defines the currency in which the monetary impact is expressed.  The permitted values are defined in ISO 4217:2001, Codes for the representation of currencies and funds [14].  There is no default value.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] currency (Required)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;373.5,387&quot;,
+		shape=plaintext,
+		width=2.8333];
+	Assessment -&gt; MonetaryImpact	 [label=&quot;0..*&quot;,
+		lp=&quot;234.5,366.5&quot;,
+		pos=&quot;e,271.18,366.23 205.34,352.87 223.62,356.58 242.74,360.46 261.26,364.22&quot;];
+	Counter	 [height=1.5694,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv1/Counter.html&quot; TITLE=&quot;The Counter class summarize multiple occurrences of some event, or conveys counts or rates on various features (e.g., packets, sessions, events). &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Counter&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Counter.html&quot; TITLE=&quot;Specifies the units of the element content.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] type (Required)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Counter.html&quot; TITLE=&quot;A means by which to extend the type attribute. See Section 5.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-type (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Counter.html&quot; TITLE=&quot;If present, the Counter class represents a rate rather than a count over the entire event.  In that case, this attribute specifies the denominator of the rate (where the type attribute specified the nominator).  The possible values of this attribute are defined in Section 3.10.2&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] duration (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Counter.html&quot; TITLE=&quot;A means by which to extend the duration attribute.  See Section 5.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-duration (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;373.5,277&quot;,
+		shape=plaintext,
+		width=3.0417];
+	Assessment -&gt; Counter	 [label=&quot;0..*&quot;,
+		lp=&quot;234.5,313.5&quot;,
+		pos=&quot;e,263.96,299.23 205.34,311.13 221.21,307.91 237.72,304.56 253.92,301.27&quot;];
+	Confidence	 [height=0.69444,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv1/Confidence.html&quot; TITLE=&quot;The Confidence class represents a best estimate of the validity and accuracy of the described impact (see Section 3.10) of the incident activity. This estimate can be expressed as a category or a numeric calculation. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Confidence&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/Confidence.html&quot; TITLE=&quot;A rating of the analytical validity of the specified Assessment.  The permitted values are shown below. There is no default value.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] rating (Required)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;373.5,177&quot;,
+		shape=plaintext,
+		width=2.4444];
+	Assessment -&gt; Confidence	 [label=&quot;0..1&quot;,
+		lp=&quot;234.5,241.5&quot;,
+		pos=&quot;e,286.06,202.03 142.49,296.38 173.74,270.07 219.25,234.97 264,212 268.05,209.92 272.26,207.93 276.55,206.04&quot;];
+	AdditionalData	 [height=1.8611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv1/AdditionalData.html&quot; TITLE=&quot;The AdditionalData class serves as an extension mechanism for information not otherwise represented in the data model. For relatively simple information, atomic data types (e.g., integers, strings) are provided with a mechanism to annotate their meaning. The class can also be used to extend the data model (and the associated Schema) to support proprietary extensions by encapsulating entire XML documents conforming to another Schema (e.g., IDMEF). A detailed discussion for extending the data model and the schema can be found in Section 5. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;AdditionalData&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/AdditionalData.html&quot; TITLE=&quot;The data type of the element content.  The permitted values for this attribute are shown below.  The default value is &amp;quot;string&amp;quot;.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] dtype (Required)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/AdditionalData.html&quot; TITLE=&quot;A means by which to extend the dtype attribute.  See Section 5.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-dtype (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/AdditionalData.html&quot; TITLE=&quot;A free-form description of the element content.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] meaning (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/AdditionalData.html&quot; TITLE=&quot;An identifier referencing the format and semantics of the element content.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] formatid (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv1/AdditionalData.html&quot; TITLE=&quot;This attribute has been defined in Section 3.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] restriction (Optional)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;373.5,67&quot;,
+		shape=plaintext,
+		width=2.8194];
+	Assessment -&gt; AdditionalData	 [label=&quot;0..*&quot;,
+		lp=&quot;234.5,188.5&quot;,
+		pos=&quot;e,274.1,134.22 128.64,296.16 158.73,256.26 210.86,191.06 264,143 264.82,142.26 265.64,141.53 266.47,140.79&quot;];
+}
+</p></pre>
+</div>
+<div class='tab-pane' id='pdf' role='tabpanel'>
+<iframe height='500px' src='/html/img/IODEFv1/Assessment.pdf' width='100%'></iframe>
+</div>
+</div>
+<hr>
+<h3>Aggregates</h3>
+<h4>
+<a href='/html/IODEFv1/Impact.html'>Impact</a>
+(0..*)
+</h4>
+<blockquote>
+Technical impact of the incident on a network.
+</blockquote>
+<h4>
+<a href='/html/IODEFv1/TimeImpact.html'>TimeImpact</a>
+(0..*)
+</h4>
+<blockquote>
+Impact of the activity measured with respect to time.
+</blockquote>
+<h4>
+<a href='/html/IODEFv1/MonetaryImpact.html'>MonetaryImpact</a>
+(0..*)
+</h4>
+<blockquote>
+Impact of the activity measured with respect to financial loss.
+</blockquote>
+<h4>
+<a href='/html/IODEFv1/Counter.html'>Counter</a>
+(0..*)
+</h4>
+<blockquote>
+A counter with which to summarize the magnitude of the activity.
+</blockquote>
+<h4>
+<a href='/html/IODEFv1/Confidence.html'>Confidence</a>
+(0..1)
+</h4>
+<blockquote>
+An estimate of confidence in the assessment.
+</blockquote>
+<h4>
+<a href='/html/IODEFv1/AdditionalData.html'>AdditionalData</a>
+(0..*)
+</h4>
+<blockquote>
+A mechanism by which to extend the data model.
+</blockquote>
+<hr>
+<h3>Attributes</h3>
+<h4>
+occurrence
+(Optional)
+</h4>
+<blockquote>
+Specifies whether the assessment is describing actual or potential outcomes.  The default is "actual" and is assumed if not specified.
+<table class='table table-striped table-bordered'>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Keyword</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>actual</td>
+<td>This assessment describes activity that has occurred.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>potential</td>
+<td>This assessment describes potential activity that might occur.</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<h4>
+restriction
+(Optional)
+</h4>
+<blockquote>
+This attribute is defined in Section 3.2.
+</blockquote>
+</div>
+
+<hr>
+<div class='container'>
+<hr>
+<h4>IDMEFv1</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv1/Action.html'>Action</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Address.html'>Address</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Alert.html'>Alert</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Analyzer.html'>Analyzer</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/AnalyzerTime.html'>AnalyzerTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Checksum.html'>Checksum</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv1/Classification.html'>Classification</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/CorrelationAlert.html'>CorrelationAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/CreateTime.html'>CreateTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/DetectTime.html'>DetectTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/File.html'>File</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/FileAccess.html'>FileAccess</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Heartbeat.html'>Heartbeat</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv1/IDMEF-Message.html'>IDMEF-Message</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Impact.html'>Impact</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Inode.html'>Inode</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Linkage.html'>Linkage</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Node.html'>Node</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/OverflowAlert.html'>OverflowAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Process.html'>Process</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Reference.html'>Reference</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv1/SNMPService.html'>SNMPService</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Service.html'>Service</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Source.html'>Source</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Target.html'>Target</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/ToolAlert.html'>ToolAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/User.html'>User</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/UserId.html'>UserId</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/WebService.html'>WebService</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IDMEFv2</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv2/Action.html'>Action</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Address.html'>Address</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Alert.html'>Alert</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Analyzer.html'>Analyzer</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/AnalyzerTime.html'>AnalyzerTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Checksum.html'>Checksum</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Classification.html'>Classification</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv2/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/CorrelationAlert.html'>CorrelationAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/CreateTime.html'>CreateTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/DetectTime.html'>DetectTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/File.html'>File</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/FileAccess.html'>FileAccess</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Heartbeat.html'>Heartbeat</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/IDMEF-Message.html'>IDMEF-Message</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Impact.html'>Impact</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv2/Inode.html'>Inode</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Linkage.html'>Linkage</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Node.html'>Node</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/OverflowAlert.html'>OverflowAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Process.html'>Process</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/SNMPService.html'>SNMPService</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Service.html'>Service</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Source.html'>Source</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv2/Stream.html'>Stream</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Target.html'>Target</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/ToolAlert.html'>ToolAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Transaction.html'>Transaction</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/User.html'>User</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/UserId.html'>UserId</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/WebService.html'>WebService</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IODEFv1</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv1/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Address.html'>Address</a>
+</li>
+<li>
+<a href='/html/IODEFv1/AlternativeID.html'>AlternativeID</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Application.html'>Application</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Contact.html'>Contact</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Counter.html'>Counter</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Email.html'>Email</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv1/EventData.html'>EventData</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Expectation.html'>Expectation</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Flow.html'>Flow</a>
+</li>
+<li>
+<a href='/html/IODEFv1/History.html'>History</a>
+</li>
+<li>
+<a href='/html/IODEFv1/HistoryItem.html'>HistoryItem</a>
+</li>
+<li>
+<a href='/html/IODEFv1/IODEF-Document.html'>IODEF-Document</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Impact.html'>Impact</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Incident.html'>Incident</a>
+</li>
+<li>
+<a href='/html/IODEFv1/IncidentID.html'>IncidentID</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv1/Method.html'>Method</a>
+</li>
+<li>
+<a href='/html/IODEFv1/MonetaryImpact.html'>MonetaryImpact</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Node.html'>Node</a>
+</li>
+<li>
+<a href='/html/IODEFv1/NodeRole.html'>NodeRole</a>
+</li>
+<li>
+<a href='/html/IODEFv1/OperatingSystem.html'>OperatingSystem</a>
+</li>
+<li>
+<a href='/html/IODEFv1/PostalAddress.html'>PostalAddress</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Record.html'>Record</a>
+</li>
+<li>
+<a href='/html/IODEFv1/RecordData.html'>RecordData</a>
+</li>
+<li>
+<a href='/html/IODEFv1/RecordItem.html'>RecordItem</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv1/RecordPattern.html'>RecordPattern</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/html/IODEFv1/RegistryHandle.html'>RegistryHandle</a>
+</li>
+<li>
+<a href='/html/IODEFv1/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Service.html'>Service</a>
+</li>
+<li>
+<a href='/html/IODEFv1/System.html'>System</a>
+</li>
+<li>
+<a href='/html/IODEFv1/TimeImpact.html'>TimeImpact</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IODEFv2</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv2/Address.html'>Address</a>
+</li>
+<li>
+<a href='/html/IODEFv2/AlternativeID.html'>AlternativeID</a>
+</li>
+<li>
+<a href='/html/IODEFv2/AlternativeIndicatorID.html'>AlternativeIndicatorID</a>
+</li>
+<li>
+<a href='/html/IODEFv2/ApplicationHeader.html'>ApplicationHeader</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/html/IODEFv2/AttackPhase.html'>AttackPhase</a>
+</li>
+<li>
+<a href='/html/IODEFv2/BulkObservable.html'>BulkObservable</a>
+</li>
+<li>
+<a href='/html/IODEFv2/BulkObservableFormat.html'>BulkObservableFormat</a>
+</li>
+<li>
+<a href='/html/IODEFv2/BusinessImpact.html'>BusinessImpact</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Campaign.html'>Campaign</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Certificate.html'>Certificate</a>
+</li>
+<li>
+<a href='/html/IODEFv2/CertificateData.html'>CertificateData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Contact.html'>Contact</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Counter.html'>Counter</a>
+</li>
+<li>
+<a href='/html/IODEFv2/DetectionPattern.html'>DetectionPattern</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv2/Discovery.html'>Discovery</a>
+</li>
+<li>
+<a href='/html/IODEFv2/DomainContacts.html'>DomainContacts</a>
+</li>
+<li>
+<a href='/html/IODEFv2/DomainData.html'>DomainData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Email.html'>Email</a>
+</li>
+<li>
+<a href='/html/IODEFv2/EmailData.html'>EmailData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/EventData.html'>EventData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Expectation.html'>Expectation</a>
+</li>
+<li>
+<a href='/html/IODEFv2/File.html'>File</a>
+</li>
+<li>
+<a href='/html/IODEFv2/FileData.html'>FileData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Flow.html'>Flow</a>
+</li>
+<li>
+<a href='/html/IODEFv2/FuzzyHash.html'>FuzzyHash</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Hash.html'>Hash</a>
+</li>
+<li>
+<a href='/html/IODEFv2/HashData.html'>HashData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/History.html'>History</a>
+</li>
+<li>
+<a href='/html/IODEFv2/HistoryItem.html'>HistoryItem</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IODEF-Document.html'>IODEF-Document</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv2/Incident.html'>Incident</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IncidentID.html'>IncidentID</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Indicator.html'>Indicator</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IndicatorData.html'>IndicatorData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IndicatorExpression.html'>IndicatorExpression</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IndicatorID.html'>IndicatorID</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IndicatorReference.html'>IndicatorReference</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Key.html'>Key</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Method.html'>Method</a>
+</li>
+<li>
+<a href='/html/IODEFv2/MonetaryImpact.html'>MonetaryImpact</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Nameservers.html'>Nameservers</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Node.html'>Node</a>
+</li>
+<li>
+<a href='/html/IODEFv2/NodeRole.html'>NodeRole</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Observable.html'>Observable</a>
+</li>
+<li>
+<a href='/html/IODEFv2/ObservableReference.html'>ObservableReference</a>
+</li>
+<li>
+<a href='/html/IODEFv2/PostalAddress.html'>PostalAddress</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv2/Record.html'>Record</a>
+</li>
+<li>
+<a href='/html/IODEFv2/RecordData.html'>RecordData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/RecordPattern.html'>RecordPattern</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/html/IODEFv2/RegistryHandle.html'>RegistryHandle</a>
+</li>
+<li>
+<a href='/html/IODEFv2/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Service.html'>Service</a>
+</li>
+<li>
+<a href='/html/IODEFv2/ServiceName.html'>ServiceName</a>
+</li>
+<li>
+<a href='/html/IODEFv2/SignatureData.html'>SignatureData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/System.html'>System</a>
+</li>
+<li>
+<a href='/html/IODEFv2/SystemImpact.html'>SystemImpact</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Telephone.html'>Telephone</a>
+</li>
+<li>
+<a href='/html/IODEFv2/ThreatActor.html'>ThreatActor</a>
+</li>
+<li>
+<a href='/html/IODEFv2/TimeImpact.html'>TimeImpact</a>
+</li>
+<li>
+<a href='/html/IODEFv2/WindowsRegistryKeysModified.html'>WindowsRegistryKeysModified</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</body>
+</html>

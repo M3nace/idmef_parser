@@ -1,8 +1,8 @@
 title: IDMEF and IODEF
-location: "idmef_parser"
+location: "html"
 links: {}
 generators:
-  IDMEF:
+  IDMEFv1:
     top_class: "IDMEF-Message"
     classes: "idmef/yaml"
     type: "yml"
@@ -11,7 +11,7 @@ generators:
     top_class: "IDMEF-Message"
     classes: "idmefv2/yaml"
     type: "yml"
-  IODEF:
+  IODEFv1:
     top_class: "IODEF-Document"
     classes: "iodef/yaml"
     type: "yml"

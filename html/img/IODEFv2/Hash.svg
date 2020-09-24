@@ -12,18 +12,18 @@
 <!-- Hash -->
 <g id="node1" class="node">
 <title>Hash</title>
-<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/Hash.html" xlink:title="The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. ">
+<g id="a_node1_0"><a xlink:href="/html/IODEFv2/Hash.html" xlink:title="The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. ">
 <polygon fill="#cecece" stroke="transparent" points="8,-45.5 8,-66.5 204,-66.5 204,-45.5 8,-45.5"/>
 <polygon fill="none" stroke="#000000" points="8,-45.5 8,-66.5 204,-66.5 204,-45.5 8,-45.5"/>
 <text text-anchor="start" x="90" y="-52.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Hash</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/idmef_parser/IODEFv2/Hash.html" xlink:title="The canonicalization method used on the object being hashed. &#160;See Section 4.3.1 of [W3C.XMLSIG].">
+<g id="a_node1_1"><a xlink:href="/html/IODEFv2/Hash.html" xlink:title="The canonicalization method used on the object being hashed. &#160;See Section 4.3.1 of [W3C.XMLSIG].">
 <polygon fill="none" stroke="#000000" points="8,-24.5 8,-45.5 204,-45.5 204,-24.5 8,-24.5"/>
 <text text-anchor="start" x="82.5" y="-31.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] &#160;(0..1)</text>
 </a>
 </g>
-<g id="a_node1_2"><a xlink:href="/idmef_parser/IODEFv2/Hash.html" xlink:title="The application used to calculate the hash.">
+<g id="a_node1_2"><a xlink:href="/html/IODEFv2/Hash.html" xlink:title="The application used to calculate the hash.">
 <polygon fill="none" stroke="#000000" points="8,-3.5 8,-24.5 204,-24.5 204,-3.5 8,-3.5"/>
 <text text-anchor="start" x="11" y="-10.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
 </a>
