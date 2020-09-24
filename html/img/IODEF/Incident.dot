@@ -1,341 +1,339 @@
 digraph Incident {
-	graph [bb="0,0,1808,1690.5",
+	graph [bb="0,0,1808,1600.5",
 		rankdir=LR
 	];
 	node [label="\N"];
 	Incident	 [height=3.0278,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#7aa300" HREF="/idmef_parser/IODEF/Incident.html" TITLE="Every incident is represented by an instance of the Incident class. This class provides a standardized representation for commonly exchanged incident data. "><FONT FACE="Nimbus Sans L">Incident</FONT></td> </tr>" %<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/Incident.html" TITLE="The time the incident was first detected."><FONT FACE="Nimbus Sans L">[] DetectTime (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/Incident.html" TITLE="The time the incident started."><FONT FACE="Nimbus Sans L">[] StartTime (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/Incident.html" TITLE="The time the incident ended."><FONT FACE="Nimbus Sans L">[] EndTime (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/Incident.html" TITLE="The time the incident was reported."><FONT FACE="Nimbus Sans L">[] ReportTime (1..1)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/Incident.html" TITLE="A free-form textual description of the incident."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/Incident.html" TITLE="The purpose attribute represents the reason why the IODEF document was created.  It is closely related to the Expectation class (Section 3.13).  This attribute is defined as an enumerated list:"><FONT FACE="Nimbus Sans L">[ENUM] purpose (Required)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/Incident.html" TITLE="A means by which to extend the purpose attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-purpose (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/Incident.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/Incident.html" TITLE="This attribute indicates the disclosure guidelines to which the sender expects the recipient to adhere for the information represented in this class and its children.  This guideline provides no security since there are no specified technical means to ensure that the recipient of the document handles the information as the sender requested."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="109.5,1361.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Incident.html" TITLE="Every incident is represented by an instance of the Incident class. This class provides a standardized representation for commonly exchanged incident data. "><FONT FACE="Nimbus Sans L">Incident</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Incident.html" TITLE="The time the incident was first detected."><FONT FACE="Nimbus Sans L">[] DetectTime (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Incident.html" TITLE="The time the incident started."><FONT FACE="Nimbus Sans L">[] StartTime (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Incident.html" TITLE="The time the incident ended."><FONT FACE="Nimbus Sans L">[] EndTime (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Incident.html" TITLE="The time the incident was reported."><FONT FACE="Nimbus Sans L">[] ReportTime (1..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Incident.html" TITLE="A free-form textual description of the incident."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Incident.html" TITLE="The purpose attribute represents the reason why the IODEF document was created.  It is closely related to the Expectation class (Section 3.13).  This attribute is defined as an enumerated list:"><FONT FACE="Nimbus Sans L">[ENUM] purpose (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Incident.html" TITLE="A means by which to extend the purpose attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-purpose (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Incident.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Incident.html" TITLE="This attribute indicates the disclosure guidelines to which the sender expects the recipient to adhere for the information represented in this class and its children.  This guideline provides no security since there are no specified technical means to ensure that the recipient of the document handles the information as the sender requested."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="109.5,1303.5",
 		shape=plaintext,
 		width=3.0417];
 	IncidentID	 [height=1.2778,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#7aa300" HREF="/idmef_parser/IODEF/IncidentID.html" TITLE="The IncidentID class represents an incident tracking number that is unique in the context of the CSIRT and identifies the activity characterized in an IODEF Document. This identifier would serve as an index into the CSIRT incident handling system. The combination of the name attribute and the string in the element content MUST be a globally unique identifier describing the activity. Documents generated by a given CSIRT MUST NOT reuse the same value unless they are referencing the same incident. "><FONT FACE="Nimbus Sans L">IncidentID</FONT></td> </tr>" %<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/IncidentID.html" TITLE="An identifier describing the CSIRT that created the document.  In order to have a globally unique CSIRT name, the fully qualified domain name associated with the CSIRT MUST be used."><FONT FACE="Nimbus Sans L">[STRING] name (Required)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/IncidentID.html" TITLE="An identifier referencing a subset of the named incident."><FONT FACE="Nimbus Sans L">[STRING] instance (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/IncidentID.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="1117,1602.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/IncidentID.html" TITLE="The IncidentID class represents an incident tracking number that is unique in the context of the CSIRT and identifies the activity characterized in an IODEF Document. This identifier would serve as an index into the CSIRT incident handling system. The combination of the name attribute and the string in the element content MUST be a globally unique identifier describing the activity. Documents generated by a given CSIRT MUST NOT reuse the same value unless they are referencing the same incident. "><FONT FACE="Nimbus Sans L">IncidentID</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/IncidentID.html" TITLE="An identifier describing the CSIRT that created the document.  In order to have a globally unique CSIRT name, the fully qualified domain name associated with the CSIRT MUST be used."><FONT FACE="Nimbus Sans L">[STRING] name (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/IncidentID.html" TITLE="An identifier referencing a subset of the named incident."><FONT FACE="Nimbus Sans L">[STRING] instance (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/IncidentID.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="1117,1544.5",
 		shape=plaintext,
 		width=2.7639];
 	Incident -> IncidentID	 [label="1..1",
-		lp="606.5,1652",
-		pos="e,1017.5,1619.4 184.24,1470.7 210.68,1502.8 242.72,1535.4 278,1558.5 367.68,1617.3 402.02,1615.1 508,1631.5 681.09,1658.3 884.86,\
-1638.3 1007.3,1620.9"];
+		lp="606.5,1593",
+		pos="e,1017.5,1561.2 182.62,1412.6 209.27,1445.5 241.85,1479 278,1502.5 367.69,1560.8 402.21,1557.6 508,1573.5 681.19,1599.6 884.93,1579.9 \
+1007.4,1562.6"];
 	AlternativeID	 [height=0.69444,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#7aa300" HREF="/idmef_parser/IODEF/AlternativeID.html" TITLE="The AlternativeID class lists the incident tracking numbers used by CSIRTs, other than the one generating the document, to refer to the identical activity described the IODEF document. A tracking number listed as an AlternativeID references the same incident detected by "><FONT FACE="Nimbus Sans L">AlternativeID</FONT></td> </tr>" %<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/AlternativeID.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="606.5,1598.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/AlternativeID.html" TITLE="The AlternativeID class lists the incident tracking numbers used by CSIRTs, other than the one generating the document, to refer to the identical activity described the IODEF document. A tracking number listed as an AlternativeID references the same incident detected by "><FONT FACE="Nimbus Sans L">AlternativeID</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/AlternativeID.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="606.5,1540.5",
 		shape=plaintext,
 		width=2.7361];
 	Incident -> AlternativeID	 [label="0..1",
-		lp="248.5,1500",
-		pos="e,507.81,1585 219.03,1464.2 225.02,1469.1 231.04,1473.9 237,1478.5 313.24,1536.9 419,1567.5 497.85,1583.1"];
+		lp="248.5,1444",
+		pos="e,507.61,1527.9 219.32,1408.3 225.22,1413.2 231.13,1418 237,1422.5 312.88,1481.2 418.68,1511.1 497.63,1526.1"];
 	RelatedActivity	 [height=0.98611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#7aa300" HREF="/idmef_parser/IODEF/RelatedActivity.html" TITLE="The RelatedActivity class lists either incident tracking numbers of incidents or URLs (not both) that refer to activity related to the one described in the IODEF document. These references may be to local incident tracking numbers or to those of other CSIRTs. "><FONT FACE="Nimbus Sans L">RelatedActivity</FONT></td> </tr>" %<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/RelatedActivity.html" TITLE="A URL to activity related to this incident."><FONT FACE="Nimbus Sans L">[URL] URL (1..*)</FONT></td></tr>%<tr><td BGCOLOR="#99CC00"  HREF="/idmef_parser/IODEF/RelatedActivity.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="606.5,1519.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/RelatedActivity.html" TITLE="The RelatedActivity class lists either incident tracking numbers of incidents or URLs (not both) that refer to activity related to the one described in the IODEF document. These references may be to local incident tracking numbers or to those of other CSIRTs. "><FONT FACE="Nimbus Sans L">RelatedActivity</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/RelatedActivity.html" TITLE="A URL to activity related to this incident."><FONT FACE="Nimbus Sans L">[URL] URL (1..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/RelatedActivity.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="606.5,1461.5",
 		shape=plaintext,
 		width=2.7361];
 	Incident -> RelatedActivity	 [label="0..1",
-		lp="248.5,1467",
-		pos="e,507.91,1514.3 219.04,1439.1 238.04,1450 258.1,1460 278,1467.5 348.42,1493.9 432.25,1506.9 497.59,1513.3"];
+		lp="248.5,1411",
+		pos="e,507.85,1457.3 219.34,1383 238.22,1394 258.17,1404 278,1411.5 348.32,1438 432.15,1450.5 497.52,1456.4"];
 	Assessment	 [height=0.98611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc401d" HREF="/idmef_parser/IODEF/Assessment.html" TITLE="The Assessment class describes the technical and non-technical repercussions of the incident on the CSIRT&#39;s constituency. "><FONT FACE="Nimbus Sans L">Assessment</FONT></td> </tr>" %<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Assessment.html" TITLE="Specifies whether the assessment is describing actual or potential outcomes.  The default is &quot;actual&quot; and is assumed if not specified."><FONT FACE="Nimbus Sans L">[ENUM] occurrence (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Assessment.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="829,676.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Assessment.html" TITLE="The Assessment class describes the technical and non-technical repercussions of the incident on the CSIRT&#39;s constituency. "><FONT FACE="Nimbus Sans L">Assessment</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Assessment.html" TITLE="Specifies whether the assessment is describing actual or potential outcomes.  The default is &quot;actual&quot; and is assumed if not specified."><FONT FACE="Nimbus Sans L">[ENUM] occurrence (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Assessment.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="829,616.52",
 		shape=plaintext,
 		width=2.8472];
 	Incident -> Assessment	 [label="1..*",
-		lp="384,863",
-		pos="e,726.28,684.37 132.84,1252.4 163.18,1120.5 219.26,909.6 278,855.5 400.15,742.99 593.93,701.15 716.14,685.62"];
+		lp="384,806.02",
+		pos="e,726.25,625.02 132.98,1194.4 163.41,1062.8 219.54,852.63 278,798.52 400.07,685.53 593.88,642.58 716.11,626.33"];
 	AdditionalData	 [height=1.8611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca352" HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="The AdditionalData class serves as an extension mechanism for information not otherwise represented in the data model. For relatively simple information, atomic data types (e.g., integers, strings) are provided with a mechanism to annotate their meaning. The class can also be used to extend the data model (and the associated Schema) to support proprietary extensions by encapsulating entire XML documents conforming to another Schema (e.g., IDMEF). A detailed discussion for extending the data model and the schema can be found in Section 5. "><FONT FACE="Nimbus Sans L">AdditionalData</FONT></td> </tr>" %<tr><td BGCOLOR="#FFCC66"  HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="The data type of the element content.  The permitted values for this attribute are shown below.  The default value is &quot;string&quot;."><FONT FACE="Nimbus Sans L">[ENUM] dtype (Required)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC66"  HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="A means by which to extend the dtype attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-dtype (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC66"  HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="A free-form description of the element content."><FONT FACE="Nimbus Sans L">[STRING] meaning (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC66"  HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="An identifier referencing the format and semantics of the element content."><FONT FACE="Nimbus Sans L">[STRING] formatid (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC66"  HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="1413,1000.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="The AdditionalData class serves as an extension mechanism for information not otherwise represented in the data model. For relatively simple information, atomic data types (e.g., integers, strings) are provided with a mechanism to annotate their meaning. The class can also be used to extend the data model (and the associated Schema) to support proprietary extensions by encapsulating entire XML documents conforming to another Schema (e.g., IDMEF). A detailed discussion for extending the data model and the schema can be found in Section 5. "><FONT FACE="Nimbus Sans L">AdditionalData</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="The data type of the element content.  The permitted values for this attribute are shown below.  The default value is &quot;string&quot;."><FONT FACE="Nimbus Sans L">[ENUM] dtype (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="A means by which to extend the dtype attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-dtype (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="A free-form description of the element content."><FONT FACE="Nimbus Sans L">[STRING] meaning (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="An identifier referencing the format and semantics of the element content."><FONT FACE="Nimbus Sans L">[STRING] formatid (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/AdditionalData.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="1413,957.52",
 		shape=plaintext,
 		width=2.8194];
 	Incident -> AdditionalData	 [label="0..*",
-		lp="829,340",
-		pos="e,1375.9,933.29 115.47,1252.4 132.92,987.53 195.18,332.5 384,332.5 384,332.5 384,332.5 1117,332.5 1172.3,332.5 1201,312.25 1240,\
-351.5 1303.3,415.25 1273.5,665.35 1299,751.5 1316.8,811.67 1346.6,875.99 1371.2,924.18"];
+		lp="829,282.02",
+		pos="e,1396,890.49 115.47,1194.4 132.92,929.55 195.18,274.52 384,274.52 384,274.52 384,274.52 1117,274.52 1172.3,274.52 1199,256.44 1240,\
+293.52 1245.6,298.55 1349.5,706.89 1393.5,880.64"];
 	Method	 [height=0.98611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#7a5229" HREF="/idmef_parser/IODEF/Method.html" TITLE="The Method class describes the methodology used by the intruder to perpetrate the events of the incident. This class consists of a list of references describing the attack method and a free form description of the technique. "><FONT FACE="Nimbus Sans L">Method</FONT></td> </tr>" %<tr><td BGCOLOR="#996633"  HREF="/idmef_parser/IODEF/Method.html" TITLE="A free-form text description of the methodology used by the intruder."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#996633"  HREF="/idmef_parser/IODEF/Method.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="829,928.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Method.html" TITLE="The Method class describes the methodology used by the intruder to perpetrate the events of the incident. This class consists of a list of references describing the attack method and a free form description of the technique. "><FONT FACE="Nimbus Sans L">Method</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Method.html" TITLE="A free-form text description of the methodology used by the intruder."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Method.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="829,870.52",
 		shape=plaintext,
 		width=2.9444];
 	Incident -> Method	 [label="0..*",
-		lp="384,948",
-		pos="e,722.8,897.74 121.18,1252.2 138.01,1153.5 178.9,1013 278,940.5 403.59,848.56 592.07,868.62 712.79,895.47"];
+		lp="384,891.02",
+		pos="e,722.75,839.96 121.42,1194.1 138.4,1095.7 179.39,955.97 278,883.52 403.44,791.35 591.95,811.07 712.72,837.7"];
 	Contact	 [height=3.3194,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#a3cc52" HREF="/idmef_parser/IODEF/Contact.html" TITLE="The Contact class describes contact information for organizations and personnel involved in the incident. This class allows for the naming of the involved party, specifying contact information for them, and identifying their role in the incident. "><FONT FACE="Nimbus Sans L">Contact</FONT></td> </tr>" %<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Contact.html" TITLE="The name of the contact.  The contact may either be an organization or a person.  The type attribute disambiguates the semantics."><FONT FACE="Nimbus Sans L">[ML_STRING] ContactName (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Contact.html" TITLE="A free-form description of this contact.  In the case of a person, this is often the organizational title of the individual."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Contact.html" TITLE="The telephone number of the contact."><FONT FACE="Nimbus Sans L">[] Telephone (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Contact.html" TITLE="The facsimile telephone number of the contact."><FONT FACE="Nimbus Sans L">[] Fax (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Contact.html" TITLE="The timezone in which the contact resides formatted according to Section 2.9."><FONT FACE="Nimbus Sans L">[TIMEZONE] Timezone (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Contact.html" TITLE="Indicates the role the contact fulfills.  This attribute is defined as an enumerated list:"><FONT FACE="Nimbus Sans L">[ENUM] role (Required)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Contact.html" TITLE="A means by which to extend the role attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-role (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Contact.html" TITLE="Indicates the type of contact being described. This attribute is defined as an enumerated list:"><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Contact.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Contact.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="1117,1369.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Contact.html" TITLE="The Contact class describes contact information for organizations and personnel involved in the incident. This class allows for the naming of the involved party, specifying contact information for them, and identifying their role in the incident. "><FONT FACE="Nimbus Sans L">Contact</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Contact.html" TITLE="The name of the contact.  The contact may either be an organization or a person.  The type attribute disambiguates the semantics."><FONT FACE="Nimbus Sans L">[ML_STRING] ContactName (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Contact.html" TITLE="A free-form description of this contact.  In the case of a person, this is often the organizational title of the individual."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Contact.html" TITLE="The telephone number of the contact."><FONT FACE="Nimbus Sans L">[] Telephone (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Contact.html" TITLE="The facsimile telephone number of the contact."><FONT FACE="Nimbus Sans L">[] Fax (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Contact.html" TITLE="The timezone in which the contact resides formatted according to Section 2.9."><FONT FACE="Nimbus Sans L">[TIMEZONE] Timezone (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Contact.html" TITLE="Indicates the role the contact fulfills.  This attribute is defined as an enumerated list:"><FONT FACE="Nimbus Sans L">[ENUM] role (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Contact.html" TITLE="A means by which to extend the role attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-role (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Contact.html" TITLE="Indicates the type of contact being described. This attribute is defined as an enumerated list:"><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Contact.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Contact.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="1117,1312.5",
 		shape=plaintext,
 		width=3.1944];
 	Incident -> Contact	 [label="1..*",
-		lp="606.5,1374",
-		pos="e,1002,1368.6 219.24,1362.4 407.97,1363.9 792.89,1366.9 991.79,1368.5"];
+		lp="606.5,1317",
+		pos="e,1002,1311.5 219.24,1304.5 407.97,1306.2 792.89,1309.6 991.79,1311.4"];
 	EventData	 [height=1.8611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#999999" HREF="/idmef_parser/IODEF/EventData.html" TITLE="The EventData class describes a particular event of the incident for a given set of hosts or networks. This description includes the systems from which the activity originated and those targeted, an assessment of the techniques used by the intruder, the impact of the activity on the organization, and any forensic evidence discovered. "><FONT FACE="Nimbus Sans L">EventData</FONT></td> </tr>" %<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/EventData.html" TITLE="A free-form textual description of the event."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/EventData.html" TITLE="The time the event was detected."><FONT FACE="Nimbus Sans L">[] DetectTime (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/EventData.html" TITLE="The time the event started."><FONT FACE="Nimbus Sans L">[] StartTime (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/EventData.html" TITLE="The time the event ended."><FONT FACE="Nimbus Sans L">[] EndTime (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/EventData.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="384,1031.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/EventData.html" TITLE="The EventData class describes a particular event of the incident for a given set of hosts or networks. This description includes the systems from which the activity originated and those targeted, an assessment of the techniques used by the intruder, the impact of the activity on the organization, and any forensic evidence discovered. "><FONT FACE="Nimbus Sans L">EventData</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/EventData.html" TITLE="A free-form textual description of the event."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/EventData.html" TITLE="The time the event was detected."><FONT FACE="Nimbus Sans L">[] DetectTime (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/EventData.html" TITLE="The time the event started."><FONT FACE="Nimbus Sans L">[] StartTime (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/EventData.html" TITLE="The time the event ended."><FONT FACE="Nimbus Sans L">[] EndTime (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/EventData.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="384,974.52",
 		shape=plaintext,
 		width=2.9444];
 	Incident -> EventData	 [label="0..*",
-		lp="248.5,1214",
-		pos="e,328.02,1098.8 200.52,1252.1 240.19,1204.4 285.69,1149.7 321.46,1106.7"];
+		lp="248.5,1157",
+		pos="e,328.02,1041.6 200.52,1194.4 240.19,1146.9 285.69,1092.3 321.46,1049.5"];
 	History	 [height=0.69444,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#008d40" HREF="/idmef_parser/IODEF/History.html" TITLE="The History class is a log of the significant events or actions performed by the involved parties during the course of handling the incident. "><FONT FACE="Nimbus Sans L">History</FONT></td> </tr>" %<tr><td BGCOLOR="#00B050"  HREF="/idmef_parser/IODEF/History.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="384,1433.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/History.html" TITLE="The History class is a log of the significant events or actions performed by the involved parties during the course of handling the incident. "><FONT FACE="Nimbus Sans L">History</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/History.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="384,1377.5",
 		shape=plaintext,
 		width=2.7361];
 	Incident -> History	 [label="0..1",
-		lp="248.5,1408",
-		pos="e,288.67,1408.5 219.17,1390.3 238.85,1395.4 259.31,1400.8 278.85,1405.9"];
+		lp="248.5,1351",
+		pos="e,290.85,1352.4 219.17,1333.1 239.58,1338.6 260.83,1344.3 281.03,1349.8"];
 	AlternativeID -> IncidentID	 [label="1..*",
-		lp="829,1609",
-		pos="e,1017.3,1601.7 705.23,1599.3 791.75,1600 917.34,1600.9 1007,1601.6"];
+		lp="829,1551",
+		pos="e,1017.3,1543.7 705.23,1541.3 791.75,1542 917.34,1543 1007,1543.7"];
 	RelatedActivity -> IncidentID	 [label="1..*",
-		lp="829,1580",
-		pos="e,1017.3,1586.3 705.23,1535.6 791.84,1549.6 917.6,1570.1 1007.3,1584.7"];
+		lp="829,1522",
+		pos="e,1017.3,1528.3 705.23,1477.6 791.84,1491.7 917.6,1512.1 1007.3,1526.7"];
 	Impact	 [height=1.8611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc401d" HREF="/idmef_parser/IODEF/Impact.html" TITLE="The Impact class allows for categorizing and describing the technical impact of the incident on the network of an organization. "><FONT FACE="Nimbus Sans L">Impact</FONT></td> </tr>" %<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Impact.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Required)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Impact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Impact.html" TITLE="An indication whether the described activity was successful.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] completion (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Impact.html" TITLE="Classifies the malicious activity into incident categories.  The permitted values are shown below.  The default value is &quot;other&quot;."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Impact.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%</table>>,
-		pos="1117,427.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Impact.html" TITLE="The Impact class allows for categorizing and describing the technical impact of the incident on the network of an organization. "><FONT FACE="Nimbus Sans L">Impact</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Impact.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Impact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Impact.html" TITLE="An indication whether the described activity was successful.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] completion (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Impact.html" TITLE="Classifies the malicious activity into incident categories.  The permitted values are shown below.  The default value is &quot;other&quot;."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Impact.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%</table>>,
+		pos="1117,369.52",
 		shape=plaintext,
 		width=2.8333];
 	Assessment -> Impact	 [label="0..*",
-		lp="964.5,546",
-		pos="e,1014.9,487.71 858.28,640.78 889.57,603.88 941.77,545.84 994,503.5 998.04,500.22 1002.2,496.98 1006.5,493.79"];
+		lp="964.5,488.02",
+		pos="e,1014.9,429.77 858.65,580.91 890.03,544.44 942.12,487.33 994,445.52 998.05,442.26 1002.2,439.02 1006.5,435.84"];
 	TimeImpact	 [height=1.8611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc401d" HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. "><FONT FACE="Nimbus Sans L">TimeImpact</FONT></td> </tr>" %<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="Defines the metric in which the time is expressed.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] metric (Required)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="A means by which to extend the metric attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-metric (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="Defines a unit of time, that when combined with the metric attribute, fully describes a metric of impact that will be conveyed in the element content.  The permitted values are shown below.  The default value is &quot;hour&quot;."><FONT FACE="Nimbus Sans L">[ENUM] duration (Required)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="A means by which to extend the duration attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-duration (Optional)</FONT></td></tr>%</table>>,
-		pos="1117,737.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. "><FONT FACE="Nimbus Sans L">TimeImpact</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="Defines the metric in which the time is expressed.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] metric (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="A means by which to extend the metric attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-metric (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="Defines a unit of time, that when combined with the metric attribute, fully describes a metric of impact that will be conveyed in the element content.  The permitted values are shown below.  The default value is &quot;hour&quot;."><FONT FACE="Nimbus Sans L">[ENUM] duration (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/TimeImpact.html" TITLE="A means by which to extend the duration attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-duration (Optional)</FONT></td></tr>%</table>>,
+		pos="1117,679.52",
 		shape=plaintext,
 		width=3.0417];
 	Assessment -> TimeImpact	 [label="0..*",
-		lp="964.5,715",
-		pos="e,1007.5,714.3 931.75,698.26 953.05,702.77 975.66,707.56 997.49,712.19"];
+		lp="964.5,656.02",
+		pos="e,1007.5,655.56 931.75,639 953.05,643.66 975.66,648.6 997.49,653.38"];
 	MonetaryImpact	 [height=0.98611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc401d" HREF="/idmef_parser/IODEF/MonetaryImpact.html" TITLE="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished "><FONT FACE="Nimbus Sans L">MonetaryImpact</FONT></td> </tr>" %<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/MonetaryImpact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/MonetaryImpact.html" TITLE="Defines the currency in which the monetary impact is expressed.  The permitted values are defined in ISO 4217:2001, Codes for the representation of currencies and funds [14].  There is no default value."><FONT FACE="Nimbus Sans L">[STRING] currency (Required)</FONT></td></tr>%</table>>,
-		pos="1117,616.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/MonetaryImpact.html" TITLE="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished "><FONT FACE="Nimbus Sans L">MonetaryImpact</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/MonetaryImpact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/MonetaryImpact.html" TITLE="Defines the currency in which the monetary impact is expressed.  The permitted values are defined in ISO 4217:2001, Codes for the representation of currencies and funds [14].  There is no default value."><FONT FACE="Nimbus Sans L">[STRING] currency (Required)</FONT></td></tr>%</table>>,
+		pos="1117,558.52",
 		shape=plaintext,
 		width=2.8333];
 	Assessment -> MonetaryImpact	 [label="0..*",
-		lp="964.5,658",
-		pos="e,1014.8,637.8 931.75,655.09 955.47,650.15 980.81,644.87 1004.9,639.86"];
+		lp="964.5,599.02",
+		pos="e,1014.8,579.11 931.75,595.83 955.47,591.05 980.81,585.95 1004.9,581.1"];
 	Counter	 [height=1.5694,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc401d" HREF="/idmef_parser/IODEF/Counter.html" TITLE="The Counter class summarize multiple occurrences of some event, or conveys counts or rates on various features (e.g., packets, sessions, events). "><FONT FACE="Nimbus Sans L">Counter</FONT></td> </tr>" %<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Counter.html" TITLE="Specifies the units of the element content."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Counter.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Counter.html" TITLE="If present, the Counter class represents a rate rather than a count over the entire event.  In that case, this attribute specifies the denominator of the rate (where the type attribute specified the nominator).  The possible values of this attribute are defined in Section 3.10.2"><FONT FACE="Nimbus Sans L">[ENUM] duration (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Counter.html" TITLE="A means by which to extend the duration attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-duration (Optional)</FONT></td></tr>%</table>>,
-		pos="1697,56.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Counter.html" TITLE="The Counter class summarize multiple occurrences of some event, or conveys counts or rates on various features (e.g., packets, sessions, events). "><FONT FACE="Nimbus Sans L">Counter</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Counter.html" TITLE="Specifies the units of the element content."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Counter.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Counter.html" TITLE="If present, the Counter class represents a rate rather than a count over the entire event.  In that case, this attribute specifies the denominator of the rate (where the type attribute specified the nominator).  The possible values of this attribute are defined in Section 3.10.2"><FONT FACE="Nimbus Sans L">[ENUM] duration (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Counter.html" TITLE="A means by which to extend the duration attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-duration (Optional)</FONT></td></tr>%</table>>,
+		pos="1697,79.52",
 		shape=plaintext,
 		width=3.0417];
 	Assessment -> Counter	 [label="0..*",
-		lp="1269.5,32",
-		pos="e,1587.3,33.479 842.69,640.97 865.01,581.78 909.34,458.86 935,351.5 947.13,300.76 938.64,285.66 953,235.5 965.77,190.9 960.22,171.3 \
-994,139.5 1150.5,-7.8388 1421.3,7.4123 1577.2,31.858"];
+		lp="1269.5,8.0196",
+		pos="e,1587.3,43.917 842.76,580.72 864.99,521.68 908.94,399.85 935,293.52 946.69,245.83 939.84,231.82 953,184.52 966.2,137.05 953.96,\
+110.24 994,81.52 1165.7,-41.592 1426.5,0.8473 1577.5,41.26"];
 	Confidence	 [height=0.69444,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc401d" HREF="/idmef_parser/IODEF/Confidence.html" TITLE="The Confidence class represents a best estimate of the validity and accuracy of the described impact (see Section 3.10) of the incident activity. This estimate can be expressed as a category or a numeric calculation. "><FONT FACE="Nimbus Sans L">Confidence</FONT></td> </tr>" %<tr><td BGCOLOR="#FF5024"  HREF="/idmef_parser/IODEF/Confidence.html" TITLE="A rating of the analytical validity of the specified Assessment.  The permitted values are shown below. There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] rating (Required)</FONT></td></tr>%</table>>,
-		pos="1117,537.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Confidence.html" TITLE="The Confidence class represents a best estimate of the validity and accuracy of the described impact (see Section 3.10) of the incident activity. This estimate can be expressed as a category or a numeric calculation. "><FONT FACE="Nimbus Sans L">Confidence</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Confidence.html" TITLE="A rating of the analytical validity of the specified Assessment.  The permitted values are shown below. There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] rating (Required)</FONT></td></tr>%</table>>,
+		pos="1117,479.52",
 		shape=plaintext,
 		width=2.4444];
 	Assessment -> Confidence	 [label="0..1",
-		lp="964.5,599",
-		pos="e,1028.9,558.42 876.67,640.78 908.52,618.3 952.11,590.12 994,571.5 1002,567.94 1010.5,564.66 1019.1,561.67"];
+		lp="964.5,540.02",
+		pos="e,1028.9,500.53 877.83,580.79 909.63,558.88 952.72,531.65 994,513.52 1002,509.99 1010.5,506.74 1019.1,503.77"];
 	Assessment -> AdditionalData	 [label="0..*",
-		lp="1117,857",
-		pos="e,1353.6,933.32 860.57,712.06 891.28,744.16 940.94,789.86 994,813.5 1094.9,858.47 1139.6,803.29 1240,849.5 1279.4,867.64 1316.5,\
-897.62 1346.2,926.12"];
+		lp="1117,799.02",
+		pos="e,1360.9,890.41 860.17,652.29 890.78,684.88 940.54,731.47 994,755.52 1094.8,800.85 1140.7,742.96 1240,791.52 1283.8,812.95 1323.7,\
+849.52 1354.2,882.9"];
 	Method -> AdditionalData	 [label="0..*",
-		lp="1117,1006",
-		pos="e,1311.1,1000.1 935.21,961.63 954.61,966.67 974.79,971.26 994,974.5 1097.1,991.87 1216.2,997.94 1301,999.91"];
+		lp="1117,955.02",
+		pos="e,1311.1,952.53 935.31,903.08 954.7,908.18 974.85,912.94 994,916.52 1097,935.77 1216.1,946.32 1301,951.88"];
 	Reference	 [height=1.2778,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#7a5229" HREF="/idmef_parser/IODEF/Reference.html" TITLE="The Reference class is a reference to a vulnerability, IDS alert, malware sample, advisory, or attack technique. A reference consists of a name, a URL to this reference, and an optional description. "><FONT FACE="Nimbus Sans L">Reference</FONT></td> </tr>" %<tr><td BGCOLOR="#996633"  HREF="/idmef_parser/IODEF/Reference.html" TITLE="Name of the reference."><FONT FACE="Nimbus Sans L">[ML_STRING] ReferenceName (1..1)</FONT></td></tr>%<tr><td BGCOLOR="#996633"  HREF="/idmef_parser/IODEF/Reference.html" TITLE="A URL associated with the reference."><FONT FACE="Nimbus Sans L">[URL] URL (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#996633"  HREF="/idmef_parser/IODEF/Reference.html" TITLE="A free-form text description of this reference."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%</table>>,
-		pos="1117,919.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Reference.html" TITLE="The Reference class is a reference to a vulnerability, IDS alert, malware sample, advisory, or attack technique. A reference consists of a name, a URL to this reference, and an optional description. "><FONT FACE="Nimbus Sans L">Reference</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Reference.html" TITLE="Name of the reference."><FONT FACE="Nimbus Sans L">[ML_STRING] ReferenceName (1..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Reference.html" TITLE="A URL associated with the reference."><FONT FACE="Nimbus Sans L">[URL] URL (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Reference.html" TITLE="A free-form text description of this reference."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%</table>>,
+		pos="1117,861.52",
 		shape=plaintext,
 		width=3.4167];
 	Method -> Reference	 [label="0..*",
-		lp="964.5,933",
-		pos="e,993.67,923.35 935.01,925.19 950.82,924.69 967.28,924.18 983.56,923.67"];
+		lp="964.5,875.02",
+		pos="e,993.67,865.37 935.01,867.21 950.82,866.71 967.28,866.2 983.56,865.69"];
 	Contact -> AdditionalData	 [label="0..*",
-		lp="1269.5,1175",
-		pos="e,1311.9,1067.7 1224.4,1249.9 1230,1241.5 1235.3,1233 1240,1224.5 1252.8,1201.2 1248.3,1192.2 1258,1167.5 1259,1165 1297.3,1083.5 \
-1299,1081.5 1300.9,1079.3 1302.8,1077.1 1304.8,1074.9"];
+		lp="1269.5,1112",
+		pos="e,1328.4,1024.6 1224.1,1193 1229.9,1184.3 1235.2,1175.4 1240,1166.5 1253.5,1141.2 1244.9,1130 1258,1104.5 1271.5,1078.3 1278.5,1073.6 \
+1299,1052.5 1305.9,1045.5 1313.2,1038.4 1320.8,1031.5"];
 	Contact -> Contact	 [label="0..*",
-		lp="1117,1514.5",
-		pos="e,1139.6,1489.2 1094.4,1489.2 1099.1,1500.1 1106.6,1507 1117,1507 1124.1,1507 1129.9,1503.8 1134.4,1498.2"];
+		lp="1117,1457.5",
+		pos="e,1139.6,1432.3 1094.4,1432.3 1099.1,1443.2 1106.6,1450 1117,1450 1124.1,1450 1129.9,1446.8 1134.4,1441.2"];
 	RegistryHandle	 [height=0.98611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#a3cc52" HREF="/idmef_parser/IODEF/RegistryHandle.html" TITLE="The RegistryHandle class represents a handle into an Internet registry or community-specific database. The handle is specified in the element content and the type attribute specifies the database. "><FONT FACE="Nimbus Sans L">RegistryHandle</FONT></td> </tr>" %<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/RegistryHandle.html" TITLE="The database to which the handle belongs.  The default value is &#39;local&#39;.  The possible values are:"><FONT FACE="Nimbus Sans L">[ENUM] registry (Required)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/RegistryHandle.html" TITLE="A means by which to extend the registry attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-registry (Optional)</FONT></td></tr>%</table>>,
-		pos="1413,1586.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/RegistryHandle.html" TITLE="The RegistryHandle class represents a handle into an Internet registry or community-specific database. The handle is specified in the element content and the type attribute specifies the database. "><FONT FACE="Nimbus Sans L">RegistryHandle</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/RegistryHandle.html" TITLE="The database to which the handle belongs.  The default value is &#39;local&#39;.  The possible values are:"><FONT FACE="Nimbus Sans L">[ENUM] registry (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/RegistryHandle.html" TITLE="A means by which to extend the registry attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-registry (Optional)</FONT></td></tr>%</table>>,
+		pos="1413,1459.5",
 		shape=plaintext,
 		width=2.9861];
 	Contact -> RegistryHandle	 [label="0..*",
-		lp="1269.5,1534",
-		pos="e,1315.3,1550.9 1230.7,1489.2 1252.2,1508.2 1275.4,1526.5 1299,1541.5 1301.4,1543.1 1303.9,1544.6 1306.5,1546"];
+		lp="1269.5,1413",
+		pos="e,1319.9,1424 1232.3,1380.2 1254.2,1392.2 1277.1,1404.1 1299,1414.5 1302.8,1416.3 1306.7,1418.1 1310.6,1419.9"];
 	PostalAddress	 [height=0.98611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#a3cc52" HREF="/idmef_parser/IODEF/PostalAddress.html" TITLE="The PostalAddress class specifies a postal address formatted according to the POSTAL data type (Section 2.11). "><FONT FACE="Nimbus Sans L">PostalAddress</FONT></td> </tr>" %<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/PostalAddress.html" TITLE="A free-form description of the element content."><FONT FACE="Nimbus Sans L">[ENUM] meaning (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/PostalAddress.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Required)</FONT></td></tr>%</table>>,
-		pos="1413,1497.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/PostalAddress.html" TITLE="The PostalAddress class specifies a postal address formatted according to the POSTAL data type (Section 2.11). "><FONT FACE="Nimbus Sans L">PostalAddress</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/PostalAddress.html" TITLE="A free-form description of the element content."><FONT FACE="Nimbus Sans L">[ENUM] meaning (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/PostalAddress.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Required)</FONT></td></tr>%</table>>,
+		pos="1413,1370.5",
 		shape=plaintext,
 		width=2.6528];
 	Contact -> PostalAddress	 [label="0..1",
-		lp="1269.5,1452",
-		pos="e,1321.7,1461.9 1232.1,1423.1 1254.2,1433.1 1277.3,1443.3 1299,1452.5 1303.4,1454.4 1307.8,1456.2 1312.3,1458.1"];
+		lp="1269.5,1351",
+		pos="e,1317.2,1351.7 1232.3,1335.1 1257,1339.9 1282.9,1345 1307.2,1349.8"];
 	Email	 [height=0.69444,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#a3cc52" HREF="/idmef_parser/IODEF/Email.html" TITLE="The Email class specifies an email address formatted according to EMAIL data type (Section 2.14). "><FONT FACE="Nimbus Sans L">Email</FONT></td> </tr>" %<tr><td BGCOLOR="#CCFF66"  HREF="/idmef_parser/IODEF/Email.html" TITLE="A free-form description of the element content (e.g., hours of coverage for a given number)."><FONT FACE="Nimbus Sans L">[ENUM] meaning (Optional)</FONT></td></tr>%</table>>,
-		pos="1413,1665.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Email.html" TITLE="The Email class specifies an email address formatted according to EMAIL data type (Section 2.14). "><FONT FACE="Nimbus Sans L">Email</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Email.html" TITLE="A free-form description of the element content (e.g., hours of coverage for a given number)."><FONT FACE="Nimbus Sans L">[ENUM] meaning (Optional)</FONT></td></tr>%</table>>,
+		pos="1413,1538.5",
 		shape=plaintext,
 		width=2.6528];
 	Contact -> Email	 [label="0..*",
-		lp="1269.5,1611",
-		pos="e,1317.3,1642.4 1199.9,1489.3 1247.5,1558 1298.1,1630.8 1299,1631.5 1302,1633.7 1305.2,1635.7 1308.5,1637.7"];
+		lp="1269.5,1496",
+		pos="e,1317.7,1513.4 1213.1,1432.4 1238.7,1458.7 1268,1484.4 1299,1503.5 1302.1,1505.5 1305.4,1507.3 1308.7,1509"];
 	EventData -> Assessment	 [label="0..1",
-		lp="606.5,935",
-		pos="e,784.45,712.04 468.22,964.31 558.91,891.97 700.36,779.13 776.4,718.46"];
+		lp="606.5,877.02",
+		pos="e,784.58,652.26 467.44,907.39 558.13,834.43 700.27,720.08 776.51,658.75"];
 	EventData -> AdditionalData	 [label="0..*",
-		lp="964.5,1034",
-		pos="e,1311.1,1011.9 490.27,1030.8 686.2,1029.4 1097.4,1025.6 1240,1017.5 1259.7,1016.4 1280.7,1014.7 1300.9,1012.9"];
+		lp="964.5,977.02",
+		pos="e,1311.5,963.58 490.09,973.58 715.16,971.59 1221.5,967.06 1240,966.52 1259.8,965.94 1280.9,965.07 1301.2,964.09"];
 	EventData -> Method	 [label="0..*",
-		lp="606.5,989",
-		pos="e,722.98,955.04 490.26,986.55 496.21,984.7 502.15,982.99 508,981.5 593.42,959.71 618.22,974 705,958.5 707.67,958.02 710.36,957.52 \
-713.08,957"];
+		lp="606.5,931.02",
+		pos="e,722.98,897.06 490.23,928.66 496.19,926.77 502.14,925.04 508,923.52 593.34,901.44 618.22,916.02 705,900.52 707.67,900.04 710.36,\
+899.54 713.08,899.02"];
 	EventData -> Contact	 [label="0..*",
-		lp="829,1340",
-		pos="e,1002,1345.9 439.11,1098.7 459.46,1121.3 483.54,1145.8 508,1165.5 594.32,1234.9 619.37,1252.4 723,1291.5 812.8,1325.4 840.87,1313.8 \
-935,1332.5 953.45,1336.2 972.94,1340.1 992.04,1343.9"];
+		lp="829,1282",
+		pos="e,1001.5,1288.1 439.08,1041.8 459.42,1064.4 483.51,1088.9 508,1108.5 594.27,1177.6 619.51,1194.7 723,1233.5 812.86,1267.2 840.92,\
+1255.6 935,1274.5 953.32,1278.2 972.67,1282.2 991.64,1286.1"];
 	EventData -> EventData	 [label="0..*",
-		lp="384,1124",
-		pos="e,407.03,1098.8 360.97,1098.8 364.42,1109.3 372.09,1116.5 384,1116.5 392,1116.5 398.09,1113.3 402.27,1108"];
+		lp="384,1067",
+		pos="e,407.03,1041.9 360.97,1041.9 364.42,1052.4 372.09,1059.5 384,1059.5 392,1059.5 398.09,1056.3 402.27,1051"];
 	Flow	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#203f7f" HREF="/idmef_parser/IODEF/Flow.html" TITLE="The Flow class groups related the source and target hosts. "><FONT FACE="Nimbus Sans L">Flow</FONT></td> </tr>" %</table>>,
-		pos="829,252.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Flow.html" TITLE="The Flow class groups related the source and target hosts. "><FONT FACE="Nimbus Sans L">Flow</FONT></td> </tr>" %</table>>,
+		pos="829,207.52",
 		shape=plaintext,
 		width=0.75];
 	EventData -> Flow	 [label="0..*",
-		lp="606.5,770",
-		pos="e,801.57,261.96 465.72,964.48 475.24,953.39 483.76,941.3 490,928.5 522.54,861.8 487.78,833.9 508,762.5 568.62,548.46 570.22,472.19 \
-723,310.5 742.08,290.31 769.78,275.49 792.07,265.89"];
+		lp="606.5,711.02",
+		pos="e,801.6,213.36 465.22,907.36 474.94,896.02 483.65,883.63 490,870.52 522.55,803.34 487.65,775.34 508,703.52 568.54,489.87 562.61,\
+406.09 723,252.52 742.03,234.29 769.57,222.91 791.8,216.15"];
 	Expectation	 [height=2.4444,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#999999" HREF="/idmef_parser/IODEF/Expectation.html" TITLE="The Expectation class conveys to the recipient of the IODEF document the actions the sender is requesting. The scope of the requested action is limited to purview of the EventData class in which this class is aggregated. "><FONT FACE="Nimbus Sans L">Expectation</FONT></td> </tr>" %<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="A free-form description of the desired action(s)."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="The time at which the action should be performed.  A timestamp that is earlier than the ReportTime specified in the Incident class denotes that the expectation should be fulfilled as soon as possible.  The absence of this element leaves the execution of the expectation to the discretion of the recipient."><FONT FACE="Nimbus Sans L">[] StartTime (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="The time by which the action should be completed. If the action is not carried out by this time, it should no longer be performed."><FONT FACE="Nimbus Sans L">[] EndTime (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="Indicates the desired priority of the action. This attribute is an enumerated list with no default value, and the semantics of these relative measures are context dependent."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="Classifies the type of action requested.  This attribute is an enumerated list with no default value."><FONT FACE="Nimbus Sans L">[ENUM] action (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#bfbfbf"  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="A means by which to extend the action attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-action (Optional)</FONT></td></tr>%</table>>,
-		pos="829,1194.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Expectation.html" TITLE="The Expectation class conveys to the recipient of the IODEF document the actions the sender is requesting. The scope of the requested action is limited to purview of the EventData class in which this class is aggregated. "><FONT FACE="Nimbus Sans L">Expectation</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="A free-form description of the desired action(s)."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="The time at which the action should be performed.  A timestamp that is earlier than the ReportTime specified in the Incident class denotes that the expectation should be fulfilled as soon as possible.  The absence of this element leaves the execution of the expectation to the discretion of the recipient."><FONT FACE="Nimbus Sans L">[] StartTime (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="The time by which the action should be completed. If the action is not carried out by this time, it should no longer be performed."><FONT FACE="Nimbus Sans L">[] EndTime (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="Indicates the desired priority of the action. This attribute is an enumerated list with no default value, and the semantics of these relative measures are context dependent."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="Classifies the type of action requested.  This attribute is an enumerated list with no default value."><FONT FACE="Nimbus Sans L">[ENUM] action (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Expectation.html" TITLE="A means by which to extend the action attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-action (Optional)</FONT></td></tr>%</table>>,
+		pos="829,1136.5",
 		shape=plaintext,
 		width=2.9444];
 	EventData -> Expectation	 [label="0..*",
-		lp="606.5,1154",
-		pos="e,722.63,1155.5 490.02,1070.3 557.17,1094.9 644.04,1126.7 713.02,1152"];
+		lp="606.5,1097",
+		pos="e,722.63,1097.8 490.02,1013.1 557.17,1037.6 644.04,1069.2 713.02,1094.3"];
 	Record	 [height=0.69444,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca300" HREF="/idmef_parser/IODEF/Record.html" TITLE="The Record class is a container class for log and audit data that provides supportive information about the incident. The source of this data will often be the output of monitoring tools. These logs should substantiate the activity described in the document. "><FONT FACE="Nimbus Sans L">Record</FONT></td> </tr>" %<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/Record.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="829,1063.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Record.html" TITLE="The Record class is a container class for log and audit data that provides supportive information about the incident. The source of this data will often be the output of monitoring tools. These logs should substantiate the activity described in the document. "><FONT FACE="Nimbus Sans L">Record</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Record.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="829,1005.5",
 		shape=plaintext,
 		width=2.7361];
 	EventData -> Record	 [label="0..1",
-		lp="606.5,1062",
-		pos="e,730.26,1056.4 490.02,1039.1 559.49,1044.1 650.05,1050.6 720.08,1055.7"];
+		lp="606.5,1004",
+		pos="e,730.26,998.64 490.02,981.91 559.49,986.74 650.05,993.05 720.08,997.93"];
 	System	 [height=2.1528,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#203f7f" HREF="/idmef_parser/IODEF/System.html" TITLE="The System class describes a system or network involved in an event. The systems or networks represented by this class are categorized according to the role they played in the incident through the category attribute. The value of this category attribute dictates the semantics of the aggregated classes in the System class. If the category attribute has a value of &quot;source&quot;, then the aggregated classes denote the machine and service from which the activity is originating. With a category attribute value of &quot;target&quot; or &quot;intermediary&quot;, then the machine or service is the one targeted in the activity. A value of &quot;sensor&quot; dictates that this System was part of an instrumentation to monitor the network. "><FONT FACE="Nimbus Sans L">System</FONT></td> </tr>" %<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/System.html" TITLE="A free-form text description of the System."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/System.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/System.html" TITLE="Classifies the role the host or network played in the incident.  The possible values are:"><FONT FACE="Nimbus Sans L">[ENUM] category (Required)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/System.html" TITLE="A means by which to extend the category attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-category (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/System.html" TITLE="Specifies the interface on which the event(s) on this System originated.  If the Node class specifies a network rather than a host, this attribute has no meaning."><FONT FACE="Nimbus Sans L">[STRING] interface (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/System.html" TITLE="An indication of confidence in whether this System was the true target or attacking host.  The permitted values for this attribute are shown below.  The default value is &quot;unknown&quot;."><FONT FACE="Nimbus Sans L">[ENUM] spoofed (Optional)</FONT></td></tr>%</table>>,
-		pos="1117,226.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/System.html" TITLE="The System class describes a system or network involved in an event. The systems or networks represented by this class are categorized according to the role they played in the incident through the category attribute. The value of this category attribute dictates the semantics of the aggregated classes in the System class. If the category attribute has a value of &quot;source&quot;, then the aggregated classes denote the machine and service from which the activity is originating. With a category attribute value of &quot;target&quot; or &quot;intermediary&quot;, then the machine or service is the one targeted in the activity. A value of &quot;sensor&quot; dictates that this System was part of an instrumentation to monitor the network. "><FONT FACE="Nimbus Sans L">System</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/System.html" TITLE="A free-form text description of the System."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/System.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/System.html" TITLE="Classifies the role the host or network played in the incident.  The possible values are:"><FONT FACE="Nimbus Sans L">[ENUM] category (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/System.html" TITLE="A means by which to extend the category attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-category (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/System.html" TITLE="Specifies the interface on which the event(s) on this System originated.  If the Node class specifies a network rather than a host, this attribute has no meaning."><FONT FACE="Nimbus Sans L">[STRING] interface (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/System.html" TITLE="An indication of confidence in whether this System was the true target or attacking host.  The permitted values for this attribute are shown below.  The default value is &quot;unknown&quot;."><FONT FACE="Nimbus Sans L">[ENUM] spoofed (Optional)</FONT></td></tr>%</table>>,
+		pos="1117,168.52",
 		shape=plaintext,
 		width=3.0833];
 	Flow -> System	 [label="1..*",
-		lp="964.5,249",
-		pos="e,1005.8,236.54 856.09,250.05 888.19,247.16 943.84,242.13 995.52,237.47"];
+		lp="964.5,198.02",
+		pos="e,1005.8,183.58 856.09,203.85 888.26,199.5 944.07,191.94 995.85,184.93"];
 	System -> Counter	 [label="0..*",
-		lp="1413,73",
-		pos="e,1587.5,39.224 1182,148.62 1213.6,116.59 1254.4,82.968 1299,65.5 1387.6,30.802 1495.9,30.808 1577.2,38.233"];
+		lp="1413,96.02",
+		pos="e,1587.1,70.615 1228.3,111.48 1251.1,102.11 1275.4,93.754 1299,88.52 1390.7,68.166 1497.3,66.89 1577,70.17"];
 	System -> AdditionalData	 [label="0..*",
-		lp="1269.5,311",
-		pos="e,1373.5,933.33 1228,268.36 1252.6,279.84 1273.5,292.23 1281,303.5 1308.6,345.01 1287.4,703.05 1299,751.5 1313.5,812.32 1343.2,876.37 \
-1368.7,924.28"];
+		lp="1269.5,253.02",
+		pos="e,1391.7,890.17 1228.2,210.72 1252.6,222.15 1273.4,234.42 1281,245.52 1297.7,269.88 1294.3,481.38 1299,510.52 1320.1,642.39 1362.1,\
+792.12 1388.8,880.49"];
 	"Node"	 [height=1.2778,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#203f7f" HREF="/idmef_parser/IODEF/Node.html" TITLE="The Node class names a system (e.g., PC, router) or network. "><FONT FACE="Nimbus Sans L">Node</FONT></td> </tr>" %<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Node.html" TITLE="The name of the Node (e.g., fully qualified domain name).  This information MUST be provided if no Address information is given."><FONT FACE="Nimbus Sans L">[ML_STRING] NodeName (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Node.html" TITLE="A free-from description of the physical location of the equipment."><FONT FACE="Nimbus Sans L">[ML_STRING] Location (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Node.html" TITLE="A timestamp of when the resolution between the name and address was performed.  This information SHOULD be provided if both an Address and NodeName are specified."><FONT FACE="Nimbus Sans L">[] DateTime (0..1)</FONT></td></tr>%</table>>,
-		pos="1413,351.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Node.html" TITLE="The Node class names a system (e.g., PC, router) or network. "><FONT FACE="Nimbus Sans L">Node</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Node.html" TITLE="The name of the Node (e.g., fully qualified domain name).  This information MUST be provided if no Address information is given."><FONT FACE="Nimbus Sans L">[ML_STRING] NodeName (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Node.html" TITLE="A free-from description of the physical location of the equipment."><FONT FACE="Nimbus Sans L">[ML_STRING] Location (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Node.html" TITLE="A timestamp of when the resolution between the name and address was performed.  This information SHOULD be provided if both an Address and NodeName are specified."><FONT FACE="Nimbus Sans L">[] DateTime (0..1)</FONT></td></tr>%</table>>,
+		pos="1413,212.52",
 		shape=plaintext,
 		width=2.9583];
 	System -> "Node"	 [label="1..1",
-		lp="1269.5,235",
-		pos="e,1308.1,305.17 1228.1,208.18 1247.2,210.1 1265.8,215.73 1281,227.5 1305.7,246.64 1279.2,271.32 1299,295.5 1299.6,296.25 1300.2,\
-296.98 1300.9,297.71"];
+		lp="1269.5,177.02",
+		pos="e,1306.3,174.73 1228.1,164.56 1245.9,165.26 1264,166.77 1281,169.52 1286.1,170.34 1291.2,171.32 1296.4,172.44"];
 	Service	 [height=2.1528,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#203f7f" HREF="/idmef_parser/IODEF/Service.html" TITLE="The Service class describes a network service of a host or network. The service is identified by specific port or list of ports, along with the application listening on that port. "><FONT FACE="Nimbus Sans L">Service</FONT></td> </tr>" %<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Service.html" TITLE="A port number."><FONT FACE="Nimbus Sans L">[INTEGER] Port (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Service.html" TITLE="A list of port numbers formatted according to Section 2.10."><FONT FACE="Nimbus Sans L">[PORTLIST] Portlist (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Service.html" TITLE="A layer-4 protocol-specific code field (e.g., ICMP code field)."><FONT FACE="Nimbus Sans L">[INTEGER] ProtoCode (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Service.html" TITLE="A layer-4 protocol specific type field (e.g., ICMP type field)."><FONT FACE="Nimbus Sans L">[INTEGER] ProtoType (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Service.html" TITLE="A layer-4 protocol specific flag field (e.g., TCP flag field)."><FONT FACE="Nimbus Sans L">[INTEGER] ProtoFlags (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Service.html" TITLE="The IANA protocol number."><FONT FACE="Nimbus Sans L">[INTEGER] ip_protocol (Required)</FONT></td></tr>%</table>>,
-		pos="1413,665.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Service.html" TITLE="The Service class describes a network service of a host or network. The service is identified by specific port or list of ports, along with the application listening on that port. "><FONT FACE="Nimbus Sans L">Service</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Service.html" TITLE="A port number."><FONT FACE="Nimbus Sans L">[INTEGER] Port (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Service.html" TITLE="A list of port numbers formatted according to Section 2.10."><FONT FACE="Nimbus Sans L">[PORTLIST] Portlist (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Service.html" TITLE="A layer-4 protocol-specific code field (e.g., ICMP code field)."><FONT FACE="Nimbus Sans L">[INTEGER] ProtoCode (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Service.html" TITLE="A layer-4 protocol specific type field (e.g., ICMP type field)."><FONT FACE="Nimbus Sans L">[INTEGER] ProtoType (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Service.html" TITLE="A layer-4 protocol specific flag field (e.g., TCP flag field)."><FONT FACE="Nimbus Sans L">[INTEGER] ProtoFlags (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Service.html" TITLE="The IANA protocol number."><FONT FACE="Nimbus Sans L">[INTEGER] ip_protocol (Required)</FONT></td></tr>%</table>>,
+		pos="1413,424.52",
 		shape=plaintext,
 		width=3.1667];
 	System -> Service	 [label="0..*",
-		lp="1269.5,273",
-		pos="e,1371.7,587.75 1228.4,233.95 1248.3,240.16 1267.1,250.05 1281,265.5 1302.1,288.99 1290.6,376.06 1299,406.5 1315.5,465.99 1343.3,\
-529.49 1367.3,578.73"];
-	OperatingSystem	 [height=2.7361,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#203f7f" HREF="/idmef_parser/IODEF/OperatingSystem.html" TITLE="The OperatingSystem class describes the operating system running on a System. The definition is identical to the Application class (Section 3.17.1). "><FONT FACE="Nimbus Sans L">OperatingSystem</FONT></td> </tr>" %<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/OperatingSystem.html" TITLE="A URL describing the application."><FONT FACE="Nimbus Sans L">[URL] URL (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/OperatingSystem.html" TITLE="An identifier that can be used to reference this software."><FONT FACE="Nimbus Sans L">[STRING] swid (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/OperatingSystem.html" TITLE="An identifier that can be used to reference a particular configuration of this software."><FONT FACE="Nimbus Sans L">[STRING] configid (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/OperatingSystem.html" TITLE="Vendor name of the software."><FONT FACE="Nimbus Sans L">[STRING] vendor (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/OperatingSystem.html" TITLE="Family of the software."><FONT FACE="Nimbus Sans L">[STRING] family (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/OperatingSystem.html" TITLE="Name of the software."><FONT FACE="Nimbus Sans L">[STRING] name (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/OperatingSystem.html" TITLE="Version of the software."><FONT FACE="Nimbus Sans L">[STRING] version (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/OperatingSystem.html" TITLE="Patch or service pack level of the software."><FONT FACE="Nimbus Sans L">[STRING] patch (Optional)</FONT></td></tr>%</table>>,
-		pos="1413,188.5",
+		lp="1269.5,215.02",
+		pos="e,1348.6,346.76 1228.2,178.36 1247.6,184.44 1266.3,193.66 1281,207.52 1301.2,226.63 1286.6,242.57 1299,267.52 1311,291.74 1326.7,\
+316.21 1342.5,338.38"];
+	OperatingSystem	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/OperatingSystem.html" TITLE="The OperatingSystem class describes the operating system running on a System. The definition is identical to the Application class (Section 3.17.1). "><FONT FACE="Nimbus Sans L">OperatingSystem</FONT></td> </tr>" %</table>>,
+		pos="1413,130.52",
 		shape=plaintext,
-		width=2.7083];
+		width=1.7778];
 	System -> OperatingSystem	 [label="0..1",
-		lp="1269.5,197",
-		pos="e,1315.2,185.42 1228.1,194.61 1238.1,192.55 1248.2,190.79 1258,189.5 1273.1,187.5 1289.1,186.34 1304.9,185.74"];
+		lp="1269.5,139.02",
+		pos="e,1348.7,127.35 1228.1,136.62 1238.1,134.57 1248.2,132.81 1258,131.52 1284.1,128.06 1313,127.1 1338.6,127.24"];
 	"Node" -> Counter	 [label="0..*",
-		lp="1556.5,282",
-		pos="e,1667.6,113.1 1514.2,305.33 1518.7,302.2 1523,298.93 1527,295.5 1584.5,246.63 1632.4,174.26 1662.5,121.97"];
+		lp="1556.5,158.02",
+		pos="e,1587.5,130.81 1511.5,166.38 1533.1,156.29 1556.1,145.51 1578.3,135.09"];
 	Address	 [height=1.5694,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#203f7f" HREF="/idmef_parser/IODEF/Address.html" TITLE="The Address class represents a hardware (layer-2), network (layer-3), or application (layer-7) address. "><FONT FACE="Nimbus Sans L">Address</FONT></td> </tr>" %<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Address.html" TITLE="The type of address represented.  The permitted values for this attribute are shown below.  The default value is &quot;ipv4-addr&quot;."><FONT FACE="Nimbus Sans L">[ENUM] category (Required)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Address.html" TITLE="A means by which to extend the category attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-category (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Address.html" TITLE="The name of the Virtual LAN to which the address belongs."><FONT FACE="Nimbus Sans L">[STRING] vlan-name (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Address.html" TITLE="The number of the Virtual LAN to which the address belongs."><FONT FACE="Nimbus Sans L">[STRING] vlan-num (Optional)</FONT></td></tr>%</table>>,
-		pos="1697,411.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Address.html" TITLE="The Address class represents a hardware (layer-2), network (layer-3), or application (layer-7) address. "><FONT FACE="Nimbus Sans L">Address</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Address.html" TITLE="The type of address represented.  The permitted values for this attribute are shown below.  The default value is &quot;ipv4-addr&quot;."><FONT FACE="Nimbus Sans L">[ENUM] category (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Address.html" TITLE="A means by which to extend the category attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-category (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Address.html" TITLE="The name of the Virtual LAN to which the address belongs."><FONT FACE="Nimbus Sans L">[STRING] vlan-name (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Address.html" TITLE="The number of the Virtual LAN to which the address belongs."><FONT FACE="Nimbus Sans L">[STRING] vlan-num (Optional)</FONT></td></tr>%</table>>,
+		pos="1697,327.52",
 		shape=plaintext,
 		width=3.0833];
 	"Node" -> Address	 [label="0..*",
-		lp="1556.5,391",
-		pos="e,1585.6,387.96 1519.6,374.01 1537.8,377.87 1557,381.91 1575.6,385.85"];
+		lp="1556.5,281.02",
+		pos="e,1585.6,282.4 1519.6,255.67 1538,263.14 1557.3,270.95 1576.1,278.56"];
 	NodeRole	 [height=1.2778,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#203f7f" HREF="/idmef_parser/IODEF/NodeRole.html" TITLE="The NodeRole class describes the intended function performed by a particular host. "><FONT FACE="Nimbus Sans L">NodeRole</FONT></td> </tr>" %<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/NodeRole.html" TITLE="Functionality provided by a node."><FONT FACE="Nimbus Sans L">[ENUM] category (Required)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/NodeRole.html" TITLE="A means by which to extend the category attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-category (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/NodeRole.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Required)</FONT></td></tr>%</table>>,
-		pos="1697,290.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/NodeRole.html" TITLE="The NodeRole class describes the intended function performed by a particular host. "><FONT FACE="Nimbus Sans L">NodeRole</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/NodeRole.html" TITLE="Functionality provided by a node."><FONT FACE="Nimbus Sans L">[ENUM] category (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/NodeRole.html" TITLE="A means by which to extend the category attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-category (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/NodeRole.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Required)</FONT></td></tr>%</table>>,
+		pos="1697,206.52",
 		shape=plaintext,
 		width=3.0833];
 	"Node" -> NodeRole	 [label="0..*",
-		lp="1556.5,331",
-		pos="e,1585.6,314.43 1519.6,328.61 1537.8,324.69 1557,320.58 1575.6,316.58"];
+		lp="1556.5,218.02",
+		pos="e,1585.6,208.87 1519.6,210.27 1537.8,209.88 1556.8,209.48 1575.3,209.09"];
 	Application	 [height=2.7361,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#203f7f" HREF="/idmef_parser/IODEF/Application.html" TITLE="The Application class describes an application running on a System providing a Service. "><FONT FACE="Nimbus Sans L">Application</FONT></td> </tr>" %<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Application.html" TITLE="A URL describing the application."><FONT FACE="Nimbus Sans L">[URL] URL (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Application.html" TITLE="An identifier that can be used to reference this software."><FONT FACE="Nimbus Sans L">[STRING] swid (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Application.html" TITLE="An identifier that can be used to reference a particular configuration of this software."><FONT FACE="Nimbus Sans L">[STRING] configid (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Application.html" TITLE="Vendor name of the software."><FONT FACE="Nimbus Sans L">[STRING] vendor (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Application.html" TITLE="Family of the software."><FONT FACE="Nimbus Sans L">[STRING] family (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Application.html" TITLE="Name of the software."><FONT FACE="Nimbus Sans L">[STRING] name (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Application.html" TITLE="Version of the software."><FONT FACE="Nimbus Sans L">[STRING] version (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#284f9f"  HREF="/idmef_parser/IODEF/Application.html" TITLE="Patch or service pack level of the software."><FONT FACE="Nimbus Sans L">[STRING] patch (Optional)</FONT></td></tr>%</table>>,
-		pos="1697,986.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/Application.html" TITLE="The Application class describes an application running on a System providing a Service. "><FONT FACE="Nimbus Sans L">Application</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/Application.html" TITLE="A URL describing the application."><FONT FACE="Nimbus Sans L">[URL] URL (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Application.html" TITLE="An identifier that can be used to reference this software."><FONT FACE="Nimbus Sans L">[STRING] swid (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Application.html" TITLE="An identifier that can be used to reference a particular configuration of this software."><FONT FACE="Nimbus Sans L">[STRING] configid (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Application.html" TITLE="Vendor name of the software."><FONT FACE="Nimbus Sans L">[STRING] vendor (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Application.html" TITLE="Family of the software."><FONT FACE="Nimbus Sans L">[STRING] family (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Application.html" TITLE="Name of the software."><FONT FACE="Nimbus Sans L">[STRING] name (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Application.html" TITLE="Version of the software."><FONT FACE="Nimbus Sans L">[STRING] version (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/Application.html" TITLE="Patch or service pack level of the software."><FONT FACE="Nimbus Sans L">[STRING] patch (Optional)</FONT></td></tr>%</table>>,
+		pos="1697,772.52",
 		shape=plaintext,
 		width=2.7083];
 	Service -> Application	 [label="0..*",
-		lp="1556.5,844",
-		pos="e,1609.8,887.91 1481.7,743.21 1518.1,784.34 1563.4,835.46 1603,880.21"];
+		lp="1556.5,617.02",
+		pos="e,1616.5,673.88 1476.4,502.18 1515.7,550.39 1566.8,613 1609.9,665.83"];
 	Expectation -> Contact	 [label="0..1",
-		lp="964.5,1290",
-		pos="e,1001.5,1299.3 935.01,1258.9 953.79,1270.3 973.49,1282.3 992.72,1294"];
+		lp="964.5,1232",
+		pos="e,1001.5,1241.9 935.01,1201.3 953.87,1212.8 973.67,1224.9 992.98,1236.7"];
 	RecordData	 [height=1.2778,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca300" HREF="/idmef_parser/IODEF/RecordData.html" TITLE="The RecordData class groups log or audit data from a given sensor (e.g., IDS, firewall log) and provides a way to annotate the output. "><FONT FACE="Nimbus Sans L">RecordData</FONT></td> </tr>" %<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordData.html" TITLE="Timestamp of the RecordItem data."><FONT FACE="Nimbus Sans L">[] DateTime (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordData.html" TITLE="Free-form textual description of the provided RecordItem data.  At minimum, this description should convey the significance of the provided RecordItem data."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordData.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="1117,1169.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/RecordData.html" TITLE="The RecordData class groups log or audit data from a given sensor (e.g., IDS, firewall log) and provides a way to annotate the output. "><FONT FACE="Nimbus Sans L">RecordData</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/RecordData.html" TITLE="Timestamp of the RecordItem data."><FONT FACE="Nimbus Sans L">[] DateTime (0..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/RecordData.html" TITLE="Free-form textual description of the provided RecordItem data.  At minimum, this description should convey the significance of the provided RecordItem data."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/RecordData.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="1117,1111.5",
 		shape=plaintext,
 		width=2.9444];
 	Record -> RecordData	 [label="1..*",
-		lp="964.5,1081",
-		pos="e,1010.8,1123.7 927.74,1056.3 944.87,1058.8 961.74,1064 976,1073.5 990.89,1083.4 981.29,1096.9 994,1109.5 996.82,1112.3 999.79,1115 \
-1002.9,1117.5"];
+		lp="964.5,1023",
+		pos="e,1010.8,1065.7 927.74,998.29 944.87,1000.8 961.74,1006 976,1015.5 990.89,1025.4 981.29,1038.9 994,1051.5 996.82,1054.3 999.79,1057 \
+1002.9,1059.6"];
 	RecordData -> AdditionalData	 [label="0..1",
-		lp="1269.5,1107",
-		pos="e,1311.2,1067.2 1213.9,1123.5 1222.8,1118.9 1231.6,1114.2 1240,1109.5 1260.5,1098.1 1281.9,1085.3 1302.5,1072.6"];
+		lp="1269.5,1050",
+		pos="e,1311.4,1013.7 1212.6,1065.4 1221.9,1060.8 1231.1,1056.1 1240,1051.5 1260.3,1041 1281.9,1029.6 1302.6,1018.5"];
 	RecordData -> Application	 [label="0..1",
-		lp="1413,1120",
-		pos="e,1599.2,1045.3 1223.4,1136.8 1242.6,1130.8 1262.4,1124.5 1281,1118.5 1289,1115.9 1290.8,1114.5 1299,1112.5 1398.7,1088.2 1429.7,\
-1108.9 1527,1076.5 1548.1,1069.5 1569.8,1060 1590.2,1049.8"];
+		lp="1413,1088",
+		pos="e,1656.6,871.18 1223.2,1093.4 1340.5,1073.2 1514.3,1042 1527,1033.5 1582.4,996.36 1623.9,934.39 1652,880.16"];
 	RecordPattern	 [height=2.1528,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca300" HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="The RecordPattern class describes where in the content of the RecordItem relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. "><FONT FACE="Nimbus Sans L">RecordPattern</FONT></td> </tr>" %<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="Describes the type of pattern being specified in the element content.  The default is &quot;regex&quot;."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="Amount of units (determined by the offsetunit attribute) to seek into the RecordItem data before matching the pattern."><FONT FACE="Nimbus Sans L">[INTEGER] offset (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="Describes the units of the offset attribute. The default is &quot;line&quot;."><FONT FACE="Nimbus Sans L">[ENUM] offsetunit (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="A means by which to extend the offsetunit attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-offsetunit (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="Number of types to apply the specified pattern."><FONT FACE="Nimbus Sans L">[INTEGER] instance (Optional)</FONT></td></tr>%</table>>,
-		pos="1413,1366.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="The RecordPattern class describes where in the content of the RecordItem relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. "><FONT FACE="Nimbus Sans L">RecordPattern</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="Describes the type of pattern being specified in the element content.  The default is &quot;regex&quot;."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="Amount of units (determined by the offsetunit attribute) to seek into the RecordItem data before matching the pattern."><FONT FACE="Nimbus Sans L">[INTEGER] offset (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="Describes the units of the offset attribute. The default is &quot;line&quot;."><FONT FACE="Nimbus Sans L">[ENUM] offsetunit (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="A means by which to extend the offsetunit attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-offsetunit (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/RecordPattern.html" TITLE="Number of types to apply the specified pattern."><FONT FACE="Nimbus Sans L">[INTEGER] instance (Optional)</FONT></td></tr>%</table>>,
+		pos="1413,1239.5",
 		shape=plaintext,
 		width=3.125];
 	RecordData -> RecordPattern	 [label="0..*",
-		lp="1269.5,1275",
-		pos="e,1310,1288.7 1199.8,1215.7 1213.4,1223.7 1227.2,1232.2 1240,1240.5 1260.3,1253.7 1281.4,1268.3 1301.6,1282.8"];
-	RecordItem	 [height=1.8611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca300" HREF="/idmef_parser/IODEF/RecordItem.html" TITLE="The RecordItem class provides a way to incorporate relevant logs, audit trails, or forensic data to support the conclusions made during the course of analyzing the incident. The class supports both the direct encapsulation of the data, as well as, provides primitives to reference data stored elsewhere. "><FONT FACE="Nimbus Sans L">RecordItem</FONT></td> </tr>" %<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordItem.html" TITLE="The data type of the element content.  The permitted values for this attribute are shown below.  The default value is &quot;string&quot;."><FONT FACE="Nimbus Sans L">[ENUM] dtype (Required)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordItem.html" TITLE="A means by which to extend the dtype attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-dtype (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordItem.html" TITLE="A free-form description of the element content."><FONT FACE="Nimbus Sans L">[STRING] meaning (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordItem.html" TITLE="An identifier referencing the format and semantics of the element content."><FONT FACE="Nimbus Sans L">[STRING] formatid (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ffcc00"  HREF="/idmef_parser/IODEF/RecordItem.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
-		pos="1413,1203.5",
+		lp="1269.5,1187",
+		pos="e,1300.5,1190.9 1223,1157.4 1245.1,1166.9 1268.6,1177.1 1291.2,1186.8"];
+	RecordItem	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/RecordItem.html" TITLE="The RecordItem class provides a way to incorporate relevant logs, audit trails, or forensic data to support the conclusions made during the course of analyzing the incident. The class supports both the direct encapsulation of the data, as well as, provides primitives to reference data stored elsewhere. "><FONT FACE="Nimbus Sans L">RecordItem</FONT></td> </tr>" %</table>>,
+		pos="1413,1125.5",
 		shape=plaintext,
-		width=2.8194];
+		width=1.2917];
 	RecordData -> RecordItem	 [label="1..*",
-		lp="1269.5,1196",
-		pos="e,1311.2,1191.8 1223,1181.7 1248.4,1184.6 1275.5,1187.7 1301.1,1190.6"];
+		lp="1269.5,1132",
+		pos="e,1366.2,1125.8 1223.2,1121.4 1234.9,1122.2 1246.7,1123 1258,1123.5 1290.5,1125.1 1326.8,1125.6 1356.1,1125.8"];
 	HistoryItem	 [height=1.8611,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#008d40" HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="The HistoryItem class is an entry in the History (Section 3.11) log that documents a particular action or event that occurred in the course of handling the incident. The details of the entry are a free-form description, but each can be categorized with the type attribute. "><FONT FACE="Nimbus Sans L">HistoryItem</FONT></td> </tr>" %<tr><td BGCOLOR="#00B050"  HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="Timestamp of this entry in the history log (e.g., when the action described in the Description was taken)."><FONT FACE="Nimbus Sans L">[] DateTime (1..1)</FONT></td></tr>%<tr><td BGCOLOR="#00B050"  HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="A free-form textual description of the action or event."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#00B050"  HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#00B050"  HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="Classifies a performed action or occurrence documented in this history log entry.  As activity will likely have been instigated either through a previously conveyed expectation or internal investigation, this attribute is identical to the category attribute of the Expectation class.  The difference is only one of tense.  When an action is in this class, it has been completed.  See Section 3.13."><FONT FACE="Nimbus Sans L">[ENUM] action (Required)</FONT></td></tr>%<tr><td BGCOLOR="#00B050"  HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="A means by which to extend the action attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-action (Optional)</FONT></td></tr>%</table>>,
-		pos="829,1456.5",
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="The HistoryItem class is an entry in the History (Section 3.11) log that documents a particular action or event that occurred in the course of handling the incident. The details of the entry are a free-form description, but each can be categorized with the type attribute. "><FONT FACE="Nimbus Sans L">HistoryItem</FONT></td> </tr>" %<tr><td  HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="Timestamp of this entry in the history log (e.g., when the action described in the Description was taken)."><FONT FACE="Nimbus Sans L">[] DateTime (1..1)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="A free-form textual description of the action or event."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="Classifies a performed action or occurrence documented in this history log entry.  As activity will likely have been instigated either through a previously conveyed expectation or internal investigation, this attribute is identical to the category attribute of the Expectation class.  The difference is only one of tense.  When an action is in this class, it has been completed.  See Section 3.13."><FONT FACE="Nimbus Sans L">[ENUM] action (Required)</FONT></td></tr>%<tr><td  HREF="/idmef_parser/IODEF/HistoryItem.html" TITLE="A means by which to extend the action attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-action (Optional)</FONT></td></tr>%</table>>,
+		pos="829,1398.5",
 		shape=plaintext,
 		width=2.9444];
 	History -> HistoryItem	 [label="1..*",
-		lp="606.5,1458",
-		pos="e,722.75,1451 482.76,1438.6 550.61,1442.1 640.96,1446.8 712.36,1450.5"];
+		lp="606.5,1400",
+		pos="e,722.75,1393.5 482.76,1382.2 550.61,1385.4 640.96,1389.6 712.36,1393"];
 	HistoryItem -> IncidentID	 [label="0..1",
-		lp="964.5,1538",
-		pos="e,1026.8,1556.3 935.02,1509.8 948.82,1516.7 962.75,1523.8 976,1530.5 989.47,1537.3 1003.7,1544.5 1017.6,1551.7"];
+		lp="964.5,1480",
+		pos="e,1026.8,1498.4 935.02,1451.8 948.82,1458.8 962.75,1465.8 976,1472.5 989.47,1479.4 1003.7,1486.6 1017.6,1493.7"];
 	HistoryItem -> AdditionalData	 [label="0..*",
-		lp="1117,1107",
-		pos="e,1311.2,1045.8 907.45,1389.4 917.89,1377.6 927.54,1364.8 935,1351.5 963.08,1301.3 951.78,1138.6 994,1099.5 1041.4,1055.7 1218.9,\
-1072.9 1281,1055.5 1287.8,1053.6 1294.8,1051.4 1301.7,1049.1"];
+		lp="1117,1049",
+		pos="e,1311.4,989.88 907.45,1331.4 917.89,1319.6 927.54,1306.9 935,1293.5 963.08,1243.3 951.78,1080.6 994,1041.5 1041.4,997.71 1218.1,\
+1011.8 1281,997.52 1287.7,996.01 1294.5,994.33 1301.4,992.55"];
 	HistoryItem -> Contact	 [label="0..1",
-		lp="964.5,1426",
-		pos="e,1001.5,1404.4 935.01,1424.5 953.54,1418.9 972.96,1413 991.94,1407.3"];
+		lp="964.5,1369",
+		pos="e,1001.5,1347 935.01,1366.9 953.45,1361.4 972.78,1355.6 991.68,1349.9"];
 }
