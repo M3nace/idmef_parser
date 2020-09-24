@@ -1,0 +1,11 @@
+digraph Hash {
+	graph [bb="0,0,212,71",
+		rankdir=LR
+	];
+	node [label="\N"];
+	Hash	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/Hash.html" TITLE="The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. "><FONT FACE="Nimbus Sans L">Hash</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/Hash.html" TITLE="The canonicalization method used on the object being hashed.  See Section 4.3.1 of [W3C.XMLSIG]."><FONT FACE="Nimbus Sans L">[]  (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Hash.html" TITLE="The application used to calculate the hash."><FONT FACE="Nimbus Sans L">[SOFTWARE] Application (0..1)</FONT></td></tr>%</table>>,
+		pos="106,35.5",
+		shape=plaintext,
+		width=2.9444];
+}

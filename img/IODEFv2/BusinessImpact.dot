@@ -1,0 +1,11 @@
+digraph BusinessImpact {
+	graph [bb="0,0,212,113",
+		rankdir=LR
+	];
+	node [label="\N"];
+	BusinessImpact	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/BusinessImpact.html" TITLE="The BusinessImpact class describes and characterizes the degree to which the function of the organization was impacted by the incident. "><FONT FACE="Nimbus Sans L">BusinessImpact</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/BusinessImpact.html" TITLE="A free-form text description of the impact to the organization."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/BusinessImpact.html" TITLE="Characterizes the severity of the incident on business functions.  The permitted values are shown below.  They were derived from Table 3-2 of [NIST800.61rev2].  The default value is &quot;unknown&quot;.  These values are maintained in the &quot;BusinessImpact-severity&quot; IANA registry per Section 10.2."><FONT FACE="Nimbus Sans L">[ENUM] severity (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/BusinessImpact.html" TITLE="A means by which to extend the severity attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-severity (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/BusinessImpact.html" TITLE="A means by which to extend the type attribute. See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] type (0..1)</FONT></td></tr>%</table>>,
+		pos="106,56.5",
+		shape=plaintext,
+		width=2.9444];
+}

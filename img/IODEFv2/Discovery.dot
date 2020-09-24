@@ -1,0 +1,62 @@
+digraph Discovery {
+	graph [bb="0,0,812,458.5",
+		rankdir=LR
+	];
+	node [label="\N"];
+	Discovery	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/Discovery.html" TITLE="The Discovery class describes how an incident was detected. "><FONT FACE="Nimbus Sans L">Discovery</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/Discovery.html" TITLE="A free-form text description of how this incident was detected."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Discovery.html" TITLE="Categorizes the techniques used to discover the incident.  These values are partially derived from Table 3-1 of [NIST800.61rev2].  These values are maintained in the &quot;Discovery- source&quot; IANA registry per Section 10.2."><FONT FACE="Nimbus Sans L">[ENUM] source (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Discovery.html" TITLE="A means by which to extend the source attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-source (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Discovery.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Discovery.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%</table>>,
+		pos="106,96.5",
+		shape=plaintext,
+		width=2.9444];
+	Contact	 [height=3.0278,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#52a3cc" HREF="/html/IODEFv2/Contact.html" TITLE="The Contact class describes contact information for organizations and personnel involved in the incident. This class allows for the naming of the involved party, specifying contact information for them, and identifying their role in the incident. "><FONT FACE="Nimbus Sans L">Contact</FONT></td> </tr>" %<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Contact.html" TITLE="The name of the contact.  The contact may either be an organization or a person.  The type attribute disambiguates the semantics."><FONT FACE="Nimbus Sans L">[ML_STRING] ContactName (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Contact.html" TITLE="The title for the individual named in the ContactName."><FONT FACE="Nimbus Sans L">[ML_STRING] ContactTitle (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Contact.html" TITLE="A free-form text description of the contact."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Contact.html" TITLE="The timezone in which the contact resides."><FONT FACE="Nimbus Sans L">[TIMEZONE] Timezone (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Contact.html" TITLE="A mechanism by which to extend the data model."><FONT FACE="Nimbus Sans L">[EXTENSION] AdditionalData (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Contact.html" TITLE="A means by which to extend the role attribute. See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] role (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Contact.html" TITLE="A means by which to extend the type attribute. See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] type (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Contact.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Contact.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%</table>>,
+		pos="398,282.5",
+		shape=plaintext,
+		width=3.2361];
+	Discovery -> Contact	 [label="0..*",
+		lp="241.5,197",
+		pos="e,281.36,208.2 211.42,163.65 231.38,176.36 252.43,189.78 272.93,202.83"];
+	DetectionPattern	 [height=2.1528,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/DetectionPattern.html" TITLE="The DetectionPattern class describes a configuration or signature that can be used by an Intrusion Detection System (IDS) / Intrusion Prevention System (IPS), SIEM, antivirus, endpoint protection, network analysis, malware analysis, or host forensics tool to identify a particular phenomenon. This class requires the identification of the target application and allows the configuration to be described in either free form or machine-readable form. "><FONT FACE="Nimbus Sans L">DetectionPattern</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/DetectionPattern.html" TITLE="The application for which the DetectionConfiguration or Description is being provided."><FONT FACE="Nimbus Sans L">[SOFTWARE] Application (1..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/DetectionPattern.html" TITLE="A free-form text description of how to use the information provided in the Application or DetectionConfiguration classes."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/DetectionPattern.html" TITLE="A machine-consumable configuration to find a pattern of activity."><FONT FACE="Nimbus Sans L">[STRING] DetectionConfiguration (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/DetectionPattern.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/DetectionPattern.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/DetectionPattern.html" TITLE="See Section 3.3.2."><FONT FACE="Nimbus Sans L">[ID] observable-id (0..1)</FONT></td></tr>%</table>>,
+		pos="398,77.5",
+		shape=plaintext,
+		width=3.5278];
+	Discovery -> DetectionPattern	 [label="0..*",
+		lp="241.5,96",
+		pos="e,270.98,85.765 212.24,89.587 228.04,88.559 244.52,87.487 260.84,86.425"];
+	Contact -> Contact	 [label="0..*",
+		lp="398,417",
+		pos="e,421.85,391.79 374.15,391.79 378.93,402.62 386.88,409.5 398,409.5 405.65,409.5 411.79,406.25 416.44,400.69"];
+	RegistryHandle	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#52a3cc" HREF="/html/IODEFv2/RegistryHandle.html" TITLE="The RegistryHandle class represents a handle into an Internet registry or community-specific database. "><FONT FACE="Nimbus Sans L">RegistryHandle</FONT></td> </tr>" %</table>>,
+		pos="698,440.5",
+		shape=plaintext,
+		width=1.5972];
+	Contact -> RegistryHandle	 [label="0..*",
+		lp="554.5,410",
+		pos="e,640.35,431.31 514.51,374.52 536.72,389.12 560.41,402.88 584,413.5 598.45,420.01 614.67,425.06 630.24,428.93"];
+	PostalAddress	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#52a3cc" HREF="/html/IODEFv2/PostalAddress.html" TITLE="The PostalAddress class specifies a postal address and associated annotation. "><FONT FACE="Nimbus Sans L">PostalAddress</FONT></td> </tr>" %<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/PostalAddress.html" TITLE="A postal address."><FONT FACE="Nimbus Sans L">[POSTAL] PAddress (1..1)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/PostalAddress.html" TITLE="A free-form text description of the address."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/PostalAddress.html" TITLE="Categorizes the type of address described in the PAddress class.  These values are maintained in the &quot;PostalAddress-type&quot; IANA registry per Section 10.2."><FONT FACE="Nimbus Sans L">[ENUM] type (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/PostalAddress.html" TITLE="A means by which to extend the type attribute. See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (0..1)</FONT></td></tr>%</table>>,
+		pos="698,347.5",
+		shape=plaintext,
+		width=2.9444];
+	Contact -> PostalAddress	 [label="0..*",
+		lp="554.5,326",
+		pos="e,591.75,324.48 514.85,307.82 536.82,312.58 559.79,317.55 581.74,322.31"];
+	Email	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#52a3cc" HREF="/html/IODEFv2/Email.html" TITLE="The Email class specifies an email address and associated annotation. "><FONT FACE="Nimbus Sans L">Email</FONT></td> </tr>" %<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Email.html" TITLE="An email address."><FONT FACE="Nimbus Sans L">[EMAIL] EmailTo (1..1)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Email.html" TITLE="A free-form text description of the email address."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Email.html" TITLE="Categorizes the type of email address described in the EmailTo class.  These values are maintained in the &quot;Email- type&quot; IANA registry per Section 10.2."><FONT FACE="Nimbus Sans L">[ENUM] type (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IODEFv2/Email.html" TITLE="A means by which to extend the type attribute. See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (0..1)</FONT></td></tr>%</table>>,
+		pos="698,216.5",
+		shape=plaintext,
+		width=2.9444];
+	Contact -> Email	 [label="0..*",
+		lp="554.5,257",
+		pos="e,591.75,239.88 514.85,256.79 536.82,251.96 559.79,246.91 581.74,242.08"];
+	Telephone	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/Telephone.html" TITLE="The Telephone class describes a telephone number and associated annotation. "><FONT FACE="Nimbus Sans L">Telephone</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/Telephone.html" TITLE="A telephone number."><FONT FACE="Nimbus Sans L">[PHONE] TelephoneNumber (1..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Telephone.html" TITLE="A free-form text description of the phone number."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Telephone.html" TITLE="Categorizes the type of telephone number described in the TelephoneNumber class.  These values are maintained in the &quot;Telephone-type&quot; IANA registry per Section 10.2."><FONT FACE="Nimbus Sans L">[ENUM] type (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Telephone.html" TITLE="A means by which to extend the type attribute. See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (0..1)</FONT></td></tr>%</table>>,
+		pos="698,85.5",
+		shape=plaintext,
+		width=3.1667];
+	Contact -> Telephone	 [label="0..*",
+		lp="554.5,181",
+		pos="e,597.57,142.02 514.87,196.92 537.53,181.08 561.3,164.98 584,150.5 585.66,149.44 587.33,148.38 589.02,147.32"];
+}

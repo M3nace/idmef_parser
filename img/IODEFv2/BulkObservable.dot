@@ -1,0 +1,27 @@
+digraph BulkObservable {
+	graph [bb="0,0,801,113",
+		rankdir=LR
+	];
+	node [label="\N"];
+	BulkObservable	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/BulkObservable.html" TITLE="The BulkObservable class allows the enumeration of a single type of observable without requiring each one to be encoded individually in multiple instances of the same class. "><FONT FACE="Nimbus Sans L">BulkObservable</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/BulkObservable.html" TITLE="A list of observables, one per line.  Each line is separated with either a LF character or CR and LF characters.  The type attribute specifies which observables will be listed."><FONT FACE="Nimbus Sans L">[STRING] BulkObservableList (1..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/BulkObservable.html" TITLE="Mechanism by which to extend the data model."><FONT FACE="Nimbus Sans L">[EXTENSION] AdditionalData (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/BulkObservable.html" TITLE="The type of the observable listed in the child ObservableList class.  These values are maintained in the &quot;BulkObservable-type&quot; IANA registry per Section 10.2."><FONT FACE="Nimbus Sans L">[ENUM] type (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/BulkObservable.html" TITLE="A means by which to extend the type attribute. See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (0..1)</FONT></td></tr>%</table>>,
+		pos="119,56.5",
+		shape=plaintext,
+		width=3.3056];
+	BulkObservableFormat	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/BulkObservableFormat.html" TITLE="The ObservableFormat class specifies metadata about the format of an observable enumerated in a sibling BulkObservableList class. "><FONT FACE="Nimbus Sans L">BulkObservableFormat</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/BulkObservableFormat.html" TITLE="Mechanism by which to extend the data model."><FONT FACE="Nimbus Sans L">[EXTENSION] AdditionalData (0..*)</FONT></td></tr>%</table>>,
+		pos="413.5,56.5",
+		shape=plaintext,
+		width=3.2361];
+	BulkObservable -> BulkObservableFormat	 [label="0..1",
+		lp="267.5,64",
+		pos="e,296.84,56.5 238.36,56.5 254.19,56.5 270.46,56.5 286.41,56.5"];
+	Hash	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/Hash.html" TITLE="The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. "><FONT FACE="Nimbus Sans L">Hash</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/Hash.html" TITLE="The canonicalization method used on the object being hashed.  See Section 4.3.1 of [W3C.XMLSIG]."><FONT FACE="Nimbus Sans L">[]  (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Hash.html" TITLE="The application used to calculate the hash."><FONT FACE="Nimbus Sans L">[SOFTWARE] Application (0..1)</FONT></td></tr>%</table>>,
+		pos="695,56.5",
+		shape=plaintext,
+		width=2.9444];
+	BulkObservableFormat -> Hash	 [label="0..1",
+		lp="559.5,64",
+		pos="e,588.92,56.5 530.03,56.5 546.03,56.5 562.47,56.5 578.48,56.5"];
+}

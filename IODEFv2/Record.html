@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<title>IDMEF and IODEF</title>
+<link href='/html/css/bootstrap.min.css' rel='stylesheet'>
+<script src='/html/js/jquery.min.js'></script>
+<script src='/html/js/bootstrap.min.js'></script>
+</head>
+<body>
+<div class='navbar navbar-default navbar-inverse' role='navigation'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<a class='navbar-brand' href='/html' title='IDMEF and IODEF'>IDMEF and IODEF</a>
+</div>
+<div class='collapse navbar-collapse'>
+<ul class='nav navbar-nav'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IDMEFv1
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/html/IDMEFv1'>IDMEF-Message</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/html/IDMEFv1/Alert.html'>Alert</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Analyzer.html'>Analyzer</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Classification.html'>Classification</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/FileAccess.html'>FileAccess</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Heartbeat.html'>Heartbeat</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Linkage.html'>Linkage</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Source.html'>Source</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/Target.html'>Target</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv1/User.html'>User</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IDMEFv2
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/html/IDMEFv2'>IDMEF-Message</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/html/IDMEFv2/Alert.html'>Alert</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Analyzer.html'>Analyzer</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Classification.html'>Classification</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/FileAccess.html'>FileAccess</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Heartbeat.html'>Heartbeat</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Linkage.html'>Linkage</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Source.html'>Source</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Target.html'>Target</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/Transaction.html'>Transaction</a>
+</li>
+<li class=''>
+<a href='/html/IDMEFv2/User.html'>User</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IODEFv1
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/html/IODEFv1'>IODEF-Document</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/html/IODEFv1/AlternativeID.html'>AlternativeID</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Contact.html'>Contact</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/EventData.html'>EventData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Expectation.html'>Expectation</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Flow.html'>Flow</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/History.html'>History</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/HistoryItem.html'>HistoryItem</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Incident.html'>Incident</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Method.html'>Method</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Record.html'>Record</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/RecordData.html'>RecordData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv1/System.html'>System</a>
+</li>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+IODEFv2
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li class=''>
+<a href='/html/IODEFv2'>IODEF-Document</a>
+</li>
+<li class='divider'></li>
+<li class=''>
+<a href='/html/IODEFv2/AlternativeID.html'>AlternativeID</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/AlternativeIndicatorID.html'>AlternativeIndicatorID</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Assessment.html'>Assessment</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/BulkObservable.html'>BulkObservable</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/BulkObservableFormat.html'>BulkObservableFormat</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/CertificateData.html'>CertificateData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Contact.html'>Contact</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Discovery.html'>Discovery</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/DomainContacts.html'>DomainContacts</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/DomainData.html'>DomainData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/EmailData.html'>EmailData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/EventData.html'>EventData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Expectation.html'>Expectation</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/File.html'>File</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/FileData.html'>FileData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Flow.html'>Flow</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/HashData.html'>HashData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/History.html'>History</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/HistoryItem.html'>HistoryItem</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Incident.html'>Incident</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Indicator.html'>Indicator</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/IndicatorData.html'>IndicatorData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/IndicatorExpression.html'>IndicatorExpression</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Method.html'>Method</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Nameservers.html'>Nameservers</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Node.html'>Node</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Observable.html'>Observable</a>
+</li>
+<li class='active'>
+<a href='/html/IODEFv2/Record.html'>Record</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/RecordData.html'>RecordData</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/Service.html'>Service</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/System.html'>System</a>
+</li>
+<li class=''>
+<a href='/html/IODEFv2/WindowsRegistryKeysModified.html'>WindowsRegistryKeysModified</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='nav navbar-nav navbar-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+RFC
+<span class='caret'></span>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/html/rfc4765.txt' target='_blank'>
+IDMEFv1 (4765)
+</a>
+</li>
+<li>
+<a>
+IDMEFv2 (no official RFC)
+</a>
+</li>
+<li>
+<a href='/html/rfc5070.txt' target='_blank'>
+IODEFv1 (5070)
+</a>
+</li>
+<li>
+<a href='/html/rfc7970.txt' target='_blank'>
+IODEFv2 (7970)
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<hr>
+<div class='container'>
+<h1>Record</h1>
+<p>The Record class is a container class for log and audit data that provides supportive information about the events in an incident.  The source of this data will often be the output of monitoring tools. These logs substantiate the activity described in the document. </p>
+<ul class='nav nav-tabs' role='tablist'>
+<li class='active' role='presentation'>
+<a aria-control='svg' data-toggle='tab' href='#svg' role='tab'>SVG</a>
+</li>
+<li role='presentation'>
+<a aria-control='png' data-toggle='tab' href='#png' role='tab'>PNG</a>
+</li>
+<li role='presentation'>
+<a aria-control='dot' data-toggle='tab' href='#dot' role='tab'>DOT</a>
+</li>
+<li role='presentation'>
+<a aria-control='pdf' data-toggle='tab' href='#pdf' role='pdf'>PDF</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane active' id='svg' role='tabpanel'>
+<div class='img-responsive block-center'>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.40.1 (0)
+ -->
+<!-- Title: Record Pages: 1 -->
+<svg width="100%" height="100%"
+ viewBox="0.00 0.00 1659.00 493.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 489.5)">
+<title>Record</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-489.5 1655,-489.5 1655,4 -4,4"/>
+<!-- Record -->
+<g id="node1" class="node">
+<title>Record</title>
+<g id="a_node1_0"><a xlink:href="/html/IODEFv2/Record.html" xlink:title="The Record class is a container class for log and audit data that provides supportive information about the events in an incident. The source of this data will often be the output of monitoring tools. These logs substantiate the activity described in the document. ">
+<polygon fill="#cccc52" stroke="transparent" points="8,-242 8,-263 192,-263 192,-242 8,-242"/>
+<polygon fill="none" stroke="#000000" points="8,-242 8,-263 192,-263 192,-242 8,-242"/>
+<text text-anchor="start" x="78" y="-248.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Record</text>
+</a>
+</g>
+<g id="a_node1_1"><a xlink:href="/html/IODEFv2/Record.html" xlink:title="See Section 3.3.1.">
+<polygon fill="#ffff66" stroke="transparent" points="8,-221 8,-242 192,-242 192,-221 8,-221"/>
+<polygon fill="none" stroke="#000000" points="8,-221 8,-242 192,-242 192,-221 8,-221"/>
+<text text-anchor="start" x="27" y="-227.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
+</a>
+</g>
+<g id="a_node1_2"><a xlink:href="/html/IODEFv2/Record.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<polygon fill="#ffff66" stroke="transparent" points="8,-200 8,-221 192,-221 192,-200 8,-200"/>
+<polygon fill="none" stroke="#000000" points="8,-200 8,-221 192,-221 192,-200 8,-200"/>
+<text text-anchor="start" x="11" y="-206.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
+</a>
+</g>
+</g>
+<!-- RecordData -->
+<g id="node2" class="node">
+<title>RecordData</title>
+<g id="a_node2_3"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="The RecordData class describes or references log or audit data from a given type of tool and provides a means to annotate the output. ">
+<polygon fill="#cccc52" stroke="transparent" points="267.5,-316 267.5,-337 484.5,-337 484.5,-316 267.5,-316"/>
+<polygon fill="none" stroke="#000000" points="267.5,-316 267.5,-337 484.5,-337 484.5,-316 267.5,-316"/>
+<text text-anchor="start" x="339.5" y="-322.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RecordData</text>
+</a>
+</g>
+<g id="a_node2_4"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A timestamp of the data found in the RecordItem or URL classes.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-295 267.5,-316 484.5,-316 484.5,-295 267.5,-295"/>
+<polygon fill="none" stroke="#000000" points="267.5,-295 267.5,-316 484.5,-316 484.5,-295 267.5,-295"/>
+<text text-anchor="start" x="289.5" y="-301.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[DATETIME] DateTime (0..1)</text>
+</a>
+</g>
+<g id="a_node2_5"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A free&#45;form text description of the data provided in the RecordItem or URL classes.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-274 267.5,-295 484.5,-295 484.5,-274 267.5,-274"/>
+<polygon fill="none" stroke="#000000" points="267.5,-274 267.5,-295 484.5,-295 484.5,-274 267.5,-274"/>
+<text text-anchor="start" x="281" y="-280.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
+</a>
+</g>
+<g id="a_node2_6"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="Identifies the tool used to generate the data in the RecordItem or URL classes.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-253 267.5,-274 484.5,-274 484.5,-253 267.5,-253"/>
+<polygon fill="none" stroke="#000000" points="267.5,-253 267.5,-274 484.5,-274 484.5,-253 267.5,-253"/>
+<text text-anchor="start" x="281" y="-259.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
+</a>
+</g>
+<g id="a_node2_7"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="Log, audit, or forensic data to support the conclusions made during the course of analyzing the incident.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-232 267.5,-253 484.5,-253 484.5,-232 267.5,-232"/>
+<polygon fill="none" stroke="#000000" points="267.5,-232 267.5,-253 484.5,-253 484.5,-232 267.5,-232"/>
+<text text-anchor="start" x="279.5" y="-238.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] RecordItem (0..*)</text>
+</a>
+</g>
+<g id="a_node2_8"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A URL reference to a log or audit data.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-211 267.5,-232 484.5,-232 484.5,-211 267.5,-211"/>
+<polygon fill="none" stroke="#000000" points="267.5,-211 267.5,-232 484.5,-232 484.5,-211 267.5,-211"/>
+<text text-anchor="start" x="327.5" y="-217.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
+</a>
+</g>
+<g id="a_node2_9"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="An extension mechanism for data not explicitly represented in the data model.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-190 267.5,-211 484.5,-211 484.5,-190 267.5,-190"/>
+<polygon fill="none" stroke="#000000" points="267.5,-190 267.5,-211 484.5,-211 484.5,-190 267.5,-190"/>
+<text text-anchor="start" x="270.5" y="-196.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
+</a>
+</g>
+<g id="a_node2_10"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="See Section 3.3.1.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-169 267.5,-190 484.5,-190 484.5,-169 267.5,-169"/>
+<polygon fill="none" stroke="#000000" points="267.5,-169 267.5,-190 484.5,-190 484.5,-169 267.5,-169"/>
+<text text-anchor="start" x="303" y="-175.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
+</a>
+</g>
+<g id="a_node2_11"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-148 267.5,-169 484.5,-169 484.5,-148 267.5,-148"/>
+<polygon fill="none" stroke="#000000" points="267.5,-148 267.5,-169 484.5,-169 484.5,-148 267.5,-148"/>
+<text text-anchor="start" x="287" y="-154.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
+</a>
+</g>
+<g id="a_node2_12"><a xlink:href="/html/IODEFv2/RecordData.html" xlink:title="See Section 3.3.2.">
+<polygon fill="#ffff66" stroke="transparent" points="267.5,-127 267.5,-148 484.5,-148 484.5,-127 267.5,-127"/>
+<polygon fill="none" stroke="#000000" points="267.5,-127 267.5,-148 484.5,-148 484.5,-127 267.5,-127"/>
+<text text-anchor="start" x="305" y="-133.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
+</a>
+</g>
+</g>
+<!-- Record&#45;&gt;RecordData -->
+<g id="edge12" class="edge">
+<title>Record&#45;&gt;RecordData</title>
+<path fill="none" stroke="#000000" d="M200.2412,-232C216.0398,-232 232.5511,-232 248.8536,-232"/>
+<polygon fill="#000000" stroke="#000000" points="248.969,-235.5001 258.9689,-232 248.9689,-228.5001 248.969,-235.5001"/>
+<text text-anchor="middle" x="229.5" y="-235.8" font-family="Times,serif" font-size="14.00" fill="#000000">1..*</text>
+</g>
+<!-- RecordPattern -->
+<g id="node3" class="node">
+<title>RecordPattern</title>
+<g id="a_node3_13"><a xlink:href="/html/IODEFv2/RecordPattern.html" xlink:title="The RecordPattern class describes where in the log data provided or referenced in the RecordData class relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. ">
+<polygon fill="#cccc52" stroke="transparent" points="609.5,-337 609.5,-358 702.5,-358 702.5,-337 609.5,-337"/>
+<polygon fill="none" stroke="#000000" points="609.5,-337 609.5,-358 702.5,-358 702.5,-337 609.5,-337"/>
+<text text-anchor="start" x="612.5" y="-343.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">RecordPattern</text>
+</a>
+</g>
+</g>
+<!-- RecordData&#45;&gt;RecordPattern -->
+<g id="edge1" class="edge">
+<title>RecordData&#45;&gt;RecordPattern</title>
+<path fill="none" stroke="#000000" d="M492.3981,-295.6618C511.666,-304.8766 531.6644,-313.698 551,-321 563.642,-325.7742 577.4543,-330.0012 590.7744,-333.6105"/>
+<polygon fill="#000000" stroke="#000000" points="590.276,-337.0981 600.8368,-336.2489 592.0515,-330.327 590.276,-337.0981"/>
+<text text-anchor="middle" x="521.5" y="-316.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- FileData -->
+<g id="node4" class="node">
+<title>FileData</title>
+<g id="a_node4_14"><a xlink:href="/html/IODEFv2/FileData.html" xlink:title="The FileData class describes a file or set of files. ">
+<polygon fill="#cecece" stroke="transparent" points="563.5,-287 563.5,-308 747.5,-308 747.5,-287 563.5,-287"/>
+<polygon fill="none" stroke="#000000" points="563.5,-287 563.5,-308 747.5,-308 747.5,-287 563.5,-287"/>
+<text text-anchor="start" x="630" y="-293.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">FileData</text>
+</a>
+</g>
+<g id="a_node4_15"><a xlink:href="/html/IODEFv2/FileData.html" xlink:title="See Section 3.3.1.">
+<polygon fill="none" stroke="#000000" points="563.5,-266 563.5,-287 747.5,-287 747.5,-266 563.5,-266"/>
+<text text-anchor="start" x="582.5" y="-272.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
+</a>
+</g>
+<g id="a_node4_16"><a xlink:href="/html/IODEFv2/FileData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="563.5,-245 563.5,-266 747.5,-266 747.5,-245 563.5,-245"/>
+<text text-anchor="start" x="566.5" y="-251.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
+</a>
+</g>
+<g id="a_node4_17"><a xlink:href="/html/IODEFv2/FileData.html" xlink:title="See Section 3.3.2.">
+<polygon fill="none" stroke="#000000" points="563.5,-224 563.5,-245 747.5,-245 747.5,-224 563.5,-224"/>
+<text text-anchor="start" x="584.5" y="-230.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
+</a>
+</g>
+</g>
+<!-- RecordData&#45;&gt;FileData -->
+<g id="edge7" class="edge">
+<title>RecordData&#45;&gt;FileData</title>
+<path fill="none" stroke="#000000" d="M492.2177,-246.1729C509.779,-248.3053 527.8431,-250.4988 545.2627,-252.614"/>
+<polygon fill="#000000" stroke="#000000" points="545.0869,-256.1183 555.4359,-253.8494 545.9308,-249.1694 545.0869,-256.1183"/>
+<text text-anchor="middle" x="521.5" y="-254.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..1</text>
+</g>
+<!-- WindowsRegistryKeysModified -->
+<g id="node10" class="node">
+<title>WindowsRegistryKeysModified</title>
+<g id="a_node10_18"><a xlink:href="/html/IODEFv2/WindowsRegistryKeysModified.html" xlink:title="The WindowsRegistryKeysModified class describes Windows operating system registry keys and the operations that were performed on them. This class was derived from [RFC5901]. ">
+<polygon fill="#cecece" stroke="transparent" points="559.5,-177 559.5,-198 752.5,-198 752.5,-177 559.5,-177"/>
+<polygon fill="none" stroke="#000000" points="559.5,-177 559.5,-198 752.5,-198 752.5,-177 559.5,-177"/>
+<text text-anchor="start" x="562.5" y="-183.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">WindowsRegistryKeysModified</text>
+</a>
+</g>
+<g id="a_node10_19"><a xlink:href="/html/IODEFv2/WindowsRegistryKeysModified.html" xlink:title="See Section 3.3.2.">
+<polygon fill="none" stroke="#000000" points="559.5,-156 559.5,-177 752.5,-177 752.5,-156 559.5,-156"/>
+<text text-anchor="start" x="585" y="-162.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
+</a>
+</g>
+</g>
+<!-- RecordData&#45;&gt;WindowsRegistryKeysModified -->
+<g id="edge9" class="edge">
+<title>RecordData&#45;&gt;WindowsRegistryKeysModified</title>
+<path fill="none" stroke="#000000" d="M492.2177,-209.0733C508.2479,-205.9245 524.6971,-202.6934 540.6927,-199.5514"/>
+<polygon fill="#000000" stroke="#000000" points="541.4479,-202.9701 550.5857,-197.6082 540.0986,-196.1013 541.4479,-202.9701"/>
+<text text-anchor="middle" x="521.5" y="-207.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- CertificateData -->
+<g id="node12" class="node">
+<title>CertificateData</title>
+<g id="a_node12_20"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="The CertificateData class describes X.509 certificates. ">
+<polygon fill="#cecece" stroke="transparent" points="563.5,-88 563.5,-109 747.5,-109 747.5,-88 563.5,-88"/>
+<polygon fill="none" stroke="#000000" points="563.5,-88 563.5,-109 747.5,-109 747.5,-88 563.5,-88"/>
+<text text-anchor="start" x="610" y="-94.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">CertificateData</text>
+</a>
+</g>
+<g id="a_node12_21"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="See Section 3.3.1.">
+<polygon fill="none" stroke="#000000" points="563.5,-67 563.5,-88 747.5,-88 747.5,-67 563.5,-67"/>
+<text text-anchor="start" x="582.5" y="-73.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
+</a>
+</g>
+<g id="a_node12_22"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="563.5,-46 563.5,-67 747.5,-67 747.5,-46 563.5,-46"/>
+<text text-anchor="start" x="566.5" y="-52.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
+</a>
+</g>
+<g id="a_node12_23"><a xlink:href="/html/IODEFv2/CertificateData.html" xlink:title="See Section 3.3.2.">
+<polygon fill="none" stroke="#000000" points="563.5,-25 563.5,-46 747.5,-46 747.5,-25 563.5,-25"/>
+<text text-anchor="start" x="584.5" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
+</a>
+</g>
+</g>
+<!-- RecordData&#45;&gt;CertificateData -->
+<g id="edge11" class="edge">
+<title>RecordData&#45;&gt;CertificateData</title>
+<path fill="none" stroke="#000000" d="M492.2177,-163.2199C517.7437,-148.1778 544.3321,-132.5097 568.4592,-118.2919"/>
+<polygon fill="#000000" stroke="#000000" points="570.3918,-121.2156 577.2303,-113.1232 566.8379,-115.1848 570.3918,-121.2156"/>
+<text text-anchor="middle" x="521.5" y="-152.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- File -->
+<g id="node5" class="node">
+<title>File</title>
+<g id="a_node5_24"><a xlink:href="/html/IODEFv2/File.html" xlink:title="The File class describes a file; its associated metadata; and cryptographic hashes and signatures applied to it. ">
+<polygon fill="#cecece" stroke="transparent" points="827,-413 827,-434 1077,-434 1077,-413 827,-413"/>
+<polygon fill="none" stroke="#000000" points="827,-413 827,-434 1077,-434 1077,-413 827,-413"/>
+<text text-anchor="start" x="941" y="-419.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">File</text>
+</a>
+</g>
+<g id="a_node5_25"><a xlink:href="/html/IODEFv2/File.html" xlink:title="The name of the file.">
+<polygon fill="none" stroke="#000000" points="827,-392 827,-413 1077,-413 1077,-392 827,-392"/>
+<text text-anchor="start" x="873.5" y="-398.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] FileName (0..1)</text>
+</a>
+</g>
+<g id="a_node5_26"><a xlink:href="/html/IODEFv2/File.html" xlink:title="The size of the file in bytes.">
+<polygon fill="none" stroke="#000000" points="827,-371 827,-392 1077,-392 1077,-371 827,-371"/>
+<text text-anchor="start" x="874" y="-377.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] FileSize (0..1)</text>
+</a>
+</g>
+<g id="a_node5_27"><a xlink:href="/html/IODEFv2/File.html" xlink:title="The type of file per the IANA &quot;Media Types&quot; registry [IANA.Media]. &#160;Valid values correspond to the text in the &quot;Template&quot; column (e.g., &quot;application/pdf&quot;).">
+<polygon fill="none" stroke="#000000" points="827,-350 827,-371 1077,-371 1077,-350 827,-350"/>
+<text text-anchor="start" x="878" y="-356.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] FileType (0..1)</text>
+</a>
+</g>
+<g id="a_node5_28"><a xlink:href="/html/IODEFv2/File.html" xlink:title="A URL reference to the file.">
+<polygon fill="none" stroke="#000000" points="827,-329 827,-350 1077,-350 1077,-329 827,-329"/>
+<text text-anchor="start" x="903.5" y="-335.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[URL] URL (0..*)</text>
+</a>
+</g>
+<g id="a_node5_29"><a xlink:href="/html/IODEFv2/File.html" xlink:title="The software application or operating system to which this file belongs or by which it can be processed.">
+<polygon fill="none" stroke="#000000" points="827,-308 827,-329 1077,-329 1077,-308 827,-308"/>
+<text text-anchor="start" x="830" y="-314.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] AssociatedSoftware (0..1)</text>
+</a>
+</g>
+<g id="a_node5_30"><a xlink:href="/html/IODEFv2/File.html" xlink:title="Mechanism by which to extend the data model to describe properties of the file.">
+<polygon fill="none" stroke="#000000" points="827,-287 827,-308 1077,-308 1077,-287 827,-287"/>
+<text text-anchor="start" x="848.5" y="-293.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] FileProperties (0..*)</text>
+</a>
+</g>
+<g id="a_node5_31"><a xlink:href="/html/IODEFv2/File.html" xlink:title="See Section 3.3.2.">
+<polygon fill="none" stroke="#000000" points="827,-266 827,-287 1077,-287 1077,-266 827,-266"/>
+<text text-anchor="start" x="881" y="-272.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
+</a>
+</g>
+</g>
+<!-- FileData&#45;&gt;File -->
+<g id="edge6" class="edge">
+<title>FileData&#45;&gt;File</title>
+<path fill="none" stroke="#000000" d="M755.8814,-294.4386C772.9624,-299.2777 790.9932,-304.3859 808.923,-309.4655"/>
+<polygon fill="#000000" stroke="#000000" points="808.2916,-312.9243 818.8669,-312.2827 810.1996,-306.1894 808.2916,-312.9243"/>
+<text text-anchor="middle" x="789.5" y="-308.8" font-family="Times,serif" font-size="14.00" fill="#000000">1..*</text>
+</g>
+<!-- HashData -->
+<g id="node6" class="node">
+<title>HashData</title>
+<g id="a_node6_32"><a xlink:href="/html/IODEFv2/HashData.html" xlink:title="The HashData class describes different types of hashes on a given object (e.g., file, part of a file, email). ">
+<polygon fill="#cecece" stroke="transparent" points="1152.5,-410 1152.5,-431 1339.5,-431 1339.5,-410 1152.5,-410"/>
+<polygon fill="none" stroke="#000000" points="1152.5,-410 1152.5,-431 1339.5,-431 1339.5,-410 1152.5,-410"/>
+<text text-anchor="start" x="1215.5" y="-416.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">HashData</text>
+</a>
+</g>
+<g id="a_node6_33"><a xlink:href="/html/IODEFv2/HashData.html" xlink:title="An identifier that references a subset of the object being hashed. &#160;The semantics of this identifier are specified by the scope attribute.">
+<polygon fill="none" stroke="#000000" points="1152.5,-389 1152.5,-410 1339.5,-410 1339.5,-389 1152.5,-389"/>
+<text text-anchor="start" x="1155.5" y="-395.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] HashTargetID (0..1)</text>
+</a>
+</g>
+<g id="a_node6_34"><a xlink:href="/html/IODEFv2/HashData.html" xlink:title="A means by which to extend the scope attribute. &#160;See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="1152.5,-368 1152.5,-389 1339.5,-389 1339.5,-368 1152.5,-368"/>
+<text text-anchor="start" x="1179" y="-374.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] scope (0..1)</text>
+</a>
+</g>
+</g>
+<!-- File&#45;&gt;HashData -->
+<g id="edge4" class="edge">
+<title>File&#45;&gt;HashData</title>
+<path fill="none" stroke="#000000" d="M1085.0101,-372.6593C1101.3386,-375.441 1117.896,-378.2617 1133.8641,-380.982"/>
+<polygon fill="#000000" stroke="#000000" points="1133.2773,-384.4323 1143.7231,-382.6615 1134.4529,-377.5318 1133.2773,-384.4323"/>
+<text text-anchor="middle" x="1114.5" y="-382.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..1</text>
+</g>
+<!-- SignatureData -->
+<g id="node9" class="node">
+<title>SignatureData</title>
+<g id="a_node9_35"><a xlink:href="/html/IODEFv2/SignatureData.html" xlink:title="The SignatureData class describes different types of digital signatures on an object. ">
+<polygon fill="#cecece" stroke="transparent" points="1191.5,-321 1191.5,-342 1299.5,-342 1299.5,-321 1191.5,-321"/>
+<polygon fill="none" stroke="#000000" points="1191.5,-321 1191.5,-342 1299.5,-342 1299.5,-321 1191.5,-321"/>
+<text text-anchor="start" x="1202" y="-327.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">SignatureData</text>
+</a>
+</g>
+<g id="a_node9_36"><a xlink:href="/html/IODEFv2/SignatureData.html" xlink:title="A given signature. &#160;See Section 4.2 of [W3C.XMLSIG].">
+<polygon fill="none" stroke="#000000" points="1191.5,-300 1191.5,-321 1299.5,-321 1299.5,-300 1191.5,-300"/>
+<text text-anchor="start" x="1194.5" y="-306.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] Signature (1..*)</text>
+</a>
+</g>
+</g>
+<!-- File&#45;&gt;SignatureData -->
+<g id="edge5" class="edge">
+<title>File&#45;&gt;SignatureData</title>
+<path fill="none" stroke="#000000" d="M1085.0101,-336.8576C1115.4051,-333.8544 1146.5931,-330.7727 1173.2971,-328.1342"/>
+<polygon fill="#000000" stroke="#000000" points="1173.6937,-331.6121 1183.3011,-327.1457 1173.0053,-324.6461 1173.6937,-331.6121"/>
+<text text-anchor="middle" x="1114.5" y="-337.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..1</text>
+</g>
+<!-- Hash -->
+<g id="node7" class="node">
+<title>Hash</title>
+<g id="a_node7_37"><a xlink:href="/html/IODEFv2/Hash.html" xlink:title="The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. ">
+<polygon fill="#cecece" stroke="transparent" points="1430.5,-460 1430.5,-481 1626.5,-481 1626.5,-460 1430.5,-460"/>
+<polygon fill="none" stroke="#000000" points="1430.5,-460 1430.5,-481 1626.5,-481 1626.5,-460 1430.5,-460"/>
+<text text-anchor="start" x="1512.5" y="-466.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Hash</text>
+</a>
+</g>
+<g id="a_node7_38"><a xlink:href="/html/IODEFv2/Hash.html" xlink:title="The canonicalization method used on the object being hashed. &#160;See Section 4.3.1 of [W3C.XMLSIG].">
+<polygon fill="none" stroke="#000000" points="1430.5,-439 1430.5,-460 1626.5,-460 1626.5,-439 1430.5,-439"/>
+<text text-anchor="start" x="1505" y="-445.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] &#160;(0..1)</text>
+</a>
+</g>
+<g id="a_node7_39"><a xlink:href="/html/IODEFv2/Hash.html" xlink:title="The application used to calculate the hash.">
+<polygon fill="none" stroke="#000000" points="1430.5,-418 1430.5,-439 1626.5,-439 1626.5,-418 1430.5,-418"/>
+<text text-anchor="start" x="1433.5" y="-424.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
+</a>
+</g>
+</g>
+<!-- HashData&#45;&gt;Hash -->
+<g id="edge2" class="edge">
+<title>HashData&#45;&gt;Hash</title>
+<path fill="none" stroke="#000000" d="M1347.2697,-417.9805C1368.432,-421.7194 1390.8845,-425.6863 1412.5143,-429.5078"/>
+<polygon fill="#000000" stroke="#000000" points="1411.9304,-432.9588 1422.3869,-431.2521 1413.1484,-426.0656 1411.9304,-432.9588"/>
+<text text-anchor="middle" x="1376.5" y="-428.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- FuzzyHash -->
+<g id="node8" class="node">
+<title>FuzzyHash</title>
+<g id="a_node8_40"><a xlink:href="/html/IODEFv2/FuzzyHash.html" xlink:title="The FuzzyHash class describes a fuzzy hash and the application used to generate it. ">
+<polygon fill="#cecece" stroke="transparent" points="1414.5,-371 1414.5,-392 1643.5,-392 1643.5,-371 1414.5,-371"/>
+<polygon fill="none" stroke="#000000" points="1414.5,-371 1414.5,-392 1643.5,-392 1643.5,-371 1414.5,-371"/>
+<text text-anchor="start" x="1495.5" y="-377.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">FuzzyHash</text>
+</a>
+</g>
+<g id="a_node8_41"><a xlink:href="/html/IODEFv2/FuzzyHash.html" xlink:title="The computed fuzzy hash value.">
+<polygon fill="none" stroke="#000000" points="1414.5,-350 1414.5,-371 1643.5,-371 1643.5,-350 1414.5,-350"/>
+<text text-anchor="start" x="1417.5" y="-356.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] FuzzyHashValue (1..*)</text>
+</a>
+</g>
+<g id="a_node8_42"><a xlink:href="/html/IODEFv2/FuzzyHash.html" xlink:title="The application used to calculate the hash.">
+<polygon fill="none" stroke="#000000" points="1414.5,-329 1414.5,-350 1643.5,-350 1643.5,-329 1414.5,-329"/>
+<text text-anchor="start" x="1434" y="-335.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[SOFTWARE] Application (0..1)</text>
+</a>
+</g>
+<g id="a_node8_43"><a xlink:href="/html/IODEFv2/FuzzyHash.html" xlink:title="Mechanism by which to extend the data model.">
+<polygon fill="none" stroke="#000000" points="1414.5,-308 1414.5,-329 1643.5,-329 1643.5,-308 1414.5,-308"/>
+<text text-anchor="start" x="1423.5" y="-314.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
+</a>
+</g>
+</g>
+<!-- HashData&#45;&gt;FuzzyHash -->
+<g id="edge3" class="edge">
+<title>HashData&#45;&gt;FuzzyHash</title>
+<path fill="none" stroke="#000000" d="M1347.2697,-382.0195C1363.017,-379.2373 1379.4787,-376.3289 1395.7842,-373.448"/>
+<polygon fill="#000000" stroke="#000000" points="1396.6703,-376.8458 1405.9088,-371.6592 1395.4523,-369.9525 1396.6703,-376.8458"/>
+<text text-anchor="middle" x="1376.5" y="-380.8" font-family="Times,serif" font-size="14.00" fill="#000000">0..*</text>
+</g>
+<!-- Key -->
+<g id="node11" class="node">
+<title>Key</title>
+<g id="a_node11_44"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="The Key class describes a Windows operating system registry key name and value pair, as well as the operation performed on it. ">
+<polygon fill="#cecece" stroke="transparent" points="849,-219 849,-240 1055,-240 1055,-219 849,-219"/>
+<polygon fill="none" stroke="#000000" points="849,-219 849,-240 1055,-240 1055,-219 849,-219"/>
+<text text-anchor="start" x="940.5" y="-225.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Key</text>
+</a>
+</g>
+<g id="a_node11_45"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="The name of a Windows operating system registry key (e.g., [HKEY_LOCAL_MACHINE\Software\Test\KeyName]).">
+<polygon fill="none" stroke="#000000" points="849,-198 849,-219 1055,-219 1055,-198 849,-198"/>
+<text text-anchor="start" x="873.5" y="-204.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] KeyName (1..1)</text>
+</a>
+</g>
+<g id="a_node11_46"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="The value of the registry key identified in the KeyName class encoded per the .reg file format [KB310516].">
+<polygon fill="none" stroke="#000000" points="849,-177 849,-198 1055,-198 1055,-177 849,-177"/>
+<text text-anchor="start" x="875" y="-183.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] KeyValue (0..1)</text>
+</a>
+</g>
+<g id="a_node11_47"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="The type of action taken on the registry key. These values are maintained in the &quot;Key&#45;registryaction&quot; IANA registry per Section 10.2.">
+<polygon fill="none" stroke="#000000" points="849,-156 849,-177 1055,-177 1055,-156 849,-156"/>
+<text text-anchor="start" x="868" y="-162.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] registryaction (0..1)</text>
+</a>
+</g>
+<g id="a_node11_48"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="A means by which to extend the registryaction attribute. &#160;See Section 5.1.1.">
+<polygon fill="none" stroke="#000000" points="849,-135 849,-156 1055,-156 1055,-135 849,-135"/>
+<text text-anchor="start" x="852" y="-141.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;registryaction (0..1)</text>
+</a>
+</g>
+<g id="a_node11_49"><a xlink:href="/html/IODEFv2/Key.html" xlink:title="See Section 3.3.2.">
+<polygon fill="none" stroke="#000000" points="849,-114 849,-135 1055,-135 1055,-114 849,-114"/>
+<text text-anchor="start" x="881" y="-120.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
+</a>
+</g>
+</g>
+<!-- WindowsRegistryKeysModified&#45;&gt;Key -->
+<g id="edge8" class="edge">
+<title>WindowsRegistryKeysModified&#45;&gt;Key</title>
+<path fill="none" stroke="#000000" d="M760.0348,-177C782.9389,-177 807.3719,-177 830.8644,-177"/>
+<polygon fill="#000000" stroke="#000000" points="830.8679,-180.5001 840.8678,-177 830.8678,-173.5001 830.8679,-180.5001"/>
+<text text-anchor="middle" x="789.5" y="-180.8" font-family="Times,serif" font-size="14.00" fill="#000000">1..*</text>
+</g>
+<!-- Certificate -->
+<g id="node13" class="node">
+<title>Certificate</title>
+<g id="a_node13_50"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="The Certificate class describes a given X.509 certificate or certificate chain. ">
+<polygon fill="#cecece" stroke="transparent" points="854,-67 854,-88 1050,-88 1050,-67 854,-67"/>
+<polygon fill="none" stroke="#000000" points="854,-67 854,-88 1050,-88 1050,-67 854,-67"/>
+<text text-anchor="start" x="921" y="-73.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Certificate</text>
+</a>
+</g>
+<g id="a_node13_51"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="A given X.509 certificate or chain. &#160;See Section 4.4.4 of [W3C.XMLSIG].">
+<polygon fill="none" stroke="#000000" points="854,-46 854,-67 1050,-67 1050,-46 854,-46"/>
+<text text-anchor="start" x="928.5" y="-52.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] &#160;(1..1)</text>
+</a>
+</g>
+<g id="a_node13_52"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="A free&#45;form text description explaining the context of this certificate.">
+<polygon fill="none" stroke="#000000" points="854,-25 854,-46 1050,-46 1050,-25 854,-25"/>
+<text text-anchor="start" x="857" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
+</a>
+</g>
+<g id="a_node13_53"><a xlink:href="/html/IODEFv2/Certificate.html" xlink:title="See Section 3.3.2.">
+<polygon fill="none" stroke="#000000" points="854,-4 854,-25 1050,-25 1050,-4 854,-4"/>
+<text text-anchor="start" x="881" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
+</a>
+</g>
+</g>
+<!-- CertificateData&#45;&gt;Certificate -->
+<g id="edge10" class="edge">
+<title>CertificateData&#45;&gt;Certificate</title>
+<path fill="none" stroke="#000000" d="M755.8814,-59.8904C781.5788,-58.0703 809.4257,-56.098 835.8444,-54.2269"/>
+<polygon fill="#000000" stroke="#000000" points="836.1645,-57.7131 845.8922,-53.5152 835.6699,-50.7306 836.1645,-57.7131"/>
+<text text-anchor="middle" x="789.5" y="-61.8" font-family="Times,serif" font-size="14.00" fill="#000000">1..*</text>
+</g>
+</g>
+</svg>
+
+</div>
+</div>
+<div class='tab-pane' id='png' role='tabpanel'>
+<img class='img-responsive block-center' src='/html/img/IODEFv2/Record.png'>
+</div>
+<div class='tab-pane' id='dot' role='tabpanel'>
+<pre><p>digraph Record {
+	graph [bb=&quot;0,0,1651,485.5&quot;,
+		rankdir=LR
+	];
+	node [label=&quot;\N&quot;];
+	Record	 [height=0.98611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#cccc52&quot; HREF=&quot;/html/IODEFv2/Record.html&quot; TITLE=&quot;The Record class is a container class for log and audit data that provides supportive information about the events in an incident. The source of this data will often be the output of monitoring tools. These logs substantiate the activity described in the document. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Record&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/Record.html&quot; TITLE=&quot;See Section 3.3.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] restriction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/Record.html&quot; TITLE=&quot;A means by which to extend the restriction attribute.  See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-restriction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;100,232&quot;,
+		shape=plaintext,
+		width=2.7778];
+	RecordData	 [height=3.0278,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#cccc52&quot; HREF=&quot;/html/IODEFv2/RecordData.html&quot; TITLE=&quot;The RecordData class describes or references log or audit data from a given type of tool and provides a means to annotate the output. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;RecordData&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/RecordData.html&quot; TITLE=&quot;A timestamp of the data found in the RecordItem or URL classes.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[DATETIME] DateTime (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/RecordData.html&quot; TITLE=&quot;A free-form text description of the data provided in the RecordItem or URL classes.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ML_STRING] Description (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/RecordData.html&quot; TITLE=&quot;Identifies the tool used to generate the data in the RecordItem or URL classes.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[SOFTWARE] Application (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/RecordData.html&quot; TITLE=&quot;Log, audit, or forensic data to support the conclusions made during the course of analyzing the incident.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[EXTENSION] RecordItem (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/RecordData.html&quot; TITLE=&quot;A URL reference to a log or audit data.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[URL] URL (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/RecordData.html&quot; TITLE=&quot;An extension mechanism for data not explicitly represented in the data model.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[EXTENSION] AdditionalData (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/RecordData.html&quot; TITLE=&quot;See Section 3.3.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] restriction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/RecordData.html&quot; TITLE=&quot;A means by which to extend the restriction attribute.  See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-restriction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td BGCOLOR=&quot;#FFFF66&quot;  HREF=&quot;/html/IODEFv2/RecordData.html&quot; TITLE=&quot;See Section 3.3.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ID] observable-id (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;375.5,232&quot;,
+		shape=plaintext,
+		width=3.2361];
+	Record -&gt; RecordData	 [label=&quot;1..*&quot;,
+		lp=&quot;229.5,239.5&quot;,
+		pos=&quot;e,258.97,232 200.24,232 216.04,232 232.55,232 248.85,232&quot;];
+	RecordPattern	 [height=0.5,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#cccc52&quot; HREF=&quot;/html/IODEFv2/RecordPattern.html&quot; TITLE=&quot;The RecordPattern class describes where in the log data provided or referenced in the RecordData class relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;RecordPattern&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;/table&gt;&gt;,
+		pos=&quot;655.5,348&quot;,
+		shape=plaintext,
+		width=1.5139];
+	RecordData -&gt; RecordPattern	 [label=&quot;0..*&quot;,
+		lp=&quot;521.5,320.5&quot;,
+		pos=&quot;e,600.84,336.25 492.4,295.66 511.67,304.88 531.66,313.7 551,321 563.64,325.77 577.45,330 590.77,333.61&quot;];
+	FileData	 [height=1.2778,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv2/FileData.html&quot; TITLE=&quot;The FileData class describes a file or set of files. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;FileData&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/FileData.html&quot; TITLE=&quot;See Section 3.3.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] restriction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/FileData.html&quot; TITLE=&quot;A means by which to extend the restriction attribute.  See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-restriction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/FileData.html&quot; TITLE=&quot;See Section 3.3.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ID] observable-id (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;655.5,266&quot;,
+		shape=plaintext,
+		width=2.7778];
+	RecordData -&gt; FileData	 [label=&quot;0..1&quot;,
+		lp=&quot;521.5,258.5&quot;,
+		pos=&quot;e,555.44,253.85 492.22,246.17 509.78,248.31 527.84,250.5 545.26,252.61&quot;];
+	WindowsRegistryKeysModified	 [height=0.69444,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv2/WindowsRegistryKeysModified.html&quot; TITLE=&quot;The WindowsRegistryKeysModified class describes Windows operating system registry keys and the operations that were performed on them. This class was derived from [RFC5901]. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;WindowsRegistryKeysModified&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/WindowsRegistryKeysModified.html&quot; TITLE=&quot;See Section 3.3.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ID] observable-id (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;655.5,177&quot;,
+		shape=plaintext,
+		width=2.9028];
+	RecordData -&gt; WindowsRegistryKeysModified	 [label=&quot;0..*&quot;,
+		lp=&quot;521.5,211.5&quot;,
+		pos=&quot;e,550.59,197.61 492.22,209.07 508.25,205.92 524.7,202.69 540.69,199.55&quot;];
+	CertificateData	 [height=1.2778,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv2/CertificateData.html&quot; TITLE=&quot;The CertificateData class describes X.509 certificates. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;CertificateData&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/CertificateData.html&quot; TITLE=&quot;See Section 3.3.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] restriction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/CertificateData.html&quot; TITLE=&quot;A means by which to extend the restriction attribute.  See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-restriction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/CertificateData.html&quot; TITLE=&quot;See Section 3.3.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ID] observable-id (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;655.5,67&quot;,
+		shape=plaintext,
+		width=2.7778];
+	RecordData -&gt; CertificateData	 [label=&quot;0..*&quot;,
+		lp=&quot;521.5,156.5&quot;,
+		pos=&quot;e,577.23,113.12 492.22,163.22 517.74,148.18 544.33,132.51 568.46,118.29&quot;];
+	File	 [height=2.4444,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv2/File.html&quot; TITLE=&quot;The File class describes a file; its associated metadata; and cryptographic hashes and signatures applied to it. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;File&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/File.html&quot; TITLE=&quot;The name of the file.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] FileName (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/File.html&quot; TITLE=&quot;The size of the file in bytes.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[INTEGER] FileSize (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/File.html&quot; TITLE=&quot;The type of file per the IANA &amp;quot;Media Types&amp;quot; registry [IANA.Media].  Valid values correspond to the text in the &amp;quot;Template&amp;quot; column (e.g., &amp;quot;application/pdf&amp;quot;).&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] FileType (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/File.html&quot; TITLE=&quot;A URL reference to the file.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[URL] URL (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/File.html&quot; TITLE=&quot;The software application or operating system to which this file belongs or by which it can be processed.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[SOFTWARE] AssociatedSoftware (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/File.html&quot; TITLE=&quot;Mechanism by which to extend the data model to describe properties of the file.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[EXTENSION] FileProperties (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/File.html&quot; TITLE=&quot;See Section 3.3.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ID] observable-id (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;952,350&quot;,
+		shape=plaintext,
+		width=3.6944];
+	FileData -&gt; File	 [label=&quot;1..*&quot;,
+		lp=&quot;789.5,312.5&quot;,
+		pos=&quot;e,818.87,312.28 755.88,294.44 772.96,299.28 790.99,304.39 808.92,309.47&quot;];
+	HashData	 [height=0.98611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv2/HashData.html&quot; TITLE=&quot;The HashData class describes different types of hashes on a given object (e.g., file, part of a file, email). &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;HashData&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/HashData.html&quot; TITLE=&quot;An identifier that references a subset of the object being hashed.  The semantics of this identifier are specified by the scope attribute.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] HashTargetID (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/HashData.html&quot; TITLE=&quot;A means by which to extend the scope attribute.  See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] scope (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;1245.5,400&quot;,
+		shape=plaintext,
+		width=2.8194];
+	File -&gt; HashData	 [label=&quot;0..1&quot;,
+		lp=&quot;1114.5,386.5&quot;,
+		pos=&quot;e,1143.7,382.66 1085,372.66 1101.3,375.44 1117.9,378.26 1133.9,380.98&quot;];
+	SignatureData	 [height=0.69444,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv2/SignatureData.html&quot; TITLE=&quot;The SignatureData class describes different types of digital signatures on an object. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;SignatureData&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/SignatureData.html&quot; TITLE=&quot;A given signature.  See Section 4.2 of [W3C.XMLSIG].&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[] Signature (1..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;1245.5,321&quot;,
+		shape=plaintext,
+		width=1.7222];
+	File -&gt; SignatureData	 [label=&quot;0..1&quot;,
+		lp=&quot;1114.5,341.5&quot;,
+		pos=&quot;e,1183.3,327.15 1085,336.86 1115.4,333.85 1146.6,330.77 1173.3,328.13&quot;];
+	Hash	 [height=0.98611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv2/Hash.html&quot; TITLE=&quot;The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Hash&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/Hash.html&quot; TITLE=&quot;The canonicalization method used on the object being hashed.  See Section 4.3.1 of [W3C.XMLSIG].&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[]  (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/Hash.html&quot; TITLE=&quot;The application used to calculate the hash.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[SOFTWARE] Application (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;1528.5,450&quot;,
+		shape=plaintext,
+		width=2.9444];
+	HashData -&gt; Hash	 [label=&quot;0..*&quot;,
+		lp=&quot;1376.5,432.5&quot;,
+		pos=&quot;e,1422.4,431.25 1347.3,417.98 1368.4,421.72 1390.9,425.69 1412.5,429.51&quot;];
+	FuzzyHash	 [height=1.2778,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv2/FuzzyHash.html&quot; TITLE=&quot;The FuzzyHash class describes a fuzzy hash and the application used to generate it. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;FuzzyHash&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/FuzzyHash.html&quot; TITLE=&quot;The computed fuzzy hash value.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[EXTENSION] FuzzyHashValue (1..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/FuzzyHash.html&quot; TITLE=&quot;The application used to calculate the hash.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[SOFTWARE] Application (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/FuzzyHash.html&quot; TITLE=&quot;Mechanism by which to extend the data model.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[EXTENSION] AdditionalData (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;1528.5,350&quot;,
+		shape=plaintext,
+		width=3.4028];
+	HashData -&gt; FuzzyHash	 [label=&quot;0..*&quot;,
+		lp=&quot;1376.5,384.5&quot;,
+		pos=&quot;e,1405.9,371.66 1347.3,382.02 1363,379.24 1379.5,376.33 1395.8,373.45&quot;];
+	Key	 [height=1.8611,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv2/Key.html&quot; TITLE=&quot;The Key class describes a Windows operating system registry key name and value pair, as well as the operation performed on it. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Key&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/Key.html&quot; TITLE=&quot;The name of a Windows operating system registry key (e.g., [HKEY_LOCAL_MACHINE\Software\Test\KeyName]).&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] KeyName (1..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/Key.html&quot; TITLE=&quot;The value of the registry key identified in the KeyName class encoded per the .reg file format [KB310516].&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] KeyValue (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/Key.html&quot; TITLE=&quot;The type of action taken on the registry key. These values are maintained in the &amp;quot;Key-registryaction&amp;quot; IANA registry per Section 10.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ENUM] registryaction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/Key.html&quot; TITLE=&quot;A means by which to extend the registryaction attribute.  See Section 5.1.1.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[STRING] ext-registryaction (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/Key.html&quot; TITLE=&quot;See Section 3.3.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ID] observable-id (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;952,177&quot;,
+		shape=plaintext,
+		width=3.0833];
+	WindowsRegistryKeysModified -&gt; Key	 [label=&quot;1..*&quot;,
+		lp=&quot;789.5,184.5&quot;,
+		pos=&quot;e,840.87,177 760.03,177 782.94,177 807.37,177 830.86,177&quot;];
+	Certificate	 [height=1.2778,
+		label=&lt;&lt;table BORDER=&quot;0&quot; CELLBORDER=&quot;1&quot; CELLSPACING=&quot;0&quot;&gt; &lt;tr&gt; &lt;td BGCOLOR=&quot;#CECECE&quot; HREF=&quot;/html/IODEFv2/Certificate.html&quot; TITLE=&quot;The Certificate class describes a given X.509 certificate or certificate chain. &quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;Certificate&lt;/FONT&gt;&lt;/td&gt; &lt;/tr&gt;&quot; %&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/Certificate.html&quot; TITLE=&quot;A given X.509 certificate or chain.  See Section 4.4.4 of [W3C.XMLSIG].&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[]  (1..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/Certificate.html&quot; TITLE=&quot;A free-form text description explaining the context of this certificate.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ML_STRING] Description (0..*)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;tr&gt;&lt;td  HREF=&quot;/html/IODEFv2/Certificate.html&quot; TITLE=&quot;See Section 3.3.2.&quot;&gt;&lt;FONT FACE=&quot;Nimbus Sans L&quot;&gt;[ID] observable-id (0..1)&lt;/FONT&gt;&lt;/td&gt;&lt;/tr&gt;%&lt;/table&gt;&gt;,
+		pos=&quot;952,46&quot;,
+		shape=plaintext,
+		width=2.9444];
+	CertificateData -&gt; Certificate	 [label=&quot;1..*&quot;,
+		lp=&quot;789.5,65.5&quot;,
+		pos=&quot;e,845.89,53.515 755.88,59.89 781.58,58.07 809.43,56.098 835.84,54.227&quot;];
+}
+</p></pre>
+</div>
+<div class='tab-pane' id='pdf' role='tabpanel'>
+<iframe height='500px' src='/html/img/IODEFv2/Record.pdf' width='100%'></iframe>
+</div>
+</div>
+<hr>
+<h3>Aggregates</h3>
+<h4>
+<a href='/html/IODEFv2/RecordData.html'>RecordData</a>
+(1..*)
+</h4>
+<blockquote>
+Log or audit data generated by a particular tool. Separate instances of the RecordData class SHOULD be used for each type of log.  See Section 3.22.1.
+</blockquote>
+<h4>
+restriction
+(0..1)
+</h4>
+<blockquote>
+See Section 3.3.1.
+</blockquote>
+<h4>
+ext-restriction
+(0..1)
+</h4>
+<blockquote>
+A means by which to extend the restriction attribute.  See Section 5.1.1.
+</blockquote>
+<hr>
+</div>
+
+<hr>
+<div class='container'>
+<hr>
+<h4>IDMEFv1</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv1/Action.html'>Action</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Address.html'>Address</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Alert.html'>Alert</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Analyzer.html'>Analyzer</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/AnalyzerTime.html'>AnalyzerTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Checksum.html'>Checksum</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv1/Classification.html'>Classification</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/CorrelationAlert.html'>CorrelationAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/CreateTime.html'>CreateTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/DetectTime.html'>DetectTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/File.html'>File</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/FileAccess.html'>FileAccess</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Heartbeat.html'>Heartbeat</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv1/IDMEF-Message.html'>IDMEF-Message</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Impact.html'>Impact</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Inode.html'>Inode</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Linkage.html'>Linkage</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Node.html'>Node</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/OverflowAlert.html'>OverflowAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Process.html'>Process</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Reference.html'>Reference</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv1/SNMPService.html'>SNMPService</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Service.html'>Service</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Source.html'>Source</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/Target.html'>Target</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/ToolAlert.html'>ToolAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/User.html'>User</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/UserId.html'>UserId</a>
+</li>
+<li>
+<a href='/html/IDMEFv1/WebService.html'>WebService</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IDMEFv2</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv2/Action.html'>Action</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Address.html'>Address</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Alert.html'>Alert</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Analyzer.html'>Analyzer</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/AnalyzerTime.html'>AnalyzerTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Checksum.html'>Checksum</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Classification.html'>Classification</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv2/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/CorrelationAlert.html'>CorrelationAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/CreateTime.html'>CreateTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/DetectTime.html'>DetectTime</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/File.html'>File</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/FileAccess.html'>FileAccess</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Heartbeat.html'>Heartbeat</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/IDMEF-Message.html'>IDMEF-Message</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Impact.html'>Impact</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv2/Inode.html'>Inode</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Linkage.html'>Linkage</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Node.html'>Node</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/OverflowAlert.html'>OverflowAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Process.html'>Process</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/SNMPService.html'>SNMPService</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Service.html'>Service</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Source.html'>Source</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IDMEFv2/Stream.html'>Stream</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Target.html'>Target</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/ToolAlert.html'>ToolAlert</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/Transaction.html'>Transaction</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/User.html'>User</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/UserId.html'>UserId</a>
+</li>
+<li>
+<a href='/html/IDMEFv2/WebService.html'>WebService</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IODEFv1</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv1/AdditionalData.html'>AdditionalData</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Address.html'>Address</a>
+</li>
+<li>
+<a href='/html/IODEFv1/AlternativeID.html'>AlternativeID</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Application.html'>Application</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Contact.html'>Contact</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Counter.html'>Counter</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Email.html'>Email</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv1/EventData.html'>EventData</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Expectation.html'>Expectation</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Flow.html'>Flow</a>
+</li>
+<li>
+<a href='/html/IODEFv1/History.html'>History</a>
+</li>
+<li>
+<a href='/html/IODEFv1/HistoryItem.html'>HistoryItem</a>
+</li>
+<li>
+<a href='/html/IODEFv1/IODEF-Document.html'>IODEF-Document</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Impact.html'>Impact</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Incident.html'>Incident</a>
+</li>
+<li>
+<a href='/html/IODEFv1/IncidentID.html'>IncidentID</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv1/Method.html'>Method</a>
+</li>
+<li>
+<a href='/html/IODEFv1/MonetaryImpact.html'>MonetaryImpact</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Node.html'>Node</a>
+</li>
+<li>
+<a href='/html/IODEFv1/NodeRole.html'>NodeRole</a>
+</li>
+<li>
+<a href='/html/IODEFv1/OperatingSystem.html'>OperatingSystem</a>
+</li>
+<li>
+<a href='/html/IODEFv1/PostalAddress.html'>PostalAddress</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Record.html'>Record</a>
+</li>
+<li>
+<a href='/html/IODEFv1/RecordData.html'>RecordData</a>
+</li>
+<li>
+<a href='/html/IODEFv1/RecordItem.html'>RecordItem</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv1/RecordPattern.html'>RecordPattern</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/html/IODEFv1/RegistryHandle.html'>RegistryHandle</a>
+</li>
+<li>
+<a href='/html/IODEFv1/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li>
+<a href='/html/IODEFv1/Service.html'>Service</a>
+</li>
+<li>
+<a href='/html/IODEFv1/System.html'>System</a>
+</li>
+<li>
+<a href='/html/IODEFv1/TimeImpact.html'>TimeImpact</a>
+</li>
+</ul>
+</div>
+</div>
+<hr>
+<h4>IODEFv2</h4>
+<div class='row'>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv2/Address.html'>Address</a>
+</li>
+<li>
+<a href='/html/IODEFv2/AlternativeID.html'>AlternativeID</a>
+</li>
+<li>
+<a href='/html/IODEFv2/AlternativeIndicatorID.html'>AlternativeIndicatorID</a>
+</li>
+<li>
+<a href='/html/IODEFv2/ApplicationHeader.html'>ApplicationHeader</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Assessment.html'>Assessment</a>
+</li>
+<li>
+<a href='/html/IODEFv2/AttackPhase.html'>AttackPhase</a>
+</li>
+<li>
+<a href='/html/IODEFv2/BulkObservable.html'>BulkObservable</a>
+</li>
+<li>
+<a href='/html/IODEFv2/BulkObservableFormat.html'>BulkObservableFormat</a>
+</li>
+<li>
+<a href='/html/IODEFv2/BusinessImpact.html'>BusinessImpact</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Campaign.html'>Campaign</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Certificate.html'>Certificate</a>
+</li>
+<li>
+<a href='/html/IODEFv2/CertificateData.html'>CertificateData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Confidence.html'>Confidence</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Contact.html'>Contact</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Counter.html'>Counter</a>
+</li>
+<li>
+<a href='/html/IODEFv2/DetectionPattern.html'>DetectionPattern</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv2/Discovery.html'>Discovery</a>
+</li>
+<li>
+<a href='/html/IODEFv2/DomainContacts.html'>DomainContacts</a>
+</li>
+<li>
+<a href='/html/IODEFv2/DomainData.html'>DomainData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Email.html'>Email</a>
+</li>
+<li>
+<a href='/html/IODEFv2/EmailData.html'>EmailData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/EventData.html'>EventData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Expectation.html'>Expectation</a>
+</li>
+<li>
+<a href='/html/IODEFv2/File.html'>File</a>
+</li>
+<li>
+<a href='/html/IODEFv2/FileData.html'>FileData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Flow.html'>Flow</a>
+</li>
+<li>
+<a href='/html/IODEFv2/FuzzyHash.html'>FuzzyHash</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Hash.html'>Hash</a>
+</li>
+<li>
+<a href='/html/IODEFv2/HashData.html'>HashData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/History.html'>History</a>
+</li>
+<li>
+<a href='/html/IODEFv2/HistoryItem.html'>HistoryItem</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IODEF-Document.html'>IODEF-Document</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv2/Incident.html'>Incident</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IncidentID.html'>IncidentID</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Indicator.html'>Indicator</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IndicatorData.html'>IndicatorData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IndicatorExpression.html'>IndicatorExpression</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IndicatorID.html'>IndicatorID</a>
+</li>
+<li>
+<a href='/html/IODEFv2/IndicatorReference.html'>IndicatorReference</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Key.html'>Key</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Method.html'>Method</a>
+</li>
+<li>
+<a href='/html/IODEFv2/MonetaryImpact.html'>MonetaryImpact</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Nameservers.html'>Nameservers</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Node.html'>Node</a>
+</li>
+<li>
+<a href='/html/IODEFv2/NodeRole.html'>NodeRole</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Observable.html'>Observable</a>
+</li>
+<li>
+<a href='/html/IODEFv2/ObservableReference.html'>ObservableReference</a>
+</li>
+<li>
+<a href='/html/IODEFv2/PostalAddress.html'>PostalAddress</a>
+</li>
+</ul>
+</div>
+<div class='col-md-3'>
+<ul>
+<li>
+<a href='/html/IODEFv2/Record.html'>Record</a>
+</li>
+<li>
+<a href='/html/IODEFv2/RecordData.html'>RecordData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/RecordPattern.html'>RecordPattern</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Reference.html'>Reference</a>
+</li>
+<li>
+<a href='/html/IODEFv2/RegistryHandle.html'>RegistryHandle</a>
+</li>
+<li>
+<a href='/html/IODEFv2/RelatedActivity.html'>RelatedActivity</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Service.html'>Service</a>
+</li>
+<li>
+<a href='/html/IODEFv2/ServiceName.html'>ServiceName</a>
+</li>
+<li>
+<a href='/html/IODEFv2/SignatureData.html'>SignatureData</a>
+</li>
+<li>
+<a href='/html/IODEFv2/System.html'>System</a>
+</li>
+<li>
+<a href='/html/IODEFv2/SystemImpact.html'>SystemImpact</a>
+</li>
+<li>
+<a href='/html/IODEFv2/Telephone.html'>Telephone</a>
+</li>
+<li>
+<a href='/html/IODEFv2/ThreatActor.html'>ThreatActor</a>
+</li>
+<li>
+<a href='/html/IODEFv2/TimeImpact.html'>TimeImpact</a>
+</li>
+<li>
+<a href='/html/IODEFv2/WindowsRegistryKeysModified.html'>WindowsRegistryKeysModified</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+</body>
+</html>

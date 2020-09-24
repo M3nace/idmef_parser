@@ -1,0 +1,107 @@
+digraph Record {
+	graph [bb="0,0,1651,485.5",
+		rankdir=LR
+	];
+	node [label="\N"];
+	Record	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cccc52" HREF="/html/IODEFv2/Record.html" TITLE="The Record class is a container class for log and audit data that provides supportive information about the events in an incident. The source of this data will often be the output of monitoring tools. These logs substantiate the activity described in the document. "><FONT FACE="Nimbus Sans L">Record</FONT></td> </tr>" %<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/Record.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/Record.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%</table>>,
+		pos="100,232",
+		shape=plaintext,
+		width=2.7778];
+	RecordData	 [height=3.0278,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cccc52" HREF="/html/IODEFv2/RecordData.html" TITLE="The RecordData class describes or references log or audit data from a given type of tool and provides a means to annotate the output. "><FONT FACE="Nimbus Sans L">RecordData</FONT></td> </tr>" %<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/RecordData.html" TITLE="A timestamp of the data found in the RecordItem or URL classes."><FONT FACE="Nimbus Sans L">[DATETIME] DateTime (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/RecordData.html" TITLE="A free-form text description of the data provided in the RecordItem or URL classes."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/RecordData.html" TITLE="Identifies the tool used to generate the data in the RecordItem or URL classes."><FONT FACE="Nimbus Sans L">[SOFTWARE] Application (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/RecordData.html" TITLE="Log, audit, or forensic data to support the conclusions made during the course of analyzing the incident."><FONT FACE="Nimbus Sans L">[EXTENSION] RecordItem (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/RecordData.html" TITLE="A URL reference to a log or audit data."><FONT FACE="Nimbus Sans L">[URL] URL (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/RecordData.html" TITLE="An extension mechanism for data not explicitly represented in the data model."><FONT FACE="Nimbus Sans L">[EXTENSION] AdditionalData (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/RecordData.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/RecordData.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IODEFv2/RecordData.html" TITLE="See Section 3.3.2."><FONT FACE="Nimbus Sans L">[ID] observable-id (0..1)</FONT></td></tr>%</table>>,
+		pos="375.5,232",
+		shape=plaintext,
+		width=3.2361];
+	Record -> RecordData	 [label="1..*",
+		lp="229.5,239.5",
+		pos="e,258.97,232 200.24,232 216.04,232 232.55,232 248.85,232"];
+	RecordPattern	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cccc52" HREF="/html/IODEFv2/RecordPattern.html" TITLE="The RecordPattern class describes where in the log data provided or referenced in the RecordData class relevant information can be found. It provides a way to reference subsets of information, identified by a pattern, in a large log file, audit trail, or forensic data. "><FONT FACE="Nimbus Sans L">RecordPattern</FONT></td> </tr>" %</table>>,
+		pos="655.5,348",
+		shape=plaintext,
+		width=1.5139];
+	RecordData -> RecordPattern	 [label="0..*",
+		lp="521.5,320.5",
+		pos="e,600.84,336.25 492.4,295.66 511.67,304.88 531.66,313.7 551,321 563.64,325.77 577.45,330 590.77,333.61"];
+	FileData	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/FileData.html" TITLE="The FileData class describes a file or set of files. "><FONT FACE="Nimbus Sans L">FileData</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/FileData.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/FileData.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/FileData.html" TITLE="See Section 3.3.2."><FONT FACE="Nimbus Sans L">[ID] observable-id (0..1)</FONT></td></tr>%</table>>,
+		pos="655.5,266",
+		shape=plaintext,
+		width=2.7778];
+	RecordData -> FileData	 [label="0..1",
+		lp="521.5,258.5",
+		pos="e,555.44,253.85 492.22,246.17 509.78,248.31 527.84,250.5 545.26,252.61"];
+	WindowsRegistryKeysModified	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/WindowsRegistryKeysModified.html" TITLE="The WindowsRegistryKeysModified class describes Windows operating system registry keys and the operations that were performed on them. This class was derived from [RFC5901]. "><FONT FACE="Nimbus Sans L">WindowsRegistryKeysModified</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/WindowsRegistryKeysModified.html" TITLE="See Section 3.3.2."><FONT FACE="Nimbus Sans L">[ID] observable-id (0..1)</FONT></td></tr>%</table>>,
+		pos="655.5,177",
+		shape=plaintext,
+		width=2.9028];
+	RecordData -> WindowsRegistryKeysModified	 [label="0..*",
+		lp="521.5,211.5",
+		pos="e,550.59,197.61 492.22,209.07 508.25,205.92 524.7,202.69 540.69,199.55"];
+	CertificateData	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/CertificateData.html" TITLE="The CertificateData class describes X.509 certificates. "><FONT FACE="Nimbus Sans L">CertificateData</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/CertificateData.html" TITLE="See Section 3.3.1."><FONT FACE="Nimbus Sans L">[ENUM] restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/CertificateData.html" TITLE="A means by which to extend the restriction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-restriction (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/CertificateData.html" TITLE="See Section 3.3.2."><FONT FACE="Nimbus Sans L">[ID] observable-id (0..1)</FONT></td></tr>%</table>>,
+		pos="655.5,67",
+		shape=plaintext,
+		width=2.7778];
+	RecordData -> CertificateData	 [label="0..*",
+		lp="521.5,156.5",
+		pos="e,577.23,113.12 492.22,163.22 517.74,148.18 544.33,132.51 568.46,118.29"];
+	File	 [height=2.4444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/File.html" TITLE="The File class describes a file; its associated metadata; and cryptographic hashes and signatures applied to it. "><FONT FACE="Nimbus Sans L">File</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/File.html" TITLE="The name of the file."><FONT FACE="Nimbus Sans L">[STRING] FileName (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/File.html" TITLE="The size of the file in bytes."><FONT FACE="Nimbus Sans L">[INTEGER] FileSize (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/File.html" TITLE="The type of file per the IANA &quot;Media Types&quot; registry [IANA.Media].  Valid values correspond to the text in the &quot;Template&quot; column (e.g., &quot;application/pdf&quot;)."><FONT FACE="Nimbus Sans L">[STRING] FileType (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/File.html" TITLE="A URL reference to the file."><FONT FACE="Nimbus Sans L">[URL] URL (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/File.html" TITLE="The software application or operating system to which this file belongs or by which it can be processed."><FONT FACE="Nimbus Sans L">[SOFTWARE] AssociatedSoftware (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/File.html" TITLE="Mechanism by which to extend the data model to describe properties of the file."><FONT FACE="Nimbus Sans L">[EXTENSION] FileProperties (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/File.html" TITLE="See Section 3.3.2."><FONT FACE="Nimbus Sans L">[ID] observable-id (0..1)</FONT></td></tr>%</table>>,
+		pos="952,350",
+		shape=plaintext,
+		width=3.6944];
+	FileData -> File	 [label="1..*",
+		lp="789.5,312.5",
+		pos="e,818.87,312.28 755.88,294.44 772.96,299.28 790.99,304.39 808.92,309.47"];
+	HashData	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/HashData.html" TITLE="The HashData class describes different types of hashes on a given object (e.g., file, part of a file, email). "><FONT FACE="Nimbus Sans L">HashData</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/HashData.html" TITLE="An identifier that references a subset of the object being hashed.  The semantics of this identifier are specified by the scope attribute."><FONT FACE="Nimbus Sans L">[STRING] HashTargetID (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/HashData.html" TITLE="A means by which to extend the scope attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] scope (0..1)</FONT></td></tr>%</table>>,
+		pos="1245.5,400",
+		shape=plaintext,
+		width=2.8194];
+	File -> HashData	 [label="0..1",
+		lp="1114.5,386.5",
+		pos="e,1143.7,382.66 1085,372.66 1101.3,375.44 1117.9,378.26 1133.9,380.98"];
+	SignatureData	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/SignatureData.html" TITLE="The SignatureData class describes different types of digital signatures on an object. "><FONT FACE="Nimbus Sans L">SignatureData</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/SignatureData.html" TITLE="A given signature.  See Section 4.2 of [W3C.XMLSIG]."><FONT FACE="Nimbus Sans L">[] Signature (1..*)</FONT></td></tr>%</table>>,
+		pos="1245.5,321",
+		shape=plaintext,
+		width=1.7222];
+	File -> SignatureData	 [label="0..1",
+		lp="1114.5,341.5",
+		pos="e,1183.3,327.15 1085,336.86 1115.4,333.85 1146.6,330.77 1173.3,328.13"];
+	Hash	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/Hash.html" TITLE="The Hash class describes a cryptographic hash value; the algorithm and application used to generate it; and the canonicalization method applied to the object being hashed. "><FONT FACE="Nimbus Sans L">Hash</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/Hash.html" TITLE="The canonicalization method used on the object being hashed.  See Section 4.3.1 of [W3C.XMLSIG]."><FONT FACE="Nimbus Sans L">[]  (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Hash.html" TITLE="The application used to calculate the hash."><FONT FACE="Nimbus Sans L">[SOFTWARE] Application (0..1)</FONT></td></tr>%</table>>,
+		pos="1528.5,450",
+		shape=plaintext,
+		width=2.9444];
+	HashData -> Hash	 [label="0..*",
+		lp="1376.5,432.5",
+		pos="e,1422.4,431.25 1347.3,417.98 1368.4,421.72 1390.9,425.69 1412.5,429.51"];
+	FuzzyHash	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/FuzzyHash.html" TITLE="The FuzzyHash class describes a fuzzy hash and the application used to generate it. "><FONT FACE="Nimbus Sans L">FuzzyHash</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/FuzzyHash.html" TITLE="The computed fuzzy hash value."><FONT FACE="Nimbus Sans L">[EXTENSION] FuzzyHashValue (1..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/FuzzyHash.html" TITLE="The application used to calculate the hash."><FONT FACE="Nimbus Sans L">[SOFTWARE] Application (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/FuzzyHash.html" TITLE="Mechanism by which to extend the data model."><FONT FACE="Nimbus Sans L">[EXTENSION] AdditionalData (0..*)</FONT></td></tr>%</table>>,
+		pos="1528.5,350",
+		shape=plaintext,
+		width=3.4028];
+	HashData -> FuzzyHash	 [label="0..*",
+		lp="1376.5,384.5",
+		pos="e,1405.9,371.66 1347.3,382.02 1363,379.24 1379.5,376.33 1395.8,373.45"];
+	Key	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/Key.html" TITLE="The Key class describes a Windows operating system registry key name and value pair, as well as the operation performed on it. "><FONT FACE="Nimbus Sans L">Key</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/Key.html" TITLE="The name of a Windows operating system registry key (e.g., [HKEY_LOCAL_MACHINE\Software\Test\KeyName])."><FONT FACE="Nimbus Sans L">[STRING] KeyName (1..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Key.html" TITLE="The value of the registry key identified in the KeyName class encoded per the .reg file format [KB310516]."><FONT FACE="Nimbus Sans L">[STRING] KeyValue (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Key.html" TITLE="The type of action taken on the registry key. These values are maintained in the &quot;Key-registryaction&quot; IANA registry per Section 10.2."><FONT FACE="Nimbus Sans L">[ENUM] registryaction (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Key.html" TITLE="A means by which to extend the registryaction attribute.  See Section 5.1.1."><FONT FACE="Nimbus Sans L">[STRING] ext-registryaction (0..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Key.html" TITLE="See Section 3.3.2."><FONT FACE="Nimbus Sans L">[ID] observable-id (0..1)</FONT></td></tr>%</table>>,
+		pos="952,177",
+		shape=plaintext,
+		width=3.0833];
+	WindowsRegistryKeysModified -> Key	 [label="1..*",
+		lp="789.5,184.5",
+		pos="e,840.87,177 760.03,177 782.94,177 807.37,177 830.86,177"];
+	Certificate	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/Certificate.html" TITLE="The Certificate class describes a given X.509 certificate or certificate chain. "><FONT FACE="Nimbus Sans L">Certificate</FONT></td> </tr>" %<tr><td  HREF="/html/IODEFv2/Certificate.html" TITLE="A given X.509 certificate or chain.  See Section 4.4.4 of [W3C.XMLSIG]."><FONT FACE="Nimbus Sans L">[]  (1..1)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Certificate.html" TITLE="A free-form text description explaining the context of this certificate."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%<tr><td  HREF="/html/IODEFv2/Certificate.html" TITLE="See Section 3.3.2."><FONT FACE="Nimbus Sans L">[ID] observable-id (0..1)</FONT></td></tr>%</table>>,
+		pos="952,46",
+		shape=plaintext,
+		width=2.9444];
+	CertificateData -> Certificate	 [label="1..*",
+		lp="789.5,65.5",
+		pos="e,845.89,53.515 755.88,59.89 781.58,58.07 809.43,56.098 835.84,54.227"];
+}

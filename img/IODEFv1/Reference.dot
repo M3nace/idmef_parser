@@ -1,0 +1,11 @@
+digraph Reference {
+	graph [bb="0,0,246,92",
+		rankdir=LR
+	];
+	node [label="\N"];
+	Reference	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#92765a" HREF="/html/IODEFv1/Reference.html" TITLE="The Reference class is a reference to a vulnerability, IDS alert, malware sample, advisory, or attack technique. A reference consists of a name, a URL to this reference, and an optional description. "><FONT FACE="Nimbus Sans L">Reference</FONT></td> </tr>" %<tr><td BGCOLOR="#b79370"  HREF="/html/IODEFv1/Reference.html" TITLE="Name of the reference."><FONT FACE="Nimbus Sans L">[ML_STRING] ReferenceName (1..1)</FONT></td></tr>%<tr><td BGCOLOR="#b79370"  HREF="/html/IODEFv1/Reference.html" TITLE="A URL associated with the reference."><FONT FACE="Nimbus Sans L">[URL] URL (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#b79370"  HREF="/html/IODEFv1/Reference.html" TITLE="A free-form text description of this reference."><FONT FACE="Nimbus Sans L">[ML_STRING] Description (0..*)</FONT></td></tr>%</table>>,
+		pos="123,46",
+		shape=plaintext,
+		width=3.4167];
+}

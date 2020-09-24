@@ -1,0 +1,332 @@
+digraph "IDMEF-Message" {
+	graph [bb="0,0,1608,1277",
+		rankdir=LR
+	];
+	node [label="\N"];
+	"IDMEF-Message"	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#90ac3d" HREF="/html/IDMEFv2/IDMEF-Message.html" TITLE="All IDMEF messages are instances of the IDMEF-Message class; it is the top-level class of the IDMEF data model, as well as the IDMEF DTD. There are currently two types (subclasses) of IDMEF-Message: Alert and Heartbeat. "><FONT FACE="Nimbus Sans L">IDMEF-Message</FONT></td> </tr>" %</table>>,
+		pos="62.5,727.5",
+		shape=plaintext,
+		width=1.7361];
+	Heartbeat	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#90ac3d" HREF="/html/IDMEFv2/Heartbeat.html" TITLE="Analyzers use Heartbeat messages to indicate their current status to managers. Heartbeats are intended to be sent in a regular period, say, every ten minutes or every hour. The receipt of a Heartbeat message from an analyzer indicates to the manager that the analyzer is up and running; lack of a Heartbeat message (or more likely, lack of some number of consecutive Heartbeat messages) indicates that the analyzer or its network connection has failed. "><FONT FACE="Nimbus Sans L">Heartbeat</FONT></td> </tr>" %<tr><td BGCOLOR="#b4d74c"  HREF="/html/IDMEFv2/Heartbeat.html" TITLE="The interval in seconds at which heartbeats are generated."><FONT FACE="Nimbus Sans L">[INTEGER] HeartbeatInterval (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#b4d74c"  HREF="/html/IDMEFv2/Heartbeat.html" TITLE="A unique identifier for the heartbeat; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] messageid (Optional)</FONT></td></tr>%</table>>,
+		pos="279.5,894.5",
+		shape=plaintext,
+		width=3.2639];
+	"IDMEF-Message" -> Heartbeat	 [arrowtail=invempty,
+		dir=back,
+		pos="s,86.136,745.69 94.463,752.1 131.08,780.27 191.38,826.68 233.15,858.83"];
+	Alert	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#90ac3d" HREF="/html/IDMEFv2/Alert.html" TITLE="Generally, every time an analyzer detects an event that it has been configured to look for, it sends an Alert message to its manager(s). Depending on the analyzer, an Alert message may correspond to a single detected event or multiple detected events. Alerts occur asynchronously in response to outside events. "><FONT FACE="Nimbus Sans L">Alert</FONT></td> </tr>" %<tr><td BGCOLOR="#b4d74c"  HREF="/html/IDMEFv2/Alert.html" TITLE="A unique identifier for the alert; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] messageid (Optional)</FONT></td></tr>%</table>>,
+		pos="279.5,594.5",
+		shape=plaintext,
+		width=2.9861];
+	"IDMEF-Message" -> Alert	 [arrowtail=invempty,
+		dir=back,
+		pos="s,92.218,709.29 101.11,703.84 139.82,680.11 199.21,643.71 238.68,619.52"];
+	Analyzer	 [height=2.7361,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cccc52" HREF="/html/IDMEFv2/Analyzer.html" TITLE="The Analyzer class identifies the analyzer from which the Alert or Heartbeat message originates. Only one analyzer may be encoded for each alert or heartbeat, and that MUST be the analyzer at which the alert or heartbeat originated. Although the IDMEF data model does not prevent the use of hierarchical intrusion detection systems (where alerts get relayed up the tree), it does not provide any way to record the identity of the &quot;relay&quot; analyzers along the path from the originating analyzer to the manager that ultimately receives the alert. "><FONT FACE="Nimbus Sans L">Analyzer</FONT></td> </tr>" %<tr><td BGCOLOR="#FFFF66"  HREF="/html/IDMEFv2/Analyzer.html" TITLE="(but see below).  A unique identifier for the analyzer; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] analyzerid (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IDMEFv2/Analyzer.html" TITLE="An explicit name for the analyzer that may be easier to understand than the analyzerid."><FONT FACE="Nimbus Sans L">[STRING] name (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IDMEFv2/Analyzer.html" TITLE="The manufacturer of the analyzer software and/or hardware."><FONT FACE="Nimbus Sans L">[STRING] manufacturer (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IDMEFv2/Analyzer.html" TITLE="The model name/number of the analyzer software and/or hardware."><FONT FACE="Nimbus Sans L">[STRING] model (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IDMEFv2/Analyzer.html" TITLE="The version number of the analyzer software and/or hardware."><FONT FACE="Nimbus Sans L">[STRING] version (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IDMEFv2/Analyzer.html" TITLE="The class of analyzer software and/or hardware."><FONT FACE="Nimbus Sans L">[STRING] class (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IDMEFv2/Analyzer.html" TITLE="Operating system name.  On POSIX 1003.1 compliant systems, this is the value returned in utsname.sysname by the uname() system call, or the output of the &quot;uname -s&quot; command."><FONT FACE="Nimbus Sans L">[STRING] ostype (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFFF66"  HREF="/html/IDMEFv2/Analyzer.html" TITLE="Operating system version.  On POSIX 1003.1 compliant systems, this is the value returned in utsname.release by the uname() system call, or the output of the &quot;uname -r&quot; command."><FONT FACE="Nimbus Sans L">[STRING] osversion (Optional)</FONT></td></tr>%</table>>,
+		pos="570.5,1021.5",
+		shape=plaintext,
+		width=3.1806];
+	Heartbeat -> Analyzer	 [label=1,
+		lp="426.5,992",
+		pos="e,455.9,992.07 331.18,930.18 355.75,945.97 386.04,963.81 415,976.5 425.05,980.91 435.66,985.01 446.42,988.81"];
+	CreateTime	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#8a8acc" HREF="/html/IDMEFv2/CreateTime.html" TITLE="The CreateTime class is used to indicate the date and time the alert or heartbeat was created by the analyzer. "><FONT FACE="Nimbus Sans L">CreateTime</FONT></td> </tr>" %</table>>,
+		pos="570.5,1189.5",
+		shape=plaintext,
+		width=1.3056];
+	Heartbeat -> CreateTime	 [label=1,
+		lp="426.5,1154",
+		pos="e,523.49,1186.4 292.82,930.34 316.38,988.56 371.06,1103.1 456,1162.5 472.75,1174.2 493.9,1180.9 513.45,1184.7"];
+	AnalyzerTime	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#8a8acc" HREF="/html/IDMEFv2/AnalyzerTime.html" TITLE="The AnalyzerTime class is used to indicate the current date and time on the analyzer. Its values should be filled in as late as possible in the message transmission process, ideally immediately before placing the message &quot;on the wire&quot;. "><FONT FACE="Nimbus Sans L">AnalyzerTime</FONT></td> </tr>" %</table>>,
+		pos="570.5,818.5",
+		shape=plaintext,
+		width=1.4722];
+	Heartbeat -> AnalyzerTime	 [label="0..1",
+		lp="426.5,827",
+		pos="e,517.46,812.42 329.68,858.83 354.18,843.54 384.83,827.4 415,819.5 444.66,811.74 478.6,810.67 507.19,811.87"];
+	AdditionalData	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#87689e" HREF="/html/IDMEFv2/AdditionalData.html" TITLE="The AdditionalData class is used to provide information that cannot be represented by the data model. AdditionalData can be used to provide atomic data (integers, strings, etc.) in cases where only small amounts of additional information need to be sent; it can also be used to extend the data model and the DTD to support the transmission of complex data (such as packet headers). Detailed instructions for extending the data model and the DTD are provided in Section 5. "><FONT FACE="Nimbus Sans L">AdditionalData</FONT></td> </tr>" %<tr><td BGCOLOR="#a982c6"  HREF="/html/IDMEFv2/AdditionalData.html" TITLE="A string describing the meaning of the element content. These values will be vendor/implementation dependent; the method for ensuring that managers understand the strings sent by analyzers is outside the scope of this specification.  A list of acceptable meaning keywords is not within the scope of the document, although later versions may undertake to establish such a list."><FONT FACE="Nimbus Sans L">[STRING] meaning (Optional)</FONT></td></tr>%</table>>,
+		pos="570.5,879.5",
+		shape=plaintext,
+		width=2.7917];
+	Heartbeat -> AdditionalData	 [label="0..*",
+		lp="426.5,895",
+		pos="e,469.83,884.69 397.02,888.44 417.76,887.37 439.29,886.26 459.84,885.2"];
+	Analyzer -> Analyzer	 [label="0..1",
+		lp="570.5,1145.5",
+		pos="e,593.21,1120.1 547.79,1120.1 552.1,1131 559.67,1138 570.5,1138 577.94,1138 583.85,1134.7 588.21,1129.1"];
+	"Node"	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#3daf3d" HREF="/html/IDMEFv2/Node.html" TITLE="The Node class is used to identify hosts and other network devices (routers, switches, etc.). "><FONT FACE="Nimbus Sans L">Node</FONT></td> </tr>" %<tr><td BGCOLOR="#4cdb4c"  HREF="/html/IDMEFv2/Node.html" TITLE="The location of the equipment."><FONT FACE="Nimbus Sans L">[STRING] location (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#4cdb4c"  HREF="/html/IDMEFv2/Node.html" TITLE="The name of the equipment.  This information MUST be provided if no Address information is given."><FONT FACE="Nimbus Sans L">[STRING] name (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#4cdb4c"  HREF="/html/IDMEFv2/Node.html" TITLE="A unique identifier for the node; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] ident (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#4cdb4c"  HREF="/html/IDMEFv2/Node.html" TITLE="The &quot;domain&quot; from which the name information was obtained, if relevant.  The permitted values for this attribute are shown in the table below.  The default value is &quot;unknown&quot;. (See also Section 10 for extensions to the table.)"><FONT FACE="Nimbus Sans L">[ENUM] category (Optional)</FONT></td></tr>%</table>>,
+		pos="890.5,1168.5",
+		shape=plaintext,
+		width=2.6389];
+	Analyzer -> "Node"	 [label="0..1",
+		lp="714.5,1102",
+		pos="e,795.39,1126.7 685.11,1076.1 704.72,1085.4 724.92,1094.8 744,1103.5 757.59,1109.7 771.93,1116.2 786.11,1122.5"];
+	Process	 [height=2.1528,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca352" HREF="/html/IDMEFv2/Process.html" TITLE="The Process class is used to describe processes being executed on sources, targets, and analyzers. "><FONT FACE="Nimbus Sans L">Process</FONT></td> </tr>" %<tr><td BGCOLOR="#FFCC66"  HREF="/html/IDMEFv2/Process.html" TITLE="The name of the program being executed. This is a short name; path and argument information are provided elsewhere."><FONT FACE="Nimbus Sans L">[STRING] name (1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC66"  HREF="/html/IDMEFv2/Process.html" TITLE="The process identifier of the process."><FONT FACE="Nimbus Sans L">[INTEGER] pid (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC66"  HREF="/html/IDMEFv2/Process.html" TITLE="The full path of the program being executed."><FONT FACE="Nimbus Sans L">[STRING] path (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC66"  HREF="/html/IDMEFv2/Process.html" TITLE="A command-line argument to the program. Multiple arguments may be specified (they are assumed to have occurred in the same order they are provided) with multiple uses of arg."><FONT FACE="Nimbus Sans L">[STRING] arg (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC66"  HREF="/html/IDMEFv2/Process.html" TITLE="An environment string associated with the process; generally of the format &quot;VARIABLE=value&quot;.  Multiple environment strings may be specified with multiple uses of env."><FONT FACE="Nimbus Sans L">[STRING] env (0..*)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC66"  HREF="/html/IDMEFv2/Process.html" TITLE="A unique identifier for the process; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] ident (Optional)</FONT></td></tr>%</table>>,
+		pos="890.5,1016.5",
+		shape=plaintext,
+		width=2.4722];
+	Analyzer -> Process	 [label="0..1",
+		lp="714.5,1026",
+		pos="e,801.26,1017.9 685.12,1019.7 719.74,1019.2 757.45,1018.6 790.99,1018.1"];
+	Address	 [height=2.1528,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#3daf3d" HREF="/html/IDMEFv2/Address.html" TITLE="The Address class is used to represent network, hardware, and application addresses. "><FONT FACE="Nimbus Sans L">Address</FONT></td> </tr>" %<tr><td BGCOLOR="#4cdb4c"  HREF="/html/IDMEFv2/Address.html" TITLE="The address information.  The format of this data is governed by the category attribute."><FONT FACE="Nimbus Sans L">[STRING] address (1)</FONT></td></tr>%<tr><td BGCOLOR="#4cdb4c"  HREF="/html/IDMEFv2/Address.html" TITLE="The network mask for the address, if appropriate."><FONT FACE="Nimbus Sans L">[STRING] netmask (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#4cdb4c"  HREF="/html/IDMEFv2/Address.html" TITLE="A unique identifier for the address; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] ident (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#4cdb4c"  HREF="/html/IDMEFv2/Address.html" TITLE="The type of address represented.  The permitted values for this attribute are shown below.  The default value is &quot;unknown&quot;.  (See also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] category (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#4cdb4c"  HREF="/html/IDMEFv2/Address.html" TITLE="The name of the Virtual LAN to which the address belongs."><FONT FACE="Nimbus Sans L">[STRING] vlan-name (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#4cdb4c"  HREF="/html/IDMEFv2/Address.html" TITLE="The number of the Virtual LAN to which the address belongs."><FONT FACE="Nimbus Sans L">[INTEGER] vlan-num (Optional)</FONT></td></tr>%</table>>,
+		pos="1241,1199.5",
+		shape=plaintext,
+		width=2.9861];
+	"Node" -> Address	 [label="0..*",
+		lp="1066.5,1192",
+		pos="e,1133.3,1190 985.81,1176.9 1028.2,1180.7 1078.6,1185.1 1123.3,1189.1"];
+	Alert -> Analyzer	 [label=1,
+		lp="426.5,876",
+		pos="e,462.76,922.91 292.89,619.76 316.5,663.94 367.52,757.81 415,834.5 424.6,850.01 429.45,852.38 438,868.5 448.09,887.53 443.88,895.69 \
+456,913.5 456.27,913.9 456.54,914.29 456.81,914.68"];
+	Alert -> CreateTime	 [label=1,
+		lp="426.5,965",
+		pos="e,523.5,1190.6 292.43,619.74 315.31,665.01 363.7,763.34 397,849.5 406.58,874.28 405.52,881.68 415,906.5 423.87,929.73 431.71,933.44 \
+438,957.5 449.56,1001.7 426.07,1127.9 456,1162.5 470.19,1178.9 492.29,1186.3 513.31,1189.4"];
+	Alert -> AnalyzerTime	 [label="0..1",
+		lp="426.5,746",
+		pos="e,517.48,816.91 316.56,619.56 352.29,645.49 405.59,689.07 438,738.5 451.64,759.3 437.59,774.77 456,791.5 470.1,804.31 489.11,811.36 \
+507.6,815.16"];
+	Alert -> AdditionalData	 [label="0..*",
+		lp="426.5,804",
+		pos="e,469.88,856.09 303.63,619.72 337.48,656.21 399.25,727.01 438,796.5 449.3,816.76 439.08,829.62 456,845.5 457.72,847.11 459.51,848.65 \
+461.37,850.12"];
+	OverflowAlert	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#999999" HREF="/html/IDMEFv2/OverflowAlert.html" TITLE="The OverflowAlert carries additional information related to buffer overflow attacks. It is intended to enable an analyzer to provide the details of the overflow attack itself. "><FONT FACE="Nimbus Sans L">OverflowAlert</FONT></td> </tr>" %<tr><td BGCOLOR="#BFBFBF"  HREF="/html/IDMEFv2/OverflowAlert.html" TITLE="The program that the overflow attack attempted to run (NOTE: this is not the program that was attacked)."><FONT FACE="Nimbus Sans L">[STRING] program (1)</FONT></td></tr>%<tr><td BGCOLOR="#BFBFBF"  HREF="/html/IDMEFv2/OverflowAlert.html" TITLE="The size, in bytes, of the overflow (i.e., the number of bytes the attacker sent)."><FONT FACE="Nimbus Sans L">[INTEGER] size (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#BFBFBF"  HREF="/html/IDMEFv2/OverflowAlert.html" TITLE="Some or all of the overflow data itself (dependent on how much the analyzer can capture)."><FONT FACE="Nimbus Sans L">[BYTE[]] buffer (0..1)</FONT></td></tr>%</table>>,
+		pos="570.5,250.5",
+		shape=plaintext,
+		width=2.1667];
+	Alert -> OverflowAlert	 [arrowtail=invempty,
+		dir=back,
+		pos="s,288.82,569.43 292.68,559.78 316.77,500.42 373.18,378.79 456,305.5 466.73,296 479.4,287.78 492.32,280.8"];
+	ToolAlert	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#999999" HREF="/html/IDMEFv2/ToolAlert.html" TITLE="The ToolAlert class carries additional information related to the use of attack tools or malevolent programs such as Trojan horses and can be used by the analyzer when it is able to identify these tools. It is intended to group one or more previously-sent alerts together, to say &quot;these alerts were all the result of someone using this tool&quot;. "><FONT FACE="Nimbus Sans L">ToolAlert</FONT></td> </tr>" %<tr><td BGCOLOR="#BFBFBF"  HREF="/html/IDMEFv2/ToolAlert.html" TITLE="The reason for grouping the alerts together, for example, the name of a particular tool."><FONT FACE="Nimbus Sans L">[STRING] name (1)</FONT></td></tr>%<tr><td BGCOLOR="#BFBFBF"  HREF="/html/IDMEFv2/ToolAlert.html" TITLE="The command or operation that the tool was asked to perform, for example, a BackOrifice ping."><FONT FACE="Nimbus Sans L">[STRING] command (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#BFBFBF"  HREF="/html/IDMEFv2/ToolAlert.html" TITLE="The list of alert identifiers that are related to this alert.  Because alert identifiers are only unique across the alerts sent by a single analyzer, the optional &quot;analyzerid&quot; attribute of &quot;alertident&quot; should be used to identify the analyzer that a particular alert came from.  If the &quot;analyzerid&quot; is not provided, the alert is assumed to have come from the same analyzer that is sending the ToolAlert."><FONT FACE="Nimbus Sans L">[STRING] alertident (1..*)</FONT></td></tr>%</table>>,
+		pos="570.5,140.5",
+		shape=plaintext,
+		width=2.5139];
+	Alert -> ToolAlert	 [arrowtail=invempty,
+		dir=back,
+		pos="s,284.33,569.12 286.46,559.13 303.03,483.31 351.53,303.29 456,195.5 462.98,188.29 471.1,181.91 479.73,176.29"];
+	CorrelationAlert	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#999999" HREF="/html/IDMEFv2/CorrelationAlert.html" TITLE="The CorrelationAlert class carries additional information related to the correlation of alert information. It is intended to group one or more previously-sent alerts together, to say &quot;these alerts are all related&quot;. "><FONT FACE="Nimbus Sans L">CorrelationAlert</FONT></td> </tr>" %<tr><td BGCOLOR="#BFBFBF"  HREF="/html/IDMEFv2/CorrelationAlert.html" TITLE="The reason for grouping the alerts together, for example, a particular correlation method."><FONT FACE="Nimbus Sans L">[STRING] name (1)</FONT></td></tr>%<tr><td BGCOLOR="#BFBFBF"  HREF="/html/IDMEFv2/CorrelationAlert.html" TITLE="The list of alert identifiers that are related to this alert.  Because alert identifiers are only unique across the alerts sent by a single analyzer, the optional &quot;analyzerid&quot; attribute of &quot;alertident&quot; should be used to identify the analyzer that a particular alert came from.  If the &quot;analyzerid&quot; is not provided, the alert is assumed to have come from the same analyzer that is sending the CorrelationAlert."><FONT FACE="Nimbus Sans L">[STRING] alertident (1..*)</FONT></td></tr>%</table>>,
+		pos="570.5,40.5",
+		shape=plaintext,
+		width=2.4028];
+	Alert -> CorrelationAlert	 [arrowtail=invempty,
+		dir=back,
+		pos="s,281.02,569.27 281.84,559.22 289.71,468.45 322.81,224.22 456,85.5 463.91,77.257 473.52,70.494 483.77,64.953"];
+	Classification	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#92765a" HREF="/html/IDMEFv2/Classification.html" TITLE="The Classification class provides the &quot;name&quot; of an alert, or other information allowing the manager to determine what it is. This name is chosen by the alert provider. "><FONT FACE="Nimbus Sans L">Classification</FONT></td> </tr>" %<tr><td BGCOLOR="#b79370"  HREF="/html/IDMEFv2/Classification.html" TITLE="A unique identifier for this classification; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] ident (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#b79370"  HREF="/html/IDMEFv2/Classification.html" TITLE="A vendor-provided string identifying the Alert message."><FONT FACE="Nimbus Sans L">[STRING] text (Required)</FONT></td></tr>%</table>>,
+		pos="570.5,404.5",
+		shape=plaintext,
+		width=2.4722];
+	Alert -> Classification	 [label=1,
+		lp="426.5,481",
+		pos="e,481.35,436.32 304.76,569.34 337.38,537.94 397.02,484.15 456,449.5 461.13,446.49 466.5,443.59 472,440.83"];
+	DetectTime	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#8a8acc" HREF="/html/IDMEFv2/DetectTime.html" TITLE="The DetectTime class is used to indicate the date and time that the event(s) producing an alert was detected by the analyzer. In the case of more than one event, it is the time that the first event was detected. (This may or may not be the same time as CreateTime; analyzers are not required to send alerts immediately upon detection). "><FONT FACE="Nimbus Sans L">DetectTime</FONT></td> </tr>" %</table>>,
+		pos="570.5,332.5",
+		shape=plaintext,
+		width=1.2778];
+	Alert -> DetectTime	 [label="0..1",
+		lp="426.5,397",
+		pos="e,524.42,336.04 290.96,569.36 314.51,520.7 373.15,413.67 456,359.5 473.25,348.22 494.69,341.64 514.34,337.8"];
+	Source	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#65779e" HREF="/html/IDMEFv2/Source.html" TITLE="The Source class contains information about the possible source(s) of the event(s) that generated an alert. An event may have more than one source (e.g., in a distributed denial-of-service attack). "><FONT FACE="Nimbus Sans L">Source</FONT></td> </tr>" %<tr><td BGCOLOR="#7e95c5"  HREF="/html/IDMEFv2/Source.html" TITLE="A unique identifier for this source; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] ident (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#7e95c5"  HREF="/html/IDMEFv2/Source.html" TITLE="An indication of whether the source is, as far as the analyzer can determine, a spoofed address used for hiding the real origin of the attack.  The permitted values for this attribute are shown below.  The default value is &quot;unknown&quot;.  (See also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] spoofed (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#7e95c5"  HREF="/html/IDMEFv2/Source.html" TITLE="May be used by a network-based analyzer with multiple interfaces to indicate which interface this source was seen on."><FONT FACE="Nimbus Sans L">[STRING] interface (Optional)</FONT></td></tr>%</table>>,
+		pos="570.5,736.5",
+		shape=plaintext,
+		width=2.7778];
+	Alert -> Source	 [label="0..*",
+		lp="426.5,680",
+		pos="e,474.26,690.36 330.03,619.57 365.28,637.03 413.45,660.8 456,681.5 458.97,682.95 461.99,684.41 465.04,685.89"];
+	Target	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#65779e" HREF="/html/IDMEFv2/Target.html" TITLE="The Target class contains information about the possible target(s) of the event(s) that generated an alert. An event may have more than one target (e.g., in the case of a port sweep). "><FONT FACE="Nimbus Sans L">Target</FONT></td> </tr>" %<tr><td BGCOLOR="#7e95c5"  HREF="/html/IDMEFv2/Target.html" TITLE="A unique identifier for this target, see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] ident (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#7e95c5"  HREF="/html/IDMEFv2/Target.html" TITLE="An indication of whether the target is, as far as the analyzer can determine, a decoy.  The permitted values for this attribute are shown below.  The default value is &quot;unknown&quot;.  (See also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] decoy (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#7e95c5"  HREF="/html/IDMEFv2/Target.html" TITLE="May be used by a network-based analyzer with multiple interfaces to indicate which interface this target was seen on."><FONT FACE="Nimbus Sans L">[STRING] interface (Optional)</FONT></td></tr>%</table>>,
+		pos="570.5,626.5",
+		shape=plaintext,
+		width=2.7778];
+	Alert -> Target	 [label="0..*",
+		lp="426.5,619",
+		pos="e,470.16,615.47 387.03,606.32 410.83,608.94 436.09,611.72 460,614.35"];
+	Transaction	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IDMEFv2/Transaction.html" TITLE="The Transaction class contains specific information about the data exchange during the attack."><FONT FACE="Nimbus Sans L">Transaction</FONT></td> </tr>" %<tr><td  HREF="/html/IDMEFv2/Transaction.html" TITLE="Direction of the attack source &lt;-&gt; target"><FONT FACE="Nimbus Sans L">[Enum] direction (Optional)</FONT></td></tr>%</table>>,
+		pos="570.5,537.5",
+		shape=plaintext,
+		width=2.5694];
+	Alert -> Transaction	 [label="0..*",
+		lp="426.5,576",
+		pos="e,477.76,555.66 387.03,573.44 413.45,568.26 441.66,562.74 467.84,557.61"];
+	Assessment	 [height=0.5,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IDMEFv2/Assessment.html" TITLE="The Assessment class is used to provide the analyzer&#39;s assessment of an event -- its impact, actions taken in response, and confidence. "><FONT FACE="Nimbus Sans L">Assessment</FONT></td> </tr>" %</table>>,
+		pos="570.5,476.5",
+		shape=plaintext,
+		width=1.3472];
+	Alert -> Assessment	 [label="0..1",
+		lp="426.5,528",
+		pos="e,521.82,485.23 320.97,569.42 355.93,549.2 407.81,521.3 456,503.5 473.78,496.93 493.72,491.58 511.91,487.42"];
+	Reference	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#92765a" HREF="/html/IDMEFv2/Reference.html" TITLE="The Reference class provides the &quot;name&quot; of an alert, or other information allowing the manager to determine what it is. "><FONT FACE="Nimbus Sans L">Reference</FONT></td> </tr>" %<tr><td BGCOLOR="#b79370"  HREF="/html/IDMEFv2/Reference.html" TITLE="The name of the alert, from one of the origins listed below."><FONT FACE="Nimbus Sans L">[STRING] name (1)</FONT></td></tr>%<tr><td BGCOLOR="#b79370"  HREF="/html/IDMEFv2/Reference.html" TITLE="A URL at which the manager (or the human operator of the manager) can find additional information about the alert.  The document pointed to by the URL may include an in-depth description of the attack, appropriate countermeasures, or other information deemed relevant by the vendor."><FONT FACE="Nimbus Sans L">[STRING] url (1)</FONT></td></tr>%<tr><td BGCOLOR="#b79370"  HREF="/html/IDMEFv2/Reference.html" TITLE="The source from which the name of the alert originates. The permitted values for this attribute are shown below.  The default value is &quot;unknown&quot;.  (See also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] origin (Required)</FONT></td></tr>%<tr><td BGCOLOR="#b79370"  HREF="/html/IDMEFv2/Reference.html" TITLE="The meaning of the reference, as understood by the alert provider.  This field is only valid if the value of the &lt;origin&gt; attribute is set to &quot;vendor-specific&quot; or &quot;user-specific&quot;."><FONT FACE="Nimbus Sans L">[STRING] meaning (Optional)</FONT></td></tr>%</table>>,
+		pos="890.5,56.5",
+		shape=plaintext,
+		width=2.7917];
+	Classification -> Reference	 [label="0..*",
+		lp="714.5,239",
+		pos="e,789.77,89.018 659.64,380.93 669.31,375.25 678.12,368.22 685,359.5 720.59,314.4 688.8,287.17 703,231.5 715.79,181.35 708.58,160.24 \
+744,122.5 754.49,111.32 767.23,101.9 780.77,93.996"];
+	Source -> "Node"	 [label="0..1",
+		lp="714.5,1007",
+		pos="e,795.49,1142.6 670.67,775.94 676.04,780.59 680.9,785.76 685,791.5 705.01,819.55 694.16,912.2 703,945.5 709.69,970.71 718.62,974.48 \
+726,999.5 739.28,1044.5 715.15,1066.5 744,1103.5 755.19,1117.8 770.22,1129.1 786.4,1137.9"];
+	Source -> Process	 [label="0..1",
+		lp="714.5,895",
+		pos="e,801.24,975.61 670.76,778.85 675.86,782.75 680.65,786.96 685,791.5 690.77,797.52 738.51,923.23 744,929.5 757.65,945.08 774.8,958.65 \
+792.51,970.14"];
+	User	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#52a3cc" HREF="/html/IDMEFv2/User.html" TITLE="The User class is used to describe users. It is primarily used as a &quot;container&quot; class for the UserId aggregate class, as shown in Figure 16. "><FONT FACE="Nimbus Sans L">User</FONT></td> </tr>" %<tr><td BGCOLOR="#66CCFF"  HREF="/html/IDMEFv2/User.html" TITLE="A unique identifier for the user; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] ident (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IDMEFv2/User.html" TITLE="The type of user represented.  The permitted values for this attribute are shown below.  The default value is &quot;unknown&quot;. (See also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] category (Optional)</FONT></td></tr>%</table>>,
+		pos="890.5,670.5",
+		shape=plaintext,
+		width=2.6389];
+	Source -> User	 [label="0..1",
+		lp="714.5,721",
+		pos="e,795.42,693.3 670.6,719.22 689.05,715.82 708.13,712.17 726,708.5 745.28,704.54 765.77,700.04 785.5,695.56"];
+	Service	 [height=2.7361,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca3a3" HREF="/html/IDMEFv2/Service.html" TITLE="The Service class describes network services on sources and targets. It can identify services by name, port, and protocol. When Service occurs as an aggregate class of Source, it is understood that the service is one from which activity of interest is originating; and that the service is &quot;attached&quot; to the Node, Process, and User information also contained in Source. Likewise, when Service occurs as an aggregate class of Target, it is understood that the service is one to which activity of interest is being directed; and that the service is &quot;attached&quot; to the Node, Process, and User information also contained in Target. If Service occurs in both Source and Target, then information in both locations should be the same. If information is the same in both locations and implementers wish to carry it in only one location, they should specify it as an aggregate of the Target class. "><FONT FACE="Nimbus Sans L">Service</FONT></td> </tr>" %<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/Service.html" TITLE="The name of the service.  Whenever possible, the name from the IANA list of well-known ports SHOULD be used."><FONT FACE="Nimbus Sans L">[STRING] name (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/Service.html" TITLE="The port number being used."><FONT FACE="Nimbus Sans L">[INTEGER] port (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/Service.html" TITLE="A list of port numbers being used; see Section 3.2.8 for formatting rules.  If a portlist is given, the iana_protocol_number and iana_protocol_name MUST apply to all the elements of the list."><FONT FACE="Nimbus Sans L">[PORTLIST] portlist (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/Service.html" TITLE="Additional information about the protocol being used.  The intent of the protocol field is to carry additional information related to the protocol being used when the &lt;Service&gt; attributes iana_protocol_number or/and iana_protocol_name are filed."><FONT FACE="Nimbus Sans L">[STRING] protocol (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/Service.html" TITLE="A unique identifier for the service; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] ident (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/Service.html" TITLE="The IP version number."><FONT FACE="Nimbus Sans L">[INTEGER] ip_version (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/Service.html" TITLE="The IANA protocol number."><FONT FACE="Nimbus Sans L">[INTEGER] iana_protocol_number (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/Service.html" TITLE="The IANA protocol name."><FONT FACE="Nimbus Sans L">[STRING] iana_protocol_name (Optional)</FONT></td></tr>%</table>>,
+		pos="890.5,822.5",
+		shape=plaintext,
+		width=4.0694];
+	Source -> Service	 [label="0..1",
+		lp="714.5,808",
+		pos="e,743.83,804.43 667.83,782.54 679.52,787.04 691.42,791.16 703,794.5 712.95,797.36 723.28,799.95 733.75,802.28"];
+	UserId	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#52a3cc" HREF="/html/IDMEFv2/UserId.html" TITLE="The UserId class provides specific information about a user. More than one UserId can be used within the User class to indicate attempts to transition from one user to another, or to provide complete information about a user&#39;s (or process&#39;) privileges. "><FONT FACE="Nimbus Sans L">UserId</FONT></td> </tr>" %<tr><td BGCOLOR="#66CCFF"  HREF="/html/IDMEFv2/UserId.html" TITLE="A user or group name."><FONT FACE="Nimbus Sans L">[STRING] name (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IDMEFv2/UserId.html" TITLE="A user or group number."><FONT FACE="Nimbus Sans L">[INTEGER] number (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IDMEFv2/UserId.html" TITLE="A unique identifier for the user id, see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] ident (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IDMEFv2/UserId.html" TITLE="The type of user information represented.  The permitted values for this attribute are shown below.  The default value is &quot;original-user&quot;.  (See also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] type (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#66CCFF"  HREF="/html/IDMEFv2/UserId.html" TITLE="The tty the user is using."><FONT FACE="Nimbus Sans L">[STRING] tty (Optional)</FONT></td></tr>%</table>>,
+		pos="1519,460.5",
+		shape=plaintext,
+		width=2.4722];
+	User -> UserId	 [label="1..*",
+		lp="1241,755",
+		pos="e,1504.5,527.51 985.75,695.27 1020.2,703.07 1059.6,710.65 1096,714.5 1224.2,728.07 1275.7,781.23 1386,714.5 1449.1,676.29 1483.7,\
+597.16 1501.7,537.31"];
+	WebService	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca3a3" HREF="/html/IDMEFv2/WebService.html" TITLE="The WebService class carries additional information related to web traffic. "><FONT FACE="Nimbus Sans L">WebService</FONT></td> </tr>" %<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/WebService.html" TITLE="The URL in the request."><FONT FACE="Nimbus Sans L">[STRING] url (1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/WebService.html" TITLE="The CGI script in the request, without arguments."><FONT FACE="Nimbus Sans L">[STRING] cgi (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/WebService.html" TITLE="The HTTP method (PUT, GET) used in the request."><FONT FACE="Nimbus Sans L">[STRING] http-method (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/WebService.html" TITLE="The arguments to the CGI script."><FONT FACE="Nimbus Sans L">[STRING] arg (0..*)</FONT></td></tr>%</table>>,
+		pos="1241,832.5",
+		shape=plaintext,
+		width=2.6806];
+	Service -> WebService	 [arrowtail=invempty,
+		dir=back,
+		pos="s,1037.1,826.68 1047.3,826.97 1080.4,827.92 1114.3,828.89 1144.3,829.74"];
+	SNMPService	 [height=2.7361,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca3a3" HREF="/html/IDMEFv2/SNMPService.html" TITLE="The SNMPService class carries additional information related to SNMP traffic. The aggregate classes composing SNMPService must be interpreted as described in RFC 3411 [15] and RFC 3584 [16]. "><FONT FACE="Nimbus Sans L">SNMPService</FONT></td> </tr>" %<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/SNMPService.html" TITLE="The object identifier in the request."><FONT FACE="Nimbus Sans L">[STRING] oid (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/SNMPService.html" TITLE="The SNMP version, typically 0 for SNMPv1, 1 for SNMPv2c, 2 for SNMPv2u and SNMPv2*, and 3 for SNMPv3; see RFC 3411 [15] Section 5 for appropriate values."><FONT FACE="Nimbus Sans L">[INTEGER] messageProcessingModel (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/SNMPService.html" TITLE="The identification of the security model in use, typically 0 for any, 1 for SNMPv1, 2 for SNMPv2c, and 3 for USM; see RFC 3411 [15] Section 5 for appropriate values."><FONT FACE="Nimbus Sans L">[INTEGER] securityModel (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/SNMPService.html" TITLE="The object&#39;s security name; see RFC 3411 [15] Section 3.2.2."><FONT FACE="Nimbus Sans L">[STRING] securityName (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/SNMPService.html" TITLE="The security level of the SNMP request; see RFC 3411 [15] Section 3.4.3."><FONT FACE="Nimbus Sans L">[INTEGER] securityLevel (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/SNMPService.html" TITLE="The object&#39;s context name; see RFC 3411 [15] Section 3.3.3."><FONT FACE="Nimbus Sans L">[STRING] contextName (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/SNMPService.html" TITLE="The object&#39;s context engine identifier; see RFC 3411 [15] Section 3.3.2."><FONT FACE="Nimbus Sans L">[STRING] contextEngineID (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCCCC"  HREF="/html/IDMEFv2/SNMPService.html" TITLE="The command sent to the SNMP server (GET, SET, etc.)."><FONT FACE="Nimbus Sans L">[STRING] command (0..1)</FONT></td></tr>%</table>>,
+		pos="1241,1005.5",
+		shape=plaintext,
+		width=4.0278];
+	Service -> SNMPService	 [arrowtail=invempty,
+		dir=back,
+		pos="s,1037.1,899.05 1046.2,903.82 1062.7,912.43 1079.5,921.16 1095.8,929.7"];
+	Target -> "Node"	 [label="0..1",
+		lp="714.5,934",
+		pos="e,795.37,1143.6 670.65,665.56 676.07,670.3 680.94,675.59 685,681.5 713.14,722.48 681.64,859.61 703,904.5 709.08,917.27 719.79,913.79 \
+726,926.5 760.71,997.55 697.59,1039.5 744,1103.5 754.82,1118.4 769.84,1130 786.18,1138.9"];
+	Target -> Process	 [label="0..1",
+		lp="714.5,783",
+		pos="e,801.19,980.81 670.59,668.1 675.79,672.2 680.66,676.66 685,681.5 701.05,699.39 693.3,710.51 703,732.5 711.74,752.33 719.52,754.82 \
+726,775.5 746.61,841.26 706.49,871.69 744,929.5 756.08,948.11 773.66,963.29 792.48,975.44"];
+	Target -> User	 [label="0..1",
+		lp="714.5,655",
+		pos="e,795.4,657.42 670.87,640.3 707.23,645.3 748.38,650.96 785.15,656.01"];
+	Target -> Service	 [label="0..1",
+		lp="714.5,697",
+		pos="e,753.61,723.87 670.87,657.45 690.26,666.04 709.62,676.63 726,689.5 736.77,697.96 734.37,704.76 744,714.5 744.78,715.29 745.56,716.07 \
+746.35,716.86"];
+	File	 [height=3.3194,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca300" HREF="/html/IDMEFv2/File.html" TITLE="The File class provides specific information about a file or other file-like object that has been created, deleted, or modified on the target. The description can provide either the file settings prior to the event or the file settings at the time of the event, as specified using the &quot;category&quot; attribute. "><FONT FACE="Nimbus Sans L">File</FONT></td> </tr>" %<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/File.html" TITLE="The name of the file to which the alert applies, not including the path to the file."><FONT FACE="Nimbus Sans L">[STRING] name (1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/File.html" TITLE="The full path to the file, including the name.  The path name should be represented in as &quot;universal&quot; a manner as possible, to facilitate processing of the alert."><FONT FACE="Nimbus Sans L">[STRING] path (1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/File.html" TITLE="Time the file was created.  Note that this is *not* the Unix &quot;st_ctime&quot; file attribute (which is not file creation time).  The Unix &quot;st_ctime&quot; attribute is contained in the &quot;Inode&quot; class."><FONT FACE="Nimbus Sans L">[DATETIME] create-time (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/File.html" TITLE="Time the file was last modified."><FONT FACE="Nimbus Sans L">[DATETIME] modify-time (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/File.html" TITLE="Time the file was last accessed."><FONT FACE="Nimbus Sans L">[DATETIME] access-time (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/File.html" TITLE="The size of the data, in bytes.  Typically what is meant when referring to file size.  On Unix UFS file systems, this value corresponds to stat.st_size.  On Windows NTFS, this value corresponds to Valid Data Length (VDL)."><FONT FACE="Nimbus Sans L">[INTEGER] data-size (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/File.html" TITLE="The physical space on disk consumed by the file, in bytes.  On Unix UFS file systems, this value corresponds to 512 * stat.st_blocks.  On Windows NTFS, this value corresponds to End of File (EOF)."><FONT FACE="Nimbus Sans L">[INTEGER] disk-size (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/File.html" TITLE="A unique identifier for this file; see Section 3.2.9."><FONT FACE="Nimbus Sans L">[STRING] ident (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/File.html" TITLE="The type of file system the file resides on.  This attribute governs how path names and other attributes are interpreted."><FONT FACE="Nimbus Sans L">[ENUM] category (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/File.html" TITLE="The type of file, as a mime-type."><FONT FACE="Nimbus Sans L">[STRING] file-type (0..1)</FONT></td></tr>%</table>>,
+		pos="890.5,497.5",
+		shape=plaintext,
+		width=2.9028];
+	Target -> File	 [label="0..1",
+		lp="714.5,578",
+		pos="e,785.79,539.71 670.87,586.04 704.3,572.56 741.77,557.46 776.17,543.59"];
+	FileAccess	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca300" HREF="/html/IDMEFv2/FileAccess.html" TITLE="The FileAccess class represents the access permissions on a file. The representation is intended to be useful across operating systems. "><FONT FACE="Nimbus Sans L">FileAccess</FONT></td> </tr>" %<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/FileAccess.html" TITLE="Level of access allowed.  The permitted values are shown below.  There is no default value.  (See also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] Permission (1..*)</FONT></td></tr>%</table>>,
+		pos="1241,177.5",
+		shape=plaintext,
+		width=2.4028];
+	File -> FileAccess	 [label="0..*",
+		lp="1066.5,325",
+		pos="e,1154.4,183.7 995.12,417.53 1010.6,402.46 1025.2,385.91 1037,368.5 1050.5,348.58 1046.7,340.05 1055,317.5 1072.5,270.12 1057.9,\
+244.66 1096,211.5 1109.7,199.54 1126.9,191.59 1144.6,186.35"];
+	Linkage	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca300" HREF="/html/IDMEFv2/Linkage.html" TITLE="The Linkage class represents file system connections between the file described in the &lt;File&gt; element and other objects in the file system. For example, if the &lt;File&gt; element is a symbolic link or shortcut, then the &lt;Linkage&gt; element should contain the name of the object the link points to. Further information can be provided about the object in the &lt;Linkage&gt; element with another &lt;File&gt; element, if appropriate. "><FONT FACE="Nimbus Sans L">Linkage</FONT></td> </tr>" %<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Linkage.html" TITLE="The name of the file system object, not including the path."><FONT FACE="Nimbus Sans L">[STRING] name (1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Linkage.html" TITLE="The full path to the file system object, including the name.  The path name should be represented in as &quot;universal&quot; a manner as possible, to facilitate processing of the alert."><FONT FACE="Nimbus Sans L">[STRING] path (1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Linkage.html" TITLE="Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] category (Optional)</FONT></td></tr>%</table>>,
+		pos="1241,376.5",
+		shape=plaintext,
+		width=2.6389];
+	File -> Linkage	 [label="0..*",
+		lp="1066.5,422",
+		pos="e,1145.5,390.96 995.33,439.44 1014.8,430.17 1035.2,421.38 1055,414.5 1080.5,405.63 1108.8,398.54 1135.4,393"];
+	Inode	 [height=2.1528,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca300" HREF="/html/IDMEFv2/Inode.html" TITLE="The Inode class is used to represent the additional information contained in a Unix file system i-node. "><FONT FACE="Nimbus Sans L">Inode</FONT></td> </tr>" %<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Inode.html" TITLE="The time of the last inode change, given by the st_ctime element of &quot;struct stat&quot;."><FONT FACE="Nimbus Sans L">[DATETIME] change-time (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Inode.html" TITLE="The inode number."><FONT FACE="Nimbus Sans L">[INTEGER] number (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Inode.html" TITLE="The major device number of the device the file resides on."><FONT FACE="Nimbus Sans L">[INTEGER] major-device (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Inode.html" TITLE="The minor device number of the device the file resides on."><FONT FACE="Nimbus Sans L">[INTEGER] minor-device (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Inode.html" TITLE="The major device of the file itself, if it is a character special device."><FONT FACE="Nimbus Sans L">[INTEGER] c-major-device (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Inode.html" TITLE="The minor device of the file itself, if it is a character special device."><FONT FACE="Nimbus Sans L">[INTEGER] c-minor-device (0..1)</FONT></td></tr>%</table>>,
+		pos="1241,628.5",
+		shape=plaintext,
+		width=3.0278];
+	File -> Inode	 [label="0..1",
+		lp="1066.5,575",
+		pos="e,1132,587.76 995.19,536.63 1035.2,551.6 1081.2,568.77 1122.4,584.19"];
+	Checksum	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cca300" HREF="/html/IDMEFv2/Checksum.html" TITLE="The Checksum class represents checksum information associated with the file. This checksum information can be provided by file integrity checkers, among others. "><FONT FACE="Nimbus Sans L">Checksum</FONT></td> </tr>" %<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Checksum.html" TITLE="The value of the checksum."><FONT FACE="Nimbus Sans L">[STRING] value (1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Checksum.html" TITLE="The key to the checksum, if appropriate."><FONT FACE="Nimbus Sans L">[STRING] key (0..1)</FONT></td></tr>%<tr><td BGCOLOR="#FFCC00"  HREF="/html/IDMEFv2/Checksum.html" TITLE="default value.  (See also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] algorithm (Required)</FONT></td></tr>%</table>>,
+		pos="1241,486.5",
+		shape=plaintext,
+		width=2.75];
+	File -> Checksum	 [label="0..*",
+		lp="1066.5,500",
+		pos="e,1142,489.61 995.19,494.21 1038.3,492.86 1088.3,491.29 1131.9,489.92"];
+	Stream	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IDMEFv2/Stream.html" TITLE="The Stram class contains specific information about the content of a file"><FONT FACE="Nimbus Sans L">Stream</FONT></td> </tr>" %<tr><td  HREF="/html/IDMEFv2/Stream.html" TITLE=""><FONT FACE="Nimbus Sans L">[ENUM] offsetunit (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IDMEFv2/Stream.html" TITLE="Amount of units (determined by the offsetunit attribute) to seek into the File"><FONT FACE="Nimbus Sans L">[INTEGER] offset (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IDMEFv2/Stream.html" TITLE="Content of the file"><FONT FACE="Nimbus Sans L">[DATA] Data (Required)</FONT></td></tr>%</table>>,
+		pos="1241,266.5",
+		shape=plaintext,
+		width=2.6806];
+	File -> Stream	 [label="0..1",
+		lp="1066.5,361",
+		pos="e,1144.4,297.75 995.16,405.12 1039.7,366.35 1084.1,328.55 1096,321.5 1108.2,314.25 1121.6,307.64 1135.1,301.73"];
+	FileAccess -> UserId	 [label=1,
+		lp="1408,240",
+		pos="e,1500.3,393.36 1327.6,185.36 1348.3,190.45 1369.2,198.58 1386,211.5 1441.9,254.48 1477,327.84 1497,383.83"];
+	Linkage -> File	 [label=1,
+		lp="1066.5,449",
+		pos="e,995.19,461.36 1145.8,409.36 1102.3,424.38 1050.4,442.29 1004.8,458.04"];
+	Transaction -> File	 [label="0..*",
+		lp="714.5,528",
+		pos="e,785.78,510.59 663.06,525.93 698.15,521.54 738.54,516.49 775.46,511.88"];
+	Impact	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IDMEFv2/Impact.html" TITLE="The Impact class is used to provide the analyzer&#39;s assessment of the impact of the event on the target(s). It is represented in the IDMEF DTD as follows: "><FONT FACE="Nimbus Sans L">Impact</FONT></td> </tr>" %<tr><td BGCOLOR="#ff8465"  HREF="/html/IDMEFv2/Impact.html" TITLE="Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IDMEFv2/Impact.html" TITLE="Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] completion (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IDMEFv2/Impact.html" TITLE="value is &quot;other&quot;.  (See also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] type (Optional)</FONT></td></tr>%</table>>,
+		pos="890.5,177.5",
+		shape=plaintext,
+		width=2.8333];
+	Assessment -> Impact	 [label="0..1",
+		lp="714.5,306",
+		pos="e,788.43,205.81 619.03,476.78 642.32,474.24 668.64,466.95 685,448.5 707.27,423.38 691.88,330.18 703,298.5 714.44,265.92 717.3,254.4 \
+744,232.5 754.56,223.83 766.63,216.45 779.2,210.18"];
+	Action	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IDMEFv2/Action.html" TITLE="The Action class is used to describe any actions taken by the analyzer in response to the event. Is is represented in the IDMEF DTD as follows: "><FONT FACE="Nimbus Sans L">Action</FONT></td> </tr>" %<tr><td BGCOLOR="#ff8465"  HREF="/html/IDMEFv2/Action.html" TITLE="The default value is &quot;other&quot;.  (See also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] category ()</FONT></td></tr>%</table>>,
+		pos="890.5,334.5",
+		shape=plaintext,
+		width=1.9306];
+	Assessment -> Action	 [label="0..*",
+		lp="714.5,438",
+		pos="e,820.89,340.45 619.18,472.15 640.75,468.4 665.58,461.43 685,448.5 721.77,424.01 707.09,392.77 744,368.5 763.76,355.5 787.89,347.45 \
+810.81,342.46"];
+	Confidence	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IDMEFv2/Confidence.html" TITLE="The Confidence class is used to represent the analyzer&#39;s best estimate of the validity of its analysis. It is represented in the IDMEF DTD as follows: "><FONT FACE="Nimbus Sans L">Confidence</FONT></td> </tr>" %<tr><td BGCOLOR="#ff8465"  HREF="/html/IDMEFv2/Confidence.html" TITLE="also Section 10.)"><FONT FACE="Nimbus Sans L">[ENUM] rating ()</FONT></td></tr>%</table>>,
+		pos="890.5,266.5",
+		shape=plaintext,
+		width=1.6806];
+	Assessment -> Confidence	 [label="0..1",
+		lp="714.5,376",
+		pos="e,829.69,269.81 619.12,475.96 642,473.15 667.94,465.88 685,448.5 710.53,422.49 689.42,402.32 703,368.5 716.15,335.75 715.45,321.24 \
+744,300.5 765.82,284.65 793.88,276.06 819.6,271.44"];
+}

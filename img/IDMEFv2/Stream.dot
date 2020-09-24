@@ -1,0 +1,11 @@
+digraph Stream {
+	graph [bb="0,0,193,92",
+		rankdir=LR
+	];
+	node [label="\N"];
+	Stream	 [height=1.2778,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IDMEFv2/Stream.html" TITLE="The Stram class contains specific information about the content of a file"><FONT FACE="Nimbus Sans L">Stream</FONT></td> </tr>" %<tr><td  HREF="/html/IDMEFv2/Stream.html" TITLE=""><FONT FACE="Nimbus Sans L">[ENUM] offsetunit (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IDMEFv2/Stream.html" TITLE="Amount of units (determined by the offsetunit attribute) to seek into the File"><FONT FACE="Nimbus Sans L">[INTEGER] offset (Optional)</FONT></td></tr>%<tr><td  HREF="/html/IDMEFv2/Stream.html" TITLE="Content of the file"><FONT FACE="Nimbus Sans L">[DATA] Data (Required)</FONT></td></tr>%</table>>,
+		pos="96.5,46",
+		shape=plaintext,
+		width=2.6806];
+}

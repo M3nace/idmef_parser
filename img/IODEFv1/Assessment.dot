@@ -1,0 +1,59 @@
+digraph Assessment {
+	graph [bb="0,0,483,727",
+		rankdir=LR
+	];
+	node [label="\N"];
+	Assessment	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv1/Assessment.html" TITLE="The Assessment class describes the technical and non-technical repercussions of the incident on the CSIRT&#39;s constituency. "><FONT FACE="Nimbus Sans L">Assessment</FONT></td> </tr>" %<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Assessment.html" TITLE="Specifies whether the assessment is describing actual or potential outcomes.  The default is &quot;actual&quot; and is assumed if not specified."><FONT FACE="Nimbus Sans L">[ENUM] occurrence (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Assessment.html" TITLE="This attribute is defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="102.5,332",
+		shape=plaintext,
+		width=2.8472];
+	Impact	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv1/Impact.html" TITLE="The Impact class allows for categorizing and describing the technical impact of the incident on the network of an organization. "><FONT FACE="Nimbus Sans L">Impact</FONT></td> </tr>" %<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Impact.html" TITLE="A valid language code per RFC 4646 [7] constrained by the definition of &quot;xs:language&quot;.  The interpretation of this code is described in Section 6."><FONT FACE="Nimbus Sans L">[ENUM] lang (Required)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Impact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Impact.html" TITLE="An indication whether the described activity was successful.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] completion (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Impact.html" TITLE="Classifies the malicious activity into incident categories.  The permitted values are shown below.  The default value is &quot;other&quot;."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Impact.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%</table>>,
+		pos="373.5,660",
+		shape=plaintext,
+		width=2.8333];
+	Assessment -> Impact	 [label="0..*",
+		lp="234.5,566.5",
+		pos="e,273.04,592.85 119.59,367.64 145.62,419.43 199.09,516.66 264,584 264.54,584.56 265.09,585.12 265.64,585.68"];
+	TimeImpact	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv1/TimeImpact.html" TITLE="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. "><FONT FACE="Nimbus Sans L">TimeImpact</FONT></td> </tr>" %<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/TimeImpact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/TimeImpact.html" TITLE="Defines the metric in which the time is expressed.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] metric (Required)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/TimeImpact.html" TITLE="A means by which to extend the metric attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-metric (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/TimeImpact.html" TITLE="Defines a unit of time, that when combined with the metric attribute, fully describes a metric of impact that will be conveyed in the element content.  The permitted values are shown below.  The default value is &quot;hour&quot;."><FONT FACE="Nimbus Sans L">[ENUM] duration (Required)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/TimeImpact.html" TITLE="A means by which to extend the duration attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-duration (Optional)</FONT></td></tr>%</table>>,
+		pos="373.5,508",
+		shape=plaintext,
+		width=3.0417];
+	Assessment -> TimeImpact	 [label="0..*",
+		lp="234.5,427.5",
+		pos="e,270.23,440.93 157.34,367.62 187.34,387.1 225.63,411.96 261.62,435.34"];
+	MonetaryImpact	 [height=0.98611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv1/MonetaryImpact.html" TITLE="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished "><FONT FACE="Nimbus Sans L">MonetaryImpact</FONT></td> </tr>" %<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/MonetaryImpact.html" TITLE="An estimate of the relative severity of the activity.  The permitted values are shown below.  There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] severity (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/MonetaryImpact.html" TITLE="Defines the currency in which the monetary impact is expressed.  The permitted values are defined in ISO 4217:2001, Codes for the representation of currencies and funds [14].  There is no default value."><FONT FACE="Nimbus Sans L">[STRING] currency (Required)</FONT></td></tr>%</table>>,
+		pos="373.5,387",
+		shape=plaintext,
+		width=2.8333];
+	Assessment -> MonetaryImpact	 [label="0..*",
+		lp="234.5,366.5",
+		pos="e,271.18,366.23 205.34,352.87 223.62,356.58 242.74,360.46 261.26,364.22"];
+	Counter	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv1/Counter.html" TITLE="The Counter class summarize multiple occurrences of some event, or conveys counts or rates on various features (e.g., packets, sessions, events). "><FONT FACE="Nimbus Sans L">Counter</FONT></td> </tr>" %<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Counter.html" TITLE="Specifies the units of the element content."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Counter.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Counter.html" TITLE="If present, the Counter class represents a rate rather than a count over the entire event.  In that case, this attribute specifies the denominator of the rate (where the type attribute specified the nominator).  The possible values of this attribute are defined in Section 3.10.2"><FONT FACE="Nimbus Sans L">[ENUM] duration (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Counter.html" TITLE="A means by which to extend the duration attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-duration (Optional)</FONT></td></tr>%</table>>,
+		pos="373.5,277",
+		shape=plaintext,
+		width=3.0417];
+	Assessment -> Counter	 [label="0..*",
+		lp="234.5,313.5",
+		pos="e,263.96,299.23 205.34,311.13 221.21,307.91 237.72,304.56 253.92,301.27"];
+	Confidence	 [height=0.69444,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv1/Confidence.html" TITLE="The Confidence class represents a best estimate of the validity and accuracy of the described impact (see Section 3.10) of the incident activity. This estimate can be expressed as a category or a numeric calculation. "><FONT FACE="Nimbus Sans L">Confidence</FONT></td> </tr>" %<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Confidence.html" TITLE="A rating of the analytical validity of the specified Assessment.  The permitted values are shown below. There is no default value."><FONT FACE="Nimbus Sans L">[ENUM] rating (Required)</FONT></td></tr>%</table>>,
+		pos="373.5,177",
+		shape=plaintext,
+		width=2.4444];
+	Assessment -> Confidence	 [label="0..1",
+		lp="234.5,241.5",
+		pos="e,286.06,202.03 142.49,296.38 173.74,270.07 219.25,234.97 264,212 268.05,209.92 272.26,207.93 276.55,206.04"];
+	AdditionalData	 [height=1.8611,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#87689e" HREF="/html/IODEFv1/AdditionalData.html" TITLE="The AdditionalData class serves as an extension mechanism for information not otherwise represented in the data model. For relatively simple information, atomic data types (e.g., integers, strings) are provided with a mechanism to annotate their meaning. The class can also be used to extend the data model (and the associated Schema) to support proprietary extensions by encapsulating entire XML documents conforming to another Schema (e.g., IDMEF). A detailed discussion for extending the data model and the schema can be found in Section 5. "><FONT FACE="Nimbus Sans L">AdditionalData</FONT></td> </tr>" %<tr><td BGCOLOR="#a982c6"  HREF="/html/IODEFv1/AdditionalData.html" TITLE="The data type of the element content.  The permitted values for this attribute are shown below.  The default value is &quot;string&quot;."><FONT FACE="Nimbus Sans L">[ENUM] dtype (Required)</FONT></td></tr>%<tr><td BGCOLOR="#a982c6"  HREF="/html/IODEFv1/AdditionalData.html" TITLE="A means by which to extend the dtype attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-dtype (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#a982c6"  HREF="/html/IODEFv1/AdditionalData.html" TITLE="A free-form description of the element content."><FONT FACE="Nimbus Sans L">[STRING] meaning (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#a982c6"  HREF="/html/IODEFv1/AdditionalData.html" TITLE="An identifier referencing the format and semantics of the element content."><FONT FACE="Nimbus Sans L">[STRING] formatid (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#a982c6"  HREF="/html/IODEFv1/AdditionalData.html" TITLE="This attribute has been defined in Section 3.2."><FONT FACE="Nimbus Sans L">[ENUM] restriction (Optional)</FONT></td></tr>%</table>>,
+		pos="373.5,67",
+		shape=plaintext,
+		width=2.8194];
+	Assessment -> AdditionalData	 [label="0..*",
+		lp="234.5,188.5",
+		pos="e,274.1,134.22 128.64,296.16 158.73,256.26 210.86,191.06 264,143 264.82,142.26 265.64,141.53 266.47,140.79"];
+}

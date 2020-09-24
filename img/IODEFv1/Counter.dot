@@ -1,0 +1,11 @@
+digraph Counter {
+	graph [bb="0,0,219,113",
+		rankdir=LR
+	];
+	node [label="\N"];
+	Counter	 [height=1.5694,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv1/Counter.html" TITLE="The Counter class summarize multiple occurrences of some event, or conveys counts or rates on various features (e.g., packets, sessions, events). "><FONT FACE="Nimbus Sans L">Counter</FONT></td> </tr>" %<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Counter.html" TITLE="Specifies the units of the element content."><FONT FACE="Nimbus Sans L">[ENUM] type (Required)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Counter.html" TITLE="A means by which to extend the type attribute. See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-type (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Counter.html" TITLE="If present, the Counter class represents a rate rather than a count over the entire event.  In that case, this attribute specifies the denominator of the rate (where the type attribute specified the nominator).  The possible values of this attribute are defined in Section 3.10.2"><FONT FACE="Nimbus Sans L">[ENUM] duration (Optional)</FONT></td></tr>%<tr><td BGCOLOR="#ff8465"  HREF="/html/IODEFv1/Counter.html" TITLE="A means by which to extend the duration attribute.  See Section 5.1."><FONT FACE="Nimbus Sans L">[STRING] ext-duration (Optional)</FONT></td></tr>%</table>>,
+		pos="109.5,56.5",
+		shape=plaintext,
+		width=3.0417];
+}
