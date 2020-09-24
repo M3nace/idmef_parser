@@ -12,25 +12,25 @@
 <!-- Impact -->
 <g id="node1" class="node">
 <title>Impact</title>
-<g id="a_node1_0"><a xlink:href="/html/IDMEFv2/Impact.html" xlink:title="The Impact class is used to provide the analyzer&#39;s assessment of the impact of the event on the target(s). It is represented in the IDMEF DTD as follows: ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IDMEFv2/Impact.html" xlink:title="The Impact class is used to provide the analyzer&#39;s assessment of the impact of the event on the target(s). It is represented in the IDMEF DTD as follows: ">
 <polygon fill="#cc6a51" stroke="transparent" points="8,-67 8,-88 196,-88 196,-67 8,-67"/>
 <polygon fill="none" stroke="#000000" points="8,-67 8,-88 196,-88 196,-67 8,-67"/>
 <text text-anchor="start" x="81" y="-73.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Impact</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/html/IDMEFv2/Impact.html" xlink:title="Section 10.)">
+<g id="a_node1_1"><a xlink:href="/idmef_parser/IDMEFv2/Impact.html" xlink:title="Section 10.)">
 <polygon fill="#ff8465" stroke="transparent" points="8,-46 8,-67 196,-67 196,-46 8,-46"/>
 <polygon fill="none" stroke="#000000" points="8,-46 8,-67 196,-67 196,-46 8,-46"/>
 <text text-anchor="start" x="20.5" y="-52.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (Optional)</text>
 </a>
 </g>
-<g id="a_node1_2"><a xlink:href="/html/IDMEFv2/Impact.html" xlink:title="Section 10.)">
+<g id="a_node1_2"><a xlink:href="/idmef_parser/IDMEFv2/Impact.html" xlink:title="Section 10.)">
 <polygon fill="#ff8465" stroke="transparent" points="8,-25 8,-46 196,-46 196,-25 8,-25"/>
 <polygon fill="none" stroke="#000000" points="8,-25 8,-46 196,-46 196,-25 8,-25"/>
 <text text-anchor="start" x="11" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] completion (Optional)</text>
 </a>
 </g>
-<g id="a_node1_3"><a xlink:href="/html/IDMEFv2/Impact.html" xlink:title="value is &quot;other&quot;. &#160;(See also Section 10.)">
+<g id="a_node1_3"><a xlink:href="/idmef_parser/IDMEFv2/Impact.html" xlink:title="value is &quot;other&quot;. &#160;(See also Section 10.)">
 <polygon fill="#ff8465" stroke="transparent" points="8,-4 8,-25 196,-25 196,-4 8,-4"/>
 <polygon fill="none" stroke="#000000" points="8,-4 8,-25 196,-25 196,-4 8,-4"/>
 <text text-anchor="start" x="31" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] type (Optional)</text>

@@ -12,25 +12,25 @@
 <!-- OverflowAlert -->
 <g id="node1" class="node">
 <title>OverflowAlert</title>
-<g id="a_node1_0"><a xlink:href="/html/IDMEFv2/OverflowAlert.html" xlink:title="The OverflowAlert carries additional information related to buffer overflow attacks. It is intended to enable an analyzer to provide the details of the overflow attack itself. ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IDMEFv2/OverflowAlert.html" xlink:title="The OverflowAlert carries additional information related to buffer overflow attacks. It is intended to enable an analyzer to provide the details of the overflow attack itself. ">
 <polygon fill="#999999" stroke="transparent" points="8,-67 8,-88 148,-88 148,-67 8,-67"/>
 <polygon fill="none" stroke="#000000" points="8,-67 8,-88 148,-88 148,-67 8,-67"/>
 <text text-anchor="start" x="36.5" y="-73.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">OverflowAlert</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/html/IDMEFv2/OverflowAlert.html" xlink:title="The program that the overflow attack attempted to run (NOTE: this is not the program that was attacked).">
+<g id="a_node1_1"><a xlink:href="/idmef_parser/IDMEFv2/OverflowAlert.html" xlink:title="The program that the overflow attack attempted to run (NOTE: this is not the program that was attacked).">
 <polygon fill="#bfbfbf" stroke="transparent" points="8,-46 8,-67 148,-67 148,-46 8,-46"/>
 <polygon fill="none" stroke="#000000" points="8,-46 8,-67 148,-67 148,-46 8,-46"/>
 <text text-anchor="start" x="11" y="-52.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] program (1)</text>
 </a>
 </g>
-<g id="a_node1_2"><a xlink:href="/html/IDMEFv2/OverflowAlert.html" xlink:title="The size, in bytes, of the overflow (i.e., the number of bytes the attacker sent).">
+<g id="a_node1_2"><a xlink:href="/idmef_parser/IDMEFv2/OverflowAlert.html" xlink:title="The size, in bytes, of the overflow (i.e., the number of bytes the attacker sent).">
 <polygon fill="#bfbfbf" stroke="transparent" points="8,-25 8,-46 148,-46 148,-25 8,-25"/>
 <polygon fill="none" stroke="#000000" points="8,-25 8,-46 148,-46 148,-25 8,-25"/>
 <text text-anchor="start" x="12" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] size (0..1)</text>
 </a>
 </g>
-<g id="a_node1_3"><a xlink:href="/html/IDMEFv2/OverflowAlert.html" xlink:title="Some or all of the overflow data itself (dependent on how much the analyzer can capture).">
+<g id="a_node1_3"><a xlink:href="/idmef_parser/IDMEFv2/OverflowAlert.html" xlink:title="Some or all of the overflow data itself (dependent on how much the analyzer can capture).">
 <polygon fill="#bfbfbf" stroke="transparent" points="8,-4 8,-25 148,-25 148,-4 8,-4"/>
 <polygon fill="none" stroke="#000000" points="8,-4 8,-25 148,-25 148,-4 8,-4"/>
 <text text-anchor="start" x="16" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[BYTE[]] buffer (0..1)</text>

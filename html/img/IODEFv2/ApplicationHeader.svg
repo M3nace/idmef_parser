@@ -12,13 +12,13 @@
 <!-- ApplicationHeader -->
 <g id="node1" class="node">
 <title>ApplicationHeader</title>
-<g id="a_node1_0"><a xlink:href="/html/IODEFv2/ApplicationHeader.html" xlink:title="The ApplicationHeader class describes arbitrary fields from a protocol header and its corresponding value. ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/ApplicationHeader.html" xlink:title="The ApplicationHeader class describes arbitrary fields from a protocol header and its corresponding value. ">
 <polygon fill="#cecece" stroke="transparent" points="8,-25 8,-46 276,-46 276,-25 8,-25"/>
 <polygon fill="none" stroke="#000000" points="8,-25 8,-46 276,-46 276,-25 8,-25"/>
 <text text-anchor="start" x="86.5" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">ApplicationHeader</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/html/IODEFv2/ApplicationHeader.html" xlink:title="A field name and value in a protocol header. &#160;The name attribute MUST be set to the field name. &#160;The field value MUST be set in the element content.">
+<g id="a_node1_1"><a xlink:href="/idmef_parser/IODEFv2/ApplicationHeader.html" xlink:title="A field name and value in a protocol header. &#160;The name attribute MUST be set to the field name. &#160;The field value MUST be set in the element content.">
 <polygon fill="none" stroke="#000000" points="8,-4 8,-25 276,-25 276,-4 8,-4"/>
 <text text-anchor="start" x="11" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] ApplicationHeaderField (1..*)</text>
 </a>

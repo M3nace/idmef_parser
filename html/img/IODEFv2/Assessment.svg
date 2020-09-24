@@ -12,61 +12,61 @@
 <!-- Assessment -->
 <g id="node1" class="node">
 <title>Assessment</title>
-<g id="a_node1_0"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="The Assessment class describes the repercussions of the incident to the victim. ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="The Assessment class describes the repercussions of the incident to the victim. ">
 <polygon fill="#cc6a51" stroke="transparent" points="8,-237 8,-258 238,-258 238,-237 8,-237"/>
 <polygon fill="none" stroke="#000000" points="8,-237 8,-258 238,-258 238,-237 8,-237"/>
 <text text-anchor="start" x="85.5" y="-243.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Assessment</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="A free&#45;form text description categorizing the type of incident.">
+<g id="a_node1_1"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="A free&#45;form text description categorizing the type of incident.">
 <polygon fill="#ff8465" stroke="transparent" points="8,-216 8,-237 238,-237 238,-216 8,-216"/>
 <polygon fill="none" stroke="#000000" points="8,-216 8,-237 238,-237 238,-216 8,-216"/>
 <text text-anchor="start" x="11" y="-222.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] IncidentCategory (0..*)</text>
 </a>
 </g>
-<g id="a_node1_2"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="The intended outcome to the victim sought by the threat actor. &#160;Defined identically to the BusinessImpact defined in Section 3.12.2 but describes intent rather than the realized impact.">
+<g id="a_node1_2"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="The intended outcome to the victim sought by the threat actor. &#160;Defined identically to the BusinessImpact defined in Section 3.12.2 but describes intent rather than the realized impact.">
 <polygon fill="#ff8465" stroke="transparent" points="8,-195 8,-216 238,-216 238,-195 8,-195"/>
 <polygon fill="none" stroke="#000000" points="8,-195 8,-216 238,-216 238,-195 8,-195"/>
 <text text-anchor="start" x="54" y="-201.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[] IntendedImpact (0..*)</text>
 </a>
 </g>
-<g id="a_node1_3"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="A description of a mitigating factor relative to the impact on the victim organization.">
+<g id="a_node1_3"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="A description of a mitigating factor relative to the impact on the victim organization.">
 <polygon fill="#ff8465" stroke="transparent" points="8,-174 8,-195 238,-195 238,-174 8,-174"/>
 <polygon fill="none" stroke="#000000" points="8,-174 8,-195 238,-195 238,-174 8,-174"/>
 <text text-anchor="start" x="14" y="-180.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] MitigatingFactor (0..*)</text>
 </a>
 </g>
-<g id="a_node1_4"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="A description of an underlying cause of the impact.">
+<g id="a_node1_4"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="A description of an underlying cause of the impact.">
 <polygon fill="#ff8465" stroke="transparent" points="8,-153 8,-174 238,-174 238,-153 8,-153"/>
 <polygon fill="none" stroke="#000000" points="8,-153 8,-174 238,-174 238,-153 8,-153"/>
 <text text-anchor="start" x="42.5" y="-159.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Cause (0..*)</text>
 </a>
 </g>
-<g id="a_node1_5"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="A mechanism by which to extend the data model.">
+<g id="a_node1_5"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="A mechanism by which to extend the data model.">
 <polygon fill="#ff8465" stroke="transparent" points="8,-132 8,-153 238,-153 238,-132 8,-132"/>
 <polygon fill="none" stroke="#000000" points="8,-132 8,-153 238,-153 238,-132 8,-132"/>
 <text text-anchor="start" x="17.5" y="-138.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[EXTENSION] AdditionalData (0..*)</text>
 </a>
 </g>
-<g id="a_node1_6"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="Specifies whether the assessment is describing actual or potential outcomes.">
+<g id="a_node1_6"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="Specifies whether the assessment is describing actual or potential outcomes.">
 <polygon fill="#ff8465" stroke="transparent" points="8,-111 8,-132 238,-132 238,-111 8,-111"/>
 <polygon fill="none" stroke="#000000" points="8,-111 8,-132 238,-132 238,-111 8,-111"/>
 <text text-anchor="start" x="46" y="-117.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] occurrence (0..1)</text>
 </a>
 </g>
-<g id="a_node1_7"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="See Section 3.3.1.">
+<g id="a_node1_7"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="See Section 3.3.1.">
 <polygon fill="#ff8465" stroke="transparent" points="8,-90 8,-111 238,-111 238,-90 8,-90"/>
 <polygon fill="none" stroke="#000000" points="8,-90 8,-111 238,-111 238,-90 8,-90"/>
 <text text-anchor="start" x="50" y="-96.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node1_8"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
+<g id="a_node1_8"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="A means by which to extend the restriction attribute. &#160;See Section 5.1.1.">
 <polygon fill="#ff8465" stroke="transparent" points="8,-69 8,-90 238,-90 238,-69 8,-69"/>
 <polygon fill="none" stroke="#000000" points="8,-69 8,-90 238,-90 238,-69 8,-69"/>
 <text text-anchor="start" x="34" y="-75.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;restriction (0..1)</text>
 </a>
 </g>
-<g id="a_node1_9"><a xlink:href="/html/IODEFv2/Assessment.html" xlink:title="See Section 3.3.2.">
+<g id="a_node1_9"><a xlink:href="/idmef_parser/IODEFv2/Assessment.html" xlink:title="See Section 3.3.2.">
 <polygon fill="#ff8465" stroke="transparent" points="8,-48 8,-69 238,-69 238,-48 8,-48"/>
 <polygon fill="none" stroke="#000000" points="8,-48 8,-69 238,-69 238,-48 8,-48"/>
 <text text-anchor="start" x="52" y="-54.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ID] observable&#45;id (0..1)</text>
@@ -76,28 +76,28 @@
 <!-- SystemImpact -->
 <g id="node2" class="node">
 <title>SystemImpact</title>
-<g id="a_node2_10"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="The SystemImpact class describes the technical impact of the incident to the systems on the network. ">
+<g id="a_node2_10"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="The SystemImpact class describes the technical impact of the incident to the systems on the network. ">
 <polygon fill="#cecece" stroke="transparent" points="313,-435 313,-456 509,-456 509,-435 313,-435"/>
 <polygon fill="none" stroke="#000000" points="313,-435 313,-456 509,-456 509,-435 313,-435"/>
 <text text-anchor="start" x="367" y="-441.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">SystemImpact</text>
 </a>
 </g>
-<g id="a_node2_11"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="A free&#45;form text description of the impact to the system.">
+<g id="a_node2_11"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="A free&#45;form text description of the impact to the system.">
 <polygon fill="none" stroke="#000000" points="313,-414 313,-435 509,-435 509,-414 313,-414"/>
 <text text-anchor="start" x="316" y="-420.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node2_12"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
+<g id="a_node2_12"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="An estimate of the relative severity of the activity. &#160;The permitted values are shown below. &#160;There is no default value.">
 <polygon fill="none" stroke="#000000" points="313,-393 313,-414 509,-414 509,-393 313,-393"/>
 <text text-anchor="start" x="344" y="-399.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (0..1)</text>
 </a>
 </g>
-<g id="a_node2_13"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="An indication whether the described activity was successful. &#160;The permitted values are shown below. &#160;There is no default value.">
+<g id="a_node2_13"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="An indication whether the described activity was successful. &#160;The permitted values are shown below. &#160;There is no default value.">
 <polygon fill="none" stroke="#000000" points="313,-372 313,-393 509,-393 509,-372 313,-372"/>
 <text text-anchor="start" x="334" y="-378.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] completion (0..1)</text>
 </a>
 </g>
-<g id="a_node2_14"><a xlink:href="/html/IODEFv2/SystemImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node2_14"><a xlink:href="/idmef_parser/IODEFv2/SystemImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="313,-351 313,-372 509,-372 509,-351 313,-351"/>
 <text text-anchor="start" x="349" y="-357.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] type (0..1)</text>
 </a>
@@ -113,28 +113,28 @@
 <!-- BusinessImpact -->
 <g id="node3" class="node">
 <title>BusinessImpact</title>
-<g id="a_node3_15"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="The BusinessImpact class describes and characterizes the degree to which the function of the organization was impacted by the incident. ">
+<g id="a_node3_15"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="The BusinessImpact class describes and characterizes the degree to which the function of the organization was impacted by the incident. ">
 <polygon fill="#cecece" stroke="transparent" points="313,-304 313,-325 509,-325 509,-304 313,-304"/>
 <polygon fill="none" stroke="#000000" points="313,-304 313,-325 509,-325 509,-304 313,-304"/>
 <text text-anchor="start" x="362.5" y="-310.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">BusinessImpact</text>
 </a>
 </g>
-<g id="a_node3_16"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="A free&#45;form text description of the impact to the organization.">
+<g id="a_node3_16"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="A free&#45;form text description of the impact to the organization.">
 <polygon fill="none" stroke="#000000" points="313,-283 313,-304 509,-304 509,-283 313,-283"/>
 <text text-anchor="start" x="316" y="-289.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ML_STRING] Description (0..*)</text>
 </a>
 </g>
-<g id="a_node3_17"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="Characterizes the severity of the incident on business functions. &#160;The permitted values are shown below. &#160;They were derived from Table 3&#45;2 of [NIST800.61rev2]. &#160;The default value is &quot;unknown&quot;. &#160;These values are maintained in the &quot;BusinessImpact&#45;severity&quot; IANA registry per Section 10.2.">
+<g id="a_node3_17"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="Characterizes the severity of the incident on business functions. &#160;The permitted values are shown below. &#160;They were derived from Table 3&#45;2 of [NIST800.61rev2]. &#160;The default value is &quot;unknown&quot;. &#160;These values are maintained in the &quot;BusinessImpact&#45;severity&quot; IANA registry per Section 10.2.">
 <polygon fill="none" stroke="#000000" points="313,-262 313,-283 509,-283 509,-262 313,-262"/>
 <text text-anchor="start" x="344" y="-268.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] severity (0..1)</text>
 </a>
 </g>
-<g id="a_node3_18"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the severity attribute. &#160;See Section 5.1.1.">
+<g id="a_node3_18"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the severity attribute. &#160;See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="313,-241 313,-262 509,-262 509,-241 313,-241"/>
 <text text-anchor="start" x="328" y="-247.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ext&#45;severity (0..1)</text>
 </a>
 </g>
-<g id="a_node3_19"><a xlink:href="/html/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
+<g id="a_node3_19"><a xlink:href="/idmef_parser/IODEFv2/BusinessImpact.html" xlink:title="A means by which to extend the type attribute. See Section 5.1.1.">
 <polygon fill="none" stroke="#000000" points="313,-220 313,-241 509,-241 509,-220 313,-220"/>
 <text text-anchor="start" x="349" y="-226.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] type (0..1)</text>
 </a>
@@ -150,7 +150,7 @@
 <!-- TimeImpact -->
 <g id="node4" class="node">
 <title>TimeImpact</title>
-<g id="a_node4_20"><a xlink:href="/html/IODEFv2/TimeImpact.html" xlink:title="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. ">
+<g id="a_node4_20"><a xlink:href="/idmef_parser/IODEFv2/TimeImpact.html" xlink:title="The TimeImpact class describes the impact of the incident on an organization as a function of time. It provides a way to convey down time and recovery time. ">
 <polygon fill="#cc6a51" stroke="transparent" points="372,-169 372,-190 451,-190 451,-169 372,-169"/>
 <polygon fill="none" stroke="#000000" points="372,-169 372,-190 451,-190 451,-169 372,-169"/>
 <text text-anchor="start" x="375" y="-175.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">TimeImpact</text>
@@ -167,7 +167,7 @@
 <!-- MonetaryImpact -->
 <g id="node5" class="node">
 <title>MonetaryImpact</title>
-<g id="a_node5_21"><a xlink:href="/html/IODEFv2/MonetaryImpact.html" xlink:title="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished productivity of the staff, or a tarnished reputation that will affect future opportunities. ">
+<g id="a_node5_21"><a xlink:href="/idmef_parser/IODEFv2/MonetaryImpact.html" xlink:title="The MonetaryImpact class describes the financial impact of the activity on an organization. For example, this impact may consider losses due to the cost of the investigation or recovery, diminished productivity of the staff, or a tarnished reputation that will affect future opportunities. ">
 <polygon fill="#cc6a51" stroke="transparent" points="359,-115 359,-136 464,-136 464,-115 359,-115"/>
 <polygon fill="none" stroke="#000000" points="359,-115 359,-136 464,-136 464,-115 359,-115"/>
 <text text-anchor="start" x="362" y="-121.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">MonetaryImpact</text>
@@ -184,7 +184,7 @@
 <!-- Counter -->
 <g id="node6" class="node">
 <title>Counter</title>
-<g id="a_node6_22"><a xlink:href="/html/IODEFv2/Counter.html" xlink:title="The Counter class summarizes multiple occurrences of an event or conveys counts or rates of various features. ">
+<g id="a_node6_22"><a xlink:href="/idmef_parser/IODEFv2/Counter.html" xlink:title="The Counter class summarizes multiple occurrences of an event or conveys counts or rates of various features. ">
 <polygon fill="#cc6a51" stroke="transparent" points="384,-61 384,-82 439,-82 439,-61 384,-61"/>
 <polygon fill="none" stroke="#000000" points="384,-61 384,-82 439,-82 439,-61 384,-61"/>
 <text text-anchor="start" x="387" y="-67.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Counter</text>
@@ -201,7 +201,7 @@
 <!-- Confidence -->
 <g id="node7" class="node">
 <title>Confidence</title>
-<g id="a_node7_23"><a xlink:href="/html/IODEFv2/Confidence.html" xlink:title="The Confidence class represents an estimate of the validity and accuracy of data expressed in the document. This estimate can be expressed as a category or a numeric calculation. ">
+<g id="a_node7_23"><a xlink:href="/idmef_parser/IODEFv2/Confidence.html" xlink:title="The Confidence class represents an estimate of the validity and accuracy of data expressed in the document. This estimate can be expressed as a category or a numeric calculation. ">
 <polygon fill="#cc6a51" stroke="transparent" points="374,-7 374,-28 449,-28 449,-7 374,-7"/>
 <polygon fill="none" stroke="#000000" points="374,-7 374,-28 449,-28 449,-7 374,-7"/>
 <text text-anchor="start" x="377" y="-13.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Confidence</text>

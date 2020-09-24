@@ -4,7 +4,7 @@ digraph ObservableReference {
 	];
 	node [label="\N"];
 	ObservableReference	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/ObservableReference.html" TITLE="The ObservableReference describes a reference to an observable feature or phenomenon described elsewhere in the document. "><FONT FACE="Nimbus Sans L">ObservableReference</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/ObservableReference.html" TITLE="The ObservableReference describes a reference to an observable feature or phenomenon described elsewhere in the document. "><FONT FACE="Nimbus Sans L">ObservableReference</FONT></td> </tr>" %</table>>,
 		pos="77.5,18",
 		shape=plaintext,
 		width=2.1528];

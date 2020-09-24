@@ -12,7 +12,7 @@
 <!-- Address -->
 <g id="node1" class="node">
 <title>Address</title>
-<g id="a_node1_0"><a xlink:href="/html/IODEFv2/Address.html" xlink:title="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/Address.html" xlink:title="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. ">
 <polygon fill="#3daf3d" stroke="transparent" points="8,-7 8,-28 64,-28 64,-7 8,-7"/>
 <polygon fill="none" stroke="#000000" points="8,-7 8,-28 64,-28 64,-7 8,-7"/>
 <text text-anchor="start" x="11" y="-13.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Address</text>

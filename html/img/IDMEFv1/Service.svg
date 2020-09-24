@@ -12,55 +12,55 @@
 <!-- Service -->
 <g id="node1" class="node">
 <title>Service</title>
-<g id="a_node1_0"><a xlink:href="/html/IDMEFv1/Service.html" xlink:title="The Service class describes network services on sources and targets. It can identify services by name, port, and protocol. When Service occurs as an aggregate class of Source, it is understood that the service is one from which activity of interest is originating; and that the service is &quot;attached&quot; to the Node, Process, and User information also contained in Source. Likewise, when Service occurs as an aggregate class of Target, it is understood that the service is one to which activity of interest is being directed; and that the service is &quot;attached&quot; to the Node, Process, and User information also contained in Target. If Service occurs in both Source and Target, then information in both locations should be the same. If information is the same in both locations and implementers wish to carry it in only one location, they should specify it as an aggregate of the Target class. ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IDMEFv1/Service.html" xlink:title="The Service class describes network services on sources and targets. It can identify services by name, port, and protocol. When Service occurs as an aggregate class of Source, it is understood that the service is one from which activity of interest is originating; and that the service is &quot;attached&quot; to the Node, Process, and User information also contained in Source. Likewise, when Service occurs as an aggregate class of Target, it is understood that the service is one to which activity of interest is being directed; and that the service is &quot;attached&quot; to the Node, Process, and User information also contained in Target. If Service occurs in both Source and Target, then information in both locations should be the same. If information is the same in both locations and implementers wish to carry it in only one location, they should specify it as an aggregate of the Target class. ">
 <polygon fill="#cca3a3" stroke="transparent" points="8.5,-257.5 8.5,-278.5 285.5,-278.5 285.5,-257.5 8.5,-257.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-257.5 8.5,-278.5 285.5,-278.5 285.5,-257.5 8.5,-257.5"/>
 <text text-anchor="start" x="124" y="-264.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Service</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/html/IDMEFv1/Service.html" xlink:title="The name of the service. &#160;Whenever possible, the name from the IANA list of well&#45;known ports SHOULD be used.">
+<g id="a_node1_1"><a xlink:href="/idmef_parser/IDMEFv1/Service.html" xlink:title="The name of the service. &#160;Whenever possible, the name from the IANA list of well&#45;known ports SHOULD be used.">
 <polygon fill="#ffcccc" stroke="transparent" points="8.5,-236.5 8.5,-257.5 285.5,-257.5 285.5,-236.5 8.5,-236.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-236.5 8.5,-257.5 285.5,-257.5 285.5,-236.5 8.5,-236.5"/>
 <text text-anchor="start" x="66.5" y="-243.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] name (Optional)</text>
 </a>
 </g>
-<g id="a_node1_2"><a xlink:href="/html/IDMEFv1/Service.html" xlink:title="The port number being used.">
+<g id="a_node1_2"><a xlink:href="/idmef_parser/IDMEFv1/Service.html" xlink:title="The port number being used.">
 <polygon fill="#ffcccc" stroke="transparent" points="8.5,-215.5 8.5,-236.5 285.5,-236.5 285.5,-215.5 8.5,-215.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-215.5 8.5,-236.5 285.5,-236.5 285.5,-215.5 8.5,-215.5"/>
 <text text-anchor="start" x="67" y="-222.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] port (Optional)</text>
 </a>
 </g>
-<g id="a_node1_3"><a xlink:href="/html/IDMEFv1/Service.html" xlink:title="A list of port numbers being used; see Section 3.2.8 for formatting rules. &#160;If a portlist is given, the iana_protocol_number and iana_protocol_name MUST apply to all the elements of the list.">
+<g id="a_node1_3"><a xlink:href="/idmef_parser/IDMEFv1/Service.html" xlink:title="A list of port numbers being used; see Section 3.2.8 for formatting rules. &#160;If a portlist is given, the iana_protocol_number and iana_protocol_name MUST apply to all the elements of the list.">
 <polygon fill="#ffcccc" stroke="transparent" points="8.5,-194.5 8.5,-215.5 285.5,-215.5 285.5,-194.5 8.5,-194.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-194.5 8.5,-215.5 285.5,-215.5 285.5,-194.5 8.5,-194.5"/>
 <text text-anchor="start" x="56" y="-201.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[PORTLIST] portlist (Optional)</text>
 </a>
 </g>
-<g id="a_node1_4"><a xlink:href="/html/IDMEFv1/Service.html" xlink:title="Additional information about the protocol being used. &#160;The intent of the protocol field is to carry additional information related to the protocol being used when the &lt;Service&gt; attributes iana_protocol_number or/and iana_protocol_name are filed.">
+<g id="a_node1_4"><a xlink:href="/idmef_parser/IDMEFv1/Service.html" xlink:title="Additional information about the protocol being used. &#160;The intent of the protocol field is to carry additional information related to the protocol being used when the &lt;Service&gt; attributes iana_protocol_number or/and iana_protocol_name are filed.">
 <polygon fill="#ffcccc" stroke="transparent" points="8.5,-173.5 8.5,-194.5 285.5,-194.5 285.5,-173.5 8.5,-173.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-173.5 8.5,-194.5 285.5,-194.5 285.5,-173.5 8.5,-173.5"/>
 <text text-anchor="start" x="59.5" y="-180.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] protocol (Optional)</text>
 </a>
 </g>
-<g id="a_node1_5"><a xlink:href="/html/IDMEFv1/Service.html" xlink:title="A unique identifier for the service; see Section 3.2.9.">
+<g id="a_node1_5"><a xlink:href="/idmef_parser/IDMEFv1/Service.html" xlink:title="A unique identifier for the service; see Section 3.2.9.">
 <polygon fill="#ffcccc" stroke="transparent" points="8.5,-152.5 8.5,-173.5 285.5,-173.5 285.5,-152.5 8.5,-152.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-152.5 8.5,-173.5 285.5,-173.5 285.5,-152.5 8.5,-152.5"/>
 <text text-anchor="start" x="69" y="-159.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] ident (Optional)</text>
 </a>
 </g>
-<g id="a_node1_6"><a xlink:href="/html/IDMEFv1/Service.html" xlink:title="The IP version number.">
+<g id="a_node1_6"><a xlink:href="/idmef_parser/IDMEFv1/Service.html" xlink:title="The IP version number.">
 <polygon fill="#ffcccc" stroke="transparent" points="8.5,-131.5 8.5,-152.5 285.5,-152.5 285.5,-131.5 8.5,-131.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-131.5 8.5,-152.5 285.5,-152.5 285.5,-131.5 8.5,-131.5"/>
 <text text-anchor="start" x="48" y="-138.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] ip_version (Optional)</text>
 </a>
 </g>
-<g id="a_node1_7"><a xlink:href="/html/IDMEFv1/Service.html" xlink:title="The IANA protocol number.">
+<g id="a_node1_7"><a xlink:href="/idmef_parser/IDMEFv1/Service.html" xlink:title="The IANA protocol number.">
 <polygon fill="#ffcccc" stroke="transparent" points="8.5,-110.5 8.5,-131.5 285.5,-131.5 285.5,-110.5 8.5,-110.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-110.5 8.5,-131.5 285.5,-131.5 285.5,-110.5 8.5,-110.5"/>
 <text text-anchor="start" x="11.5" y="-117.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] iana_protocol_number (Optional)</text>
 </a>
 </g>
-<g id="a_node1_8"><a xlink:href="/html/IDMEFv1/Service.html" xlink:title="The IANA protocol name.">
+<g id="a_node1_8"><a xlink:href="/idmef_parser/IDMEFv1/Service.html" xlink:title="The IANA protocol name.">
 <polygon fill="#ffcccc" stroke="transparent" points="8.5,-89.5 8.5,-110.5 285.5,-110.5 285.5,-89.5 8.5,-89.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-89.5 8.5,-110.5 285.5,-110.5 285.5,-89.5 8.5,-89.5"/>
 <text text-anchor="start" x="22" y="-96.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] iana_protocol_name (Optional)</text>
@@ -70,31 +70,31 @@
 <!-- WebService -->
 <g id="node2" class="node">
 <title>WebService</title>
-<g id="a_node2_9"><a xlink:href="/html/IDMEFv1/WebService.html" xlink:title="The WebService class carries additional information related to web traffic. ">
+<g id="a_node2_9"><a xlink:href="/idmef_parser/IDMEFv1/WebService.html" xlink:title="The WebService class carries additional information related to web traffic. ">
 <polygon fill="#cca3a3" stroke="transparent" points="386,-302.5 386,-323.5 591,-323.5 591,-302.5 386,-302.5"/>
 <polygon fill="none" stroke="#000000" points="386,-302.5 386,-323.5 591,-323.5 591,-302.5 386,-302.5"/>
 <text text-anchor="start" x="451.5" y="-309.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">WebService</text>
 </a>
 </g>
-<g id="a_node2_10"><a xlink:href="/html/IDMEFv1/WebService.html" xlink:title="The URL in the request.">
+<g id="a_node2_10"><a xlink:href="/idmef_parser/IDMEFv1/WebService.html" xlink:title="The URL in the request.">
 <polygon fill="#ffcccc" stroke="transparent" points="386,-281.5 386,-302.5 591,-302.5 591,-281.5 386,-281.5"/>
 <polygon fill="none" stroke="#000000" points="386,-281.5 386,-302.5 591,-302.5 591,-281.5 386,-281.5"/>
 <text text-anchor="start" x="416" y="-288.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] url (Required)</text>
 </a>
 </g>
-<g id="a_node2_11"><a xlink:href="/html/IDMEFv1/WebService.html" xlink:title="The CGI script in the request, without arguments.">
+<g id="a_node2_11"><a xlink:href="/idmef_parser/IDMEFv1/WebService.html" xlink:title="The CGI script in the request, without arguments.">
 <polygon fill="#ffcccc" stroke="transparent" points="386,-260.5 386,-281.5 591,-281.5 591,-260.5 386,-260.5"/>
 <polygon fill="none" stroke="#000000" points="386,-260.5 386,-281.5 591,-281.5 591,-260.5 386,-260.5"/>
 <text text-anchor="start" x="416.5" y="-267.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] cgi (Optional)</text>
 </a>
 </g>
-<g id="a_node2_12"><a xlink:href="/html/IDMEFv1/WebService.html" xlink:title="The HTTP method (PUT, GET) used in the request.">
+<g id="a_node2_12"><a xlink:href="/idmef_parser/IDMEFv1/WebService.html" xlink:title="The HTTP method (PUT, GET) used in the request.">
 <polygon fill="#ffcccc" stroke="transparent" points="386,-239.5 386,-260.5 591,-260.5 591,-239.5 386,-239.5"/>
 <polygon fill="none" stroke="#000000" points="386,-239.5 386,-260.5 591,-260.5 591,-239.5 386,-239.5"/>
 <text text-anchor="start" x="389" y="-246.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] http&#45;method (Optional)</text>
 </a>
 </g>
-<g id="a_node2_13"><a xlink:href="/html/IDMEFv1/WebService.html" xlink:title="The arguments to the CGI script.">
+<g id="a_node2_13"><a xlink:href="/idmef_parser/IDMEFv1/WebService.html" xlink:title="The arguments to the CGI script.">
 <polygon fill="#ffcccc" stroke="transparent" points="386,-218.5 386,-239.5 591,-239.5 591,-218.5 386,-218.5"/>
 <polygon fill="none" stroke="#000000" points="386,-218.5 386,-239.5 591,-239.5 591,-218.5 386,-218.5"/>
 <text text-anchor="start" x="415.5" y="-225.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] arg (Optional)</text>
@@ -110,55 +110,55 @@
 <!-- SNMPService -->
 <g id="node3" class="node">
 <title>SNMPService</title>
-<g id="a_node3_14"><a xlink:href="/html/IDMEFv1/SNMPService.html" xlink:title="The SNMPService class carries additional information related to SNMP traffic. The aggregate classes composing SNMPService must be interpreted as described in RFC 3411 [15] and RFC 3584 [16]. ">
+<g id="a_node3_14"><a xlink:href="/idmef_parser/IDMEFv1/SNMPService.html" xlink:title="The SNMPService class carries additional information related to SNMP traffic. The aggregate classes composing SNMPService must be interpreted as described in RFC 3411 [15] and RFC 3584 [16]. ">
 <polygon fill="#cca3a3" stroke="transparent" points="337,-171.5 337,-192.5 639,-192.5 639,-171.5 337,-171.5"/>
 <polygon fill="none" stroke="#000000" points="337,-171.5 337,-192.5 639,-192.5 639,-171.5 337,-171.5"/>
 <text text-anchor="start" x="445" y="-178.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">SNMPService</text>
 </a>
 </g>
-<g id="a_node3_15"><a xlink:href="/html/IDMEFv1/SNMPService.html" xlink:title="The object identifier in the request.">
+<g id="a_node3_15"><a xlink:href="/idmef_parser/IDMEFv1/SNMPService.html" xlink:title="The object identifier in the request.">
 <polygon fill="#ffcccc" stroke="transparent" points="337,-150.5 337,-171.5 639,-171.5 639,-150.5 337,-150.5"/>
 <polygon fill="none" stroke="#000000" points="337,-150.5 337,-171.5 639,-171.5 639,-150.5 337,-150.5"/>
 <text text-anchor="start" x="415.5" y="-157.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] oid (Optional)</text>
 </a>
 </g>
-<g id="a_node3_16"><a xlink:href="/html/IDMEFv1/SNMPService.html" xlink:title="The SNMP version, typically 0 for SNMPv1, 1 for SNMPv2c, 2 for SNMPv2u and SNMPv2*, and 3 for SNMPv3; see RFC 3411 [15] Section 5 for appropriate values.">
+<g id="a_node3_16"><a xlink:href="/idmef_parser/IDMEFv1/SNMPService.html" xlink:title="The SNMP version, typically 0 for SNMPv1, 1 for SNMPv2c, 2 for SNMPv2u and SNMPv2*, and 3 for SNMPv3; see RFC 3411 [15] Section 5 for appropriate values.">
 <polygon fill="#ffcccc" stroke="transparent" points="337,-129.5 337,-150.5 639,-150.5 639,-129.5 337,-129.5"/>
 <polygon fill="none" stroke="#000000" points="337,-129.5 337,-150.5 639,-150.5 639,-129.5 337,-129.5"/>
 <text text-anchor="start" x="340" y="-136.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] messageProcessingModel (Optional)</text>
 </a>
 </g>
-<g id="a_node3_17"><a xlink:href="/html/IDMEFv1/SNMPService.html" xlink:title="The identification of the security model in use, typically 0 for any, 1 for SNMPv1, 2 for SNMPv2c, and 3 for USM; see RFC 3411 [15] Section 5 for appropriate values.">
+<g id="a_node3_17"><a xlink:href="/idmef_parser/IDMEFv1/SNMPService.html" xlink:title="The identification of the security model in use, typically 0 for any, 1 for SNMPv1, 2 for SNMPv2c, and 3 for USM; see RFC 3411 [15] Section 5 for appropriate values.">
 <polygon fill="#ffcccc" stroke="transparent" points="337,-108.5 337,-129.5 639,-129.5 639,-108.5 337,-108.5"/>
 <polygon fill="none" stroke="#000000" points="337,-108.5 337,-129.5 639,-129.5 639,-108.5 337,-108.5"/>
 <text text-anchor="start" x="378" y="-115.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] securityModel (Optional)</text>
 </a>
 </g>
-<g id="a_node3_18"><a xlink:href="/html/IDMEFv1/SNMPService.html" xlink:title="The object&#39;s security name; see RFC 3411 [15] Section 3.2.2.">
+<g id="a_node3_18"><a xlink:href="/idmef_parser/IDMEFv1/SNMPService.html" xlink:title="The object&#39;s security name; see RFC 3411 [15] Section 3.2.2.">
 <polygon fill="#ffcccc" stroke="transparent" points="337,-87.5 337,-108.5 639,-108.5 639,-87.5 337,-87.5"/>
 <polygon fill="none" stroke="#000000" points="337,-87.5 337,-108.5 639,-108.5 639,-87.5 337,-87.5"/>
 <text text-anchor="start" x="383" y="-94.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] securityName (Optional)</text>
 </a>
 </g>
-<g id="a_node3_19"><a xlink:href="/html/IDMEFv1/SNMPService.html" xlink:title="The security level of the SNMP request; see RFC 3411 [15] Section 3.4.3.">
+<g id="a_node3_19"><a xlink:href="/idmef_parser/IDMEFv1/SNMPService.html" xlink:title="The security level of the SNMP request; see RFC 3411 [15] Section 3.4.3.">
 <polygon fill="#ffcccc" stroke="transparent" points="337,-66.5 337,-87.5 639,-87.5 639,-66.5 337,-66.5"/>
 <polygon fill="none" stroke="#000000" points="337,-66.5 337,-87.5 639,-87.5 639,-66.5 337,-66.5"/>
 <text text-anchor="start" x="380.5" y="-73.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[INTEGER] securityLevel (Optional)</text>
 </a>
 </g>
-<g id="a_node3_20"><a xlink:href="/html/IDMEFv1/SNMPService.html" xlink:title="The object&#39;s context name; see RFC 3411 [15] Section 3.3.3.">
+<g id="a_node3_20"><a xlink:href="/idmef_parser/IDMEFv1/SNMPService.html" xlink:title="The object&#39;s context name; see RFC 3411 [15] Section 3.3.3.">
 <polygon fill="#ffcccc" stroke="transparent" points="337,-45.5 337,-66.5 639,-66.5 639,-45.5 337,-45.5"/>
 <polygon fill="none" stroke="#000000" points="337,-45.5 337,-66.5 639,-66.5 639,-45.5 337,-45.5"/>
 <text text-anchor="start" x="385" y="-52.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] contextName (Optional)</text>
 </a>
 </g>
-<g id="a_node3_21"><a xlink:href="/html/IDMEFv1/SNMPService.html" xlink:title="The object&#39;s context engine identifier; see RFC 3411 [15] Section 3.3.2.">
+<g id="a_node3_21"><a xlink:href="/idmef_parser/IDMEFv1/SNMPService.html" xlink:title="The object&#39;s context engine identifier; see RFC 3411 [15] Section 3.3.2.">
 <polygon fill="#ffcccc" stroke="transparent" points="337,-24.5 337,-45.5 639,-45.5 639,-24.5 337,-24.5"/>
 <polygon fill="none" stroke="#000000" points="337,-24.5 337,-45.5 639,-45.5 639,-24.5 337,-24.5"/>
 <text text-anchor="start" x="375.5" y="-31.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] contextEngineID (Optional)</text>
 </a>
 </g>
-<g id="a_node3_22"><a xlink:href="/html/IDMEFv1/SNMPService.html" xlink:title="The command sent to the SNMP server (GET, SET, etc.).">
+<g id="a_node3_22"><a xlink:href="/idmef_parser/IDMEFv1/SNMPService.html" xlink:title="The command sent to the SNMP server (GET, SET, etc.).">
 <polygon fill="#ffcccc" stroke="transparent" points="337,-3.5 337,-24.5 639,-24.5 639,-3.5 337,-3.5"/>
 <polygon fill="none" stroke="#000000" points="337,-3.5 337,-24.5 639,-24.5 639,-3.5 337,-3.5"/>
 <text text-anchor="start" x="394.5" y="-10.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] command (Optional)</text>

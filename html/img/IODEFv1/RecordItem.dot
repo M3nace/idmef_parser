@@ -4,7 +4,7 @@ digraph RecordItem {
 	];
 	node [label="\N"];
 	RecordItem	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cccc52" HREF="/html/IODEFv1/RecordItem.html" TITLE="The RecordItem class provides a way to incorporate relevant logs, audit trails, or forensic data to support the conclusions made during the course of analyzing the incident. The class supports both the direct encapsulation of the data, as well as, provides primitives to reference data stored elsewhere. This class is identical to AdditionalData class (Section 3.6). "><FONT FACE="Nimbus Sans L">RecordItem</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cccc52" HREF="/idmef_parser/IODEFv1/RecordItem.html" TITLE="The RecordItem class provides a way to incorporate relevant logs, audit trails, or forensic data to support the conclusions made during the course of analyzing the incident. The class supports both the direct encapsulation of the data, as well as, provides primitives to reference data stored elsewhere. This class is identical to AdditionalData class (Section 3.6). "><FONT FACE="Nimbus Sans L">RecordItem</FONT></td> </tr>" %</table>>,
 		pos="46.5,18",
 		shape=plaintext,
 		width=1.2917];

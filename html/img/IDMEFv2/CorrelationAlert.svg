@@ -12,19 +12,19 @@
 <!-- CorrelationAlert -->
 <g id="node1" class="node">
 <title>CorrelationAlert</title>
-<g id="a_node1_0"><a xlink:href="/html/IDMEFv2/CorrelationAlert.html" xlink:title="The CorrelationAlert class carries additional information related to the correlation of alert information. It is intended to group one or more previously&#45;sent alerts together, to say &quot;these alerts are all related&quot;. ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IDMEFv2/CorrelationAlert.html" xlink:title="The CorrelationAlert class carries additional information related to the correlation of alert information. It is intended to group one or more previously&#45;sent alerts together, to say &quot;these alerts are all related&quot;. ">
 <polygon fill="#999999" stroke="transparent" points="8.5,-45.5 8.5,-66.5 165.5,-66.5 165.5,-45.5 8.5,-45.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-45.5 8.5,-66.5 165.5,-66.5 165.5,-45.5 8.5,-45.5"/>
 <text text-anchor="start" x="39.5" y="-52.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">CorrelationAlert</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/html/IDMEFv2/CorrelationAlert.html" xlink:title="The reason for grouping the alerts together, for example, a particular correlation method.">
+<g id="a_node1_1"><a xlink:href="/idmef_parser/IDMEFv2/CorrelationAlert.html" xlink:title="The reason for grouping the alerts together, for example, a particular correlation method.">
 <polygon fill="#bfbfbf" stroke="transparent" points="8.5,-24.5 8.5,-45.5 165.5,-45.5 165.5,-24.5 8.5,-24.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-24.5 8.5,-45.5 165.5,-45.5 165.5,-24.5 8.5,-24.5"/>
 <text text-anchor="start" x="28" y="-31.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] name (1)</text>
 </a>
 </g>
-<g id="a_node1_2"><a xlink:href="/html/IDMEFv2/CorrelationAlert.html" xlink:title="The list of alert identifiers that are related to this alert. &#160;Because alert identifiers are only unique across the alerts sent by a single analyzer, the optional &quot;analyzerid&quot; attribute of &quot;alertident&quot; should be used to identify the analyzer that a particular alert came from. &#160;If the &quot;analyzerid&quot; is not provided, the alert is assumed to have come from the same analyzer that is sending the CorrelationAlert.">
+<g id="a_node1_2"><a xlink:href="/idmef_parser/IDMEFv2/CorrelationAlert.html" xlink:title="The list of alert identifiers that are related to this alert. &#160;Because alert identifiers are only unique across the alerts sent by a single analyzer, the optional &quot;analyzerid&quot; attribute of &quot;alertident&quot; should be used to identify the analyzer that a particular alert came from. &#160;If the &quot;analyzerid&quot; is not provided, the alert is assumed to have come from the same analyzer that is sending the CorrelationAlert.">
 <polygon fill="#bfbfbf" stroke="transparent" points="8.5,-3.5 8.5,-24.5 165.5,-24.5 165.5,-3.5 8.5,-3.5"/>
 <polygon fill="none" stroke="#000000" points="8.5,-3.5 8.5,-24.5 165.5,-24.5 165.5,-3.5 8.5,-3.5"/>
 <text text-anchor="start" x="11.5" y="-10.3" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] alertident (1..*)</text>

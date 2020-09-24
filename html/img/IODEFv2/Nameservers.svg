@@ -12,13 +12,13 @@
 <!-- Nameservers -->
 <g id="node1" class="node">
 <title>Nameservers</title>
-<g id="a_node1_0"><a xlink:href="/html/IODEFv2/Nameservers.html" xlink:title="The Nameservers class describes the nameservers associated with a given domain. ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/Nameservers.html" xlink:title="The Nameservers class describes the nameservers associated with a given domain. ">
 <polygon fill="#cecece" stroke="transparent" points="8.5,-25 8.5,-46 153.5,-46 153.5,-25 8.5,-25"/>
 <polygon fill="none" stroke="#000000" points="8.5,-25 8.5,-46 153.5,-46 153.5,-25 8.5,-25"/>
 <text text-anchor="start" x="40" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Nameservers</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/html/IODEFv2/Nameservers.html" xlink:title="The domain name of the nameserver.">
+<g id="a_node1_1"><a xlink:href="/idmef_parser/IODEFv2/Nameservers.html" xlink:title="The domain name of the nameserver.">
 <polygon fill="none" stroke="#000000" points="8.5,-4 8.5,-25 153.5,-25 153.5,-4 8.5,-4"/>
 <text text-anchor="start" x="11.5" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[STRING] Server (1..1)</text>
 </a>
@@ -27,7 +27,7 @@
 <!-- Address -->
 <g id="node2" class="node">
 <title>Address</title>
-<g id="a_node2_2"><a xlink:href="/html/IODEFv2/Address.html" xlink:title="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. ">
+<g id="a_node2_2"><a xlink:href="/idmef_parser/IODEFv2/Address.html" xlink:title="The Address class represents a hardware (Layer 2), network (Layer 3), or application (Layer 7) address. ">
 <polygon fill="#3daf3d" stroke="transparent" points="228,-14 228,-35 284,-35 284,-14 228,-14"/>
 <polygon fill="none" stroke="#000000" points="228,-14 228,-35 284,-35 284,-14 228,-14"/>
 <text text-anchor="start" x="231" y="-20.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Address</text>
