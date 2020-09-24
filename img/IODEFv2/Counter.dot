@@ -4,7 +4,7 @@ digraph Counter {
 	];
 	node [label="\N"];
 	Counter	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv2/Counter.html" TITLE="The Counter class summarizes multiple occurrences of an event or conveys counts or rates of various features. "><FONT FACE="Nimbus Sans L">Counter</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/idmef_parser/IODEFv2/Counter.html" TITLE="The Counter class summarizes multiple occurrences of an event or conveys counts or rates of various features. "><FONT FACE="Nimbus Sans L">Counter</FONT></td> </tr>" %</table>>,
 		pos="35.5,18",
 		shape=plaintext,
 		width=0.98611];

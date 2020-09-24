@@ -12,7 +12,7 @@
 <!-- DetectTime -->
 <g id="node1" class="node">
 <title>DetectTime</title>
-<g id="a_node1_0"><a xlink:href="/html/IDMEFv2/DetectTime.html" xlink:title="The DetectTime class is used to indicate the date and time that the event(s) producing an alert was detected by the analyzer. In the case of more than one event, it is the time that the first event was detected. (This may or may not be the same time as CreateTime; analyzers are not required to send alerts immediately upon detection). ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IDMEFv2/DetectTime.html" xlink:title="The DetectTime class is used to indicate the date and time that the event(s) producing an alert was detected by the analyzer. In the case of more than one event, it is the time that the first event was detected. (This may or may not be the same time as CreateTime; analyzers are not required to send alerts immediately upon detection). ">
 <polygon fill="#8a8acc" stroke="transparent" points="8,-7 8,-28 84,-28 84,-7 8,-7"/>
 <polygon fill="none" stroke="#000000" points="8,-7 8,-28 84,-28 84,-7 8,-7"/>
 <text text-anchor="start" x="11" y="-13.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">DetectTime</text>

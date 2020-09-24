@@ -4,7 +4,7 @@ digraph IndicatorReference {
 	];
 	node [label="\N"];
 	IndicatorReference	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/html/IODEFv2/IndicatorReference.html" TITLE="The IndicatorReference describes a reference to an indicator. This reference may be to an indicator described in this IODEF document or in a previously exchanged IODEF document. "><FONT FACE="Nimbus Sans L">IndicatorReference</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#CECECE" HREF="/idmef_parser/IODEFv2/IndicatorReference.html" TITLE="The IndicatorReference describes a reference to an indicator. This reference may be to an indicator described in this IODEF document or in a previously exchanged IODEF document. "><FONT FACE="Nimbus Sans L">IndicatorReference</FONT></td> </tr>" %</table>>,
 		pos="68.5,18",
 		shape=plaintext,
 		width=1.9028];

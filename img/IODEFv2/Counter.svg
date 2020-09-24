@@ -12,7 +12,7 @@
 <!-- Counter -->
 <g id="node1" class="node">
 <title>Counter</title>
-<g id="a_node1_0"><a xlink:href="/html/IODEFv2/Counter.html" xlink:title="The Counter class summarizes multiple occurrences of an event or conveys counts or rates of various features. ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/Counter.html" xlink:title="The Counter class summarizes multiple occurrences of an event or conveys counts or rates of various features. ">
 <polygon fill="#cc6a51" stroke="transparent" points="8.5,-7 8.5,-28 63.5,-28 63.5,-7 8.5,-7"/>
 <polygon fill="none" stroke="#000000" points="8.5,-7 8.5,-28 63.5,-28 63.5,-7 8.5,-7"/>
 <text text-anchor="start" x="11.5" y="-13.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Counter</text>

@@ -4,7 +4,7 @@ digraph Confidence {
 	];
 	node [label="\N"];
 	Confidence	 [height=0.5,
-		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/html/IODEFv2/Confidence.html" TITLE="The Confidence class represents an estimate of the validity and accuracy of data expressed in the document. This estimate can be expressed as a category or a numeric calculation. "><FONT FACE="Nimbus Sans L">Confidence</FONT></td> </tr>" %</table>>,
+		label=<<table BORDER="0" CELLBORDER="1" CELLSPACING="0"> <tr> <td BGCOLOR="#cc6a51" HREF="/idmef_parser/IODEFv2/Confidence.html" TITLE="The Confidence class represents an estimate of the validity and accuracy of data expressed in the document. This estimate can be expressed as a category or a numeric calculation. "><FONT FACE="Nimbus Sans L">Confidence</FONT></td> </tr>" %</table>>,
 		pos="45.5,18",
 		shape=plaintext,
 		width=1.2639];

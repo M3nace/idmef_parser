@@ -12,7 +12,7 @@
 <!-- IndicatorReference -->
 <g id="node1" class="node">
 <title>IndicatorReference</title>
-<g id="a_node1_0"><a xlink:href="/html/IODEFv2/IndicatorReference.html" xlink:title="The IndicatorReference describes a reference to an indicator. This reference may be to an indicator described in this IODEF document or in a previously exchanged IODEF document. ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IODEFv2/IndicatorReference.html" xlink:title="The IndicatorReference describes a reference to an indicator. This reference may be to an indicator described in this IODEF document or in a previously exchanged IODEF document. ">
 <polygon fill="#cecece" stroke="transparent" points="8.5,-7 8.5,-28 129.5,-28 129.5,-7 8.5,-7"/>
 <polygon fill="none" stroke="#000000" points="8.5,-7 8.5,-28 129.5,-28 129.5,-7 8.5,-7"/>
 <text text-anchor="start" x="11.5" y="-13.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">IndicatorReference</text>

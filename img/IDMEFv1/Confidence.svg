@@ -12,13 +12,13 @@
 <!-- Confidence -->
 <g id="node1" class="node">
 <title>Confidence</title>
-<g id="a_node1_0"><a xlink:href="/html/IDMEFv1/Confidence.html" xlink:title="The Confidence class is used to represent the analyzer&#39;s best estimate of the validity of its analysis. It is represented in the IDMEF DTD as follows: ">
+<g id="a_node1_0"><a xlink:href="/idmef_parser/IDMEFv1/Confidence.html" xlink:title="The Confidence class is used to represent the analyzer&#39;s best estimate of the validity of its analysis. It is represented in the IDMEF DTD as follows: ">
 <polygon fill="#cc6a51" stroke="transparent" points="8,-25 8,-46 168,-46 168,-25 8,-25"/>
 <polygon fill="none" stroke="#000000" points="8,-25 8,-46 168,-46 168,-25 8,-25"/>
 <text text-anchor="start" x="53.5" y="-31.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">Confidence</text>
 </a>
 </g>
-<g id="a_node1_1"><a xlink:href="/html/IDMEFv1/Confidence.html" xlink:title="also Section 10.)">
+<g id="a_node1_1"><a xlink:href="/idmef_parser/IDMEFv1/Confidence.html" xlink:title="also Section 10.)">
 <polygon fill="#ff8465" stroke="transparent" points="8,-4 8,-25 168,-25 168,-4 8,-4"/>
 <polygon fill="none" stroke="#000000" points="8,-4 8,-25 168,-25 168,-4 8,-4"/>
 <text text-anchor="start" x="11" y="-10.8" font-family="Nimbus Sans L" font-size="14.00" fill="#000000">[ENUM] rating (Required)</text>
