@@ -29,7 +29,7 @@
             %span.caret
           %ul.dropdown-menu
             - generators.each do |name, gen|
-              - if gen.has_key? "rfc"
+              - if !gen[:rfc].to_s.strip.empty?
                 %li
                   %a{href: "/#{location}/#{gen[:rfc]}", target: "_blank"}
                     = "#{name} (#{gen[:rfc].sub(".txt", "").sub("rfc", "")})"
