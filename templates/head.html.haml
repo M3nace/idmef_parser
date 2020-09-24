@@ -29,9 +29,14 @@
             %span.caret
           %ul.dropdown-menu
             - generators.each do |name, gen|
-              %li
-                %a{href: "/#{location}/#{gen[:rfc]}", target: "_blank"}
-                  = "#{name} (#{gen[:rfc].sub(".txt", "").sub("rfc", "")})"
+              - if gen.has_key? "rfc"
+                %li
+                  %a{href: "/#{location}/#{gen[:rfc]}", target: "_blank"}
+                    = "#{name} (#{gen[:rfc].sub(".txt", "").sub("rfc", "")})"
+              - else
+                %li
+                  %a
+                    = "#{name} (no official RFC)"
         - links.each do |name, link|
           %li
             %a{href: link}

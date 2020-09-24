@@ -11,7 +11,6 @@ generators:
     top_class: "IDMEF-Message"
     classes: "idmefv2/yaml"
     type: "yml"
-    rfc: "None"
   IODEF:
     top_class: "IODEF-Document"
     classes: "iodef/yaml"
@@ -21,4 +20,4 @@ generators:
     top_class: "IODEF-Document"
     classes: "iodefv2/yaml"
     type: "yml"
-    rfc: "rfc"
+    rfc: "rfc7970.txt"
